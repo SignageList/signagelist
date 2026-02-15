@@ -1,0 +1,48 @@
+name: Displio
+slug: displio
+description: ""
+website: https://displio.cz/en/
+year_founded: 2023
+headquarters:
+  - Czechia
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Profi
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 12
+        yearly: 120
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 18
+        yearly: 178
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

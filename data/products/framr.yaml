@@ -1,0 +1,38 @@
+name: FRAMR.
+slug: framr
+description: ""
+website: https://framr.tv/
+year_founded: 2014
+headquarters:
+  - Austria
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: FRAMR.Propeller
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 94.56
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

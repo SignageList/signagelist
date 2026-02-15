@@ -1,0 +1,51 @@
+name: Mvix
+slug: mvix
+description: ""
+website: https://mvix.com/
+year_founded: 2005
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Windows
+  - iOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Flex Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 20
+        yearly: null
+      - name: Flex Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 30
+        yearly: null
+stats:
+  screens:
+    total: 75000
+    source: https://mvix.com/about-us/
+    date: 2025-04
+notes:
+  - Perpetual license of hardware and/or software starting at $350 - no ongoing fees or monthly subsciption
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

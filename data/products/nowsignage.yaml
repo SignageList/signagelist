@@ -1,0 +1,50 @@
+name: NowSignage
+slug: nowsignage
+description: ""
+website: https://www.nowsignage.com/
+year_founded: 2013
+headquarters:
+  - United Kingdom
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - Web Browser
+  - Windows
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: End User Pricing
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 20
+        yearly: null
+stats:
+  screens:
+    total: 5000
+    source: https://secure.nowsignage.com/customers/register
+    date: 2025-04
+notes:
+  - The screen count is based on the number of customers. The actual screen count may vary.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

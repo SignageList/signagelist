@@ -1,0 +1,31 @@
+name: MagicINFO
+slug: magicinfo
+description: ""
+website: https://www.samsung.com/us/business/solutions/digital-signage-solutions/magicinfo/
+year_founded: 2015
+headquarters:
+  - South Korea
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Tizen
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

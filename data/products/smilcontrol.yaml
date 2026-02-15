@@ -1,0 +1,41 @@
+name: SmilControl
+slug: smilcontrol
+description: ""
+website: https://smil-control.com/software/cms/
+year_founded: 2011
+headquarters:
+  - Germany
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Linux
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Sample Offer
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5.7
+        yearly: null
+stats: {}
+notes:
+  - A CMS that can be used with the open-source digital signage player Garlic Player
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

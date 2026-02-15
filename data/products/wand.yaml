@@ -1,0 +1,33 @@
+name: WAND
+slug: wand
+description: ""
+website: https://shop.wanddigital.com/wand-content-management-software-license-1-per-store/
+year_founded: 2010
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - ChromeOS
+  - Web Browser
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

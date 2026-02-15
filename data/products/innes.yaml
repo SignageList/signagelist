@@ -1,0 +1,31 @@
+name: INNES
+slug: innes
+description: ""
+website: https://web.archive.org/web/20241007132450/https://www.innes.pro/en/
+year_founded: 2005
+headquarters:
+  - France
+open_source: false
+self_signup: false
+discontinued: true
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - Had 40,000 screens in 2024
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

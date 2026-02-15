@@ -1,0 +1,23 @@
+{{/*
+  Product logo with first-letter fallback.
+  Input: a product page context (with .Params)
+*/}}
+{{ $name := .Params.name | default "?" }}
+{{ $slug := .Params.slug | default "" }}
+{{ $hasLogo := .Params.has_logo | default false }}
+{{ $firstLetter := substr $name 0 1 | upper }}
+
+{{ if $hasLogo }}
+<div class="relative w-10 h-10 shrink-0">
+	<div class="w-10 h-10 rounded bg-gray-100 flex items-center justify-center text-sm font-medium text-gray-400">{{ $firstLetter }}</div>
+	<img
+		src="/assets/logos/{{ $slug }}.webp"
+		alt="{{ $name }} logo"
+		class="absolute inset-0 w-10 h-10 rounded object-contain"
+		loading="lazy"
+		onerror="this.style.display='none'"
+	>
+</div>
+{{ else }}
+<div class="w-10 h-10 rounded bg-gray-100 flex items-center justify-center text-sm font-medium text-gray-400 shrink-0">{{ $firstLetter }}</div>
+{{ end }}

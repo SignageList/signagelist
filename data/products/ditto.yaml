@@ -1,0 +1,52 @@
+name: Ditto
+slug: ditto
+description: ""
+website: https://www.airsquirrels.com/ditto/digital-signage-features
+year_founded: 2008
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Windows
+  - iOS
+  - macOS
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 17
+        yearly: 99
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 25
+        yearly: 150
+      - name: Elite
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 29
+        yearly: 175
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

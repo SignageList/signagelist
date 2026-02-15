@@ -1,0 +1,44 @@
+name: SignMate
+slug: signmate
+description: ""
+website: https://www.signmate.co/
+year_founded: 2017
+headquarters:
+  - Thailand
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 109
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 182
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

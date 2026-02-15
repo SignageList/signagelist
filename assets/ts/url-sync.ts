@@ -1,0 +1,86 @@
+import type { FilterEngine } from './filter'
+
+export function initUrlSync(engine: FilterEngine): void {
+	// Load state from URL on init
+	const params = new URLSearchParams(window.location.search)
+
+	const initial: Record<string, unknown> = {}
+
+	if (params.has('category')) {
+		initial.category = params.get('category')!
+	}
+	if (params.has('search')) {
+		initial.searchTerm = params.get('search')!
+		const input = document.querySelector<HTMLInputElement>('#search-input')
+		if (input) input.value = initial.searchTerm as string
+	}
+	if (params.has('openSource')) {
+		initial.showOpenSource = params.get('openSource') === 'true'
+	}
+	if (params.has('proprietary')) {
+		initial.showProprietary = params.get('proprietary') === 'true'
+	}
+	if (params.has('platforms')) {
+		initial.selectedPlatforms = params.get('platforms')!.split(',').filter(Boolean)
+	}
+	if (params.has('signupIsOpenOnly')) {
+		initial.signupIsOpenOnly = params.get('signupIsOpenOnly') === 'true'
+	}
+
+	if (Object.keys(initial).length > 0) {
+		engine.setState(initial)
+	}
+
+	// Sync UI controls from loaded state
+	syncUIFromState(engine)
+
+	// Write state back to URL on every change
+	engine.onChange(() => {
+		const state = engine.getState()
+		const urlParams = new URLSearchParams()
+
+		urlParams.set('category', state.category)
+		if (state.searchTerm) {
+			urlParams.set('search', state.searchTerm)
+		}
+		urlParams.set('openSource', String(state.showOpenSource))
+		urlParams.set('proprietary', String(state.showProprietary))
+		urlParams.set('signupIsOpenOnly', String(state.signupIsOpenOnly))
+		if (state.selectedPlatforms.length > 0) {
+			urlParams.set('platforms', state.selectedPlatforms.join(','))
+		}
+
+		const newUrl = `${window.location.pathname}?${urlParams.toString()}`
+		window.history.replaceState({}, '', newUrl)
+	})
+}
+
+function syncUIFromState(engine: FilterEngine): void {
+	const state = engine.getState()
+
+	// Sync category buttons
+	const catBtns = document.querySelectorAll<HTMLButtonElement>('[data-category-btn]')
+	for (const btn of catBtns) {
+		const isActive = btn.dataset.categoryBtn === state.category
+		btn.classList.toggle('bg-brand-600', isActive)
+		btn.classList.toggle('text-white', isActive)
+		btn.classList.toggle('bg-gray-100', !isActive)
+		btn.classList.toggle('text-gray-700', !isActive)
+	}
+
+	// Sync open source / proprietary checkboxes
+	const osCheckbox = document.querySelector<HTMLInputElement>('#filter-open-source')
+	const propCheckbox = document.querySelector<HTMLInputElement>('#filter-proprietary')
+	if (osCheckbox) osCheckbox.checked = state.showOpenSource
+	if (propCheckbox) propCheckbox.checked = state.showProprietary
+
+	// Sync signup toggle
+	const signupCheckbox = document.querySelector<HTMLInputElement>('#filter-signup')
+	if (signupCheckbox) signupCheckbox.checked = state.signupIsOpenOnly
+
+	// Sync platform checkboxes
+	const platformCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]')
+	for (const cb of platformCheckboxes) {
+		cb.checked = state.selectedPlatforms.includes(cb.dataset.platformCheckbox || '')
+	}
+}

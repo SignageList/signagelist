@@ -1,0 +1,35 @@
+name: Displai
+slug: displai
+description: ""
+website: https://www.displai.ai/
+year_founded: 2017
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+  - Computer vision
+platforms:
+  - ChromeOS
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - Displai Systems Inc. has acquired the assets of Raydiant
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

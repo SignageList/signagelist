@@ -1,0 +1,35 @@
+name: Screenfeed
+slug: screenfeed
+description: ""
+website: https://www.screenfeed.com/
+year_founded: 1999
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - Content provider
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 150000
+    source: https://www.screenfeed.com/why-screenfeed-content
+    date: 2025-04
+notes:
+  - Not fully digital signage software, but a content provider. Can be used in conjunction with other software.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

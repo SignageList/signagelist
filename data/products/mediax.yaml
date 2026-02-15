@@ -1,0 +1,37 @@
+name: MediaX
+slug: mediax
+description: ""
+website: https://mediaxgo.com/
+year_founded: 2025
+headquarters:
+  - Sri Lanka
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Starter
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 2.5
+        yearly: 25
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

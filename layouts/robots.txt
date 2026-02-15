@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+
+# LLM-friendly content
+# See https://llmstxt.org/
+# llms.txt: {{ .Site.BaseURL }}llms.txt
+# llms-full.txt: {{ .Site.BaseURL }}llms-full.txt

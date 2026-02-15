@@ -1,0 +1,44 @@
+name: Koke
+slug: koke
+description: ""
+website: https://koke.gmbh/kms/
+year_founded: 2011
+headquarters:
+  - Germany
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Device License
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 16.63
+        yearly: null
+stats:
+  screens:
+    total: 3523
+    source: https://koke.gmbh/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

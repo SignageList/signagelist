@@ -1,0 +1,30 @@
+name: Socialwalls
+slug: socialwalls
+description: ""
+website: https://socialwalls.com/digital-signage/
+year_founded: 2023
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - Content provider
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

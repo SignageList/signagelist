@@ -1,0 +1,30 @@
+name: Mydia
+slug: mydia
+description: ""
+website: https://mydia.ai/digital-signage/
+year_founded: 2020
+headquarters:
+  - UAE
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

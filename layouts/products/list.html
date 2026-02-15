@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="max-w-screen-xl w-full mx-auto px-4">
+	{{ partial "filters.html" . }}
+
+	<div class="overflow-x-auto">
+		<table id="product-table" class="w-full">
+			<thead class="sticky top-0 bg-white border-b border-gray-200 z-10">
+				<tr>
+					<th data-sort="name" class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:300px;max-width:500px">
+						Product<span class="sort-indicator text-gray-400"></span>
+					</th>
+					<th data-sort="pricing" class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:180px">
+						Pricing per screen<span class="sort-indicator text-gray-400"></span>
+					</th>
+					<th class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:120px">
+						Signup
+					</th>
+					<th class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:150px">
+						Headquarters
+					</th>
+					<th data-sort="screens" class="py-3 px-4 text-right text-sm font-semibold text-gray-900" style="min-width:120px">
+						Screens<span class="sort-indicator text-gray-400"></span>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{ range .Pages.ByTitle }}
+					{{ partial "product-row.html" . }}
+				{{ end }}
+			</tbody>
+		</table>
+	</div>
+
+	{{/* Visible count */}}
+	<div class="py-4 text-sm text-gray-500">
+		Showing <span id="visible-count">{{ len .Pages }}</span> products
+	</div>
+</div>
+
+{{ partial "schema/item-list.html" . }}
+{{ end }}

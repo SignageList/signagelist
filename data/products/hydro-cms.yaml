@@ -1,0 +1,39 @@
+name: Hydro CMS
+slug: hydro-cms
+description: ""
+website: https://www.hydromedia.co.nz/software.html
+year_founded: 2008
+headquarters:
+  - New Zealand
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Tizen
+  - Windows
+  - iOS
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

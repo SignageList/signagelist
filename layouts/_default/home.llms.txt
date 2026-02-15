@@ -1,0 +1,26 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+
+SignageList is a curated open dataset of digital signage software products. It provides structured data on 548+ products including pricing, supported platforms, headquarters, and more.
+
+## Key Pages
+
+- [Product Directory]({{ .Site.BaseURL }}products/): Filterable table of all products
+- [Categories]({{ .Site.BaseURL }}categories/): Products grouped by type (CMS, Content provider, Computer vision)
+- [Platforms]({{ .Site.BaseURL }}platforms/): Products by supported platform
+- [Full LLM Context]({{ .Site.BaseURL }}llms-full.txt): Complete product data in text format
+
+## Product Data Schema
+
+Each product includes: name, description, website, year_founded, headquarters, open_source (boolean), self_signup (boolean), discontinued (boolean), categories, platforms, pricing models (delivery type, plans with monthly/yearly pricing), screen statistics, and more.
+
+## Categories
+
+- CMS: Content Management Systems for digital signage
+- Content provider: Ready-made content for digital signage
+- Computer vision: Vision and analytics for digital signage
+
+## Optional
+
+- [Product Data (YAML)]({{ .Site.Params.githubRepo }}/tree/main/data/products): Raw YAML data files for all products

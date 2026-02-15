@@ -1,0 +1,30 @@
+name: Playengo
+slug: playengo
+description: ""
+website: https://www.playengo.com/
+year_founded: 2015
+headquarters:
+  - France
+open_source: false
+self_signup: false
+discontinued: true
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

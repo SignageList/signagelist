@@ -1,0 +1,44 @@
+name: Dydomite
+slug: dydomite
+description: ""
+website: https://www.dydomite.com/
+year_founded: 2025
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Brightsign
+  - Linux
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: "Free: 3 displays"
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 19
+        yearly: 180
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

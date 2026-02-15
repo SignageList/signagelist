@@ -1,0 +1,24 @@
+{{/* Generate one page per YAML file in data/products/ */}}
+{{ range $slug, $product := .Site.Data.products }}
+  {{ $content := dict
+    "mediaType" "text/html"
+    "value" ""
+  }}
+  {{ $cats := slice }}
+  {{ with $product.categories }}
+    {{ $cats = . }}
+  {{ end }}
+  {{ $plats := slice }}
+  {{ with $product.platforms }}
+    {{ $plats = . }}
+  {{ end }}
+  {{ $params := merge $product (dict "categories" $cats "platforms" $plats) }}
+  {{ $page := dict
+    "content" $content
+    "kind" "page"
+    "path" $slug
+    "title" $product.name
+    "params" $params
+  }}
+  {{ $.AddPage $page }}
+{{ end }}

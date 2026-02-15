@@ -1,0 +1,40 @@
+name: BrightSign
+slug: brightsign
+description: ""
+website: https://www.brightsign.biz/
+year_founded: 2002
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - BrightSign
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: bsn.Control
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 139
+stats:
+  screens:
+    total: 2500000
+    source: https://www.brightsign.biz/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

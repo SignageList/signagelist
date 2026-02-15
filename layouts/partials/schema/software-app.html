@@ -1,0 +1,36 @@
+{{ $p := .Params }}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "SoftwareApplication",
+	"name": "{{ $p.name }}",
+	"description": "{{ $p.description }}",
+	"applicationCategory": "Digital Signage Software",
+	{{ with $p.platforms }}"operatingSystem": "{{ delimit . ", " }}",{{ end }}
+	"url": "{{ .Permalink }}",
+	{{ $cloudModel := false }}
+	{{ range $p.models }}{{ if eq .delivery "cloud" }}{{ $cloudModel = . }}{{ end }}{{ end }}
+	{{ if and $cloudModel $cloudModel.pricing_available }}
+	{{ $firstPricing := false }}
+	{{ range $cloudModel.pricing }}{{ if and (not $firstPricing) .monthly }}{{ $firstPricing = . }}{{ end }}{{ end }}
+	{{ with $firstPricing }}
+	"offers": {
+		"@type": "Offer",
+		"price": "{{ .monthly }}",
+		"priceCurrency": "USD"
+	},
+	{{ end }}
+	{{ else if $p.open_source }}
+	"offers": {
+		"@type": "Offer",
+		"price": "0",
+		"priceCurrency": "USD"
+	},
+	{{ end }}
+	"author": {
+		"@type": "Organization",
+		"name": "{{ $p.name }}"
+		{{ with $p.headquarters }}{{ if gt (len .) 0 }},"location": "{{ delimit . ", " }}"{{ end }}{{ end }}
+	}
+}
+</script>

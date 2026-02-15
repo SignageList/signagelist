@@ -1,0 +1,11 @@
+{{- if and .IsPage (eq .Section "products") -}}
+	{{- with .Params.description -}}
+		{{- printf "%s - %s digital signage software. Compare pricing, platforms, and features on SignageList." $.Params.name . -}}
+	{{- else -}}
+		{{- printf "%s digital signage software - Compare pricing, platforms, and features on SignageList." .Params.name -}}
+	{{- end -}}
+{{- else if .Description -}}
+	{{- .Description -}}
+{{- else -}}
+	{{- .Site.Params.description -}}
+{{- end -}}

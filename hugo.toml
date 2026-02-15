@@ -1,0 +1,44 @@
+baseURL = "https://signagelist.org/"
+languageCode = "en-us"
+title = "SignageList"
+enableRobotsTXT = true
+
+[taxonomies]
+  category = "categories"
+  platform = "platforms"
+
+[params]
+  description = "A curated directory of 548+ digital signage software products."
+  githubRepo = "https://github.com/514sid/digital-signage-list"
+
+# Custom output formats for LLM-friendly pages
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["txt"]
+
+[outputFormats]
+  [outputFormats.llms]
+    mediaType = "text/plain"
+    baseName = "llms"
+    isPlainText = true
+    notAlternative = true
+  [outputFormats.llmsfull]
+    mediaType = "text/plain"
+    baseName = "llms-full"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "llms", "llmsfull"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

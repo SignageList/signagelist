@@ -1,0 +1,43 @@
+name: Valotalive
+slug: valotalive
+description: ""
+website: https://valota.live/
+year_founded: 2019
+headquarters:
+  - Finland
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - ChromeOS
+  - Tizen
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Starter
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10.31
+        yearly: 92
+stats:
+  screens:
+    total: 100000
+    source: https://getlatka.com/companies/valota
+    date: 2025-04
+notes:
+  - Screen count is based on revenue.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

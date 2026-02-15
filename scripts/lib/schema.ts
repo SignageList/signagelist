@@ -1,0 +1,81 @@
+import { z } from 'zod'
+
+const ProductCategorySchema = z.enum(['CMS', 'Content provider', 'Computer vision'])
+
+const DeliverySchema = z.enum(['cloud', 'on-premise', 'hybrid', 'self-hosted'])
+
+const PaymentModelSchema = z.enum(['subscription', 'one-time', 'pay-as-you-go', 'free'])
+
+const BillingBasisSchema = z.enum(['per_device', 'per_user', 'per_location', 'flat_rate'])
+
+const PricingSchema = z.object({
+	name: z.string(),
+	payment_model: PaymentModelSchema,
+	billing_basis: BillingBasisSchema,
+	monthly: z.number().nullable(),
+	yearly: z.number().nullable(),
+})
+
+const ModelSchema = z.object({
+	delivery: DeliverySchema,
+	free_trial: z.boolean(),
+	pricing_available: z.boolean(),
+	has_freemium: z.boolean(),
+	pricing: z.array(PricingSchema),
+})
+
+const ScreensStatSchema = z.object({
+	total: z.number(),
+	source: z.string(),
+	date: z.string(),
+})
+
+const StatsSchema = z
+	.object({
+		screens: ScreensStatSchema.optional(),
+	})
+	.default({})
+
+const ProductSchema = z.object({
+	// Identity
+	name: z.string(),
+	slug: z.string(),
+	description: z.string(),
+	website: z.string().url(),
+	year_founded: z.number().nullable(),
+	headquarters: z.array(z.string()),
+	open_source: z.boolean(),
+	self_signup: z.boolean(),
+	discontinued: z.boolean(),
+	has_logo: z.boolean(),
+
+	// Taxonomies
+	categories: z.array(ProductCategorySchema),
+	platforms: z.array(z.string()),
+
+	// Pricing
+	models: z.array(ModelSchema),
+
+	// Stats
+	stats: StatsSchema,
+
+	// Notes
+	notes: z.array(z.string()).default([]),
+
+	// Future G2-like fields
+	features: z.array(z.string()).default([]),
+	integrations: z.array(z.string()).default([]),
+	target_audience: z.array(z.string()).default([]),
+	deployment_options: z.array(z.string()).default([]),
+	support_channels: z.array(z.string()).default([]),
+	languages: z.array(z.string()).default([]),
+	screenshots: z.array(z.string()).default([]),
+	last_verified: z.string().nullable().default(null),
+})
+
+export { ProductSchema, ProductCategorySchema, ModelSchema, PricingSchema }
+
+export type Product = z.infer<typeof ProductSchema>
+export type ProductCategory = z.infer<typeof ProductCategorySchema>
+export type Model = z.infer<typeof ModelSchema>
+export type Pricing = z.infer<typeof PricingSchema>

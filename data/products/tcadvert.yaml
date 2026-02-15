@@ -1,0 +1,31 @@
+name: TCadvert
+slug: tcadvert
+description: ""
+website: https://imssensory.com/en/systems/#zarzadzanie2
+year_founded: 2018
+headquarters:
+  - Poland
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - IMS has over 4300 digital signage screens installed according to their website; however, not all of them are using their TCadvert software.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

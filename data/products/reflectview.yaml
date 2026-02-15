@@ -1,0 +1,38 @@
+name: Creative Realities ReflectView
+slug: reflectview
+description: ""
+website: https://cri.com/what-we-do/digital-signage-software
+year_founded: 2001
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 400000
+    source: https://cri.com/what-we-do/digital-signage-software
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

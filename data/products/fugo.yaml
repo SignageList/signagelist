@@ -1,0 +1,54 @@
+name: Fugo
+slug: fugo
+description: ""
+website: https://www.fugo.ai/
+year_founded: 2019
+headquarters:
+  - United Kingdom
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - IAdea
+  - Linux
+  - Raspberry Pi
+  - Web Browser
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Essential
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 24
+        yearly: 240
+      - name: Core
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 36
+        yearly: 360
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 400
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

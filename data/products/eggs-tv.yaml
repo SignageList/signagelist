@@ -1,0 +1,31 @@
+name: Eggs TV
+slug: eggs-tv
+description: ""
+website: https://eggstv.io/
+year_founded: 2017
+headquarters:
+  - Russia
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - There is no pricing per screen, only per location, so we are not mentioning plans because it can be extremely expensive or ultra cheap depending on the number of screens in a location.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

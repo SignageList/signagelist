@@ -1,0 +1,36 @@
+name: Trillboards
+slug: trillboards
+description: ""
+website: https://trillboards.com/
+year_founded: 2024
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Earners
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

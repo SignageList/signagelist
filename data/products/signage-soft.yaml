@@ -1,0 +1,31 @@
+name: Signage Soft
+slug: signage-soft
+description: ""
+website: https://www.signagesoft.com/
+year_founded: 2016
+headquarters:
+  - India
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

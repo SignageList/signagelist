@@ -1,0 +1,37 @@
+name: EngageSuite
+slug: engagesuite
+description: ""
+website: https://zetadisplay.com/product-and-services/engage-suite/
+year_founded: 2003
+headquarters:
+  - Sweden
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 120000
+    source: https://www.linkedin.com/company/zetadisplay/?utm_campaign=Global-%20Newsletter&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_p7VztyRT_Em6v_YcQLol_-IgMZ_dy29VxPAbqplr6ySGfv3x7M5eyr1tCN5viNmfBD9qW
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

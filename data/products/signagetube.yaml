@@ -1,0 +1,43 @@
+name: SignageTube
+slug: signagetube
+description: ""
+website: https://signagetube.com/
+year_founded: 2018
+headquarters:
+  - Belgium
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 19
+        yearly: 168
+stats:
+  screens:
+    total: 10000
+    source: https://presentationpoint.com/about/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

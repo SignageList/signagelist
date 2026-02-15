@@ -1,0 +1,43 @@
+name: StrandVision
+slug: strandvision
+description: ""
+website: https://www.strandvision.com/digital_signage_overview.html
+year_founded: 2003
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: PowerPoint
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10
+        yearly: 120
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 41.6
+        yearly: 499.99
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

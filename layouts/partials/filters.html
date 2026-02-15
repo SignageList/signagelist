@@ -1,0 +1,85 @@
+{{/*
+  All filter controls for the product list page.
+  JavaScript in assets/ts/ handles interactivity.
+*/}}
+
+{{/* Collect all unique platforms with counts */}}
+{{ $platformMap := dict }}
+{{ range .Pages }}
+  {{ range .Params.platforms }}
+    {{ if isset $platformMap . }}
+      {{ $platformMap = merge $platformMap (dict . (add (index $platformMap .) 1)) }}
+    {{ else }}
+      {{ $platformMap = merge $platformMap (dict . 1) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="my-5 flex flex-col gap-5">
+	{{/* Category filter */}}
+	<div class="flex flex-wrap gap-2" id="category-filter">
+		{{ $categories := slice "CMS" "Content provider" "Computer vision" }}
+		{{ range $categories }}
+		<button
+			data-category-btn="{{ . }}"
+			class="{{ if eq . "CMS" }}bg-brand-600 text-white{{ else }}bg-gray-100 text-gray-700{{ end }} px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-colors"
+		>
+			{{ . }}
+			<span data-category-count="{{ . }}" class="ml-1 opacity-75"></span>
+		</button>
+		{{ end }}
+	</div>
+
+	{{/* Search */}}
+	<div class="relative">
+		<input
+			id="search-input"
+			type="text"
+			placeholder="Search products..."
+			class="w-full px-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
+		>
+		<button id="search-clear" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">&times;</button>
+	</div>
+
+	{{/* Open source / Proprietary toggle */}}
+	<div class="flex gap-4" id="opensource-filter">
+		<label class="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+			<input type="checkbox" id="filter-open-source" checked class="rounded border-gray-300">
+			Open Source
+		</label>
+		<label class="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+			<input type="checkbox" id="filter-proprietary" checked class="rounded border-gray-300">
+			Proprietary
+		</label>
+	</div>
+
+	{{/* Platform filter dropdown */}}
+	<div class="relative" id="platform-filter">
+		<button id="platform-dropdown-toggle" class="flex items-center gap-2 px-4 py-2 border border-gray-200 rounded-lg text-sm text-gray-700 hover:bg-gray-50">
+			<span class="platform-label">All platforms</span>
+			<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+		</button>
+		<div id="platform-dropdown" class="hidden absolute z-20 mt-1 w-72 bg-white border border-gray-200 rounded-lg shadow-lg max-h-64 overflow-y-auto">
+			{{ range $platform, $count := $platformMap }}
+			<label class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 cursor-pointer">
+				<input type="checkbox" data-platform-checkbox="{{ $platform }}" class="rounded border-gray-300">
+				<span>{{ $platform }}</span>
+				<span data-platform-count="{{ $platform }}" class="ml-auto text-gray-400 text-xs">{{ $count }}</span>
+			</label>
+			{{ end }}
+		</div>
+	</div>
+
+	{{/* Signup filter */}}
+	<div id="signup-filter">
+		<label class="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+			<input type="checkbox" id="filter-signup" class="rounded border-gray-300">
+			Self-signup only
+		</label>
+	</div>
+</div>
+
+{{/* Reset filters */}}
+<div class="flex flex-row gap-2 my-2">
+	<button id="reset-filters" class="text-sm text-blue-600 hover:underline hidden">Reset filters</button>
+</div>

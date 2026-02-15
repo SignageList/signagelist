@@ -1,0 +1,38 @@
+name: DS Suit
+slug: ds-suit
+description: ""
+website: https://www.innova.com.tr/en/digital-signage
+year_founded: 1999
+headquarters:
+  - Turkey
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 4500
+    source: https://www.innova.com.tr/en/success-story/turk-telekom-integrated-store-digital-signage-project
+    date: 2009-01
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

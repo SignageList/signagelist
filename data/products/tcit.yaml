@@ -1,0 +1,25 @@
+name: TCIT
+slug: tcit
+description: ""
+website: https://tcit-tw.com/en/
+year_founded: null
+headquarters:
+  - Taiwan
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - Computer vision
+platforms: []
+models: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

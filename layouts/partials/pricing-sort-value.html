@@ -1,0 +1,27 @@
+{{/*
+  Returns a numeric sort value for pricing.
+  Products with actual pricing get their monthly price.
+  Products without pricing get 999999 (sort to end).
+*/}}
+{{ $value := 999999.0 }}
+{{ $cloudModel := false }}
+
+{{ range .Params.models }}
+  {{ if eq .delivery "cloud" }}
+    {{ $cloudModel = . }}
+  {{ end }}
+{{ end }}
+
+{{ if and $cloudModel $cloudModel.pricing_available }}
+  {{ range $cloudModel.pricing }}
+    {{ if and (eq .billing_basis "per_device") (or .monthly .yearly) }}
+      {{ if .monthly }}
+        {{ $value = float .monthly }}
+      {{ else if .yearly }}
+        {{ $value = div (float .yearly) 12.0 }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $value }}

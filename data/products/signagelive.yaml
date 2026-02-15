@@ -1,0 +1,46 @@
+name: Signagelive
+slug: signagelive
+description: ""
+website: https://signagelive.com/
+year_founded: 2007
+headquarters:
+  - United Kingdom
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - BrightSign
+  - ChromeOS
+  - ClickShare
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard license
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 270
+stats:
+  screens:
+    total: 10000
+    source: https://www.linkedin.com/company/signagelive/about/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,36 @@
+name: 1Play
+slug: 1play
+description: ""
+website: https://1play.tv/
+year_founded: 2016
+headquarters:
+  - Romania
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Raspberry Pi
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Starter Price
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5.47
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

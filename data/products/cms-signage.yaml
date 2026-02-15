@@ -1,0 +1,41 @@
+name: CMS Signage
+slug: cms-signage
+description: ""
+website: https://cmssignage.com/
+year_founded: 2019
+headquarters:
+  - India
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Main
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10
+        yearly: 110
+stats:
+  screens:
+    total: 700
+    source: https://cmssignage.com/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

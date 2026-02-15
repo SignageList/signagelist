@@ -1,0 +1,37 @@
+name: XtremeSignage
+slug: xtremesignage
+description: ""
+website: https://www.xtreme-media.com/products/digital-signage
+year_founded: 2009
+headquarters:
+  - India
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 25000
+    source: https://www.xtreme-media.com/products/digital-signage
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,47 @@
+name: PlayShield
+slug: playshield
+description: ""
+website: https://playshield.tv/
+year_founded: 2020
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Cloud
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5
+        yearly: null
+stats:
+  screens:
+    total: 5000
+    source: https://github.com/514sid/digital-signage-list/issues/7
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

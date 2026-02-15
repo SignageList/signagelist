@@ -1,0 +1,45 @@
+name: Intuiface
+slug: intuiface
+description: ""
+website: https://intuiface.com
+year_founded: 2002
+headquarters:
+  - France
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - Web Browser
+  - Windows
+  - iOS
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Non-Interactive Player
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 36.18
+        yearly: 173.66
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,35 @@
+{{/*
+  Replicates pricing logic from src/utils/cmsProductPricing.ts
+  Input: a product page context (with .Params)
+  Output: pricing string like "$13 / month", "Free/Open Source", "On request", or "-"
+*/}}
+{{ $result := "-" }}
+{{ $cloudModel := false }}
+
+{{ range .Params.models }}
+  {{ if eq .delivery "cloud" }}
+    {{ $cloudModel = . }}
+  {{ end }}
+{{ end }}
+
+{{ if and .Params.open_source (not (and $cloudModel $cloudModel.pricing_available)) }}
+  {{ $result = "Free/Open Source" }}
+{{ else if not (and $cloudModel $cloudModel.pricing_available) }}
+  {{ $result = "On request" }}
+{{ else }}
+  {{ $found := false }}
+  {{ range $cloudModel.pricing }}
+    {{ if and (not $found) (eq .billing_basis "per_device") (or (and .monthly (ne (printf "%v" .monthly) "0")) (and .yearly (ne (printf "%v" .yearly) "0"))) }}
+      {{ if .monthly }}
+        {{ $result = printf "$%v / month" .monthly }}
+        {{ $found = true }}
+      {{ else if .yearly }}
+        {{ $monthly := div (float .yearly) 12.0 }}
+        {{ $result = printf "$%.2f / month" $monthly }}
+        {{ $found = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $result }}

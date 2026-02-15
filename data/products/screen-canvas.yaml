@@ -1,0 +1,37 @@
+name: Screen Canvas
+slug: screen-canvas
+description: ""
+website: https://www.screencanvas.app/
+year_founded: 2024
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats: {}
+notes:
+  - Digital signage software for Apple TV with no subscription
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

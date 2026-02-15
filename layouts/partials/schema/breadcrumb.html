@@ -1,0 +1,30 @@
+{{ $items := slice }}
+{{ $items = $items | append (dict "name" "Home" "url" (.Site.BaseURL | strings.TrimRight "/")) }}
+
+{{ if .IsPage }}
+	{{ if eq .Section "products" }}
+		{{ $items = $items | append (dict "name" "Products" "url" (printf "%s/products/" (.Site.BaseURL | strings.TrimRight "/"))) }}
+		{{ $items = $items | append (dict "name" .Title "url" (.Permalink | strings.TrimRight "/")) }}
+	{{ end }}
+{{ else if .IsSection }}
+	{{ $items = $items | append (dict "name" .Title "url" (.Permalink | strings.TrimRight "/")) }}
+{{ end }}
+
+{{ if gt (len $items) 1 }}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{{ range $i, $item := $items }}{{ if $i }},{{ end }}
+		{
+			"@type": "ListItem",
+			"position": {{ add $i 1 }},
+			"name": "{{ $item.name }}",
+			"item": "{{ $item.url }}"
+		}
+		{{ end }}
+	]
+}
+</script>
+{{ end }}

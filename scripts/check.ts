@@ -1,53 +1,54 @@
-import { readdir, readFile } from 'fs/promises'
-import { join } from 'path'
-import { ProductSchema } from '../src/utils/productsSchema'
+#!/usr/bin/env bun
 
-async function validateProducts() {
-	const productsDir = join(process.cwd(), 'data', 'products')
-	
+/**
+ * Validates all YAML product files against the normalized Zod schema.
+ */
+
+import { readdirSync, readFileSync } from 'node:fs'
+import { join } from 'node:path'
+import * as yaml from 'js-yaml'
+import { ProductSchema } from './lib/schema'
+
+const productsDir = join(import.meta.dir, '..', 'data', 'products')
+
+const yamlFiles = readdirSync(productsDir).filter((f) => f.endsWith('.yaml'))
+
+console.log(`Validating ${yamlFiles.length} YAML product files...\n`)
+
+let valid = 0
+let invalid = 0
+
+for (const file of yamlFiles) {
+	const slug = file.replace('.yaml', '')
+	const filePath = join(productsDir, file)
+
 	try {
-		const files = await readdir(productsDir)
-		const jsonFiles = files.filter(file => file.endsWith('.json'))
-		
-		console.log(`Found ${jsonFiles.length} product files to validate...`)
-		
-		let validCount = 0
-		let invalidCount = 0
-		const errors: Array<{ file: string; error: string }> = []
-		
-		for (const file of jsonFiles) {
-			try {
-				const filePath = join(productsDir, file)
-				const content = await readFile(filePath, 'utf-8')
-				const productData = JSON.parse(content)
-				
-				ProductSchema.parse(productData)
-				validCount++
-			} catch (error) {
-				invalidCount++
-				const errorMessage = error instanceof Error ? error.message : 'Unknown error'
-				errors.push({ file, error: errorMessage })
-				console.log(`${file}`)
-			}
-		}
-		
-		console.log(`Total files: ${jsonFiles.length}`)
-		console.log(`Valid: ${validCount}`)
-		console.log(`Invalid: ${invalidCount}`)
+		const raw = yaml.load(readFileSync(filePath, 'utf-8'))
+		const result = ProductSchema.safeParse(raw)
 
-		if (invalidCount > 0) {
-			process.exit(1)
+		if (result.success) {
+			// Verify slug matches filename
+			if (result.data.slug !== slug) {
+				console.error(`MISMATCH ${file}: slug "${result.data.slug}" does not match filename "${slug}"`)
+				invalid++
+			} else {
+				valid++
+			}
 		} else {
-			console.log('\nAll products are valid!')
+			console.error(`INVALID ${file}:`)
+			for (const issue of result.error.issues) {
+				console.error(`  - ${issue.path.join('.')}: ${issue.message}`)
+			}
+			invalid++
 		}
-		
-	} catch (error) {
-		console.error('Error reading products directory:', error)
-		process.exit(1)
+	} catch (err) {
+		console.error(`ERROR ${file}: ${err}`)
+		invalid++
 	}
 }
 
-validateProducts().catch(error => {
-	console.error('Validation failed:', error)
+console.log(`\nResults: ${valid} valid, ${invalid} invalid out of ${yamlFiles.length} files`)
+
+if (invalid > 0) {
 	process.exit(1)
-})
+}

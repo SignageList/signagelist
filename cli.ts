@@ -1,20 +1,19 @@
-#!/usr/bin/env node
-import { spawn } from 'child_process'
+#!/usr/bin/env bun
+import { spawn } from 'node:child_process'
 
 const commands: Record<string, string> = {
-	'build': 'scripts/build.ts',
-	'add': 'scripts/newProduct.ts',
-	'check': 'scripts/check.ts',
+	add: 'scripts/add-product.ts',
+	check: 'scripts/check.ts',
 }
 
 function printHelp(): void {
-	console.log('Usage: npx signagelist <command>\n\nAvailable commands:')
+	console.log('Usage: bun run cli.ts <command>\n\nAvailable commands:')
 	for (const cmd of Object.keys(commands)) {
 		console.log(`  ${cmd}`)
 	}
 }
 
-const [,, cmd, ...args] = process.argv
+const [, , cmd, ...args] = process.argv
 
 if (!cmd || cmd === 'help' || cmd === '--help' || cmd === '-h') {
 	printHelp()
@@ -27,5 +26,5 @@ if (!commands[cmd]) {
 	process.exit(1)
 }
 
-const child = spawn('npx', ['tsx', commands[cmd], ...args], { stdio: 'inherit' })
-child.on('exit', (code: number | null) => process.exit(code ?? 0)) 
+const child = spawn('bun', ['run', commands[cmd], ...args], { stdio: 'inherit' })
+child.on('exit', (code: number | null) => process.exit(code ?? 0))

@@ -1,0 +1,46 @@
+name: FRAMEN
+slug: framen
+description: ""
+website: https://www.framen.com/
+year_founded: 2018
+headquarters:
+  - Germany
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 136.8
+stats:
+  screens:
+    total: 18000
+    source: https://www.framen.com/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

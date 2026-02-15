@@ -1,0 +1,44 @@
+name: SiteKiosk
+slug: sitekiosk
+description: ""
+website: https://www.sitekiosk.com/
+year_founded: 2001
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Online Cloud
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 272.46
+stats:
+  screens:
+    total: 10000
+    source: https://www.sitekiosk.com/
+    date: 2025-04
+notes:
+  - The screen count is based on the number of provided customer count. The actual screen count may vary.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,12 @@
+{{/*
+  Generates a UTM-tracked outbound URL.
+  Input: dict "url" "https://example.com" "campaign" "product_page" (optional)
+  Appends ?utm_source=signagelist&utm_medium=referral&utm_campaign=<campaign>
+*/}}
+{{- $url := .url -}}
+{{- $campaign := .campaign | default "directory" -}}
+{{- $separator := "?" -}}
+{{- if strings.Contains $url "?" -}}
+  {{- $separator = "&" -}}
+{{- end -}}
+{{- printf "%s%sutm_source=signagelist&utm_medium=referral&utm_campaign=%s" $url $separator $campaign -}}

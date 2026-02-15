@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="max-w-screen-xl w-full mx-auto px-4 py-8">
+	<h1 class="text-2xl font-bold text-gray-900 mb-6">Categories</h1>
+	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+		{{ range .Data.Terms.Alphabetical }}
+		<a href="{{ .Page.RelPermalink }}" class="block p-6 bg-white border border-gray-200 rounded-lg hover:border-brand-500 hover:shadow-sm transition-all">
+			<h2 class="font-semibold text-gray-900">{{ .Page.Title }}</h2>
+			<p class="text-sm text-gray-500 mt-1">{{ .Count }} products</p>
+		</a>
+		{{ end }}
+	</div>
+</div>
+{{ end }}

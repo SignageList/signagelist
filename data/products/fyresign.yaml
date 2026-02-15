@@ -1,0 +1,48 @@
+name: Fyresign
+slug: fyresign
+description: ""
+website: https://fyresign.com/en
+year_founded: 2013
+headquarters:
+  - Norway
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Raspberry Pi
+  - Web Browser
+  - Windows
+  - iOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: FREE (1 device)
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: STANDARD
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 13.9
+        yearly: null
+stats: {}
+notes:
+  - Formerly known as SocialScreen
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

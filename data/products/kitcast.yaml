@@ -1,0 +1,37 @@
+name: Kitcast
+slug: kitcast
+description: ""
+website: https://kitcast.tv/
+year_founded: 2014
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Growth
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 25
+        yearly: 240
+stats: {}
+notes:
+  - "Digital Signage Software for Apple TV. Platforms planned for 2025: Android, Fire OS, BrightSign, Tizen, webOS, macOS"
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

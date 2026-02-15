@@ -1,0 +1,36 @@
+name: Digichief Mercury
+slug: digichief-mercury
+description: ""
+website: https://mercury.digichief.com/
+year_founded: 2007
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: ""
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 24
+        yearly: 21.6
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

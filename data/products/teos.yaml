@@ -1,0 +1,41 @@
+name: SONY TEOS
+slug: teos
+description: ""
+website: https://teos.solutions/
+year_founded: 2017
+headquarters:
+  - Japan
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+  - Windows
+  - iOS
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Advanced / Control & Scheduling
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4.87
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

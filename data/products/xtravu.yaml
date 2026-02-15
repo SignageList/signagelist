@@ -1,0 +1,33 @@
+name: xtravu
+slug: xtravu
+description: ""
+website: https://xtravu.in/
+year_founded: 2021
+headquarters:
+  - India
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

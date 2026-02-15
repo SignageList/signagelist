@@ -1,0 +1,44 @@
+name: Display NOW
+slug: display-now
+description: ""
+website: https://displaynow.io
+year_founded: 2019
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 8
+        yearly: 60
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 11
+        yearly: 108
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

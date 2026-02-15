@@ -1,0 +1,40 @@
+# {{ .Site.Title }} - Complete Product Directory
+
+> {{ .Site.Params.description }}
+
+{{ range ((.Site.GetPage "/products").Pages.ByTitle) }}
+## {{ .Params.name }}
+
+- Website: {{ .Params.website }}
+- Categories: {{ delimit .Params.categories ", " }}
+{{- with .Params.description }}
+- Description: {{ . }}
+{{- end }}
+{{- with .Params.headquarters }}{{ if gt (len .) 0 }}
+- Headquarters: {{ delimit . ", " }}
+{{- end }}{{ end }}
+{{- with .Params.year_founded }}
+- Founded: {{ . }}
+{{- end }}
+- Open Source: {{ if .Params.open_source }}Yes{{ else }}No{{ end }}
+- Self Signup: {{ if .Params.self_signup }}Yes{{ else }}No{{ end }}
+{{- if .Params.discontinued }}
+- Status: Discontinued
+{{- end }}
+{{- with .Params.platforms }}{{ if gt (len .) 0 }}
+- Platforms: {{ delimit . ", " }}
+{{- end }}{{ end }}
+{{- range .Params.models }}{{ if .pricing_available }}
+- Pricing: Available ({{ .delivery }}){{ if .free_trial }}, Free trial{{ end }}{{ if .has_freemium }}, Freemium{{ end }}
+{{- range .pricing }}
+  - {{ .name }}: {{ with .monthly }}${{ . }}/mo{{ end }}{{ with .yearly }} ${{ . }}/yr{{ end }} ({{ replace .billing_basis "_" " " }})
+{{- end }}
+{{- else }}
+- Pricing: On request
+{{- end }}{{ end }}
+{{- with .Params.stats }}{{ with .screens }}{{ with .total }}
+- Active Screens: {{ . }}+
+{{- end }}{{ end }}{{ end }}
+- Profile: {{ .Permalink }}
+
+{{ end }}

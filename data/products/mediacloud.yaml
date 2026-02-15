@@ -1,0 +1,40 @@
+name: mediaCLOUD
+slug: mediacloud
+description: ""
+website: https://digitalsignage.com/_html/mediacloud.html
+year_founded: 2015
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free (3 screens)
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Plus
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 3
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

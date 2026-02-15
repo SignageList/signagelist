@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="max-w-screen-xl w-full mx-auto px-4 py-8">
+	<nav class="text-sm text-gray-500 mb-4">
+		<a href="/" class="hover:text-gray-700">Home</a>
+		<span class="mx-1">/</span>
+		<a href="/platforms/" class="hover:text-gray-700">Platforms</a>
+		<span class="mx-1">/</span>
+		<span class="text-gray-900">{{ .Title }}</span>
+	</nav>
+
+	<h1 class="text-2xl font-bold text-gray-900 mb-2">{{ .Title }}</h1>
+	<p class="text-gray-500 mb-6">{{ len .Pages }} digital signage products supporting this platform</p>
+
+	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+		{{ range .Pages.ByTitle }}
+		<a href="{{ .RelPermalink }}" class="flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-lg hover:border-brand-500 hover:shadow-sm transition-all">
+			{{ partial "product-logo.html" . }}
+			<div>
+				<div class="font-medium text-gray-900">{{ .Title }}</div>
+				{{ with .Params.description }}
+				<div class="text-sm text-gray-500 line-clamp-1">{{ . }}</div>
+				{{ end }}
+			</div>
+		</a>
+		{{ end }}
+	</div>
+</div>
+{{ end }}

@@ -1,0 +1,37 @@
+name: Media4Display
+slug: media4display
+description: ""
+website: https://www.telelogos.com/en/solutions/media4display/
+year_founded: 2008
+headquarters:
+  - France
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 500000
+    source: https://www.linkedin.com/company/telelogos/about/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

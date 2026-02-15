@@ -1,0 +1,52 @@
+name: ITEQ Digital
+slug: iteq
+description: ""
+website: https://iteq.rs/en/
+year_founded: 2013
+headquarters:
+  - Serbia
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pharmacies
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5
+        yearly: null
+      - name: Laboratories
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9
+        yearly: null
+      - name: Private clinics
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 13
+        yearly: null
+stats:
+  screens:
+    total: 81600
+    source: https://iteq.rs/en/
+    date: 2025-04
+notes:
+  - The total number of screens is based on the number daily broadcast spots
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

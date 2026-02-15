@@ -1,0 +1,31 @@
+name: DisplayMonkey
+slug: displaymonkey
+description: ""
+website: https://github.com/fuel9/DisplayMonkey
+year_founded: 2015
+headquarters:
+  - USA
+open_source: true
+self_signup: false
+discontinued: true
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

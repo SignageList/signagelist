@@ -1,0 +1,37 @@
+name: Enplug
+slug: enplug
+description: ""
+website: https://www.enplug.in/
+year_founded: 2012
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Growth
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 32
+        yearly: null
+stats: {}
+notes:
+  - Spectrio acquired Enplug in 2021.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
