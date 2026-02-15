@@ -247,6 +247,43 @@
 						</dd>
 					</div>
 
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">API</dt>
+						<dd class="text-sm">
+							{{ if $p.has_api }}
+								{{ with $p.developer_portal_url }}
+								<a href="{{ . }}" target="_blank" rel="noopener" class="text-primary-600 hover:text-primary-700 transition-colors">Yes</a>
+								{{ else }}
+								<span class="text-success-600">Yes</span>
+								{{ end }}
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">CLI</dt>
+						<dd class="text-sm">
+							{{ if $p.has_cli }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">MCP</dt>
+						<dd class="text-sm">
+							{{ if $p.has_mcp }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
 					{{ $hasCompliance := or $p.compliance.soc2 $p.compliance.iso27001 $p.compliance.hipaa $p.compliance.cra $p.compliance.fedramp }}
 					{{ if $hasCompliance }}
 					<div class="px-6 py-3 flex justify-between items-start">

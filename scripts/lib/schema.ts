@@ -46,48 +46,57 @@ const ComplianceSchema = z
 	})
 	.default({ soc2: false, iso27001: false, hipaa: false, cra: false, fedramp: false })
 
-const ProductSchema = z.object({
-	// Identity
-	name: z.string(),
-	slug: z.string(),
-	description: z.string(),
-	website: z.string().url(),
-	year_founded: z.number().nullable(),
-	headquarters: z.array(z.string()),
-	open_source: z.boolean(),
-	license: z.string().nullable().default(null),
-	source_code_url: z.string().url().nullable().default(null),
-	rss_feed_url: z.string().url().nullable().default(null),
-	self_signup: z.boolean(),
-	discontinued: z.boolean(),
-	has_logo: z.boolean(),
+const ProductSchema = z
+	.object({
+		// Identity
+		name: z.string(),
+		slug: z.string(),
+		description: z.string(),
+		website: z.string().url(),
+		year_founded: z.number().nullable(),
+		headquarters: z.array(z.string()),
+		open_source: z.boolean(),
+		license: z.string().nullable().default(null),
+		source_code_url: z.string().url().nullable().default(null),
+		rss_feed_url: z.string().url().nullable().default(null),
+		has_api: z.boolean().default(false),
+		developer_portal_url: z.string().url().nullable().default(null),
+		has_cli: z.boolean().default(false),
+		has_mcp: z.boolean().default(false),
+		self_signup: z.boolean(),
+		discontinued: z.boolean(),
+		has_logo: z.boolean(),
 
-	// Taxonomies
-	categories: z.array(ProductCategorySchema),
-	platforms: z.array(z.string()),
+		// Taxonomies
+		categories: z.array(ProductCategorySchema),
+		platforms: z.array(z.string()),
 
-	// Pricing
-	models: z.array(ModelSchema),
+		// Pricing
+		models: z.array(ModelSchema),
 
-	// Stats
-	stats: StatsSchema,
+		// Stats
+		stats: StatsSchema,
 
-	// Compliance
-	compliance: ComplianceSchema,
+		// Compliance
+		compliance: ComplianceSchema,
 
-	// Notes
-	notes: z.array(z.string()).default([]),
+		// Notes
+		notes: z.array(z.string()).default([]),
 
-	// Future G2-like fields
-	features: z.array(z.string()).default([]),
-	integrations: z.array(z.string()).default([]),
-	target_audience: z.array(z.string()).default([]),
-	deployment_options: z.array(z.string()).default([]),
-	support_channels: z.array(z.string()).default([]),
-	languages: z.array(z.string()).default([]),
-	screenshots: z.array(z.string()).default([]),
-	last_verified: z.string().nullable().default(null),
-})
+		// Future G2-like fields
+		features: z.array(z.string()).default([]),
+		integrations: z.array(z.string()).default([]),
+		target_audience: z.array(z.string()).default([]),
+		deployment_options: z.array(z.string()).default([]),
+		support_channels: z.array(z.string()).default([]),
+		languages: z.array(z.string()).default([]),
+		screenshots: z.array(z.string()).default([]),
+		last_verified: z.string().nullable().default(null),
+	})
+	.refine((data) => !data.has_api || data.developer_portal_url !== null, {
+		message: 'developer_portal_url is required when has_api is true',
+		path: ['developer_portal_url'],
+	})
 
 export { ProductSchema, ProductCategorySchema, ModelSchema, PricingSchema }
 
