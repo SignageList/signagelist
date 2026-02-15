@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  pull_request:
+
+env:
+  HUGO_VERSION: "0.154.5"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install Hugo
+        run: |
+          wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" -O hugo.deb
+          sudo dpkg -i hugo.deb
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Lint
+        run: bun run lint
+
+      - name: Validate data
+        run: bun run check
+
+      - name: Build
+        run: bun run build
