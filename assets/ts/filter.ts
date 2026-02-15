@@ -4,6 +4,7 @@ export interface FilterState {
 	showOpenSource: boolean
 	showProprietary: boolean
 	selectedPlatforms: string[]
+	selectedCompliance: string[]
 	signupIsOpenOnly: boolean
 }
 
@@ -14,6 +15,7 @@ export class FilterEngine {
 		showOpenSource: true,
 		showProprietary: true,
 		selectedPlatforms: [],
+		selectedCompliance: [],
 		signupIsOpenOnly: false,
 	}
 	private rows: HTMLTableRowElement[]
@@ -44,6 +46,7 @@ export class FilterEngine {
 				this.matchesSearch(row) &&
 				this.matchesOpenSource(row) &&
 				this.matchesPlatforms(row) &&
+				this.matchesCompliance(row) &&
 				this.matchesSignup(row)
 			row.classList.toggle('hidden', !visible)
 			if (visible) visibleCount++
@@ -82,6 +85,12 @@ export class FilterEngine {
 		return this.state.selectedPlatforms.every((p) => platforms.includes(p))
 	}
 
+	private matchesCompliance(row: HTMLTableRowElement): boolean {
+		if (this.state.selectedCompliance.length === 0) return true
+		const compliance = (row.dataset.compliance || '').split(',').filter(Boolean)
+		return this.state.selectedCompliance.every((c) => compliance.includes(c))
+	}
+
 	private matchesSignup(row: HTMLTableRowElement): boolean {
 		if (!this.state.signupIsOpenOnly) return true
 		return row.dataset.selfSignup === 'true'
@@ -112,8 +121,9 @@ export class FilterEngine {
 					const matchesSearch = this.matchesSearch(row)
 					const matchesOS = this.matchesOpenSource(row)
 					const matchesPlatform = this.matchesPlatforms(row)
+					const matchesCompliance = this.matchesCompliance(row)
 					const matchesSignup = this.matchesSignup(row)
-					if (matchesSearch && matchesOS && matchesPlatform && matchesSignup) count++
+					if (matchesSearch && matchesOS && matchesPlatform && matchesCompliance && matchesSignup) count++
 				}
 				countEl.textContent = String(count)
 			}

@@ -89,6 +89,38 @@
 			</label>
 		</div>
 
+		<div class="w-px h-6 bg-neutral-200"></div>
+
+		{{/* Compliance filter dropdown */}}
+		<div class="relative" id="compliance-filter">
+			<button id="compliance-dropdown-toggle" class="flex items-center gap-2 px-3 py-1.5 border border-neutral-200 rounded-lg text-sm text-neutral-600 hover:bg-neutral-50 transition-colors focus-ring">
+				<span class="compliance-label">Compliance</span>
+				<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+			</button>
+			<div id="compliance-dropdown" class="hidden absolute z-20 mt-1 w-56 bg-white border border-neutral-200 rounded-lg shadow-lg animate-scale-in">
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="soc2" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>SOC 2</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="iso27001" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>ISO 27001</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="hipaa" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>HIPAA</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="cra" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>CRA</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="fedramp" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>FedRAMP</span>
+				</label>
+			</div>
+		</div>
+
 		{{/* Reset */}}
 		<button id="reset-filters" class="ml-auto text-sm text-primary-600 hover:text-primary-700 font-medium hidden transition-colors">Reset filters</button>
 	</div>
@@ -131,6 +163,36 @@
 					<input type="checkbox" id="filter-signup-mobile" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
 					Self-signup only
 				</label>
+			</div>
+
+			{{/* Compliance filter dropdown (mobile) */}}
+			<div class="relative" id="compliance-filter-mobile">
+				<button id="compliance-dropdown-toggle-mobile" class="flex items-center gap-2 px-3 py-2 border border-neutral-200 rounded-lg text-sm text-neutral-600 w-full justify-between">
+					<span class="compliance-label">Compliance</span>
+					<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+				</button>
+				<div id="compliance-dropdown-mobile" class="hidden absolute z-20 mt-1 w-full bg-white border border-neutral-200 rounded-lg shadow-lg">
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="soc2" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>SOC 2</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="iso27001" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>ISO 27001</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="hipaa" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>HIPAA</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="cra" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>CRA</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="fedramp" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>FedRAMP</span>
+					</label>
+				</div>
 			</div>
 
 			<button id="reset-filters-mobile" class="text-sm text-primary-600 hover:text-primary-700 font-medium hidden transition-colors">Reset filters</button>

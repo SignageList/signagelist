@@ -36,6 +36,16 @@ const StatsSchema = z
 	})
 	.default({})
 
+const ComplianceSchema = z
+	.object({
+		soc2: z.boolean(),
+		iso27001: z.boolean(),
+		hipaa: z.boolean(),
+		cra: z.boolean(),
+		fedramp: z.boolean(),
+	})
+	.default({ soc2: false, iso27001: false, hipaa: false, cra: false, fedramp: false })
+
 const ProductSchema = z.object({
 	// Identity
 	name: z.string(),
@@ -60,6 +70,9 @@ const ProductSchema = z.object({
 
 	// Stats
 	stats: StatsSchema,
+
+	// Compliance
+	compliance: ComplianceSchema,
 
 	// Notes
 	notes: z.array(z.string()).default([]),

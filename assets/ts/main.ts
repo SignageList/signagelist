@@ -1,3 +1,4 @@
+import { initComplianceDropdown } from './compliance-dropdown'
 import { FilterEngine } from './filter'
 import { initGitHubStars } from './github-stars'
 import { initPlatformDropdown } from './platform-dropdown'
@@ -105,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				showOpenSource: true,
 				showProprietary: true,
 				selectedPlatforms: [],
+				selectedCompliance: [],
 				signupIsOpenOnly: false,
 			})
 			// Reset UI
@@ -123,6 +125,12 @@ document.addEventListener('DOMContentLoaded', () => {
 			// Reset platform labels
 			const platformLabels = document.querySelectorAll('.platform-label')
 			for (const label of platformLabels) label.textContent = 'All platforms'
+			// Uncheck compliance checkboxes
+			const complianceCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-compliance-checkbox]')
+			for (const cb of complianceCheckboxes) cb.checked = false
+			// Reset compliance labels
+			const complianceLabels = document.querySelectorAll('.compliance-label')
+			for (const label of complianceLabels) label.textContent = 'Compliance'
 		})
 	}
 
@@ -135,6 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			state.showOpenSource &&
 			state.showProprietary &&
 			state.selectedPlatforms.length === 0 &&
+			state.selectedCompliance.length === 0 &&
 			!state.signupIsOpenOnly
 		const allResetBtns = document.querySelectorAll('#reset-filters, #reset-filters-mobile')
 		for (const btn of allResetBtns) {
@@ -146,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	initSort(engine)
 	initUrlSync(engine)
 	initPlatformDropdown(engine)
+	initComplianceDropdown(engine)
 
 	// Track outbound link clicks via PostHog
 	document.addEventListener('click', (e) => {

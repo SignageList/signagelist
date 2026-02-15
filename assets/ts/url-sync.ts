@@ -23,6 +23,9 @@ export function initUrlSync(engine: FilterEngine): void {
 	if (params.has('platforms')) {
 		initial.selectedPlatforms = params.get('platforms')!.split(',').filter(Boolean)
 	}
+	if (params.has('compliance')) {
+		initial.selectedCompliance = params.get('compliance')!.split(',').filter(Boolean)
+	}
 	if (params.has('signupIsOpenOnly')) {
 		initial.signupIsOpenOnly = params.get('signupIsOpenOnly') === 'true'
 	}
@@ -48,6 +51,9 @@ export function initUrlSync(engine: FilterEngine): void {
 		urlParams.set('signupIsOpenOnly', String(state.signupIsOpenOnly))
 		if (state.selectedPlatforms.length > 0) {
 			urlParams.set('platforms', state.selectedPlatforms.join(','))
+		}
+		if (state.selectedCompliance.length > 0) {
+			urlParams.set('compliance', state.selectedCompliance.join(','))
 		}
 
 		const newUrl = `${window.location.pathname}?${urlParams.toString()}`
@@ -90,5 +96,11 @@ function syncUIFromState(engine: FilterEngine): void {
 	const platformCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]')
 	for (const cb of platformCheckboxes) {
 		cb.checked = state.selectedPlatforms.includes(cb.dataset.platformCheckbox || '')
+	}
+
+	// Sync compliance checkboxes
+	const complianceCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-compliance-checkbox]')
+	for (const cb of complianceCheckboxes) {
+		cb.checked = state.selectedCompliance.includes(cb.dataset.complianceCheckbox || '')
 	}
 }

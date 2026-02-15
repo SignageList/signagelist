@@ -63,3 +63,15 @@ If a product is open source (`open_source: true`), also provide:
 - `source_code_url`: URL to the public source code repository (e.g., `https://github.com/org/repo`)
 
 A product should only be marked as `open_source: true` if its source code is publicly available under an OSI-approved license.
+
+## Compliance
+
+If a product holds security or regulatory certifications, set the relevant fields to `true`:
+
+- `soc2`: SOC 2 Type II certified
+- `iso27001`: ISO/IEC 27001 certified
+- `hipaa`: HIPAA compliant
+- `cra`: EU Cyber Resilience Act compliant
+- `fedramp`: FedRAMP authorized
+
+All compliance fields default to `false` if not specified.

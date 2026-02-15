@@ -26,6 +26,15 @@
   {{ end }}
 {{ end }}
 
+{{ $complianceList := slice }}
+{{ with $p.compliance }}
+  {{ if .soc2 }}{{ $complianceList = $complianceList | append "soc2" }}{{ end }}
+  {{ if .iso27001 }}{{ $complianceList = $complianceList | append "iso27001" }}{{ end }}
+  {{ if .hipaa }}{{ $complianceList = $complianceList | append "hipaa" }}{{ end }}
+  {{ if .cra }}{{ $complianceList = $complianceList | append "cra" }}{{ end }}
+  {{ if .fedramp }}{{ $complianceList = $complianceList | append "fedramp" }}{{ end }}
+{{ end }}
+
 <tr class="product-row border-b border-neutral-100 hover:bg-primary-50/40 transition-colors group"
     data-name="{{ $p.name | lower }}"
     data-description="{{ $p.description | lower }}"
@@ -37,6 +46,7 @@
     data-self-signup="{{ $p.self_signup }}"
     data-pricing-sort="{{ partial "pricing-sort-value.html" . }}"
     data-screens-sort="{{ $screensTotal }}"
+    data-compliance="{{ delimit $complianceList "," }}"
 >
 	{{/* Product column */}}
 	<td class="py-3 px-4" style="min-width:300px;max-width:500px">

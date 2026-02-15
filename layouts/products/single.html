@@ -244,6 +244,20 @@
 						</dd>
 					</div>
 
+					{{ $hasCompliance := or $p.compliance.soc2 $p.compliance.iso27001 $p.compliance.hipaa $p.compliance.cra $p.compliance.fedramp }}
+					{{ if $hasCompliance }}
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Compliance</dt>
+						<dd class="flex flex-wrap gap-1.5 justify-end">
+							{{ if $p.compliance.soc2 }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">SOC 2</span>{{ end }}
+							{{ if $p.compliance.iso27001 }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">ISO 27001</span>{{ end }}
+							{{ if $p.compliance.hipaa }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">HIPAA</span>{{ end }}
+							{{ if $p.compliance.cra }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">CRA</span>{{ end }}
+							{{ if $p.compliance.fedramp }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">FedRAMP</span>{{ end }}
+						</dd>
+					</div>
+					{{ end }}
+
 					{{ with $p.stats }}
 					{{ with .screens }}
 					{{ if .total }}
