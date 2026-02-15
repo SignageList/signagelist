@@ -6,6 +6,8 @@ year_founded: 2015
 headquarters:
   - USA
 open_source: true
+license: MIT
+source_code_url: https://github.com/fuel9/DisplayMonkey
 self_signup: false
 discontinued: true
 has_logo: true

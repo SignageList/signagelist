@@ -6,6 +6,8 @@ year_founded: 2004
 headquarters:
   - United Kingdom
 open_source: true
+license: AGPL-3.0-or-later
+source_code_url: https://github.com/xibosignage/xibo-cms
 self_signup: true
 discontinued: false
 has_logo: true

@@ -1,24 +1,24 @@
 {{ define "main" }}
-<div class="max-w-screen-xl w-full mx-auto px-4 py-8">
-	<nav class="text-sm text-gray-500 mb-4">
-		<a href="/" class="hover:text-gray-700">Home</a>
-		<span class="mx-1">/</span>
-		<a href="/platforms/" class="hover:text-gray-700">Platforms</a>
-		<span class="mx-1">/</span>
-		<span class="text-gray-900">{{ .Title }}</span>
+<div class="max-w-screen-xl w-full mx-auto px-4 py-8 animate-fade-in-up">
+	<nav class="text-sm text-neutral-500 mb-4 flex items-center gap-1.5">
+		<a href="/" class="hover:text-neutral-700 transition-colors">Home</a>
+		<svg class="w-3.5 h-3.5 text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+		<a href="/platforms/" class="hover:text-neutral-700 transition-colors">Platforms</a>
+		<svg class="w-3.5 h-3.5 text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+		<span class="text-neutral-900 font-medium">{{ .Title }}</span>
 	</nav>
 
-	<h1 class="text-2xl font-bold text-gray-900 mb-2">{{ .Title }}</h1>
-	<p class="text-gray-500 mb-6">{{ len .Pages }} digital signage products supporting this platform</p>
+	<h1 class="text-2xl font-bold text-neutral-900 mb-2">{{ .Title }}</h1>
+	<p class="text-neutral-500 mb-6">{{ len .Pages }} digital signage products supporting this platform</p>
 
 	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 		{{ range .Pages.ByTitle }}
-		<a href="{{ .RelPermalink }}" class="flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-lg hover:border-brand-500 hover:shadow-sm transition-all">
-			{{ partial "product-logo.html" . }}
-			<div>
-				<div class="font-medium text-gray-900">{{ .Title }}</div>
+		<a href="{{ .RelPermalink }}" class="flex items-center gap-3 p-4 bg-white border border-neutral-200 rounded-lg hover:border-primary-300 hover-lift transition-colors">
+			{{ partial "product-logo.html" (dict "Params" .Params "size" "md") }}
+			<div class="min-w-0">
+				<div class="font-medium text-neutral-900 truncate">{{ .Title }}</div>
 				{{ with .Params.description }}
-				<div class="text-sm text-gray-500 line-clamp-1">{{ . }}</div>
+				<div class="text-sm text-neutral-500 line-clamp-1">{{ . }}</div>
 				{{ end }}
 			</div>
 		</a>

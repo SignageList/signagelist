@@ -1,27 +1,66 @@
 {{ define "main" }}
-{{/* Homepage renders the product list */}}
+{{/* Homepage renders the product list with hero */}}
 {{ with .Site.GetPage "/products" }}
-<div class="max-w-screen-xl w-full mx-auto px-4">
+
+{{/* Hero section */}}
+<div class="max-w-screen-xl w-full mx-auto px-4 pt-12 pb-8">
+	<div class="max-w-2xl animate-fade-in-up">
+		<h1 class="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight">
+			The biggest open dataset of <span class="text-gradient">digital signage</span> software
+		</h1>
+		<p class="mt-3 text-neutral-500 text-lg">Discover, compare, and evaluate digital signage software products. All data is open and freely available.</p>
+	</div>
+
+	{{/* Stats bar */}}
+	<div class="flex flex-wrap gap-3 mt-6 animate-fade-in-up animate-delay-2">
+		<div class="flex items-center gap-2 px-4 py-2 bg-primary-50 rounded-lg">
+			<div class="w-6 h-6 rounded-md bg-primary-100 flex items-center justify-center">
+				<svg class="w-3.5 h-3.5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+			</div>
+			<span class="text-sm font-semibold text-primary-700 tabular-nums">{{ len .Pages }}+</span>
+			<span class="text-sm text-primary-600">Products</span>
+		</div>
+		<div class="flex items-center gap-2 px-4 py-2 bg-accent-50 rounded-lg">
+			<div class="w-6 h-6 rounded-md bg-accent-100 flex items-center justify-center">
+				<svg class="w-3.5 h-3.5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>
+			</div>
+			<span class="text-sm font-semibold text-accent-700 tabular-nums">{{ len .Site.Taxonomies.categories }}</span>
+			<span class="text-sm text-accent-600">Categories</span>
+		</div>
+		<div class="flex items-center gap-2 px-4 py-2 bg-success-50 rounded-lg">
+			<div class="w-6 h-6 rounded-md bg-success-50 flex items-center justify-center">
+				<svg class="w-3.5 h-3.5 text-success-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+			</div>
+			<span class="text-sm font-semibold text-success-700 tabular-nums">{{ len .Site.Taxonomies.platforms }}+</span>
+			<span class="text-sm text-success-600">Platforms</span>
+		</div>
+	</div>
+</div>
+
+{{/* Divider */}}
+<div class="border-t border-neutral-100"></div>
+
+<div class="max-w-screen-xl w-full mx-auto px-4 pt-6">
 	{{ partial "filters.html" . }}
 
-	<div class="overflow-x-auto">
+	<div class="table-wrapper rounded-lg border border-neutral-200 overflow-x-auto">
 		<table id="product-table" class="w-full">
-			<thead class="sticky top-0 bg-white border-b border-gray-200 z-10">
+			<thead class="bg-neutral-50 border-b border-neutral-200">
 				<tr>
-					<th data-sort="name" class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:300px;max-width:500px">
-						Product<span class="sort-indicator text-gray-400"></span>
+					<th data-sort="name" class="py-3 px-4 text-left text-xs font-semibold text-neutral-500 uppercase tracking-wider" style="min-width:300px;max-width:500px">
+						Product<span class="sort-indicator ml-1"></span>
 					</th>
-					<th data-sort="pricing" class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:180px">
-						Pricing per screen<span class="sort-indicator text-gray-400"></span>
+					<th data-sort="pricing" class="py-3 px-4 text-left text-xs font-semibold text-neutral-500 uppercase tracking-wider" style="min-width:180px">
+						Pricing per screen<span class="sort-indicator ml-1"></span>
 					</th>
-					<th class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:120px">
+					<th class="py-3 px-4 text-left text-xs font-semibold text-neutral-500 uppercase tracking-wider" style="min-width:120px">
 						Signup
 					</th>
-					<th class="py-3 px-4 text-left text-sm font-semibold text-gray-900" style="min-width:150px">
+					<th class="py-3 px-4 text-left text-xs font-semibold text-neutral-500 uppercase tracking-wider" style="min-width:150px">
 						Headquarters
 					</th>
-					<th data-sort="screens" class="py-3 px-4 text-right text-sm font-semibold text-gray-900" style="min-width:120px">
-						Screens<span class="sort-indicator text-gray-400"></span>
+					<th data-sort="screens" class="py-3 px-4 text-right text-xs font-semibold text-neutral-500 uppercase tracking-wider" style="min-width:120px">
+						Screens<span class="sort-indicator ml-1"></span>
 					</th>
 				</tr>
 			</thead>
@@ -33,8 +72,18 @@
 		</table>
 	</div>
 
-	<div class="py-4 text-sm text-gray-500">
-		Showing <span id="visible-count">{{ len .Pages }}</span> products
+	{{/* Empty state */}}
+	<div id="empty-state" class="hidden py-16 text-center">
+		<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-neutral-100 mb-4">
+			<svg class="w-8 h-8 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+		</div>
+		<h3 class="text-lg font-semibold text-neutral-900 mb-1">No products found</h3>
+		<p class="text-neutral-500 text-sm mb-4">Try adjusting your filters or search term</p>
+		<button id="empty-state-reset" class="px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors">Reset filters</button>
+	</div>
+
+	<div class="py-4 text-sm text-neutral-500">
+		Showing <span id="visible-count" class="tabular-nums font-medium text-neutral-700">{{ len .Pages }}</span> products
 	</div>
 </div>
 

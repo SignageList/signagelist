@@ -5,7 +5,7 @@ website: https://www.binaryemotions.com/digital-signage-systems/raspberry-digita
 year_founded: 2014
 headquarters:
   - Italy
-open_source: true
+open_source: false
 self_signup: true
 discontinued: false
 has_logo: false

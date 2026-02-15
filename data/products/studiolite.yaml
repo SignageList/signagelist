@@ -5,7 +5,7 @@ website: https://github.com/born2net/studio-lite
 year_founded: 2016
 headquarters:
   - USA
-open_source: true
+open_source: false
 self_signup: false
 discontinued: true
 has_logo: false

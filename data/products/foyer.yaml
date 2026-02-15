@@ -6,6 +6,8 @@ year_founded: 2017
 headquarters:
   - Netherlands
 open_source: true
+license: GPL-3.0-only
+source_code_url: https://github.com/mennolui/wp-foyer
 self_signup: false
 discontinued: true
 has_logo: true

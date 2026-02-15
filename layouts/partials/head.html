@@ -5,32 +5,46 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="canonical" href="{{ .Permalink }}">
 
+{{/* Inter font */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 {{/* Open Graph - Rich data cards */}}
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} - Digital Signage Software Directory{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
 <meta property="og:description" content="{{ partial "meta-description.html" . }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-{{ if and .IsPage (eq .Section "products") }}
-	{{/* Product pages: use logo as OG image if available */}}
-	{{ if .Params.has_logo }}
-<meta property="og:image" content="{{ .Site.BaseURL }}assets/logos/{{ .Params.slug }}.webp">
+{{ if and .IsPage (eq .Section "products") .Params.has_logo }}
+	{{ $logo := resources.GetMatch (printf "logos/%s.*" .Params.slug) }}
+	{{ if $logo }}
+		{{ $subType := $logo.MediaType.SubType }}
+		{{ $isProcessable := or (eq $subType "png") (eq $subType "jpeg") (eq $subType "webp") (eq $subType "gif") }}
+		{{ if $isProcessable }}
+			{{ $processed := $logo.Process "fit 400x200 webp" }}
+<meta property="og:image" content="{{ $processed.Permalink }}">
 <meta property="og:image:alt" content="{{ .Params.name }} logo">
-<meta property="og:image:width" content="500">
-<meta property="og:image:height" content="500">
+		{{ end }}
 	{{ end }}
 {{ end }}
 
-{{/* Twitter Card - Rich data cards */}}
-{{ if and .IsPage (eq .Section "products") .Params.has_logo }}
+{{/* Twitter Card */}}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{{ .Site.BaseURL }}assets/logos/{{ .Params.slug }}.webp">
-<meta name="twitter:image:alt" content="{{ .Params.name }} logo">
-{{ else }}
-<meta name="twitter:card" content="summary">
-{{ end }}
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
 <meta name="twitter:description" content="{{ partial "meta-description.html" . }}">
+{{ if and .IsPage (eq .Section "products") .Params.has_logo }}
+	{{ $logo := resources.GetMatch (printf "logos/%s.*" .Params.slug) }}
+	{{ if $logo }}
+		{{ $subType := $logo.MediaType.SubType }}
+		{{ $isProcessable := or (eq $subType "png") (eq $subType "jpeg") (eq $subType "webp") (eq $subType "gif") }}
+		{{ if $isProcessable }}
+			{{ $processed := $logo.Process "fit 400x200 webp" }}
+<meta name="twitter:image" content="{{ $processed.Permalink }}">
+<meta name="twitter:image:alt" content="{{ .Params.name }} logo">
+		{{ end }}
+	{{ end }}
+{{ end }}
 
 {{/* Tailwind CSS */}}
 {{ with resources.Get "css/main.css" }}

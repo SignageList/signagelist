@@ -50,3 +50,16 @@ bun run add
 ```
 
 This will walk you through creating the YAML file and optionally processing a logo.
+
+## Headquarters
+
+The headquarters location is determined by where the company has the most headcount, not necessarily where it is legally incorporated.
+
+## Open Source Products
+
+If a product is open source (`open_source: true`), also provide:
+
+- `license`: SPDX License Expression (e.g., `MIT`, `AGPL-3.0-only`). See https://spdx.org/licenses/ for the full list of identifiers.
+- `source_code_url`: URL to the public source code repository (e.g., `https://github.com/org/repo`)
+
+A product should only be marked as `open_source: true` if its source code is publicly available under an OSI-approved license.

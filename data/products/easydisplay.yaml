@@ -5,7 +5,7 @@ website: https://shiningtech.info/
 year_founded: 2025
 headquarters:
   - China
-open_source: true
+open_source: false
 self_signup: true
 discontinued: false
 has_logo: true

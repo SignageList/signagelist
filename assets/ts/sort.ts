@@ -7,6 +7,11 @@ interface SortState {
 	direction: SortDirection
 }
 
+const chevronUp =
+	'<svg class="w-3 h-3 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>'
+const chevronDown =
+	'<svg class="w-3 h-3 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>'
+
 export function initSort(_engine: FilterEngine): void {
 	const table = document.querySelector<HTMLTableElement>('#product-table')
 	if (!table) return
@@ -53,9 +58,9 @@ export function initSort(_engine: FilterEngine): void {
 			const indicator = header.querySelector('.sort-indicator')
 			if (!indicator) continue
 			if (header.dataset.sort === sortState.column) {
-				indicator.textContent = sortState.direction === 'asc' ? ' \u2191' : ' \u2193'
+				indicator.innerHTML = sortState.direction === 'asc' ? ` ${chevronUp}` : ` ${chevronDown}`
 			} else {
-				indicator.textContent = ''
+				indicator.innerHTML = ''
 			}
 		}
 	}

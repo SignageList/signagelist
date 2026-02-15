@@ -1,10 +1,39 @@
 import { FilterEngine } from './filter'
+import { initGitHubStars } from './github-stars'
 import { initPlatformDropdown } from './platform-dropdown'
 import { initSearch } from './search'
 import { initSort } from './sort'
 import { initUrlSync } from './url-sync'
 
 document.addEventListener('DOMContentLoaded', () => {
+	// Mobile menu toggle
+	const mobileMenuToggle = document.querySelector<HTMLButtonElement>('#mobile-menu-toggle')
+	const mobileMenu = document.querySelector<HTMLDivElement>('#mobile-menu')
+	const menuIconOpen = document.querySelector<SVGElement>('#menu-icon-open')
+	const menuIconClose = document.querySelector<SVGElement>('#menu-icon-close')
+	if (mobileMenuToggle && mobileMenu) {
+		mobileMenuToggle.addEventListener('click', () => {
+			const isOpen = !mobileMenu.classList.contains('hidden')
+			mobileMenu.classList.toggle('hidden', isOpen)
+			menuIconOpen?.classList.toggle('hidden', !isOpen)
+			menuIconClose?.classList.toggle('hidden', isOpen)
+		})
+	}
+
+	// Mobile filter toggle
+	const mobileFilterToggle = document.querySelector<HTMLButtonElement>('#mobile-filter-toggle')
+	const mobileSecondaryFilters = document.querySelector<HTMLDivElement>('#mobile-secondary-filters')
+	const filterChevron = document.querySelector<SVGElement>('#filter-chevron')
+	if (mobileFilterToggle && mobileSecondaryFilters) {
+		mobileFilterToggle.addEventListener('click', () => {
+			const isOpen = !mobileSecondaryFilters.classList.contains('hidden')
+			mobileSecondaryFilters.classList.toggle('hidden', isOpen)
+			filterChevron?.classList.toggle('rotate-180', !isOpen)
+		})
+	}
+
+	initGitHubStars()
+
 	const table = document.querySelector<HTMLTableElement>('#product-table')
 	if (!table) return
 
@@ -15,18 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	for (const btn of categoryBtns) {
 		btn.addEventListener('click', () => {
 			engine.setState({ category: btn.dataset.categoryBtn! })
-			// Update button styles
-			for (const b of categoryBtns) {
-				const isActive = b.dataset.categoryBtn === engine.getState().category
-				b.classList.toggle('bg-brand-600', isActive)
-				b.classList.toggle('text-white', isActive)
-				b.classList.toggle('bg-gray-100', !isActive)
-				b.classList.toggle('text-gray-700', !isActive)
-			}
+			updateCategoryButtons(categoryBtns, engine.getState().category)
 		})
 	}
 
-	// Open source / Proprietary checkboxes
+	// Open source / Proprietary checkboxes (desktop)
 	const osCheckbox = document.querySelector<HTMLInputElement>('#filter-open-source')
 	const propCheckbox = document.querySelector<HTMLInputElement>('#filter-proprietary')
 	if (osCheckbox) {
@@ -40,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	// Signup filter
+	// Signup filter (desktop)
 	const signupCheckbox = document.querySelector<HTMLInputElement>('#filter-signup')
 	if (signupCheckbox) {
 		signupCheckbox.addEventListener('change', () => {
@@ -48,9 +70,34 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	// Reset filters
-	const resetBtn = document.querySelector<HTMLButtonElement>('#reset-filters')
-	if (resetBtn) {
+	// Mobile filter controls — sync with desktop
+	const osMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-open-source-mobile')
+	const propMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-proprietary-mobile')
+	const signupMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-signup-mobile')
+	if (osMobileCheckbox) {
+		osMobileCheckbox.addEventListener('change', () => {
+			engine.setState({ showOpenSource: osMobileCheckbox.checked })
+			if (osCheckbox) osCheckbox.checked = osMobileCheckbox.checked
+		})
+	}
+	if (propMobileCheckbox) {
+		propMobileCheckbox.addEventListener('change', () => {
+			engine.setState({ showProprietary: propMobileCheckbox.checked })
+			if (propCheckbox) propCheckbox.checked = propMobileCheckbox.checked
+		})
+	}
+	if (signupMobileCheckbox) {
+		signupMobileCheckbox.addEventListener('change', () => {
+			engine.setState({ signupIsOpenOnly: signupMobileCheckbox.checked })
+			if (signupCheckbox) signupCheckbox.checked = signupMobileCheckbox.checked
+		})
+	}
+
+	// Reset filters (both desktop and mobile)
+	const resetBtns = document.querySelectorAll<HTMLButtonElement>(
+		'#reset-filters, #reset-filters-mobile, #empty-state-reset',
+	)
+	for (const resetBtn of resetBtns) {
 		resetBtn.addEventListener('click', () => {
 			engine.setState({
 				category: 'CMS',
@@ -63,37 +110,37 @@ document.addEventListener('DOMContentLoaded', () => {
 			// Reset UI
 			const searchInput = document.querySelector<HTMLInputElement>('#search-input')
 			if (searchInput) searchInput.value = ''
-			for (const btn of categoryBtns) {
-				const isActive = btn.dataset.categoryBtn === 'CMS'
-				btn.classList.toggle('bg-brand-600', isActive)
-				btn.classList.toggle('text-white', isActive)
-				btn.classList.toggle('bg-gray-100', !isActive)
-				btn.classList.toggle('text-gray-700', !isActive)
-			}
+			updateCategoryButtons(categoryBtns, 'CMS')
 			if (osCheckbox) osCheckbox.checked = true
 			if (propCheckbox) propCheckbox.checked = true
 			if (signupCheckbox) signupCheckbox.checked = false
+			if (osMobileCheckbox) osMobileCheckbox.checked = true
+			if (propMobileCheckbox) propMobileCheckbox.checked = true
+			if (signupMobileCheckbox) signupMobileCheckbox.checked = false
 			// Uncheck platform checkboxes
 			const platformCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]')
 			for (const cb of platformCheckboxes) cb.checked = false
-			// Reset platform label
-			const platformLabel = document.querySelector('.platform-label')
-			if (platformLabel) platformLabel.textContent = 'All platforms'
-		})
-
-		// Show/hide reset button when filters change
-		engine.onChange(() => {
-			const state = engine.getState()
-			const isDefault =
-				state.category === 'CMS' &&
-				!state.searchTerm &&
-				state.showOpenSource &&
-				state.showProprietary &&
-				state.selectedPlatforms.length === 0 &&
-				!state.signupIsOpenOnly
-			resetBtn.classList.toggle('hidden', isDefault)
+			// Reset platform labels
+			const platformLabels = document.querySelectorAll('.platform-label')
+			for (const label of platformLabels) label.textContent = 'All platforms'
 		})
 	}
+
+	// Show/hide reset button when filters change
+	engine.onChange(() => {
+		const state = engine.getState()
+		const isDefault =
+			state.category === 'CMS' &&
+			!state.searchTerm &&
+			state.showOpenSource &&
+			state.showProprietary &&
+			state.selectedPlatforms.length === 0 &&
+			!state.signupIsOpenOnly
+		const allResetBtns = document.querySelectorAll('#reset-filters, #reset-filters-mobile')
+		for (const btn of allResetBtns) {
+			btn.classList.toggle('hidden', isDefault)
+		}
+	})
 
 	initSearch(engine)
 	initSort(engine)
@@ -116,3 +163,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	engine.applyFilters()
 })
+
+function updateCategoryButtons(buttons: NodeListOf<HTMLButtonElement>, activeCategory: string): void {
+	for (const btn of buttons) {
+		const isActive = btn.dataset.categoryBtn === activeCategory
+		btn.classList.toggle('bg-primary-600', isActive)
+		btn.classList.toggle('text-white', isActive)
+		btn.classList.toggle('bg-white', !isActive)
+		btn.classList.toggle('text-neutral-600', !isActive)
+		btn.classList.toggle('ring-1', !isActive)
+		btn.classList.toggle('ring-neutral-200', !isActive)
+	}
+}

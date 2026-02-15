@@ -26,7 +26,7 @@
   {{ end }}
 {{ end }}
 
-<tr class="product-row border-b border-gray-100 hover:bg-gray-50"
+<tr class="product-row border-b border-neutral-100 hover:bg-primary-50/40 transition-colors group"
     data-name="{{ $p.name | lower }}"
     data-description="{{ $p.description | lower }}"
     data-categories="{{ delimit $p.categories "," }}"
@@ -40,37 +40,45 @@
 >
 	{{/* Product column */}}
 	<td class="py-3 px-4" style="min-width:300px;max-width:500px">
-		<a href="{{ .RelPermalink }}" class="flex items-center gap-3 group">
-			{{ partial "product-logo.html" . }}
-			<div class="flex flex-col">
-				<div class="flex items-center gap-2 font-medium text-gray-900 group-hover:text-blue-600">
-					{{ $p.name }}
-					{{ if $p.discontinued }}<span class="text-xs bg-red-100 text-red-700 px-1.5 py-0.5 rounded">Discontinued</span>{{ end }}
+		<a href="{{ .RelPermalink }}" class="flex items-center gap-3">
+			{{ partial "product-logo.html" (dict "Params" .Params "size" "sm") }}
+			<div class="flex flex-col min-w-0">
+				<div class="flex items-center gap-2 font-medium text-neutral-900 group-hover:text-primary-700 transition-colors">
+					<span class="truncate">{{ $p.name }}</span>
+					{{ if $p.open_source }}<span class="text-xs bg-success-50 text-success-700 px-1.5 py-0.5 rounded font-medium shrink-0">OSS</span>{{ end }}
+					{{ if $p.discontinued }}<span class="text-xs bg-danger-50 text-danger-700 px-1.5 py-0.5 rounded shrink-0">Discontinued</span>{{ end }}
 				</div>
 				{{ with $p.description }}
-				<div class="text-sm text-gray-500 mt-0.5 line-clamp-1">{{ . }}</div>
+				<div class="text-sm text-neutral-500 mt-0.5 line-clamp-1">{{ . }}</div>
 				{{ end }}
 			</div>
 		</a>
 	</td>
 
 	{{/* Pricing column */}}
-	<td class="py-3 px-4 text-sm text-gray-600" style="min-width:180px">
+	<td class="py-3 px-4 text-sm text-neutral-600" data-label="Pricing" style="min-width:180px">
 		{{ partial "product-pricing.html" . }}
 	</td>
 
 	{{/* Signup column */}}
-	<td class="py-3 px-4 text-sm text-gray-600" style="min-width:120px">
-		{{ if $p.self_signup }}Self-signup{{ else }}On request{{ end }}
+	<td class="py-3 px-4 text-sm" data-label="Signup" style="min-width:120px">
+		{{ if $p.self_signup }}
+			<span class="inline-flex items-center gap-1 text-success-600">
+				<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+				Self-signup
+			</span>
+		{{ else }}
+			<span class="text-neutral-400">On request</span>
+		{{ end }}
 	</td>
 
 	{{/* Headquarters column */}}
-	<td class="py-3 px-4 text-sm text-gray-600" style="min-width:150px">
+	<td class="py-3 px-4 text-sm text-neutral-600" data-label="Headquarters" style="min-width:150px">
 		{{ $hqDisplay }}
 	</td>
 
 	{{/* Screens column */}}
-	<td class="py-3 px-4 text-sm text-gray-600 text-right" style="min-width:120px">
+	<td class="py-3 px-4 text-sm text-neutral-600 text-right tabular-nums" data-label="Screens" style="min-width:120px">
 		{{ if gt $screensTotal 0 }}
 			{{ lang.FormatNumber 0 $screensTotal }}+
 		{{ else }}

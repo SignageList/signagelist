@@ -20,7 +20,6 @@ export class FilterEngine {
 	private listeners: Array<() => void> = []
 
 	constructor(table: HTMLTableElement) {
-		this.table = table
 		this.rows = Array.from(table.querySelectorAll<HTMLTableRowElement>('tbody .product-row'))
 	}
 
@@ -38,7 +37,7 @@ export class FilterEngine {
 	}
 
 	applyFilters(): void {
-		let _visibleCount = 0
+		let visibleCount = 0
 		for (const row of this.rows) {
 			const visible =
 				this.matchesCategory(row) &&
@@ -47,9 +46,10 @@ export class FilterEngine {
 				this.matchesPlatforms(row) &&
 				this.matchesSignup(row)
 			row.classList.toggle('hidden', !visible)
-			if (visible) _visibleCount++
+			if (visible) visibleCount++
 		}
 		this.updateCounts()
+		this.toggleEmptyState(visibleCount)
 		this.dispatchChange()
 	}
 
@@ -85,6 +85,17 @@ export class FilterEngine {
 	private matchesSignup(row: HTMLTableRowElement): boolean {
 		if (!this.state.signupIsOpenOnly) return true
 		return row.dataset.selfSignup === 'true'
+	}
+
+	private toggleEmptyState(visibleCount: number): void {
+		const emptyState = document.querySelector('#empty-state')
+		const tableWrapper = document.querySelector('.table-wrapper')
+		if (emptyState) {
+			emptyState.classList.toggle('hidden', visibleCount > 0)
+		}
+		if (tableWrapper) {
+			;(tableWrapper as HTMLElement).style.display = visibleCount === 0 ? 'none' : ''
+		}
 	}
 
 	private updateCounts(): void {

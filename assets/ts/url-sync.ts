@@ -62,21 +62,29 @@ function syncUIFromState(engine: FilterEngine): void {
 	const catBtns = document.querySelectorAll<HTMLButtonElement>('[data-category-btn]')
 	for (const btn of catBtns) {
 		const isActive = btn.dataset.categoryBtn === state.category
-		btn.classList.toggle('bg-brand-600', isActive)
+		btn.classList.toggle('bg-primary-600', isActive)
 		btn.classList.toggle('text-white', isActive)
-		btn.classList.toggle('bg-gray-100', !isActive)
-		btn.classList.toggle('text-gray-700', !isActive)
+		btn.classList.toggle('bg-white', !isActive)
+		btn.classList.toggle('text-neutral-600', !isActive)
+		btn.classList.toggle('ring-1', !isActive)
+		btn.classList.toggle('ring-neutral-200', !isActive)
 	}
 
-	// Sync open source / proprietary checkboxes
+	// Sync open source / proprietary checkboxes (desktop + mobile)
 	const osCheckbox = document.querySelector<HTMLInputElement>('#filter-open-source')
 	const propCheckbox = document.querySelector<HTMLInputElement>('#filter-proprietary')
+	const osMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-open-source-mobile')
+	const propMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-proprietary-mobile')
 	if (osCheckbox) osCheckbox.checked = state.showOpenSource
 	if (propCheckbox) propCheckbox.checked = state.showProprietary
+	if (osMobileCheckbox) osMobileCheckbox.checked = state.showOpenSource
+	if (propMobileCheckbox) propMobileCheckbox.checked = state.showProprietary
 
-	// Sync signup toggle
+	// Sync signup toggle (desktop + mobile)
 	const signupCheckbox = document.querySelector<HTMLInputElement>('#filter-signup')
+	const signupMobileCheckbox = document.querySelector<HTMLInputElement>('#filter-signup-mobile')
 	if (signupCheckbox) signupCheckbox.checked = state.signupIsOpenOnly
+	if (signupMobileCheckbox) signupMobileCheckbox.checked = state.signupIsOpenOnly
 
 	// Sync platform checkboxes
 	const platformCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-platform-checkbox]')

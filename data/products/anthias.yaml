@@ -6,6 +6,8 @@ year_founded: 2022
 headquarters:
   - USA
 open_source: true
+license: GPL-2.0-only
+source_code_url: https://github.com/Screenly/Anthias
 self_signup: false
 discontinued: false
 has_logo: true

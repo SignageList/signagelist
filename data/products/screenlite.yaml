@@ -5,6 +5,8 @@ website: https://github.com/screenlite/screenlite
 year_founded: 2024
 headquarters: []
 open_source: true
+license: MIT
+source_code_url: https://github.com/niclet/screenlite
 self_signup: false
 discontinued: false
 has_logo: true

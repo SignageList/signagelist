@@ -13,8 +13,8 @@
 {{ end }}
 
 {{ if and .Params.open_source (not (and $cloudModel $cloudModel.pricing_available)) }}
-  {{ $result = "Free/Open Source" }}
-{{ else if not (and $cloudModel $cloudModel.pricing_available) }}
+  {{ $result = "Open Source" }}
+{{ else if and (not .Params.open_source) (not (and $cloudModel $cloudModel.pricing_available)) }}
   {{ $result = "On request" }}
 {{ else }}
   {{ $found := false }}

@@ -6,6 +6,8 @@ year_founded: 2025
 headquarters:
   - Germany
 open_source: true
+license: AGPL-3.0-only
+source_code_url: https://github.com/niclet/garlic-player
 self_signup: true
 discontinued: false
 has_logo: true

@@ -1,23 +1,42 @@
 {{/*
-  Product logo with first-letter fallback.
-  Input: a product page context (with .Params)
+  Product logo with Hugo image processing and first-letter fallback.
+  Always call with a dict: (dict "Params" .Params "size" "sm")
+  Sizes: "sm" (table row), "md" (taxonomy card), "lg" (detail page)
 */}}
 {{ $name := .Params.name | default "?" }}
 {{ $slug := .Params.slug | default "" }}
 {{ $hasLogo := .Params.has_logo | default false }}
 {{ $firstLetter := substr $name 0 1 | upper }}
+{{ $size := "sm" }}
+{{ with index . "size" }}{{ $size = . }}{{ end }}
+
+{{/* Size classes */}}
+{{ $containerClass := "w-20 h-10" }}
+{{ $textClass := "text-sm" }}
+{{ if eq $size "md" }}
+	{{ $containerClass = "w-16 h-8" }}
+	{{ $textClass = "text-xs" }}
+{{ else if eq $size "lg" }}
+	{{ $containerClass = "w-28 h-14" }}
+	{{ $textClass = "text-lg" }}
+{{ end }}
 
 {{ if $hasLogo }}
-<div class="relative w-10 h-10 shrink-0">
-	<div class="w-10 h-10 rounded bg-gray-100 flex items-center justify-center text-sm font-medium text-gray-400">{{ $firstLetter }}</div>
-	<img
-		src="/assets/logos/{{ $slug }}.webp"
-		alt="{{ $name }} logo"
-		class="absolute inset-0 w-10 h-10 rounded object-contain"
-		loading="lazy"
-		onerror="this.style.display='none'"
-	>
-</div>
+	{{ $logo := resources.GetMatch (printf "logos/%s.*" $slug) }}
+	{{ if $logo }}
+		{{ $mediaSubType := $logo.MediaType.SubType }}
+		{{ $isProcessable := or (eq $mediaSubType "png") (eq $mediaSubType "jpeg") (eq $mediaSubType "webp") (eq $mediaSubType "gif") }}
+		<div class="{{ $containerClass }} shrink-0 rounded-lg overflow-hidden bg-neutral-200 p-1">
+			{{ if $isProcessable }}
+				{{ $processed := $logo.Process "fit 400x200 webp" }}
+				<img src="{{ $processed.RelPermalink }}" alt="{{ $name }}" class="w-full h-full object-contain" loading="lazy">
+			{{ else }}
+				<img src="{{ $logo.RelPermalink }}" alt="{{ $name }}" class="w-full h-full object-contain" loading="lazy">
+			{{ end }}
+		</div>
+	{{ else }}
+		<div class="{{ $containerClass }} shrink-0 rounded-lg bg-neutral-100 flex items-center justify-center {{ $textClass }} font-medium text-neutral-400">{{ $firstLetter }}</div>
+	{{ end }}
 {{ else }}
-<div class="w-10 h-10 rounded bg-gray-100 flex items-center justify-center text-sm font-medium text-gray-400 shrink-0">{{ $firstLetter }}</div>
+	<div class="{{ $containerClass }} shrink-0 rounded-lg bg-neutral-100 flex items-center justify-center {{ $textClass }} font-medium text-neutral-400">{{ $firstLetter }}</div>
 {{ end }}

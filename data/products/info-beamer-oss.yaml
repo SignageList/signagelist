@@ -5,7 +5,7 @@ website: https://info-beamer.com/opensource
 year_founded: 2012
 headquarters:
   - Germany
-open_source: true
+open_source: false
 self_signup: true
 discontinued: true
 has_logo: true
