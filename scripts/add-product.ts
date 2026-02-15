@@ -50,6 +50,7 @@ async function main(): Promise<void> {
 		year_founded: null,
 		headquarters: [],
 		open_source: false,
+		rss_feed_url: null,
 		self_signup: false,
 		discontinued: false,
 		has_logo: false,

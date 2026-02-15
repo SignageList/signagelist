@@ -57,6 +57,7 @@ const ProductSchema = z.object({
 	open_source: z.boolean(),
 	license: z.string().nullable().default(null),
 	source_code_url: z.string().url().nullable().default(null),
+	rss_feed_url: z.string().url().nullable().default(null),
 	self_signup: z.boolean(),
 	discontinued: z.boolean(),
 	has_logo: z.boolean(),
