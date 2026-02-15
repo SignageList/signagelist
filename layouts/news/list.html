@@ -62,7 +62,8 @@
 		<article class="p-4 rounded-lg border border-neutral-200 hover:border-primary-200 transition-colors">
 			<div class="flex items-start gap-4">
 				<div class="flex-1 min-w-0">
-					<a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-neutral-900 hover:text-primary-700 transition-colors">
+					{{ $outboundUrl := partial "outbound-url.html" (dict "url" .link "campaign" "news_feed") }}
+					<a href="{{ $outboundUrl }}" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-neutral-900 hover:text-primary-700 transition-colors">
 						{{ .title }}
 					</a>
 					{{ with .description }}

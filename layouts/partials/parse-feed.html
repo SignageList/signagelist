@@ -9,6 +9,27 @@
 		{{ $unmarshalResult := try (transform.Unmarshal $r) }}
 		{{ if not $unmarshalResult.Err }}
 			{{ with $unmarshalResult.Value }}
+				{{/* Check feed language — skip non-English feeds */}}
+				{{ $lang := "" }}
+				{{ with .channel }}{{ with .language }}
+					{{ if reflect.IsSlice . }}
+						{{ $lang = index . 0 }}
+					{{ else }}
+						{{ $lang = . }}
+					{{ end }}
+				{{ end }}{{ end }}
+				{{ if not $lang }}{{ with index . "-xml:lang" }}
+					{{ if reflect.IsSlice . }}
+						{{ $lang = index . 0 }}
+					{{ else }}
+						{{ $lang = . }}
+					{{ end }}
+				{{ end }}{{ end }}
+				{{ $isEnglish := true }}
+				{{ if and $lang (not (strings.HasPrefix (lower $lang) "en")) }}
+					{{ $isEnglish = false }}
+				{{ end }}
+
 				{{ $rawItems := slice }}
 
 				{{/* RSS 2.0: root element is unwrapped, so channel is top-level */}}
@@ -33,6 +54,7 @@
 					{{ end }}
 				{{ end }}
 
+				{{ if $isEnglish }}
 				{{ range $rawItems }}
 					{{ $title := "" }}
 					{{ $link := "" }}
@@ -104,6 +126,7 @@
 							"description" $desc
 						) }}
 					{{ end }}
+				{{ end }}
 				{{ end }}
 			{{ end }}
 		{{ end }}
