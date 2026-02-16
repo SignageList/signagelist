@@ -284,6 +284,28 @@
 						</dd>
 					</div>
 
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">SSO</dt>
+						<dd class="text-sm">
+							{{ if $p.has_sso }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">SAML</dt>
+						<dd class="text-sm">
+							{{ if $p.has_saml }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
 					{{ $hasCompliance := or $p.compliance.soc2 $p.compliance.iso27001 $p.compliance.hipaa $p.compliance.cra $p.compliance.fedramp }}
 					{{ if $hasCompliance }}
 					<div class="px-6 py-3 flex justify-between items-start">

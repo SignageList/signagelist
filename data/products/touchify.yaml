@@ -6,6 +6,7 @@ year_founded: 2020
 headquarters:
   - France
 open_source: false
+rss_feed_url: https://www.touchify.io/en/blog/rss.xml
 self_signup: false
 discontinued: false
 has_logo: true

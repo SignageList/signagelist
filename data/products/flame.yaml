@@ -5,6 +5,7 @@ website: https://flameanalytics.com/en/
 year_founded: null
 headquarters: []
 open_source: false
+rss_feed_url: https://flameanalytics.com/en/feed/
 self_signup: false
 discontinued: false
 has_logo: true

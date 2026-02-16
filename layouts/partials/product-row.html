@@ -35,6 +35,10 @@
   {{ if .fedramp }}{{ $complianceList = $complianceList | append "fedramp" }}{{ end }}
 {{ end }}
 
+{{ $authList := slice }}
+{{ if $p.has_sso }}{{ $authList = $authList | append "sso" }}{{ end }}
+{{ if $p.has_saml }}{{ $authList = $authList | append "saml" }}{{ end }}
+
 <tr class="product-row border-b border-neutral-100 hover:bg-primary-50/40 transition-colors group"
     data-name="{{ $p.name | lower }}"
     data-description="{{ $p.description | lower }}"
@@ -47,6 +51,7 @@
     data-pricing-sort="{{ partial "pricing-sort-value.html" . }}"
     data-screens-sort="{{ $screensTotal }}"
     data-compliance="{{ delimit $complianceList "," }}"
+    data-authentication="{{ delimit $authList "," }}"
 >
 	{{/* Product column */}}
 	<td class="py-3 px-4" style="min-width:300px;max-width:500px">

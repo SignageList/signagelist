@@ -5,6 +5,7 @@ export interface FilterState {
 	showProprietary: boolean
 	selectedPlatforms: string[]
 	selectedCompliance: string[]
+	selectedAuthentication: string[]
 	signupIsOpenOnly: boolean
 }
 
@@ -16,9 +17,13 @@ export class FilterEngine {
 		showProprietary: true,
 		selectedPlatforms: [],
 		selectedCompliance: [],
+		selectedAuthentication: [],
 		signupIsOpenOnly: false,
 	}
 	private rows: HTMLTableRowElement[]
+	private matchingRows: HTMLTableRowElement[] = []
+	private currentPage = 1
+	private pageSize = 50
 	private listeners: Array<() => void> = []
 
 	constructor(table: HTMLTableElement) {
@@ -31,7 +36,24 @@ export class FilterEngine {
 
 	setState(partial: Partial<FilterState>): void {
 		Object.assign(this.state, partial)
+		this.currentPage = 1
 		this.applyFilters()
+	}
+
+	setPage(page: number): void {
+		this.currentPage = page
+		this.applyPagination()
+		this.updateVisibleCount()
+		this.dispatchChange()
+	}
+
+	getPageInfo(): { current: number; total: number; matchCount: number } {
+		const total = Math.max(1, Math.ceil(this.matchingRows.length / this.pageSize))
+		return {
+			current: this.currentPage,
+			total,
+			matchCount: this.matchingRows.length,
+		}
 	}
 
 	onChange(fn: () => void): void {
@@ -39,21 +61,48 @@ export class FilterEngine {
 	}
 
 	applyFilters(): void {
-		let visibleCount = 0
+		// Pass 1: determine which rows match all filter predicates
+		this.matchingRows = []
 		for (const row of this.rows) {
-			const visible =
+			const matches =
 				this.matchesCategory(row) &&
 				this.matchesSearch(row) &&
 				this.matchesOpenSource(row) &&
 				this.matchesPlatforms(row) &&
 				this.matchesCompliance(row) &&
+				this.matchesAuthentication(row) &&
 				this.matchesSignup(row)
-			row.classList.toggle('hidden', !visible)
-			if (visible) visibleCount++
+			if (matches) {
+				this.matchingRows.push(row)
+			}
 		}
+
+		// Clamp page to valid range
+		const totalPages = Math.max(1, Math.ceil(this.matchingRows.length / this.pageSize))
+		if (this.currentPage > totalPages) {
+			this.currentPage = totalPages
+		}
+
+		// Pass 2: show/hide rows based on match + pagination
+		this.applyPagination()
 		this.updateCounts()
-		this.toggleEmptyState(visibleCount)
+		this.toggleEmptyState(this.matchingRows.length)
 		this.dispatchChange()
+	}
+
+	private applyPagination(): void {
+		const start = (this.currentPage - 1) * this.pageSize
+		const end = start + this.pageSize
+		const matchingSet = new Set(this.matchingRows)
+
+		for (const row of this.rows) {
+			if (!matchingSet.has(row)) {
+				row.classList.add('hidden')
+			} else {
+				const idx = this.matchingRows.indexOf(row)
+				row.classList.toggle('hidden', idx < start || idx >= end)
+			}
+		}
 	}
 
 	private matchesCategory(row: HTMLTableRowElement): boolean {
@@ -91,6 +140,12 @@ export class FilterEngine {
 		return this.state.selectedCompliance.every((c) => compliance.includes(c))
 	}
 
+	private matchesAuthentication(row: HTMLTableRowElement): boolean {
+		if (this.state.selectedAuthentication.length === 0) return true
+		const authentication = (row.dataset.authentication || '').split(',').filter(Boolean)
+		return this.state.selectedAuthentication.every((a) => authentication.includes(a))
+	}
+
 	private matchesSignup(row: HTMLTableRowElement): boolean {
 		if (!this.state.signupIsOpenOnly) return true
 		return row.dataset.selfSignup === 'true'
@@ -108,7 +163,7 @@ export class FilterEngine {
 	}
 
 	private updateCounts(): void {
-		// Update category counts
+		// Update category counts using matchingRows-style logic (not .hidden which includes pagination)
 		const categories = ['CMS', 'Content provider', 'Computer vision']
 		for (const cat of categories) {
 			const countEl = document.querySelector(`[data-category-count="${cat}"]`)
@@ -122,31 +177,43 @@ export class FilterEngine {
 					const matchesOS = this.matchesOpenSource(row)
 					const matchesPlatform = this.matchesPlatforms(row)
 					const matchesCompliance = this.matchesCompliance(row)
+					const matchesAuth = this.matchesAuthentication(row)
 					const matchesSignup = this.matchesSignup(row)
-					if (matchesSearch && matchesOS && matchesPlatform && matchesCompliance && matchesSignup) count++
+					if (matchesSearch && matchesOS && matchesPlatform && matchesCompliance && matchesAuth && matchesSignup)
+						count++
 				}
 				countEl.textContent = String(count)
 			}
 		}
 
-		// Update total visible count
-		const totalEl = document.querySelector('#visible-count')
-		if (totalEl) {
-			const visible = this.rows.filter((r) => !r.classList.contains('hidden')).length
-			totalEl.textContent = String(visible)
-		}
+		this.updateVisibleCount()
 
-		// Update platform counts
+		// Update platform counts based on matching rows (not pagination)
+		const matchingSet = new Set(this.matchingRows)
 		const platformCheckboxes = document.querySelectorAll<HTMLElement>('[data-platform-count]')
 		for (const el of platformCheckboxes) {
 			const platform = el.dataset.platformCount || ''
 			let count = 0
 			for (const row of this.rows) {
-				if (row.classList.contains('hidden')) continue
+				if (!matchingSet.has(row)) continue
 				const platforms = (row.dataset.platforms || '').split(',').filter(Boolean)
 				if (platforms.includes(platform)) count++
 			}
 			el.textContent = String(count)
+		}
+	}
+
+	private updateVisibleCount(): void {
+		const totalEl = document.querySelector('#visible-count')
+		if (totalEl) {
+			const { current, total, matchCount } = this.getPageInfo()
+			if (total <= 1) {
+				totalEl.textContent = String(matchCount)
+			} else {
+				const start = (current - 1) * this.pageSize + 1
+				const end = Math.min(current * this.pageSize, matchCount)
+				totalEl.textContent = `${start}\u2013${end} of ${matchCount}`
+			}
 		}
 	}
 

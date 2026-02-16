@@ -1,3 +1,4 @@
+import { initAuthenticationDropdown } from './authentication-dropdown'
 import { initComplianceDropdown } from './compliance-dropdown'
 import { FilterEngine } from './filter'
 import { initGitHubStars } from './github-stars'
@@ -109,6 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				showProprietary: true,
 				selectedPlatforms: [],
 				selectedCompliance: [],
+				selectedAuthentication: [],
 				signupIsOpenOnly: false,
 			})
 			// Reset UI
@@ -133,6 +135,55 @@ document.addEventListener('DOMContentLoaded', () => {
 			// Reset compliance labels
 			const complianceLabels = document.querySelectorAll('.compliance-label')
 			for (const label of complianceLabels) label.textContent = 'Compliance'
+			// Uncheck authentication checkboxes
+			const authenticationCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-authentication-checkbox]')
+			for (const cb of authenticationCheckboxes) cb.checked = false
+			// Reset authentication labels
+			const authenticationLabels = document.querySelectorAll('.authentication-label')
+			for (const label of authenticationLabels) label.textContent = 'Authentication'
+		})
+	}
+
+	// Pagination controls
+	const paginationNav = document.querySelector<HTMLElement>('#pagination')
+	const pagePrev = document.querySelector<HTMLButtonElement>('#page-prev')
+	const pageNext = document.querySelector<HTMLButtonElement>('#page-next')
+	const pageInfoEl = document.querySelector<HTMLElement>('#page-info')
+
+	function updatePagination(): void {
+		const { current, total } = engine.getPageInfo()
+		if (paginationNav) {
+			if (total > 1) {
+				paginationNav.classList.remove('hidden')
+				paginationNav.classList.add('flex')
+			} else {
+				paginationNav.classList.add('hidden')
+				paginationNav.classList.remove('flex')
+			}
+		}
+		if (pageInfoEl) {
+			pageInfoEl.textContent = `Page ${current} of ${total}`
+		}
+		if (pagePrev) pagePrev.disabled = current <= 1
+		if (pageNext) pageNext.disabled = current >= total
+	}
+
+	if (pagePrev) {
+		pagePrev.addEventListener('click', () => {
+			const { current } = engine.getPageInfo()
+			if (current > 1) {
+				engine.setPage(current - 1)
+				document.querySelector('.table-wrapper')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+			}
+		})
+	}
+	if (pageNext) {
+		pageNext.addEventListener('click', () => {
+			const { current, total } = engine.getPageInfo()
+			if (current < total) {
+				engine.setPage(current + 1)
+				document.querySelector('.table-wrapper')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+			}
 		})
 	}
 
@@ -146,11 +197,13 @@ document.addEventListener('DOMContentLoaded', () => {
 			state.showProprietary &&
 			state.selectedPlatforms.length === 0 &&
 			state.selectedCompliance.length === 0 &&
+			state.selectedAuthentication.length === 0 &&
 			!state.signupIsOpenOnly
 		const allResetBtns = document.querySelectorAll('#reset-filters, #reset-filters-mobile')
 		for (const btn of allResetBtns) {
 			btn.classList.toggle('hidden', isDefault)
 		}
+		updatePagination()
 	})
 
 	initSearch(engine)
@@ -158,6 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	initUrlSync(engine)
 	initPlatformDropdown(engine)
 	initComplianceDropdown(engine)
+	initAuthenticationDropdown(engine)
 
 	// Track outbound link clicks via PostHog
 	document.addEventListener('click', (e) => {

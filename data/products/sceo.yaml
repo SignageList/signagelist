@@ -6,6 +6,7 @@ year_founded: null
 headquarters:
   - Poland
 open_source: false
+rss_feed_url: https://tdcpolska.com/products/sceo-software/feed/
 self_signup: false
 discontinued: false
 has_logo: true

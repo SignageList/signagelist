@@ -6,6 +6,7 @@ year_founded: 2025
 headquarters:
   - Netherlands
 open_source: false
+rss_feed_url: https://dst-connect.io/feed/
 self_signup: true
 discontinued: false
 has_logo: true

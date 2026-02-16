@@ -6,6 +6,7 @@ year_founded: 1999
 headquarters:
   - USA
 open_source: false
+rss_feed_url: https://comqi.com/content-management-system/feed/
 self_signup: true
 discontinued: false
 has_logo: true

@@ -10,6 +10,9 @@ has_api: true
 developer_portal_url: https://developer.screenly.io
 has_cli: true
 has_mcp: true
+has_sso: true
+has_saml: true
+rss_feed_url: https://www.screenly.io/rss.xml
 self_signup: true
 discontinued: false
 has_logo: true

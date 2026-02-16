@@ -63,6 +63,8 @@ const ProductSchema = z
 		developer_portal_url: z.string().url().nullable().default(null),
 		has_cli: z.boolean().default(false),
 		has_mcp: z.boolean().default(false),
+		has_sso: z.boolean().default(false),
+		has_saml: z.boolean().default(false),
 		self_signup: z.boolean(),
 		discontinued: z.boolean(),
 		has_logo: z.boolean(),

@@ -26,6 +26,9 @@ export function initUrlSync(engine: FilterEngine): void {
 	if (params.has('compliance')) {
 		initial.selectedCompliance = params.get('compliance')!.split(',').filter(Boolean)
 	}
+	if (params.has('authentication')) {
+		initial.selectedAuthentication = params.get('authentication')!.split(',').filter(Boolean)
+	}
 	if (params.has('signupIsOpenOnly')) {
 		initial.signupIsOpenOnly = params.get('signupIsOpenOnly') === 'true'
 	}
@@ -34,12 +37,21 @@ export function initUrlSync(engine: FilterEngine): void {
 		engine.setState(initial)
 	}
 
+	// Restore page from URL (after setState which resets to page 1)
+	if (params.has('page')) {
+		const page = Number.parseInt(params.get('page')!, 10)
+		if (page > 1) {
+			engine.setPage(page)
+		}
+	}
+
 	// Sync UI controls from loaded state
 	syncUIFromState(engine)
 
 	// Write state back to URL on every change
 	engine.onChange(() => {
 		const state = engine.getState()
+		const pageInfo = engine.getPageInfo()
 		const urlParams = new URLSearchParams()
 
 		urlParams.set('category', state.category)
@@ -54,6 +66,12 @@ export function initUrlSync(engine: FilterEngine): void {
 		}
 		if (state.selectedCompliance.length > 0) {
 			urlParams.set('compliance', state.selectedCompliance.join(','))
+		}
+		if (state.selectedAuthentication.length > 0) {
+			urlParams.set('authentication', state.selectedAuthentication.join(','))
+		}
+		if (pageInfo.current > 1) {
+			urlParams.set('page', String(pageInfo.current))
 		}
 
 		const newUrl = `${window.location.pathname}?${urlParams.toString()}`
@@ -102,5 +120,11 @@ function syncUIFromState(engine: FilterEngine): void {
 	const complianceCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-compliance-checkbox]')
 	for (const cb of complianceCheckboxes) {
 		cb.checked = state.selectedCompliance.includes(cb.dataset.complianceCheckbox || '')
+	}
+
+	// Sync authentication checkboxes
+	const authenticationCheckboxes = document.querySelectorAll<HTMLInputElement>('[data-authentication-checkbox]')
+	for (const cb of authenticationCheckboxes) {
+		cb.checked = state.selectedAuthentication.includes(cb.dataset.authenticationCheckbox || '')
 	}
 }

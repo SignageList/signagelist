@@ -14,6 +14,7 @@
 	{{/* Industry feeds */}}
 	{{ $industryFeeds := slice
 		(dict "name" "Sixteen:Nine" "url" "https://feeds2.feedburner.com/Sixteennine-TheDigitalSignageBlog")
+		(dict "name" "DailyDOOH" "url" "http://www.dailydooh.com/feed")
 	}}
 
 	{{ range $feed := $industryFeeds }}
@@ -53,13 +54,13 @@
 
 	{{/* Sort by date descending and limit */}}
 	{{ $sorted := sort $allItems "date" "desc" }}
-	{{ $limited := first 50 $sorted }}
+	{{ $limited := first 100 $sorted }}
 
 	{{/* Feed items */}}
 	{{ if $limited }}
-	<div class="space-y-4">
+	<div id="news-container" class="space-y-4">
 		{{ range $limited }}
-		<article class="p-4 rounded-lg border border-neutral-200 hover:border-primary-200 transition-colors">
+		<article data-news-item class="p-4 rounded-lg border border-neutral-200 hover:border-primary-200 transition-colors">
 			<div class="flex items-start gap-4">
 				<div class="flex-1 min-w-0">
 					{{ $outboundUrl := partial "outbound-url.html" (dict "url" .link "campaign" "news_feed") }}
@@ -84,6 +85,13 @@
 		</article>
 		{{ end }}
 	</div>
+	<nav id="news-pagination" class="hidden items-center justify-center gap-2 py-4">
+		<button id="news-page-prev" class="px-3 py-1.5 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">&larr; Previous</button>
+		<span id="news-page-info" class="text-sm text-neutral-500 tabular-nums"></span>
+		<button id="news-page-next" class="px-3 py-1.5 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">Next &rarr;</button>
+	</nav>
+	{{ $js := resources.Get "ts/news-pagination.ts" | js.Build (dict "targetPath" "js/news-pagination.js" "minify" hugo.IsProduction) }}
+	<script src="{{ $js.RelPermalink }}" defer></script>
 	{{ else }}
 	<div class="py-16 text-center">
 		<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-neutral-100 mb-4">

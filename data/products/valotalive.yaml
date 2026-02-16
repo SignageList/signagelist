@@ -6,6 +6,7 @@ year_founded: 2019
 headquarters:
   - Finland
 open_source: false
+rss_feed_url: https://valota.live/feed/
 self_signup: true
 discontinued: false
 has_logo: true

@@ -6,6 +6,7 @@ year_founded: 2016
 headquarters:
   - Germany
 open_source: false
+rss_feed_url: https://www.dsshow.de/feed/
 self_signup: false
 discontinued: false
 has_logo: true

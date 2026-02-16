@@ -6,6 +6,7 @@ year_founded: 2022
 headquarters:
   - United Kingdom
 open_source: false
+rss_feed_url: https://www.ablesign.tv/feed/
 self_signup: true
 discontinued: false
 has_logo: true

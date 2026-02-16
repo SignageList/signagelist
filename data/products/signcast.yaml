@@ -6,6 +6,7 @@ year_founded: 2001
 headquarters:
   - Canada
 open_source: false
+rss_feed_url: https://signcast.ca/feed/
 self_signup: false
 discontinued: false
 has_logo: true

@@ -82,8 +82,15 @@
 		<button id="empty-state-reset" class="px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors">Reset filters</button>
 	</div>
 
-	<div class="py-4 text-sm text-neutral-500">
-		Showing <span id="visible-count" class="tabular-nums font-medium text-neutral-700">{{ len .Pages }}</span> products
+	<div class="flex items-center justify-between py-4">
+		<div class="text-sm text-neutral-500">
+			Showing <span id="visible-count" class="tabular-nums font-medium text-neutral-700">{{ len .Pages }}</span> products
+		</div>
+		<nav id="pagination" class="hidden items-center gap-2">
+			<button id="page-prev" class="px-3 py-1.5 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">&larr; Previous</button>
+			<span id="page-info" class="text-sm text-neutral-500 tabular-nums"></span>
+			<button id="page-next" class="px-3 py-1.5 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">Next &rarr;</button>
+		</nav>
 	</div>
 </div>
 
