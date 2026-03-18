@@ -30,6 +30,16 @@ export class FilterEngine {
 		this.rows = Array.from(table.querySelectorAll<HTMLTableRowElement>('tbody .product-row'))
 	}
 
+	sortRows(compareFn: (a: HTMLTableRowElement, b: HTMLTableRowElement) => number): void {
+		const tbody = this.rows[0]?.parentElement
+		if (!tbody) return
+		this.rows.sort(compareFn)
+		for (const row of this.rows) {
+			tbody.appendChild(row)
+		}
+		this.applyFilters()
+	}
+
 	getState(): FilterState {
 		return { ...this.state }
 	}
