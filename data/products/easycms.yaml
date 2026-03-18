@@ -1,0 +1,43 @@
+name: easyCMS
+slug: easycms
+description: CMS for LCD and LED displays with Android and Windows media player support.
+website: https://www.myeasycms.com/
+year_founded: 2018
+headquarters:
+  - Poland
+open_source: false
+rss_feed_url: https://www.myeasycms.com/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: easyCMS Licence
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats:
+  screens:
+    total: 322
+    source: https://www.myeasycms.com/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

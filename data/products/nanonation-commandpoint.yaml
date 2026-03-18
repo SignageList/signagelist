@@ -1,0 +1,41 @@
+name: Nanonation Commandpoint
+slug: nanonation-commandpoint
+description: ""
+website: https://nanonation.net/digital-signage/
+year_founded: 2015
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - BrightSign
+  - Tizen
+  - Windows
+  - iOS
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 100000
+    source: https://nanonation.net/lg_soc_addition/
+    date: 2022-08
+notes:
+  - The total number of screens is based on terminals deployed globally as dislosed.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

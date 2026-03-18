@@ -1,0 +1,31 @@
+name: Professional Signs
+slug: professional-signs
+description: Digital signage screens, static signage, and wayfinding displays based in Saudi Arabia.
+website: https://professional-signs.com/
+year_founded: 2013
+headquarters:
+  - Saudi Arabia
+open_source: false
+rss_feed_url: https://professional-signs.com/rss.xml
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

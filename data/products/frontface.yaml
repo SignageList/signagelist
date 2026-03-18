@@ -1,0 +1,38 @@
+name: FrontFace
+slug: frontface
+description: Digital signage and kiosk software for info screens, welcome boards, dashboards, and interactive terminals.
+website: https://www.mirabyte.com/en/frontface/
+year_founded: 2005
+headquarters:
+  - Germany
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Flexible Subscription License for one Player
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 39.95
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

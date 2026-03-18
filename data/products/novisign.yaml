@@ -1,0 +1,46 @@
+name: NoviSign
+slug: novisign
+description: Digital signage CMS for creating and managing content across display networks.
+website: https://www.novisign.com/
+year_founded: 2011
+headquarters:
+  - Israel
+open_source: false
+rss_feed_url: https://www.novisign.com/feed/
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Business
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 20
+        yearly: 216
+stats:
+  screens:
+    total: 50000
+    source: https://www.novisign.com/about/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

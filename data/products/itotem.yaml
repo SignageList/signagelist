@@ -1,0 +1,33 @@
+name: Itotem
+slug: itotem
+description: Digital signage software for interactive kiosks and display screens.
+website: https://itotem.ro/en/solutions/software/
+year_founded: 2017
+headquarters:
+  - Romania
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

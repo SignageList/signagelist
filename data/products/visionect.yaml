@@ -1,0 +1,47 @@
+name: Visionect
+slug: visionect
+description: Cloud-hosted CMS for managing content across e-paper, LCD, and LED digital signage displays.
+website: https://www.visionect.com/software/
+year_founded: 2012
+headquarters:
+  - Slovenia
+open_source: false
+rss_feed_url: https://www.visionect.com/software/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Raspberry Pi
+  - Tizen
+  - Windows
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Essential
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 60
+      - name: Cloud
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 108
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

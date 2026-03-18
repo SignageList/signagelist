@@ -1,0 +1,37 @@
+name: Nixplay
+slug: nixplay
+description: Cloud-based digital signage CMS for managing and controlling multiple display screens from a single interface.
+website: https://www.nixplaysignage.com/pages/display-signage-cms-software
+year_founded: 2016
+headquarters:
+  - USA
+open_source: false
+rss_feed_url: https://www.nixplaysignage.com/pages/display-signage-cms-software/rss.xml
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Built-in, Complete Signage Software
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 19.99
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

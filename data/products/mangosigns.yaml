@@ -1,0 +1,50 @@
+name: MangoSigns
+slug: mangosigns
+description: Digital signage software for displaying social media, weather, news, and custom content on screens.
+website: https://mangosigns.com/
+year_founded: 2012
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9.95
+        yearly: 107.4
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 14.95
+        yearly: 161.4
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 24.95
+        yearly: 269.4
+stats: {}
+notes:
+  - 20% discounts for non-profit organizations, educational institutions or places of worship.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

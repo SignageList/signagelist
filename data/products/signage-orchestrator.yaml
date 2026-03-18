@@ -1,0 +1,32 @@
+name: Signage Orchestrator
+slug: signage-orchestrator
+description: ""
+website: https://www.binaryemotions.com/signage-orchestrator/
+year_founded: 2023
+headquarters:
+  - Italy
+open_source: true
+license: GPL-3.0-only
+source_code_url: https://github.com/marco-buratto/signage-orchestrator
+self_signup: true
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

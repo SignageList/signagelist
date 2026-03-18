@@ -1,0 +1,32 @@
+name: info-beamer Open Source
+slug: info-beamer-oss
+description: ""
+website: https://info-beamer.com/opensource
+year_founded: 2012
+headquarters:
+  - Germany
+open_source: false
+self_signup: true
+discontinued: true
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Raspberry Pi
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

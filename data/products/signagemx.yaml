@@ -1,0 +1,30 @@
+name: SignageMx
+slug: signagemx
+description: Digital signage software for content distribution across offices, manufacturing, and retail environments.
+website: https://signage.mx/
+year_founded: 2015
+headquarters:
+  - Mexico
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

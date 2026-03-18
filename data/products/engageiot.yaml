@@ -1,0 +1,33 @@
+name: Engage IoT
+slug: engageiot
+description: ""
+website: https://livewiredigital.com/engage-iot-server/
+year_founded: 2009
+headquarters:
+  - USA
+open_source: false
+rss_feed_url: https://livewiredigital.com/engage-iot-server/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - Software for kiosk management
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

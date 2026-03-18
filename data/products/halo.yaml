@@ -1,0 +1,36 @@
+name: Halo
+slug: halo
+description: ""
+website: https://nomadixinternational.com/halo
+year_founded: 2020
+headquarters:
+  - United Kingdom
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Halo Player
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard 12 month contract
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 302.99
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

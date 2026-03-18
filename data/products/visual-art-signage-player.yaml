@@ -1,0 +1,43 @@
+name: Visual Art Signage Player
+slug: visual-art-signage-player
+description: Hardware-agnostic digital signage software with API-first architecture and headless CMS.
+website: https://visualart.com/digital-signage/digital-signage-software
+year_founded: 2010
+headquarters:
+  - Sweden
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Tizen
+  - Windows
+  - iOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 73000
+    source: https://visualart.com/knowledge-hub/visual-art-wins-award-for-best-digital-signage-software
+    date: 2024-05
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

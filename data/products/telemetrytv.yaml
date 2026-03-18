@@ -1,0 +1,44 @@
+name: TelemetryTV
+slug: telemetrytv
+description: Cloud-based digital signage software for content and device management across display networks.
+website: https://www.telemetrytv.com/
+year_founded: 2013
+headquarters:
+  - Canada
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Web Browser
+  - Windows
+  - iOS
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Entry
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9
+        yearly: 96
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

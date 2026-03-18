@@ -1,0 +1,50 @@
+name: Look Digital Signage
+slug: look-ds
+description: Cloud-based digital signage software for remote screen management with templates, AI tools, and integrations.
+website: https://www.lookdigitalsignage.com/
+year_founded: 2016
+headquarters:
+  - USA
+  - Russia
+open_source: false
+rss_feed_url: https://www.lookdigitalsignage.com/blog/rss.xml
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Tizen
+  - Windows
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: 1-5 Screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 15
+        yearly: 162
+stats:
+  screens:
+    total: 25000
+    source: https://www.lookdigitalsignage.com/about-us
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

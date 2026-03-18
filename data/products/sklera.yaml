@@ -1,0 +1,57 @@
+name: Sklera
+slug: sklera
+description: Digital signage software for creating and managing pictures, videos, and custom layouts on displays.
+website: https://sklera.tv/en
+year_founded: 2011
+headquarters:
+  - Austria
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Sklera Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 120
+      - name: Sklera Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 230
+      - name: Sklera Professional
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 360
+stats:
+  screens:
+    total: 1000
+    source: https://sklera.tv/en/about-us
+    date: 2017-01
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

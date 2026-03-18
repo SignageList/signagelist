@@ -1,0 +1,45 @@
+name: CloudShow
+slug: cloudshow
+description: Cloud-based digital signage software for converting screens into digital signs.
+website: https://cloud.show/
+year_founded: 2007
+headquarters:
+  - Canada
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Windows
+  - iOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: 1 device
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 8
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

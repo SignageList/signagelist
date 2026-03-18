@@ -1,0 +1,38 @@
+name: friendlyway
+slug: friendlyway
+description: Cloud platform for self-service kiosks and digital signage content management with hardware integration.
+website: https://www.friendlyway.com/
+year_founded: 1998
+headquarters:
+  - Germany
+open_source: false
+rss_feed_url: https://www.friendlyway.com/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 25000
+    source: https://www.friendlyway.com/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

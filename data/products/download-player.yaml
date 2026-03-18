@@ -1,0 +1,40 @@
+name: Download Player
+slug: download-player
+description: Background music and media player software for retail and leisure venues.
+website: https://www.downloadplayer.net/
+year_founded: 2008
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Linux
+  - Windows
+  - iOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 103000
+    source: https://www.downloadplayer.net/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

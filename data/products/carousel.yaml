@@ -1,0 +1,42 @@
+name: Carousel
+slug: carousel
+description: Digital signage software for displaying information and alerts on screens of all sizes.
+website: https://www.carouselsignage.com/
+year_founded: 1997
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - BrightSign
+  - ChromeOS
+  - Web Browser
+  - iOS
+  - macOS
+  - tvOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Core
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 300
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

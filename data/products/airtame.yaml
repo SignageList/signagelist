@@ -1,0 +1,36 @@
+name: Airtame
+slug: airtame
+description: Cloud-based digital signage and device management platform for screen networks.
+website: https://airtame.com/digital-signage/
+year_founded: 2013
+headquarters:
+  - Denmark
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 10000
+    source: https://airtame.com/digital-signage/
+    date: 2025-04
+notes:
+  - The number of screens is based on 10,000 organizations using Airtame
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

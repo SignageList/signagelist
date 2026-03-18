@@ -1,0 +1,35 @@
+name: X-Sign
+slug: x-sign
+description: Digital signage software for schools to create, manage, and schedule content on display devices.
+website: https://www.benq.com/en-us/education/software/x-sign.html
+year_founded: 2001
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - iOS
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

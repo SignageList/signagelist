@@ -1,0 +1,35 @@
+name: Admefy
+slug: admefy
+description: ""
+website: https://admefy.com/admefy-digital-signage
+year_founded: 2020
+headquarters:
+  - Spain
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

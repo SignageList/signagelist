@@ -1,0 +1,32 @@
+name: ID2SON
+slug: idplay
+description: Digital signage, meeting room displays, and audio branding software.
+website: https://www.id2son.fr
+year_founded: 2016
+headquarters:
+  - France
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

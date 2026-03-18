@@ -1,0 +1,48 @@
+name: ScreenCloud
+slug: screencloud
+description: Digital signage platform with app and integration support for dynamic display content.
+website: https://screencloud.com/
+year_founded: 2015
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Tizen
+  - Web Browser
+  - Windows
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Core
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 24
+        yearly: 240
+stats:
+  screens:
+    total: 100000
+    source: https://dreamdata.io/blog/success-story-screencloud
+    date: 2023-12
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

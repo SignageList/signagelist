@@ -1,0 +1,35 @@
+name: Doohlabs In-Store IMPACT
+slug: doohlabs-in-store-impact
+description: Digital signage CMS for in-store content management and display networks.
+website: https://www.doohlabs.com/cms
+year_founded: 2018
+headquarters:
+  - Finland
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

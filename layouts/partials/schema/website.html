@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": "{{ .Site.Title }}",
+	"url": "{{ .Site.BaseURL }}",
+	"description": "{{ .Site.Params.description }}",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "{{ .Site.BaseURL }}products/?search={search_term_string}",
+		"query-input": "required name=search_term_string"
+	}
+}
+</script>

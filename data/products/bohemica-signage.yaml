@@ -1,0 +1,57 @@
+name: Bohemica Signage
+slug: bohemica-signage
+description: ""
+website: https://bohemicasignage.com/
+year_founded: 2020
+headquarters:
+  - Czechia
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Raspberry Pi
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: 1 Screen
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: 2-9 Screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10.3
+        yearly: null
+      - name: 10-19 Screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9.14
+        yearly: null
+      - name: 20-49 Screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 7.99
+        yearly: null
+stats:
+  screens:
+    total: 2000
+    source: https://github.com/514sid/digital-signage-list/issues/42
+    date: 2025-07
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

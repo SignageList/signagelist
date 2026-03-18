@@ -1,0 +1,31 @@
+name: Raspberry Digital Signage
+slug: raspberry-digital-signage
+description: Digital signage software for Raspberry Pi devices.
+website: https://www.binaryemotions.com/digital-signage-systems/raspberry-digital-signage/
+year_founded: 2014
+headquarters:
+  - Italy
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Raspberry Pi
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,54 @@
+name: hexnode
+slug: hexnode
+description: Digital signage software for displaying media and messages on screens from any internet-enabled device.
+website: https://www.hexnode.com/mobile-device-management/hexnode-digital-signage-software/
+year_founded: 2013
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Web Browser
+  - Windows
+  - iOS
+  - macOS
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 2.4
+        yearly: 26.4
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 3.6
+        yearly: 38.4
+      - name: Ultimate
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5.2
+        yearly: 56.4
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

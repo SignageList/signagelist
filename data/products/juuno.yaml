@@ -1,0 +1,39 @@
+name: Juuno
+slug: juuno
+description: Digital signage platform for remotely sharing content to screens.
+website: https://juuno.co/
+year_founded: 2022
+headquarters:
+  - Australia
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Raspberry Pi
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pay by the screen
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

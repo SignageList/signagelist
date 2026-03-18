@@ -1,0 +1,38 @@
+name: StudioPro
+slug: studiopro
+description: Cloud-based digital signage software with Chrome extension for content creation and display management.
+website: https://www.videoteldigital.com/pages/studioweb-and-studiopro-cloud-based-software-subscription-based
+year_founded: 2022
+headquarters:
+  - USA
+open_source: false
+rss_feed_url: https://www.videoteldigital.com/pages/studioweb-and-studiopro-cloud-based-software-subscription-based/rss.xml
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Per screen
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

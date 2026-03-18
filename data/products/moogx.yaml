@@ -1,0 +1,31 @@
+name: MoogX
+slug: moogx
+description: ""
+website: https://moogx.ai/index.html
+year_founded: 2012
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - Digital signage for menu boards
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

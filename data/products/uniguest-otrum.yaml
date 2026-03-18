@@ -1,0 +1,36 @@
+name: Uniguest Otrum
+slug: uniguest-otrum
+description: Cloud-based digital signage software with wayfinding, scheduling, and web services integration.
+website: https://otrumsignage.com/
+year_founded: 2007
+headquarters:
+  - USA
+open_source: false
+rss_feed_url: https://otrumsignage.com/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Raspberry Pi
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - Norwegian hospitality platform acquired by Uniguest in 2022.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

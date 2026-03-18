@@ -1,0 +1,32 @@
+name: REDYREF Engage
+slug: redyref-engage
+description: IoT kiosk management platform combining digital signage software, websites, and mobile apps.
+website: https://redyref.com/kiosk-management-software/
+year_founded: 2014
+headquarters:
+  - USA
+open_source: false
+rss_feed_url: https://redyref.com/kiosk-management-software/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

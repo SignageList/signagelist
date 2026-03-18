@@ -1,0 +1,31 @@
+name: Magic Mirror
+slug: magic-mirror
+description: Interactive retail display software with virtual try-on features and CRM integration.
+website: https://www.magicmirror.me/Apps/Interactive-Digital-Signage
+year_founded: 2007
+headquarters:
+  - United Kingdom
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - Software only comes in a package with a hardware as well.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

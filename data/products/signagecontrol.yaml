@@ -1,0 +1,35 @@
+name: SignageControl
+slug: signagecontrol
+description: ""
+website: https://signagecontrol.com/en/
+year_founded: 2014
+headquarters:
+  - Netherlands
+open_source: false
+rss_feed_url: https://signagecontrol.com/en/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,37 @@
+name: WindowSight
+slug: windowsight
+description: Art streaming platform for displaying curated artwork and photography from 250+ artists on screens.
+website: https://windowsight.com/
+year_founded: 2017
+headquarters:
+  - Spain
+open_source: false
+rss_feed_url: https://windowsight.com/feed/
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - iOS
+  - tvOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

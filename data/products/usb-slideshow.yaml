@@ -1,0 +1,37 @@
+name: USB Slideshow
+slug: usb-slideshow
+description: Slideshow and signage app for Android TV and Fire TV that plays photos and videos from USB or FTP.
+website: https://deepakpk.com/usbslideshow
+year_founded: 2024
+headquarters:
+  - India
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Subscription
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5
+        yearly: 25
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

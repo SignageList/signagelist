@@ -1,0 +1,32 @@
+name: OpenSign
+slug: opensign
+description: Free, open-source digital signage platform with playlists, scheduling, and drag-and-drop design in any browser.
+website: https://www.opensign.us/
+year_founded: null
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Screenly Player
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

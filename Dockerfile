@@ -1,18 +1,11 @@
-FROM node:slim
-
-RUN apt-get update && apt-get install -y \
-    fontconfig \
-    libvips-dev \
-    --no-install-recommends && \
-    rm -rf /var/lib/apt/lists/*
-
+FROM oven/bun:latest AS deps
 WORKDIR /app
+COPY package.json bun.lock ./
+RUN bun install --frozen-lockfile
 
-COPY package.json package-lock.json ./
-RUN npm install
-
+FROM hugomods/hugo:latest
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-
-EXPOSE 4321
-
-CMD ["npx", "astro", "dev", "--host", "0.0.0.0"]
+EXPOSE 1313
+CMD ["hugo", "server", "--bind", "0.0.0.0"]

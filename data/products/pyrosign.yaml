@@ -1,0 +1,52 @@
+name: PyroSign
+slug: pyrosign
+description: Digital signage app for laying out, scheduling, and playing content on screens without dedicated hardware.
+website: https://pyrosign.com/
+year_founded: 2023
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Raspberry Pi
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: 1 Display Free
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 7
+        yearly: 84
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10
+        yearly: 120
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 14
+        yearly: 168
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,42 @@
+name: Bütema
+slug: buetema
+description: Digital signage provider combining hardware and software for managing advertising displays.
+website: https://www.buetema-ag.de/en/digital-signage/
+year_founded: 2010
+headquarters:
+  - Germany
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: DS frontend license
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 24
+        yearly: null
+stats:
+  screens:
+    total: 7500
+    source: https://www.buetema-ag.de/en/digital-signage/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,33 @@
+name: Libre Signage
+slug: libre-signage
+description: ""
+website: https://github.com/eerotal/LibreSignage
+year_founded: 2018
+headquarters:
+  - Finland
+open_source: true
+license: BSD-3-Clause
+source_code_url: https://github.com/eerotal/LibreSignage
+self_signup: false
+discontinued: true
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

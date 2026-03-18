@@ -1,0 +1,47 @@
+name: BuzzBlender
+slug: buzzblender
+description: Digital signage software for LG webOS, Android, and Samsung Tizen displays.
+website: https://buzzblender.com/
+year_founded: 2024
+headquarters:
+  - UAE
+open_source: false
+rss_feed_url: https://buzzblender.com/rss.xml
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - Web Browser
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 8
+        yearly: null
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

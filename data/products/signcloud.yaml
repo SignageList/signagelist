@@ -1,0 +1,33 @@
+name: SignCloud
+slug: signcloud
+description: Digital signage software platform for cloud-based content management and display control.
+website: https://signcloud.tv/why-signcloud/
+year_founded: 2016
+headquarters:
+  - Singapore
+open_source: false
+rss_feed_url: https://signcloud.tv/why-signcloud/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

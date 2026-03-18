@@ -1,0 +1,37 @@
+name: Bizplay
+slug: bizplay
+description: Digital signage software for creating and managing content on screens.
+website: https://www.bizplay.com/
+year_founded: 2011
+headquarters:
+  - Netherlands
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Raspberry Pi
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Smart
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 14.82
+        yearly: 151.68
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

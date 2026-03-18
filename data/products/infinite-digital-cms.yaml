@@ -1,0 +1,40 @@
+name: Infinite Digital CMS
+slug: infinite-digital-cms
+description: Digital signage CMS for hospitality and retail with content management and advertising tools.
+website: https://www.famatechnologies.com/infinite-digital-cms
+year_founded: 2010
+headquarters:
+  - Saudi Arabia
+open_source: false
+rss_feed_url: https://www.famatechnologies.com/infinite-digital-cms/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - Web Browser
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

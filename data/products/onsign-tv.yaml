@@ -1,0 +1,47 @@
+name: OnSign TV
+slug: onsign-tv
+description: Digital signage CMS for content management and scheduling across displays.
+website: https://onsign.tv/
+year_founded: 2012
+headquarters:
+  - China
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - Web Browser
+  - Windows
+  - iOS
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Professional
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 19.99
+        yearly: 215.88
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

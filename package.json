@@ -1,55 +1,32 @@
 {
   "name": "signagelist",
   "type": "module",
-  "version": "0.0.1",
-  "description": "A curated list of digital signage software, platforms, and tools.",
-  "homepage": "https://github.com/514sid/digital-signage-list#readme",
+  "version": "1.0.0",
+  "description": "A curated directory of digital signage software products.",
+  "homepage": "https://signagelist.org",
   "bugs": {
     "url": "https://github.com/514sid/digital-signage-list/issues"
   },
   "author": "514sid",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "bin": {
-    "signagelist": "cli.ts"
-  },
-  "dependencies": {
-    "@astrojs/react": "^4.4.2",
-    "@nanostores/react": "^1.0.0",
-    "@radix-ui/react-dialog": "^1.1.15",
-    "@remixicon/react": "^4.8.0",
-    "@tailwindcss/vite": "^4.1.18",
-    "@tanstack/react-table": "^8.21.3",
-    "@tanstack/react-virtual": "^3.13.18",
-    "@types/react": "^19.2.8",
-    "@types/react-dom": "^19.2.3",
-    "astro": "^5.16.10",
-    "astro-seo": "^1.1.0",
-    "clsx": "^2.1.1",
-    "radix-ui": "^1.4.3",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-icons": "^5.5.0",
-    "recharts": "^3.6.0",
-    "tailwind-merge": "^3.4.0",
-    "tailwind-variants": "^3.2.2",
-    "tailwindcss": "^4.1.18",
-    "zod": "^4.3.5"
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify",
+    "preview": "hugo server --minify",
+    "check": "bun run scripts/check.ts",
+    "add": "bun run scripts/add-product.ts",
+    "lint": "bunx biome check assets/ts/ scripts/ cli.ts",
+    "lint:fix": "bunx biome check --write assets/ts/ scripts/ cli.ts"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "@eslint/json": "^0.14.0",
-    "@eslint/markdown": "^7.5.1",
-    "eslint": "^9.39.2",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.0.0",
+    "@biomejs/biome": "^2.4.0",
+    "@tailwindcss/cli": "^4.1.18",
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^4.1.1",
     "sharp": "^0.34.5",
-    "tsx": "^4.21.0",
-    "typescript-eslint": "^8.53.0",
-    "vite-plugin-static-copy": "^3.1.4"
+    "tailwindcss": "^4.1.18",
+    "zod": "^4.3.6"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8"
   }
 }

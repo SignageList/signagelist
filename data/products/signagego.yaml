@@ -1,0 +1,37 @@
+name: SignageGo
+slug: signagego
+description: ""
+website: http://signagego.in/
+year_founded: 2018
+headquarters:
+  - India
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,240 @@
+{{/*
+  All filter controls for the product list page.
+  JavaScript in assets/ts/ handles interactivity.
+*/}}
+
+{{/* Collect all unique platforms with counts */}}
+{{ $platformMap := dict }}
+{{ range .Pages }}
+  {{ range .Params.platforms }}
+    {{ if isset $platformMap . }}
+      {{ $platformMap = merge $platformMap (dict . (add (index $platformMap .) 1)) }}
+    {{ else }}
+      {{ $platformMap = merge $platformMap (dict . 1) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="space-y-4 mb-6">
+	{{/* Row 1: Category tabs */}}
+	<div class="flex flex-wrap gap-2" id="category-filter">
+		{{ $categories := slice "CMS" "Content provider" "Computer vision" }}
+		{{ range $categories }}
+		<button
+			data-category-btn="{{ . }}"
+			class="{{ if eq . "CMS" }}bg-primary-600 text-white{{ else }}bg-white text-neutral-600 ring-1 ring-neutral-200{{ end }} px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition-colors focus-ring"
+		>
+			{{ . }}
+			<span data-category-count="{{ . }}" class="ml-1 opacity-75"></span>
+		</button>
+		{{ end }}
+	</div>
+
+	{{/* Row 2: Search */}}
+	<div class="relative" role="search">
+		<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3.5">
+			<svg class="w-4 h-4 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+		</div>
+		<input
+			id="search-input"
+			type="text"
+			placeholder="Search products..."
+			aria-label="Search products"
+			class="w-full pl-10 pr-10 py-2.5 border border-neutral-200 rounded-lg text-sm bg-white placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-300 transition-shadow"
+		>
+		<button id="search-clear" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600 transition-colors">
+			<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+		</button>
+	</div>
+
+	{{/* Row 3: Secondary filters */}}
+	<div class="hidden sm:flex items-center gap-3 text-sm" id="secondary-filters">
+		{{/* Platform filter dropdown */}}
+		<div class="relative" id="platform-filter">
+			<button id="platform-dropdown-toggle" aria-expanded="false" class="flex items-center gap-2 px-3 py-1.5 border border-neutral-200 rounded-lg text-sm text-neutral-600 hover:bg-neutral-50 transition-colors focus-ring">
+				<span class="platform-label">All platforms</span>
+				<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+			</button>
+			<div id="platform-dropdown" class="hidden absolute z-20 mt-1 w-72 bg-white border border-neutral-200 rounded-lg shadow-lg max-h-64 overflow-y-auto custom-scrollbar animate-scale-in">
+				{{ range $platform, $count := $platformMap }}
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-platform-checkbox="{{ $platform }}" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>{{ $platform }}</span>
+					<span data-platform-count="{{ $platform }}" class="ml-auto text-neutral-400 text-xs tabular-nums">{{ $count }}</span>
+				</label>
+				{{ end }}
+			</div>
+		</div>
+
+		<div class="w-px h-6 bg-neutral-200"></div>
+
+		{{/* Open source / Proprietary checkboxes */}}
+		<div class="flex gap-4" id="opensource-filter">
+			<label class="flex items-center gap-2 text-sm text-neutral-600 cursor-pointer">
+				<input type="checkbox" id="filter-open-source" checked class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+				Open Source
+			</label>
+			<label class="flex items-center gap-2 text-sm text-neutral-600 cursor-pointer">
+				<input type="checkbox" id="filter-proprietary" checked class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+				Proprietary
+			</label>
+		</div>
+
+		<div class="w-px h-6 bg-neutral-200"></div>
+
+		{{/* Signup filter */}}
+		<div id="signup-filter">
+			<label class="flex items-center gap-2 text-sm text-neutral-600 cursor-pointer">
+				<input type="checkbox" id="filter-signup" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+				Self-signup only
+			</label>
+		</div>
+
+		<div class="w-px h-6 bg-neutral-200"></div>
+
+		{{/* Compliance filter dropdown */}}
+		<div class="relative" id="compliance-filter">
+			<button id="compliance-dropdown-toggle" aria-expanded="false" class="flex items-center gap-2 px-3 py-1.5 border border-neutral-200 rounded-lg text-sm text-neutral-600 hover:bg-neutral-50 transition-colors focus-ring">
+				<span class="compliance-label">Compliance</span>
+				<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+			</button>
+			<div id="compliance-dropdown" class="hidden absolute z-20 mt-1 w-56 bg-white border border-neutral-200 rounded-lg shadow-lg animate-scale-in">
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="soc2" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>SOC 2</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="iso27001" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>ISO 27001</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="hipaa" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>HIPAA</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="cra" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>CRA</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-compliance-checkbox="fedramp" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>FedRAMP</span>
+				</label>
+			</div>
+		</div>
+
+		<div class="w-px h-6 bg-neutral-200"></div>
+
+		{{/* Authentication filter dropdown */}}
+		<div class="relative" id="authentication-filter">
+			<button id="authentication-dropdown-toggle" aria-expanded="false" class="flex items-center gap-2 px-3 py-1.5 border border-neutral-200 rounded-lg text-sm text-neutral-600 hover:bg-neutral-50 transition-colors focus-ring">
+				<span class="authentication-label">Authentication</span>
+				<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+			</button>
+			<div id="authentication-dropdown" class="hidden absolute z-20 mt-1 w-56 bg-white border border-neutral-200 rounded-lg shadow-lg animate-scale-in">
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-authentication-checkbox="sso" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>SSO</span>
+				</label>
+				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
+					<input type="checkbox" data-authentication-checkbox="saml" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>SAML</span>
+				</label>
+			</div>
+		</div>
+
+		{{/* Reset */}}
+		<button id="reset-filters" class="ml-auto text-sm text-primary-600 hover:text-primary-700 font-medium hidden transition-colors">Reset filters</button>
+	</div>
+
+	{{/* Mobile: secondary filters toggle */}}
+	<div class="sm:hidden">
+		<button id="mobile-filter-toggle" aria-expanded="false" class="flex items-center gap-2 text-sm text-neutral-600 font-medium">
+			<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"/></svg>
+			More filters
+			<svg id="filter-chevron" class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+		</button>
+		<div id="mobile-secondary-filters" class="hidden mt-3 space-y-3 animate-slide-down">
+			{{/* Platform filter dropdown (mobile) */}}
+			<div class="relative" id="platform-filter-mobile">
+				<button id="platform-dropdown-toggle-mobile" aria-expanded="false" class="flex items-center gap-2 px-3 py-2 border border-neutral-200 rounded-lg text-sm text-neutral-600 w-full justify-between">
+					<span class="platform-label">All platforms</span>
+					<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+				</button>
+				<div id="platform-dropdown-mobile" class="hidden absolute z-20 mt-1 w-full bg-white border border-neutral-200 rounded-lg shadow-lg max-h-64 overflow-y-auto custom-scrollbar">
+					{{ range $platform, $count := $platformMap }}
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-platform-checkbox="{{ $platform }}" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>{{ $platform }}</span>
+						<span data-platform-count="{{ $platform }}" class="ml-auto text-neutral-400 text-xs tabular-nums">{{ $count }}</span>
+					</label>
+					{{ end }}
+				</div>
+			</div>
+
+			<div class="flex flex-col gap-3">
+				<label class="flex items-center gap-2 text-sm text-neutral-600 cursor-pointer">
+					<input type="checkbox" id="filter-open-source-mobile" checked class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					Open Source
+				</label>
+				<label class="flex items-center gap-2 text-sm text-neutral-600 cursor-pointer">
+					<input type="checkbox" id="filter-proprietary-mobile" checked class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					Proprietary
+				</label>
+				<label class="flex items-center gap-2 text-sm text-neutral-600 cursor-pointer">
+					<input type="checkbox" id="filter-signup-mobile" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					Self-signup only
+				</label>
+			</div>
+
+			{{/* Authentication filter dropdown (mobile) */}}
+			<div class="relative" id="authentication-filter-mobile">
+				<button id="authentication-dropdown-toggle-mobile" aria-expanded="false" class="flex items-center gap-2 px-3 py-2 border border-neutral-200 rounded-lg text-sm text-neutral-600 w-full justify-between">
+					<span class="authentication-label">Authentication</span>
+					<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+				</button>
+				<div id="authentication-dropdown-mobile" class="hidden absolute z-20 mt-1 w-full bg-white border border-neutral-200 rounded-lg shadow-lg">
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-authentication-checkbox="sso" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>SSO</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-authentication-checkbox="saml" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>SAML</span>
+					</label>
+				</div>
+			</div>
+
+			{{/* Compliance filter dropdown (mobile) */}}
+			<div class="relative" id="compliance-filter-mobile">
+				<button id="compliance-dropdown-toggle-mobile" aria-expanded="false" class="flex items-center gap-2 px-3 py-2 border border-neutral-200 rounded-lg text-sm text-neutral-600 w-full justify-between">
+					<span class="compliance-label">Compliance</span>
+					<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+				</button>
+				<div id="compliance-dropdown-mobile" class="hidden absolute z-20 mt-1 w-full bg-white border border-neutral-200 rounded-lg shadow-lg">
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="soc2" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>SOC 2</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="iso27001" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>ISO 27001</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="hipaa" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>HIPAA</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="cra" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>CRA</span>
+					</label>
+					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
+						<input type="checkbox" data-compliance-checkbox="fedramp" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>FedRAMP</span>
+					</label>
+				</div>
+			</div>
+
+			<button id="reset-filters-mobile" class="text-sm text-primary-600 hover:text-primary-700 font-medium hidden transition-colors">Reset filters</button>
+		</div>
+	</div>
+</div>

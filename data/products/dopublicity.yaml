@@ -1,0 +1,34 @@
+name: doPublicity
+slug: dopublicity
+description: Cloud-based digital signage software with remote management and customizable templates.
+website: https://www.dopublicity.com/Digital-Signage-Software.aspx
+year_founded: 2006
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

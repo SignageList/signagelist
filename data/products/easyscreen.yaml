@@ -1,0 +1,43 @@
+name: Easyscreen
+slug: easyscreen
+description: Digital signage software for managing both simple and complex display networks.
+website: https://easyscreen.tv/en/digital-signage-software/
+year_founded: 1999
+headquarters:
+  - Netherlands
+open_source: false
+rss_feed_url: https://easyscreen.tv/en/digital-signage-software/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Tizen
+  - Web Browser
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: 1 year
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 413
+stats:
+  screens:
+    total: 10000
+    source: https://easyscreen.tv/en/digital-signage-software/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

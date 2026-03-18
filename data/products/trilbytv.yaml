@@ -1,0 +1,48 @@
+name: TrilbyTV
+slug: trilbytv
+description: Digital signage software for schools and educational institutions.
+website: https://www.trilbytv.co.uk/
+year_founded: 2014
+headquarters:
+  - United Kingdom
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Windows
+  - iOS
+  - macOS
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Per screen
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 267
+      - name: Unlimited screen
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 2406
+stats: {}
+notes:
+  - Digital signage for schools mainly, but also offers options per screen for Charity, Voluntary organisation, or Business.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

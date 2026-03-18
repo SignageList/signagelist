@@ -1,0 +1,53 @@
+name: Mango Display
+slug: mango-display
+description: Digital display software for syncing and showing calendar content from Google, Apple, and Outlook on screens.
+website: https://mangodisplay.com/
+year_founded: 1998
+headquarters:
+  - Canada
+open_source: false
+rss_feed_url: https://mangodisplay.com/feed/
+self_signup: true
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - Web Browser
+  - Windows
+  - iOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: FREE
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: PLUS
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 2.99
+        yearly: 29.99
+stats:
+  screens:
+    total: 10000
+    source: https://davesdharma.live/2024/12/09/the-reward-of-product-obsession/
+    date: 2024-12
+notes:
+  - The screen count is based on the number of subscribers. The actual screen count may vary.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

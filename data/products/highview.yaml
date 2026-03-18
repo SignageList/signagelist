@@ -1,0 +1,35 @@
+name: HighView
+slug: highview
+description: Digital signage platform for content management and display scheduling.
+website: https://madic-digital.fr/solution-highview3/
+year_founded: 2020
+headquarters:
+  - France
+open_source: false
+rss_feed_url: https://madic-digital.fr/solution-highview3/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 45000
+    source: https://www.linkedin.com/company/madicdigital/?originalSubdomain=fr
+    date: 2025-06
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

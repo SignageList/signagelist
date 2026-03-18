@@ -1,0 +1,33 @@
+name: Foyer
+slug: foyer
+description: ""
+website: https://foyer.tv/
+year_founded: 2017
+headquarters:
+  - Netherlands
+open_source: true
+license: GPL-3.0-only
+source_code_url: https://github.com/mennolui/wp-foyer
+self_signup: false
+discontinued: true
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes:
+  - Digital Signage for WordPress.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

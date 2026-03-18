@@ -1,0 +1,44 @@
+name: disign
+slug: disign
+description: Digital signage software for displaying content on any screen.
+website: https://www.disign.tv/
+year_founded: 2008
+headquarters:
+  - France
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - Web Browser
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Media
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10.25
+        yearly: 109.32
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

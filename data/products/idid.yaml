@@ -1,0 +1,31 @@
+name: iDiD
+slug: idid
+description: Digital signage platform for content management and display scheduling.
+website: https://www.idid.fi/en/digital-signage
+year_founded: 2005
+headquarters:
+  - Finland
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

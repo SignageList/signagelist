@@ -1,0 +1,49 @@
+name: truDigital
+slug: trudigital
+description: Digital signage software for business communication with customers and employees.
+website: https://www.trudigital.com/
+year_founded: 2011
+headquarters:
+  - USA
+open_source: false
+rss_feed_url: https://www.trudigital.com/blog/rss.xml
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 29
+        yearly: null
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 49
+        yearly: null
+stats:
+  screens:
+    total: 10000
+    source: https://www.trudigital.com/about
+    date: 2025-04
+notes:
+  - Total screens is based on the number of active users
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

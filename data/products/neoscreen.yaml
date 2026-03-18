@@ -1,0 +1,35 @@
+name: Neoscreen
+slug: neoscreen
+description: Digital signage software for content creation, scheduling, and display management.
+website: https://affichagedynamique.iagona.com/en/our-software/
+year_founded: 1988
+headquarters:
+  - France
+open_source: false
+rss_feed_url: https://affichagedynamique.iagona.com/en/our-software/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,47 @@
+name: Posterbooking
+slug: posterbooking
+description: Digital signage software for Amazon Signage Stick with playlist scheduling and content management.
+website: https://posterbooking.com/
+year_founded: 2019
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Home Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 6.49
+        yearly: null
+stats:
+  screens:
+    total: 35000
+    source: https://posterbooking.com/
+    date: 2025-04
+notes:
+  - We mention a minimum of 35000 connected screens based on customer count, but the actual number could be significantly higher.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

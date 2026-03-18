@@ -1,0 +1,38 @@
+name: easescreen
+slug: easescreen
+description: Digital signage software for managing content across multiple output devices and applications.
+website: https://easescreen.com/en/
+year_founded: 1999
+headquarters:
+  - Austria
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 10000
+    source: https://easescreen.com/en/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

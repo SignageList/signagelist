@@ -1,0 +1,41 @@
+name: YCD RAMP
+slug: ycd-ramp
+description: Web-based retail advertising and merchandising platform for in-store campaign management and content distribution.
+website: https://ycdmultimedia.com/ramp/
+year_founded: 1999
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - Fire OS
+  - Raspberry Pi
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 120000
+    source: https://ycdmultimedia.com/about/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

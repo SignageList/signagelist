@@ -1,0 +1,35 @@
+name: Abuzz
+slug: abuzz
+description: Interactive wayfinding and digital signage solutions for malls, hospitals, and businesses.
+website: https://www.abuzzsolutions.com/
+year_founded: 1997
+headquarters:
+  - Australia
+open_source: false
+rss_feed_url: https://www.abuzzsolutions.com/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 470
+    source: https://www.abuzzsolutions.com/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

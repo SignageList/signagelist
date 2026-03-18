@@ -1,0 +1,38 @@
+name: Broadsign
+slug: broadsign
+description: Out-of-home advertising platform for programmatic DOOH campaign management and ad serving.
+website: https://broadsign.com/
+year_founded: 2003
+headquarters:
+  - Canada
+open_source: false
+rss_feed_url: https://broadsign.com/rss.xml
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - BrightSign
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 2000000
+    source: https://www.linkedin.com/posts/broadsign_thepowerof2million-activity-7321156055743291393-FgjW
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,38 @@
+name: Slideshow
+slug: slideshow
+description: Digital signage software for Android devices that displays sales and promotional content on screens.
+website: https://slideshow.digital/
+year_founded: 2020
+headquarters:
+  - Slovakia
+open_source: false
+rss_feed_url: https://slideshow.digital/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: App
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

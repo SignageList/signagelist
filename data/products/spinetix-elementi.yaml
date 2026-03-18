@@ -1,0 +1,31 @@
+name: SpinetiX Elementi
+slug: spinetix-elementi
+description: Digital signage software for displaying visual content on screens, video walls, and interactive terminals with live streaming.
+website: https://www.spinetix.com/digital-signage-products/elementi
+year_founded: 2017
+headquarters:
+  - Switzerland
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - SpinetiX
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

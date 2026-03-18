@@ -1,0 +1,361 @@
+{{ define "main" }}
+{{ $p := .Params }}
+
+<div class="max-w-screen-xl w-full mx-auto px-4 py-8 animate-fade-in-up">
+	{{/* Breadcrumb */}}
+	<nav class="text-sm text-neutral-500 mb-6 flex items-center gap-1.5">
+		<a href="/" class="hover:text-neutral-700 transition-colors">Home</a>
+		<svg class="w-3.5 h-3.5 text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+		<a href="/products/" class="hover:text-neutral-700 transition-colors">Products</a>
+		<svg class="w-3.5 h-3.5 text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+		<span class="text-neutral-900 font-medium">{{ $p.name }}</span>
+	</nav>
+
+	<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+		{{/* Main content */}}
+		<div class="lg:col-span-2">
+			{{/* Header */}}
+			<div class="flex items-start gap-4 mb-8">
+				{{ partial "product-logo.html" (dict "Params" .Params "size" "lg") }}
+				<div>
+					<h1 class="text-2xl font-bold text-neutral-900 flex items-center gap-3 flex-wrap">
+						{{ $p.name }}
+						{{ if $p.discontinued }}<span class="text-xs bg-danger-50 text-danger-700 px-2 py-1 rounded-md font-medium">Discontinued</span>{{ end }}
+						{{ if $p.open_source }}<span class="text-xs bg-success-50 text-success-700 px-2 py-1 rounded-md font-medium">Open Source</span>{{ end }}
+					</h1>
+					{{ with $p.description }}
+					<p class="text-neutral-600 mt-2 leading-relaxed">{{ . }}</p>
+					{{ end }}
+					<a href="{{ partial "outbound-url.html" (dict "url" $p.website "campaign" "product_page") }}" target="_blank" rel="noopener nofollow ugc" class="inline-flex items-center gap-1.5 text-primary-600 hover:text-primary-700 mt-3 text-sm font-medium transition-colors outbound-link" data-product="{{ $p.slug }}">
+						Visit website
+						<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+					</a>
+				</div>
+			</div>
+
+			{{/* Pricing table */}}
+			{{ range $p.models }}
+			{{ if gt (len .pricing) 0 }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-4">Pricing</h2>
+				<div class="flex flex-wrap gap-2 mb-3">
+					{{ if .free_trial }}<span class="text-xs bg-primary-50 text-primary-700 px-2.5 py-1 rounded-md font-medium">Free trial available</span>{{ end }}
+					{{ if .has_freemium }}<span class="text-xs bg-success-50 text-success-700 px-2.5 py-1 rounded-md font-medium">Freemium</span>{{ end }}
+				</div>
+				<div class="rounded-lg border border-neutral-200 overflow-x-auto">
+					<table class="w-full text-sm">
+						<thead>
+							<tr class="bg-neutral-50 border-b border-neutral-200">
+								<th class="py-2.5 px-3 text-left font-medium text-neutral-700">Plan</th>
+								<th class="py-2.5 px-3 text-right font-medium text-neutral-700">Monthly</th>
+								<th class="py-2.5 px-3 text-right font-medium text-neutral-700">Yearly</th>
+								<th class="py-2.5 px-3 text-left font-medium text-neutral-700">Billing</th>
+							</tr>
+						</thead>
+						<tbody>
+							{{ range .pricing }}
+							<tr class="border-b border-neutral-100 last:border-0">
+								<td class="py-2.5 px-3 text-neutral-900 font-medium">{{ .name }}</td>
+								<td class="py-2.5 px-3 text-right text-neutral-600 tabular-nums">{{ with .monthly }}${{ . }}{{ else }}-{{ end }}</td>
+								<td class="py-2.5 px-3 text-right text-neutral-600 tabular-nums">{{ with .yearly }}${{ . }}{{ else }}-{{ end }}</td>
+								<td class="py-2.5 px-3 text-neutral-500 capitalize">{{ replace .billing_basis "_" " " }}</td>
+							</tr>
+							{{ end }}
+						</tbody>
+					</table>
+				</div>
+				<p class="text-xs text-neutral-400 mt-2">Delivery: <span class="capitalize">{{ .delivery }}</span></p>
+			</section>
+			{{ end }}
+			{{ end }}
+
+			{{/* Supported platforms */}}
+			{{ with $p.platforms }}
+			{{ if gt (len .) 0 }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-3">Supported Platforms</h2>
+				<div class="flex flex-wrap gap-2">
+					{{ range . }}
+					<a href="/platforms/{{ . | urlize }}/" class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-lg text-sm hover:bg-neutral-200 transition-colors">{{ . }}</a>
+					{{ end }}
+				</div>
+			</section>
+			{{ end }}
+			{{ end }}
+
+			{{/* Categories */}}
+			{{ with $p.categories }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-3">Categories</h2>
+				<div class="flex flex-wrap gap-2">
+					{{ range . }}
+					<a href="/categories/{{ . | urlize }}/" class="px-3 py-1.5 bg-primary-50 text-primary-700 rounded-lg text-sm hover:bg-primary-100 transition-colors">{{ . }}</a>
+					{{ end }}
+				</div>
+			</section>
+			{{ end }}
+
+			{{/* Features (future) */}}
+			{{ with $p.features }}
+			{{ if gt (len .) 0 }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-3">Features</h2>
+				<ul class="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+					{{ range . }}
+					<li class="flex items-center gap-2 text-sm text-neutral-600">
+						<svg class="w-4 h-4 text-success-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+						{{ . }}
+					</li>
+					{{ end }}
+				</ul>
+			</section>
+			{{ end }}
+			{{ end }}
+
+			{{/* Integrations (future) */}}
+			{{ with $p.integrations }}
+			{{ if gt (len .) 0 }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-3">Integrations</h2>
+				<div class="flex flex-wrap gap-2">
+					{{ range . }}
+					<span class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-lg text-sm">{{ . }}</span>
+					{{ end }}
+				</div>
+			</section>
+			{{ end }}
+			{{ end }}
+
+			{{/* Target audience (future) */}}
+			{{ with $p.target_audience }}
+			{{ if gt (len .) 0 }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-3">Target Audience</h2>
+				<div class="flex flex-wrap gap-2">
+					{{ range . }}
+					<span class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-lg text-sm">{{ . }}</span>
+					{{ end }}
+				</div>
+			</section>
+			{{ end }}
+			{{ end }}
+
+			{{/* Support channels (future) */}}
+			{{ with $p.support_channels }}
+			{{ if gt (len .) 0 }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-3">Support Channels</h2>
+				<div class="flex flex-wrap gap-2">
+					{{ range . }}
+					<span class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-lg text-sm">{{ . }}</span>
+					{{ end }}
+				</div>
+			</section>
+			{{ end }}
+			{{ end }}
+
+			{{/* Notes */}}
+			{{ with $p.notes }}
+			{{ if gt (len .) 0 }}
+			<section class="mb-8">
+				<h2 class="text-lg font-semibold text-neutral-900 mb-3">Notes</h2>
+				<ul class="list-disc list-inside text-sm text-neutral-600 space-y-1">
+					{{ range . }}
+					<li>{{ . }}</li>
+					{{ end }}
+				</ul>
+			</section>
+			{{ end }}
+			{{ end }}
+
+			{{/* RSS Feed */}}
+			{{ partial "rss-feed.html" . }}
+		</div>
+
+		{{/* Sidebar: Quick facts */}}
+		<aside class="lg:col-span-1">
+			<div class="rounded-lg border border-neutral-200 shadow-xs sticky top-20 overflow-hidden">
+				<div class="px-6 py-4 bg-neutral-50 border-b border-neutral-200">
+					<h2 class="text-sm font-semibold text-neutral-900 uppercase tracking-wide">Quick Facts</h2>
+				</div>
+				<dl class="divide-y divide-neutral-100">
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Website</dt>
+						<dd class="text-sm text-right"><a href="{{ partial "outbound-url.html" (dict "url" $p.website "campaign" "product_sidebar") }}" target="_blank" rel="noopener nofollow ugc" class="text-primary-600 hover:text-primary-700 break-all transition-colors outbound-link" data-product="{{ $p.slug }}">{{ $p.website | replaceRE "^https?://(www\\.)?" "" | strings.TrimRight "/" }}</a></dd>
+					</div>
+
+					{{ with $p.headquarters }}
+					{{ if gt (len .) 0 }}
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Headquarters</dt>
+						<dd class="text-sm text-neutral-900 text-right">{{ delimit . ", " }}</dd>
+					</div>
+					{{ end }}
+					{{ end }}
+
+					{{ with $p.year_founded }}
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Founded</dt>
+						<dd class="text-sm text-neutral-900">{{ . }}</dd>
+					</div>
+					{{ end }}
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">License</dt>
+						<dd class="text-sm text-neutral-900">
+							{{ if and $p.open_source $p.license }}
+								<a href="https://spdx.org/licenses/{{ $p.license }}.html" target="_blank" rel="noopener" class="text-primary-600 hover:text-primary-700 transition-colors">{{ $p.license }}</a>
+							{{ else if $p.open_source }}
+								Open Source
+							{{ else }}
+								Proprietary
+							{{ end }}
+						</dd>
+					</div>
+
+					{{ with $p.source_code_url }}
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Source Code</dt>
+						<dd class="text-sm text-right">
+							<a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-primary-600 hover:text-primary-700 transition-colors">
+								<svg class="w-4 h-4" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+								{{ replaceRE "^https?://(www\\.)?" "" . | strings.TrimRight "/" }}
+							</a>
+						</dd>
+					</div>
+					{{ if findRE "^https://github\\.com/[^/]+/[^/]+$" . }}
+					{{ $repoPath := replaceRE "^https://github\\.com/" "" . }}
+					<div class="px-6 py-3 flex justify-between items-center hidden" data-github-stars-row>
+						<dt class="text-sm text-neutral-500">GitHub Stars</dt>
+						<dd class="text-sm">
+							<a href="{{ . }}/stargazers" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-neutral-700 hover:text-neutral-900 transition-colors" data-github-repo="{{ $repoPath }}">
+								<svg class="w-4 h-4 text-amber-400" viewBox="0 0 16 16" fill="currentColor"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg>
+							</a>
+						</dd>
+					</div>
+					{{ end }}
+					{{ end }}
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Self-signup</dt>
+						<dd class="text-sm">
+							{{ if $p.self_signup }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">API</dt>
+						<dd class="text-sm">
+							{{ if $p.has_api }}
+								{{ with $p.developer_portal_url }}
+								<a href="{{ . }}" target="_blank" rel="noopener" class="text-primary-600 hover:text-primary-700 transition-colors">Yes</a>
+								{{ else }}
+								<span class="text-success-600">Yes</span>
+								{{ end }}
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">CLI</dt>
+						<dd class="text-sm">
+							{{ if $p.has_cli }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">MCP</dt>
+						<dd class="text-sm">
+							{{ if $p.has_mcp }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">SSO</dt>
+						<dd class="text-sm">
+							{{ if $p.has_sso }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">SAML</dt>
+						<dd class="text-sm">
+							{{ if $p.has_saml }}
+								<span class="text-success-600">Yes</span>
+							{{ else }}
+								<span class="text-neutral-900">No</span>
+							{{ end }}
+						</dd>
+					</div>
+
+					{{ $hasCompliance := or $p.compliance.soc2 $p.compliance.iso27001 $p.compliance.hipaa $p.compliance.cra $p.compliance.fedramp }}
+					{{ if $hasCompliance }}
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Compliance</dt>
+						<dd class="flex flex-wrap gap-1.5 justify-end">
+							{{ if $p.compliance.soc2 }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">SOC 2</span>{{ end }}
+							{{ if $p.compliance.iso27001 }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">ISO 27001</span>{{ end }}
+							{{ if $p.compliance.hipaa }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">HIPAA</span>{{ end }}
+							{{ if $p.compliance.cra }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">CRA</span>{{ end }}
+							{{ if $p.compliance.fedramp }}<span class="text-xs bg-primary-50 text-primary-700 px-2 py-0.5 rounded-md font-medium">FedRAMP</span>{{ end }}
+						</dd>
+					</div>
+					{{ end }}
+
+					{{ with $p.stats }}
+					{{ with .screens }}
+					{{ if .total }}
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Active Screens</dt>
+						<dd class="text-sm text-neutral-900 tabular-nums">{{ lang.FormatNumber 0 .total }}+</dd>
+					</div>
+					{{ end }}
+					{{ end }}
+					{{ end }}
+
+					{{ with $p.last_verified }}
+					<div class="px-6 py-3 flex justify-between items-start">
+						<dt class="text-sm text-neutral-500">Last Verified</dt>
+						<dd class="text-sm text-neutral-900">{{ . }}</dd>
+					</div>
+					{{ end }}
+				</dl>
+
+				{{/* CTA */}}
+				<div class="px-6 py-4 border-t border-neutral-200 space-y-2">
+					<a href="{{ partial "outbound-url.html" (dict "url" $p.website "campaign" "product_sidebar_cta") }}" target="_blank" rel="noopener nofollow ugc"
+						class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors outbound-link" data-product="{{ $p.slug }}">
+						Visit {{ $p.name }}
+						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+					</a>
+					<a href="{{ site.Params.githubRepo }}/issues/new?template=suggest-a-change.md&title={{ printf "[Update] %s" $p.name | urlquery }}" target="_blank" rel="noopener"
+						class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-white text-neutral-600 text-sm font-medium rounded-lg border border-neutral-200 hover:bg-neutral-50 transition-colors">
+						Suggest an edit
+						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+					</a>
+				</div>
+			</div>
+		</aside>
+	</div>
+</div>
+
+{{ partial "schema/software-app.html" . }}
+{{ end }}

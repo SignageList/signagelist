@@ -1,0 +1,36 @@
+name: Netpresenter
+slug: netpresenter
+description: Employee communication software for internal messaging via digital signage and desktop notifications.
+website: https://www.netpresenter.com
+year_founded: 1995
+headquarters:
+  - Netherlands
+open_source: false
+rss_feed_url: https://www.netpresenter.com/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - iOS
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

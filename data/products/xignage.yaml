@@ -1,0 +1,36 @@
+name: Xignage
+slug: xignage
+description: Digital signage system with centralized management, emergency crowd control, and instant messaging.
+website: https://www.xaness.com/solutions/digital-signage/xignage-system
+year_founded: 2011
+headquarters:
+  - China
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+  - Windows
+  - iOS
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

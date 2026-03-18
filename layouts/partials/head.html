@@ -1,0 +1,61 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }} - Digital Signage Software Directory{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ partial "meta-description.html" . }}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Open Graph - Rich data cards */}}
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} - Digital Signage Software Directory{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ partial "meta-description.html" . }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+{{ if and .IsPage (eq .Section "products") .Params.has_logo }}
+	{{ $logo := resources.GetMatch (printf "logos/%s.*" .Params.slug) }}
+	{{ if $logo }}
+		{{ $subType := $logo.MediaType.SubType }}
+		{{ $isProcessable := or (eq $subType "png") (eq $subType "jpeg") (eq $subType "webp") (eq $subType "gif") }}
+		{{ if $isProcessable }}
+			{{ $processed := $logo.Process "fit 400x200 webp" }}
+<meta property="og:image" content="{{ $processed.Permalink }}">
+<meta property="og:image:alt" content="{{ .Params.name }} logo">
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ partial "meta-description.html" . }}">
+{{ if and .IsPage (eq .Section "products") .Params.has_logo }}
+	{{ $logo := resources.GetMatch (printf "logos/%s.*" .Params.slug) }}
+	{{ if $logo }}
+		{{ $subType := $logo.MediaType.SubType }}
+		{{ $isProcessable := or (eq $subType "png") (eq $subType "jpeg") (eq $subType "webp") (eq $subType "gif") }}
+		{{ if $isProcessable }}
+			{{ $processed := $logo.Process "fit 400x200 webp" }}
+<meta name="twitter:image" content="{{ $processed.Permalink }}">
+<meta name="twitter:image:alt" content="{{ .Params.name }} logo">
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{/* Tailwind CSS */}}
+{{ with resources.Get "css/main.css" }}
+	{{ $css := . | css.TailwindCSS }}
+	{{ if hugo.IsProduction }}
+		{{ $css = $css | minify | fingerprint }}
+	{{ end }}
+	<link rel="stylesheet" href="{{ $css.RelPermalink }}"
+		{{ if hugo.IsProduction }}integrity="{{ $css.Data.Integrity }}"{{ end }}>
+{{ end }}
+
+{{/* Schema.org: WebSite + SearchAction */}}
+{{- partial "schema/website.html" . -}}
+
+{{/* Schema.org: BreadcrumbList */}}
+{{- partial "schema/breadcrumb.html" . -}}
+
+{{/* PostHog Analytics */}}
+{{- partial "posthog.html" . -}}

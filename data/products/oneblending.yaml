@@ -1,0 +1,31 @@
+name: OneBlending
+slug: oneblending
+description: ""
+website: https://www.mcdis.ru/OneBlending.html
+year_founded: 2010
+headquarters:
+  - Russia
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

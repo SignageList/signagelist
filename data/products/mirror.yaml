@@ -1,0 +1,41 @@
+name: Mirror
+slug: mirror
+description: Digital signage platform for displaying videos and images on screens.
+website: https://www.mirrorsignage.io/
+year_founded: 2023
+headquarters:
+  - Sweden
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 20
+        yearly: null
+      - name: Professional
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 29
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

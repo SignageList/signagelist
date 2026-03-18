@@ -1,0 +1,48 @@
+name: Sippo
+slug: sippo
+description: Digital menu and TV display software for taprooms, cafes, and restaurants.
+website: https://sippo.io/
+year_founded: 2023
+headquarters:
+  - Canada
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Starter
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 12
+        yearly: 96
+      - name: Professional
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 24
+        yearly: 192
+      - name: Business Plus
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 384
+stats: {}
+notes:
+  - Digital Menu Boards
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

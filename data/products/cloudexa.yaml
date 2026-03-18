@@ -1,0 +1,35 @@
+name: CloudExa
+slug: cloudexa
+description: Cloud-based digital signage system for remote content upload, scheduling, and distribution to display terminals.
+website: https://www.cloudpoint.co.jp/digitalsignage/cloudexa/
+year_founded: 2004
+headquarters:
+  - Japan
+open_source: false
+rss_feed_url: https://www.cloudpoint.co.jp/digitalsignage/cloudexa/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 22400
+    source: https://www.cloudpoint.co.jp/digitalsignage/cloudexa/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

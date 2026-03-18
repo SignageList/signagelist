@@ -1,0 +1,40 @@
+name: LUMOplay
+slug: lumoplay
+description: Interactive projection software that turns projectors or screens into interactive floors and walls with 350+ built-in apps.
+website: https://www.lumoplay.com/
+year_founded: 2013
+headquarters:
+  - Canada
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: LUMO Playground
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 33.5
+        yearly: 263.16
+      - name: LUMO Playmaker
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 73.86
+        yearly: 585.12
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

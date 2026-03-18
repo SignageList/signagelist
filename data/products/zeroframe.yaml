@@ -1,0 +1,35 @@
+name: Zeroframe
+slug: zeroframe
+description: Remote display management platform for collectors, curators, galleries, and events.
+website: https://zeroframe.art/
+year_founded: 2021
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Collector
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

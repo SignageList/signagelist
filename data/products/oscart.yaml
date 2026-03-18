@@ -1,0 +1,35 @@
+name: Oscart
+slug: oscart
+description: Cloud-based digital signage software with remote content management.
+website: https://www.oscart.eu/cloud-software/
+year_founded: 2015
+headquarters:
+  - Belgium
+open_source: false
+rss_feed_url: https://www.oscart.eu/cloud-software/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 12253
+    source: https://www.oscart.eu/en/referenties/
+    date: 2025-08
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

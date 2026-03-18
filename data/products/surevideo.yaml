@@ -1,0 +1,45 @@
+name: SureVideo
+slug: surevideo
+description: Video looper software for converting iPads, Android, and Windows devices into video kiosks.
+website: https://www.42gears.com/products/digital-signage/
+year_founded: 2013
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - iOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Android Cloud
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4.99
+        yearly: null
+      - name: iOS or Windows Single License
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 29.99
+stats: {}
+notes:
+  - a digital signage kiosk solution
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

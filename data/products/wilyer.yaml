@@ -1,0 +1,47 @@
+name: Wilyer
+slug: wilyer
+description: Cloud-based digital signage CMS for managing TVs, displays, standees, and billboards.
+website: https://wilyer.com/
+year_founded: 2022
+headquarters:
+  - India
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - Windows
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 15
+        yearly: 150
+stats:
+  screens:
+    total: 10000
+    source: https://wilyer.com/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

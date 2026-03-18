@@ -1,0 +1,36 @@
+name: Exclaim
+slug: exclaim
+description: Cloud-based digital signage software for content management and display.
+website: https://exclaimsignage.com/
+year_founded: 2014
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: 3 Screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

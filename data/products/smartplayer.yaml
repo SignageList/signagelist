@@ -1,0 +1,43 @@
+name: SmartPlayer
+slug: smartplayer
+description: Digital signage software for multimedia projects and centralized device management at points of sale.
+website: https://smartplayer.org/
+year_founded: 2017
+headquarters:
+  - Russia
+open_source: false
+rss_feed_url: https://smartplayer.org/rss.xml
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 50000
+    source: https://smartplayer.org/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

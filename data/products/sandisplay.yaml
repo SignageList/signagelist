@@ -1,0 +1,32 @@
+name: SanDisplay
+slug: sandisplay
+description: Digital signage displays for businesses, stores, and commercial venues.
+website: https://allsan.fr/expertise/logiciel-dedie-sandisplay/
+year_founded: 2013
+headquarters:
+  - France
+open_source: false
+rss_feed_url: https://allsan.fr/expertise/logiciel-dedie-sandisplay/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Tizen
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

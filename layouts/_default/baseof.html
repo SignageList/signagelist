@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{- partial "head.html" . -}}
+</head>
+<body class="min-h-screen flex flex-col overflow-y-scroll bg-white text-neutral-900 antialiased">
+	<a href="#main-content" class="skip-link">Skip to content</a>
+	{{- partial "header.html" . -}}
+	<main id="main-content" class="flex-1">
+		{{- block "main" . }}{{ end -}}
+	</main>
+	{{- partial "footer.html" . -}}
+	{{ $js := resources.Get "ts/main.ts" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
+	<script src="{{ $js.RelPermalink }}" defer></script>
+</body>
+</html>

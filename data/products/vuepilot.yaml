@@ -1,0 +1,39 @@
+name: VuePilot
+slug: vuepilot
+description: Digital signage software for displaying dashboards, websites, images, news, and video on business screens.
+website: https://www.vuepilot.com/
+year_founded: 2019
+headquarters:
+  - Australia
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Raspberry Pi
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Monthly or Annual license
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10
+        yearly: 96
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

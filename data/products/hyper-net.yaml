@@ -1,0 +1,34 @@
+name: HYPER Net
+slug: hyper-net
+description: ""
+website: https://www.hypermedia.co.nz/digital-signage-and-software
+year_founded: 2010
+headquarters:
+  - New Zealand
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 2000
+    source: https://www.hypermedia.co.nz/digital-signage-and-software
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

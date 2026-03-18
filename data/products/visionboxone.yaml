@@ -1,0 +1,45 @@
+name: VisionboxOne
+slug: visionboxone
+description: Digital signage software for single-monitor setups.
+website: https://visionbox.it/en/visionbox-one/
+year_founded: 2024
+headquarters:
+  - Italy
+open_source: false
+rss_feed_url: https://visionbox.it/en/visionbox-one/feed/
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Tizen
+  - Web Browser
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Plus
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 14.07
+        yearly: 112.53
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

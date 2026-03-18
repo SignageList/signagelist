@@ -1,0 +1,47 @@
+name: screen2b
+slug: screen2b
+description: ""
+website: https://screen2b.ru/
+year_founded: 2009
+headquarters:
+  - Russia
+open_source: false
+rss_feed_url: https://screen2b.ru/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free (1 Screen)
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Stationary
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4.5
+        yearly: null
+      - name: Transport
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 6.4
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

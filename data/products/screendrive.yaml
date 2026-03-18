@@ -1,0 +1,37 @@
+name: Screendrive
+slug: screendrive
+description: Digital signage software for managing content across displays.
+website: https://screendrive.net/
+year_founded: 2014
+headquarters:
+  - India
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 1500
+    source: https://screendrive.net/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

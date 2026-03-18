@@ -1,0 +1,44 @@
+name: EZ-AD TV
+slug: ez-ad-tv
+description: Digital signage player and software for retail displays and in-store content.
+website: https://ezadtv.com/
+year_founded: 2013
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Silver
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 15
+        yearly: null
+stats:
+  screens:
+    total: 30000
+    source: https://ezadtv.com/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

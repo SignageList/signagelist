@@ -1,0 +1,46 @@
+name: Wallboard
+slug: wallboard
+description: Digital signage platform with workflow automation and governance for managing signage across teams in cloud or private cloud.
+website: https://www.wallboard.us/
+year_founded: 2012
+headquarters:
+  - USA
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - Fire OS
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Professional
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 25
+        yearly: null
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 30
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

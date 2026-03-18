@@ -1,0 +1,50 @@
+name: PublicView
+slug: publicview
+description: ""
+website: https://www.narrowcaster.eu/?lang=en
+year_founded: 2013
+headquarters:
+  - Netherlands
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Lite
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 347
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 486
+      - name: Advanced
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 624
+stats: {}
+notes:
+  - One time start-up fee of $109.9 is not included in the subcription price.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

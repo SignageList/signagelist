@@ -1,0 +1,31 @@
+name: Chrome Sign Builder
+slug: chrome-sign-builder
+description: Digital signage utility for scheduling and displaying content on managed Chrome devices.
+website: https://chromewebstore.google.com/detail/chrome-sign-builder/odjaaghiehpobimgdjjfofmablbaleem?pli=1
+year_founded: 2015
+headquarters:
+  - Ireland
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - ChromeOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

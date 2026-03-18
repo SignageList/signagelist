@@ -1,0 +1,38 @@
+name: Digisigns
+slug: digisigns
+description: Cloud-based digital signage software with content creation, integrations, and analytics.
+website: https://digisigns.in/
+year_founded: 2023
+headquarters:
+  - India
+open_source: false
+rss_feed_url: https://digisigns.in/feed/
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: STANDARD
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 20
+        yearly: 220
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

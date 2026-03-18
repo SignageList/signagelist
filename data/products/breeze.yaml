@@ -1,0 +1,41 @@
+name: Breeze
+slug: breeze
+description: ""
+website: https://keywesttechnology.com/breeze-digital-signage
+year_founded: 2013
+headquarters:
+  - USA
+open_source: false
+rss_feed_url: https://keywesttechnology.com/breeze-digital-signage/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing:
+      - name: Breeze TOTALCare
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats:
+  screens:
+    total: 3000
+    source: https://keywesttechnology.com/breeze-digital-signage
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

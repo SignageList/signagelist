@@ -1,0 +1,30 @@
+name: Display Star
+slug: display-star
+description: Cloud-based digital signage software for centralized management of content, displays, and locations.
+website: https://www.kommatec-red.de/software-displaystar.html
+year_founded: 2005
+headquarters:
+  - Germany
+open_source: false
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

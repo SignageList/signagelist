@@ -1,0 +1,39 @@
+name: Samsung VXT
+slug: samsung-vxt
+description: Samsung's cloud-based digital signage software for content management and display control.
+website: https://vxt.samsung.com/
+year_founded: 2024
+headquarters:
+  - South Korea
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: S Series
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 20
+        yearly: 200
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

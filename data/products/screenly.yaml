@@ -1,0 +1,62 @@
+name: Screenly
+slug: screenly
+description: Cloud-based digital signage software with security features and remote device management.
+website: https://www.screenly.io/
+year_founded: 2013
+headquarters:
+  - USA
+open_source: false
+has_api: true
+developer_portal_url: https://developer.screenly.io
+has_cli: true
+has_mcp: true
+has_sso: true
+has_saml: true
+rss_feed_url: https://www.screenly.io/rss.xml
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Screenly Player
+  - Tizen
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Starter
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 13
+        yearly: 132
+      - name: Business
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 19
+        yearly: 204
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 300
+stats:
+  screens:
+    total: 10000
+    source: https://www.screenly.io/
+    date: 2025-04
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

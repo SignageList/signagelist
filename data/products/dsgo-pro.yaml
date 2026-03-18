@@ -1,0 +1,32 @@
+name: DS-GO.PRO
+slug: dsgo-pro
+description: Digital signage software for managing and distributing content to displays.
+website: https://dsgo.pro/dspro
+year_founded: 2007
+headquarters:
+  - Ukraine
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

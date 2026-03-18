@@ -1,0 +1,37 @@
+name: IntraActive Replay
+slug: intraactive-replay
+description: Digital signage software integrated with Microsoft Teams and SharePoint for publishing intranet content to displays.
+website: https://intraactivereplay.net/
+year_founded: 2022
+headquarters:
+  - Denmark
+open_source: false
+rss_feed_url: https://intraactivereplay.net/feed/
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 14.85
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

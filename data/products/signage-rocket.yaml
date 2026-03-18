@@ -1,0 +1,39 @@
+name: Signage Rocket
+slug: signage-rocket
+description: Cloud-based digital signage platform for displaying content on screens with device monitoring and app deployment.
+website: https://signagerocket.com/
+year_founded: 2019
+headquarters: []
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - BrightSign
+  - ChromeOS
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: All-inclusive
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 25
+        yearly: 249
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

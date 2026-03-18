@@ -1,0 +1,39 @@
+name: Drip Boards
+slug: dripboards
+description: Digital signage software for managing and displaying content on business screens.
+website: https://dripboards.com/
+year_founded: 2019
+headquarters:
+  - USA
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Monthly or Yearly
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9.99
+        yearly: 99.99
+stats: {}
+notes:
+  - You must have an active PosterMyWall subscription to use the Drip Boards Free Starter Subscription
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,36 @@
+name: Школьный информатор
+slug: school-informator
+description: Digital signage system for schools to create, manage, and display content on information screens and kiosks.
+website: https://f2c.ru/services/school-informator/
+year_founded: 2022
+headquarters:
+  - Russia
+open_source: false
+rss_feed_url: https://f2c.ru/services/school-informator/blog/feed/
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - iOS
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,46 @@
+name: embed signage
+slug: embed-signage
+description: Cloud-based digital signage software for managing content across display networks.
+website: https://embedsignage.com/
+year_founded: 2014
+headquarters:
+  - United Kingdom
+open_source: false
+rss_feed_url: https://embedsignage.com/rss.xml
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - Raspberry Pi
+  - Tizen
+  - Windows
+  - iOS
+  - macOS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: embed annual
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 185
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

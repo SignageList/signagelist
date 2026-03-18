@@ -1,0 +1,32 @@
+name: Screenlite
+slug: screenlite
+description: Open-source digital signage software.
+website: https://github.com/screenlite/screenlite
+year_founded: 2024
+headquarters: []
+open_source: true
+license: MIT
+source_code_url: https://github.com/niclet/screenlite
+self_signup: false
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
