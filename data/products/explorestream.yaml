@@ -1,0 +1,28 @@
+name: "Stream"
+slug: explorestream
+description: ""
+website: https://explorestream.com/
+year_founded: 2017
+headquarters: ["USA", "Canada"]
+open_source: false
+rss_feed_url: null
+self_signup: false
+discontinued: false
+categories: ["CMS"]
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
