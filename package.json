@@ -10,7 +10,8 @@
   "author": "514sid",
   "scripts": {
     "dev": "hugo server --disableFastRender",
-    "build": "hugo --minify",
+    "build": "cd scripts/sync-platforms && go run . ../../data/products && cd ../.. && hugo --minify",
+    "sync:platforms": "cd scripts/sync-platforms && go run . ../../data/products",
     "preview": "hugo server --minify",
     "check": "bun run scripts/check.ts",
     "add": "bun run scripts/add-product.ts",
