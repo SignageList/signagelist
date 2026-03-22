@@ -6,7 +6,7 @@ year_founded: 2025
 headquarters: ["USA"]
 open_source: false
 rss_feed_url: null
-self_signup: false
+self_signup: true
 discontinued: false
 categories: ["CMS"]
 platforms: [
