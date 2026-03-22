@@ -15,7 +15,6 @@ platforms:
   - Linux
   - Tizen
   - Web Browser
-  - iCompel player
   - webOS
 models:
   - delivery: cloud

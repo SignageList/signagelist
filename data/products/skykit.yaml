@@ -14,7 +14,6 @@ categories:
 platforms:
   - Android
   - Fire OS
-  - Skykit Media Player
 models:
   - delivery: cloud
     free_trial: true

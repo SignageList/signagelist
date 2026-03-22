@@ -13,7 +13,6 @@ categories:
   - CMS
 platforms:
   - BrightSign
-  - ComQi Player
 models:
   - delivery: cloud
     free_trial: false

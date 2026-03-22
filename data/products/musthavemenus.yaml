@@ -10,8 +10,7 @@ self_signup: false
 discontinued: false
 categories:
   - CMS
-platforms:
-  - MustHaveMenus Player
+platforms: []
 models:
   - delivery: cloud
     free_trial: false
