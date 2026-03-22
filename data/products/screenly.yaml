@@ -21,7 +21,6 @@ platforms:
   - Android
   - ChromeOS
   - Fire OS
-  - Screenly Player
   - Tizen
   - Web Browser
 models:
