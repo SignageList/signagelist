@@ -1,11 +1,14 @@
 name: Fusion Signage
 slug: fusion-signage
-description: ""
+description: Cloud-based digital signage software for content management and display.
 website: https://fusionsignage.com.au/
 year_founded: 2017
 headquarters:
   - Australia
 open_source: false
+has_api: true
+developer_portal_url: https://developers.fusionsignage.com.au
+has_saml: true
 rss_feed_url: https://fusionsignage.com.au/blog/rss.xml
 self_signup: true
 discontinued: false
@@ -20,6 +23,7 @@ platforms:
   - Tizen
   - Windows
   - webOS
+  - Web Browser
 models:
   - delivery: cloud
     free_trial: true
@@ -31,11 +35,27 @@ models:
         billing_basis: per_device
         monthly: null
         yearly: 124
+      - name: Advanced
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 170
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 261
 stats:
   screens:
-    total: 13000
+    total: 19500
     source: https://fusionsignage.com.au/our-story
-    date: 2025-04
+    date: 2026-03
+compliance:
+  soc2: true
+  iso27001: false
+  hipaa: false
+  cra: false
+  fedramp: false
 notes: []
 features: []
 integrations: []
