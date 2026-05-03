@@ -1,0 +1,38 @@
+name: TVCast Pro
+slug: tvcast-pro
+description: "TVCast Pro is Android TV digital signage software for retail stores, restaurants, cafes, F&B chains, franchises, food courts, and multi-outlet operators. It focuses on pilot-first deployments using compatible Android TVs or Android TV boxes, with centralized publishing for menu boards, promo screens, pickup/cashier screens, and multi-store campaign updates."
+website: https://www.wedotool.com/
+year_founded: null
+headquarters:
+  - China
+open_source: false
+rss_feed_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: "Pay-as-you-go"
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 6
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
