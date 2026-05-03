@@ -1,0 +1,39 @@
+name: Yugna
+slug: yugna
+description: Manage your screens from anywhere. Build playlists, schedule content, and control displays. 7-day free trial.
+website: https://yugna.com
+year_founded: 2025
+headquarters:
+  - India
+open_source: false
+rss_feed_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4
+        yearly: 40
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+has_sso: true
