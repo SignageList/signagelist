@@ -1,7 +1,19 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-05-04T07:54:33.708Z",
+  "fetched_at": "2026-05-05T07:25:36.606Z",
   "items": [
+    {
+      "title": "No more passwords in Screenly",
+      "link": "https://www.screenly.io/blog/2026/04/29/no-more-passwords/",
+      "date": "2026-04-29T00:00:00.000Z",
+      "description": "<p>Passwords are going away in Screenly.</p> <p>We are removing them entirely in favor of passwordless authentication that is simpler, faster, and more secure by design.</p> <p>Screenly has supported…"
+    },
+    {
+      "title": "Screenly changelog episode 18 - AI, compliance, and security for small business",
+      "link": "https://www.screenly.io/blog/2026/04/21/screenly-changelog-episode-18/",
+      "date": "2026-04-21T00:00:00.000Z",
+      "description": "<p><strong>Screenly Changelog episode 18:</strong> <em>Screenly changelog episode 18 - AI, compliance, and security for small business</em></p> <p>Cybersecurity tends to get discussed in one of two r…"
+    },
     {
       "title": "Building a culture of wellness at Screenly",
       "link": "https://www.screenly.io/blog/2026/04/09/wellness-at-screenly/",
