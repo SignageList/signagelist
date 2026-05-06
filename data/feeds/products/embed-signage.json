@@ -1,7 +1,13 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-05-05T07:25:36.606Z",
+  "fetched_at": "2026-05-06T07:42:37.184Z",
   "items": [
+    {
+      "title": "Various Bug Fixes",
+      "link": "https://embedsignage.com/releases/various-bug-fixes-2/",
+      "date": "2026-05-05T10:15:13.000Z",
+      "description": ""
+    },
     {
       "title": "New Public API, BrightSign v2.1.2 app and Firmware Selector plus Colour Picker and Gradients",
       "link": "https://embedsignage.com/releases/new-public-api-brightsign-v2-1-2-app-and-firmware-selector-plus-colour-picker-and-gradients/",
@@ -27,6 +33,12 @@
       "description": ""
     },
     {
+      "title": "RoomStream &#8211; Meeting Room Digital Signage",
+      "link": "https://embedsignage.com/roomstream/",
+      "date": "2026-02-18T22:50:37.000Z",
+      "description": ""
+    },
+    {
       "title": "Bug fix for Playlist delete",
       "link": "https://embedsignage.com/releases/bug-fix-for-playlist-delete/",
       "date": "2026-02-04T12:20:45.000Z",
@@ -42,6 +54,12 @@
       "title": "Become a Reseller | Digital Signage Partner Resellers",
       "link": "https://embedsignage.com/resellers/",
       "date": "2026-01-21T15:50:57.000Z",
+      "description": ""
+    },
+    {
+      "title": "GANT Global Retail Digital Signage",
+      "link": "https://embedsignage.com/customers/gant/",
+      "date": "2026-01-21T15:15:46.000Z",
       "description": ""
     },
     {
