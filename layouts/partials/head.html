@@ -16,14 +16,37 @@
 {{ $ogImage := absURL "/og-image.png" }}
 {{ $ogImageAlt := "SignageList - Digital Signage Software Directory" }}
 {{ if and .IsPage (eq .Section "products") }}
-	{{ $logo := resources.GetMatch (printf "logos/%s.*" .Params.slug) }}
-	{{ if $logo }}
-		{{ $subType := $logo.MediaType.SubType }}
-		{{ $isProcessable := or (eq $subType "png") (eq $subType "jpeg") (eq $subType "webp") (eq $subType "gif") }}
-		{{ if $isProcessable }}
-			{{ $processed := $logo.Process "fit 400x200 webp" }}
-			{{ $ogImage = $processed.Permalink }}
-			{{ $ogImageAlt = printf "%s logo" .Params.name }}
+	{{ $slug := .Params.slug }}
+	{{ $candidate := printf "/assets/og/v1-%s.png" $slug }}
+	{{ if fileExists (printf "static%s" $candidate) }}
+		{{ $ogImage = absURL $candidate }}
+		{{ $ogImageAlt = printf "%s on SignageList" .Params.name }}
+	{{ end }}
+{{ else if eq .Kind "term" }}
+	{{ $taxo := .Data.Singular }}
+	{{ $slug := .Page.Params.slug | default (urlize .Title) }}
+	{{ $candidate := printf "/assets/og/v1-%s-%s.png" $taxo $slug }}
+	{{ if fileExists (printf "static%s" $candidate) }}
+		{{ $ogImage = absURL $candidate }}
+		{{ $ogImageAlt = printf "%s - SignageList" .Title }}
+	{{ end }}
+{{ else if eq .Kind "taxonomy" }}
+	{{ $taxo := .Data.Plural }}
+	{{ $candidate := printf "/assets/og/v1-page-%s.png" $taxo }}
+	{{ if fileExists (printf "static%s" $candidate) }}
+		{{ $ogImage = absURL $candidate }}
+		{{ $ogImageAlt = printf "%s - SignageList" .Title }}
+	{{ end }}
+{{ else }}
+	{{ $pageSlug := "" }}
+	{{ if .IsHome }}{{ $pageSlug = "home" }}
+	{{ else if eq .RelPermalink "/about/" }}{{ $pageSlug = "about" }}
+	{{ else if eq .RelPermalink "/free/" }}{{ $pageSlug = "free" }}
+	{{ end }}
+	{{ if $pageSlug }}
+		{{ $candidate := printf "/assets/og/v1-page-%s.png" $pageSlug }}
+		{{ if fileExists (printf "static%s" $candidate) }}
+			{{ $ogImage = absURL $candidate }}
 		{{ end }}
 	{{ end }}
 {{ end }}
