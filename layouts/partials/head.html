@@ -17,34 +17,35 @@
 {{ $ogImageAlt := "SignageList - Digital Signage Software Directory" }}
 {{ if and .IsPage (eq .Section "products") }}
 	{{ $slug := .Params.slug }}
-	{{ $candidate := printf "/assets/og/v1-%s.png" $slug }}
+	{{ $candidate := printf "/assets/og/products/v1-%s.png" $slug }}
 	{{ if fileExists (printf "static%s" $candidate) }}
 		{{ $ogImage = absURL $candidate }}
 		{{ $ogImageAlt = printf "%s on SignageList" .Params.name }}
 	{{ end }}
 {{ else if eq .Kind "term" }}
 	{{ $taxo := .Data.Singular }}
+	{{ $taxoPlural := .Data.Plural }}
 	{{ $slug := .Page.Params.slug | default (urlize .Title) }}
-	{{ $candidate := printf "/assets/og/v1-%s-%s.png" $taxo $slug }}
+	{{ $candidate := printf "/assets/og/%s/v1-%s-%s.png" $taxoPlural $taxo $slug }}
 	{{ if fileExists (printf "static%s" $candidate) }}
 		{{ $ogImage = absURL $candidate }}
 		{{ $ogImageAlt = printf "%s - SignageList" .Title }}
 	{{ end }}
 {{ else if eq .Kind "taxonomy" }}
 	{{ $taxo := .Data.Plural }}
-	{{ $candidate := printf "/assets/og/v1-page-%s.png" $taxo }}
+	{{ $candidate := printf "/assets/og/pages/v1-page-%s.png" $taxo }}
 	{{ if fileExists (printf "static%s" $candidate) }}
 		{{ $ogImage = absURL $candidate }}
 		{{ $ogImageAlt = printf "%s - SignageList" .Title }}
 	{{ end }}
 {{ else }}
 	{{ $pageSlug := "" }}
-	{{ if .IsHome }}{{ $pageSlug = "home" }}
-	{{ else if eq .RelPermalink "/about/" }}{{ $pageSlug = "about" }}
+	{{ if eq .RelPermalink "/about/" }}{{ $pageSlug = "about" }}
 	{{ else if eq .RelPermalink "/free/" }}{{ $pageSlug = "free" }}
+	{{ else if eq .RelPermalink "/news/" }}{{ $pageSlug = "news" }}
 	{{ end }}
 	{{ if $pageSlug }}
-		{{ $candidate := printf "/assets/og/v1-page-%s.png" $pageSlug }}
+		{{ $candidate := printf "/assets/og/pages/v1-page-%s.png" $pageSlug }}
 		{{ if fileExists (printf "static%s" $candidate) }}
 			{{ $ogImage = absURL $candidate }}
 		{{ end }}

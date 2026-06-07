@@ -5,6 +5,12 @@ import yaml from 'js-yaml'
 const OG_VERSION = 'v1'
 const BG_PATH = 'static/og-bg.png'
 const OUT_DIR = 'static/assets/og'
+const DIRS = {
+	products: `${OUT_DIR}/products`,
+	categories: `${OUT_DIR}/categories`,
+	platforms: `${OUT_DIR}/platforms`,
+	pages: `${OUT_DIR}/pages`,
+}
 
 const W = 1200
 const H = 630
@@ -35,8 +41,8 @@ function escapeXml(str: string): string {
 	return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 }
 
-async function generateOg(slug: string, name: string, description: string): Promise<'generated' | 'skipped'> {
-	const outPath = `${OUT_DIR}/${OG_VERSION}-${slug}.png`
+async function generateOg(dir: string, slug: string, name: string, description: string): Promise<'generated' | 'skipped'> {
+	const outPath = `${dir}/${OG_VERSION}-${slug}.png`
 
 	if (existsSync(outPath)) {
 		return 'skipped'
@@ -111,13 +117,13 @@ ${taglineSvg}
 }
 
 // ── Setup ─────────────────────────────────────────────────────────────────────
-mkdirSync(OUT_DIR, { recursive: true })
+for (const dir of Object.values(DIRS)) mkdirSync(dir, { recursive: true })
 
 let generated = 0
 let skipped = 0
 
-async function run(slug: string, name: string, description: string) {
-	const result = await generateOg(slug, name, description)
+async function run(dir: string, slug: string, name: string, description: string) {
+	const result = await generateOg(dir, slug, name, description)
 	result === 'generated' ? generated++ : skipped++
 }
 
@@ -132,7 +138,7 @@ for (const file of productFiles) {
 	const product = yaml.load(raw) as Product
 	products.push(product)
 	const slug = product.slug ?? file.replace('.yaml', '')
-	await run(slug, product.name ?? slug, product.description ?? '')
+	await run(DIRS.products, slug, product.name ?? slug, product.description ?? '')
 }
 
 // ── Taxonomy counts ───────────────────────────────────────────────────────────
@@ -147,6 +153,7 @@ for (const p of products) {
 // ── Categories ────────────────────────────────────────────────────────────────
 for (const [name, count] of Object.entries(categoryCount)) {
 	await run(
+		DIRS.categories,
 		`category-${slugify(name)}`,
 		name,
 		`Browse and compare ${count}+ digital signage products in the ${name} category.`,
@@ -155,6 +162,7 @@ for (const [name, count] of Object.entries(categoryCount)) {
 
 // Categories index
 await run(
+	DIRS.pages,
 	'page-categories',
 	'Categories',
 	`Browse ${Object.keys(categoryCount).length} digital signage software categories — compare CMS, content providers, and more.`,
@@ -163,6 +171,7 @@ await run(
 // ── Platforms ─────────────────────────────────────────────────────────────────
 for (const [name, count] of Object.entries(platformCount)) {
 	await run(
+		DIRS.platforms,
 		`platform-${slugify(name)}`,
 		name,
 		`Browse ${count}+ digital signage products with native support for ${name}.`,
@@ -171,6 +180,7 @@ for (const [name, count] of Object.entries(platformCount)) {
 
 // Platforms index
 await run(
+	DIRS.pages,
 	'page-platforms',
 	'Platforms',
 	`Browse digital signage software by supported platform — Android, Windows, ChromeOS, BrightSign, and more.`,
@@ -178,15 +188,24 @@ await run(
 
 // ── Static pages ──────────────────────────────────────────────────────────────
 await run(
+	DIRS.pages,
 	'page-about',
 	'About SignageList',
 	`The open, vendor-neutral directory of ${products.length}+ digital signage software products. No ads, no bias.`,
 )
 
 await run(
+	DIRS.pages,
 	'page-free',
 	'Free & Freemium Digital Signage',
 	'Browse digital signage software with no upfront cost — open source, freemium, and free-to-use products.',
+)
+
+await run(
+	DIRS.pages,
+	'page-news',
+	'Industry News',
+	'Latest updates from digital signage companies and industry publications.',
 )
 
 console.log(`\nDone — ${generated} generated, ${skipped} skipped`)

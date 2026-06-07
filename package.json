@@ -16,6 +16,7 @@
     "check": "bun run scripts/check.ts",
     "add": "bun run scripts/add-product.ts",
     "gen:terms": "bun run scripts/gen-terms.ts",
+    "gen:og": "bun run scripts/gen-og.ts",
     "sync:amazon": "bun run scripts/sync-amazon-signage.ts",
     "fetch-feeds": "bun run scripts/fetch-feeds.ts",
     "lint": "bunx biome check assets/ts/ scripts/ cli.ts",
