@@ -1,7 +1,19 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-06-05T08:49:48.000Z",
+  "fetched_at": "2026-06-07T06:36:02.086Z",
   "items": [
+    {
+      "title": "You can now remotely configure Tailscale on Screenly players",
+      "link": "https://www.screenly.io/blog/2026/06/04/remotely-configure-tailscale-on-screenly-players/",
+      "date": "2026-06-04T00:00:00.000Z",
+      "description": "<p>If you&rsquo;ve read anything we&rsquo;ve published in the last couple of years, you already know how we feel about security. We won&rsquo;t repeat the speech. What we will say is that when we bui…"
+    },
+    {
+      "title": "Anthias v2026.05.1 to v2026.06.1: four releases in under 30 days",
+      "link": "https://www.screenly.io/blog/2026/06/03/anthias-v2026-06-1/",
+      "date": "2026-06-03T00:00:00.000Z",
+      "description": "<p>I meant to write this up sooner, but every time I sat down another release dropped and the changelog grew longer.</p> <p>So rather than publish four separate posts, I&rsquo;m rolling everything up…"
+    },
     {
       "title": "Password login is being removed on May 21",
       "link": "https://www.screenly.io/blog/2026/05/18/password-login-removal-may-21/",
