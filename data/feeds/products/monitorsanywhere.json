@@ -1,7 +1,19 @@
 {
   "source": "Monitors AnyWhere",
-  "fetched_at": "2026-06-07T06:36:02.086Z",
+  "fetched_at": "2026-06-08T06:38:38.177Z",
   "items": [
+    {
+      "title": "On-Premises vs Cloud Digital Signage: Which Is Right for Your Organization?",
+      "link": "https://monitorsanywhere.com/blog/on-premises-vs-cloud-digital-signage/",
+      "date": "2026-06-08T02:39:26.000Z",
+      "description": "Picking between on-premises digital signage software and a cloud platform isn&#8217;t really a tech decision. It&#8217;s a control versus convenience question, and the right answer depends on who&#82…"
+    },
+    {
+      "title": "AV over IP vs HDMI over LAN: What&#8217;s the Difference and Which Do You Need?",
+      "link": "https://monitorsanywhere.com/blog/av-over-ip-vs-hdmi-over-lan/",
+      "date": "2026-06-08T02:16:23.000Z",
+      "description": "Both AV over IP and HDMI over LAN push video signals across standard network cabling. They share shelf space in every AV integrator&#8217;s toolkit. But they&#8217;re not interchangeable, and picking…"
+    },
     {
       "title": "New Feature: OBS Remote Control for MAWi Video Walls",
       "link": "https://monitorsanywhere.com/blog/new-feature-obs-remote-control-for-mawi-video-walls/",
