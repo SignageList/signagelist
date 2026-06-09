@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-06-08T06:38:38.177Z",
+  "fetched_at": "2026-06-09T06:29:44.707Z",
   "items": [
+    {
+      "title": "Screenly Anywhere now supports Crestron AirMedia®",
+      "link": "https://www.screenly.io/blog/2026/06/08/screenly-anywhere-crestron-airmedia/",
+      "date": "2026-06-08T00:00:00.000Z",
+      "description": "<p>Just in time for InfoComm 2026, Screenly and Crestron are now official partners, and we&rsquo;re launching support for Crestron AirMedia® in Screenly Anywhere, our player that lets you run Screenl…"
+    },
     {
       "title": "You can now remotely configure Tailscale on Screenly players",
       "link": "https://www.screenly.io/blog/2026/06/04/remotely-configure-tailscale-on-screenly-players/",
