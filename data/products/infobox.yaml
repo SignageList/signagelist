@@ -1,0 +1,42 @@
+name: InfoBox Digital Signage
+slug: infobox
+description: Cloud-based digital signage platform from Finland with a simple per-device subscription and broad platform support.
+website: https://infoboxi.com
+year_founded: 2024
+headquarters:
+  - Finland
+open_source: false
+has_sso: true
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Tizen
+  - Web Browser
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: InfoBox Platform
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 7
+        yearly: 84
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
