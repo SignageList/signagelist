@@ -6,19 +6,26 @@ year_founded: 1997
 headquarters:
   - USA
 open_source: false
+has_api: true
+developer_portal_url: https://www.carouselsignage.com/cloud/api
+has_sso: true
+has_saml: true
 self_signup: false
 discontinued: false
 categories:
   - CMS
 platforms:
   - Amazon Signage
+  - Android
   - BrightSign
   - ChromeOS
   - iOS
   - macOS
+  - Tizen
   - tvOS
   - Web Browser
   - webOS
+  - Windows
 models:
   - delivery: cloud
     free_trial: false
@@ -28,8 +35,18 @@ models:
       - name: Core
         payment_model: subscription
         billing_basis: per_device
-        monthly: null
+        monthly: 25
         yearly: 300
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 22
+        yearly: 264
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
 stats: {}
 notes: []
 features: []
