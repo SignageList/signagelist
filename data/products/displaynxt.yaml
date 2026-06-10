@@ -1,0 +1,28 @@
+name: DisplayNXT
+slug: displaynxt
+description: Cloud-based digital signage platform for managing displays across any industry.
+website: https://displaynxt.pro
+year_founded: null
+headquarters: []
+open_source: false
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
