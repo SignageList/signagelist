@@ -10,9 +10,9 @@
     Browse and compare {{ len .Pages }}+ products across pricing, platform support, and licensing. Community-maintained, no vendor bias.
   </p>
   <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-neutral-600">
-    <span><span class="font-semibold text-neutral-900">{{ len .Pages }}</span> products</span>
-    <span><span class="font-semibold text-neutral-900">{{ len site.Taxonomies.categories }}</span> categories</span>
-    <span><span class="font-semibold text-neutral-900">{{ len site.Taxonomies.platforms }}</span> platforms</span>
+    <a href="/products/" class="hover:text-neutral-900 transition-colors"><span class="font-semibold text-neutral-900">{{ len .Pages }}</span> products</a>
+    <a href="/categories/" class="hover:text-neutral-900 transition-colors"><span class="font-semibold text-neutral-900">{{ len site.Taxonomies.categories }}</span> categories</a>
+    <a href="/platforms/" class="hover:text-neutral-900 transition-colors"><span class="font-semibold text-neutral-900">{{ len site.Taxonomies.platforms }}</span> platforms</a>
     <span class="text-neutral-600 text-xs sm:ml-2">Updated {{ now.Format "Jan 2, 2006" }}</span>
   </div>
 </div>
