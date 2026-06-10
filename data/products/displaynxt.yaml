@@ -5,17 +5,35 @@ website: https://displaynxt.pro
 year_founded: null
 headquarters: []
 open_source: false
-self_signup: false
+self_signup: true
 discontinued: false
 categories:
   - CMS
-platforms: []
+platforms:
+  - Android
+  - Tizen
+  - webOS
 models:
   - delivery: cloud
-    free_trial: false
-    pricing_available: false
+    free_trial: true
+    pricing_available: true
     has_freemium: false
-    pricing: []
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 19
+        yearly: null
+      - name: Business
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 49
+        yearly: null
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 99
+        yearly: null
 stats: {}
 notes: []
 features: []
