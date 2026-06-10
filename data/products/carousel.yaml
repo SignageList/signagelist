@@ -21,11 +21,15 @@ platforms:
   - ChromeOS
   - iOS
   - macOS
+  - Mersive Solstice
+  - Philips Professional
+  - ScreenBeam
   - Tizen
   - tvOS
   - Web Browser
   - webOS
   - Windows
+  - Zoom Rooms
 models:
   - delivery: cloud
     free_trial: false
