@@ -1,6 +1,8 @@
 name: OneView
 slug: oneview
-description: Digital signage CMS for creating and managing advertising content on display panels across retail and service locations.
+description: >-
+  Digital signage CMS for creating and managing advertising content on display panels across retail and service
+  locations.
 website: https://oneview.rs/en/
 year_founded: 2009
 headquarters:
@@ -14,12 +16,6 @@ categories:
 platforms:
   - Android
   - Fire OS
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: false
-    has_freemium: false
-    pricing: []
 stats: {}
 notes: []
 features: []
@@ -30,3 +26,12 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []

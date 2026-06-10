@@ -11,9 +11,22 @@ discontinued: false
 categories:
   - Content provider
 platforms: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
 models:
-  - delivery: cloud
-    free_trial: true
+  - free_trial: true
     pricing_available: true
     has_freemium: false
     pricing:
@@ -27,13 +40,3 @@ models:
         billing_basis: per_user
         monthly: null
         yearly: 1068
-stats: {}
-notes: []
-features: []
-integrations: []
-target_audience: []
-deployment_options: []
-support_channels: []
-languages: []
-screenshots: []
-last_verified: null

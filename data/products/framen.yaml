@@ -14,22 +14,6 @@ categories:
 platforms:
   - Android
   - Fire OS
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: true
-    pricing:
-      - name: Free
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 0
-        yearly: 0
-      - name: Premium
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: null
-        yearly: 136.8
 stats:
   screens:
     total: 18000
@@ -44,3 +28,22 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 136.8

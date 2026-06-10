@@ -18,17 +18,6 @@ platforms:
   - Raspberry Pi
   - Tizen
   - Windows
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: false
-    pricing:
-      - name: Light
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 5.1
-        yearly: 51.95
 stats:
   screens:
     total: 20000
@@ -43,3 +32,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Light
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5.1
+        yearly: 51.95

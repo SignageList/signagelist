@@ -19,12 +19,6 @@ platforms:
   - Web Browser
   - Windows
   - macOS
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: false
-    has_freemium: false
-    pricing: []
 stats: {}
 notes:
   - You can buy professional support via SmilControl
@@ -36,3 +30,12 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []

@@ -19,9 +19,23 @@ platforms:
   - Web Browser
   - Windows
   - iOS
+stats: {}
+notes:
+  - Formerly known as SocialScreen
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
 models:
-  - delivery: cloud
-    free_trial: true
+  - free_trial: true
     pricing_available: true
     has_freemium: true
     pricing:
@@ -35,14 +49,3 @@ models:
         billing_basis: per_device
         monthly: 13.9
         yearly: null
-stats: {}
-notes:
-  - Formerly known as SocialScreen
-features: []
-integrations: []
-target_audience: []
-deployment_options: []
-support_channels: []
-languages: []
-screenshots: []
-last_verified: null

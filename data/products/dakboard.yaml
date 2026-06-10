@@ -4,39 +4,18 @@ description: WiFi-connected wall display for showing photos, calendars, news, an
 website: https://dakboard.com/site
 year_founded: 2015
 headquarters:
-    - USA
+  - USA
 open_source: false
 self_signup: true
 discontinued: false
 categories:
-    - CMS
+  - CMS
 platforms:
-    - Fire OS
-    - Raspberry Pi
-    - Web Browser
-    - Windows
-    - Android
-models:
-    - delivery: cloud
-      free_trial: true
-      pricing_available: true
-      has_freemium: true
-      pricing:
-        - name: Free (1 screen)
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 0
-          yearly: 0
-        - name: Essential (2 screens)
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 6
-          yearly: 60
-        - name: Plus (3 screens)
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 10
-          yearly: 96
+  - Fire OS
+  - Raspberry Pi
+  - Web Browser
+  - Windows
+  - Android
 stats: {}
 notes: []
 features: []
@@ -47,3 +26,27 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free (1 screen)
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Essential (2 screens)
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 6
+        yearly: 60
+      - name: Plus (3 screens)
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 10
+        yearly: 96

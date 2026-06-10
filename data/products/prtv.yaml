@@ -1,6 +1,8 @@
 name: PRTV
 slug: prtv
-description: Online slideshow builder for Smart TV and Android TV with remote content management for retail, pharmacies, and salons.
+description: >-
+  Online slideshow builder for Smart TV and Android TV with remote content management for retail, pharmacies, and
+  salons.
 website: https://s.prtv.su/
 year_founded: 2019
 headquarters:
@@ -14,12 +16,6 @@ categories:
 platforms:
   - Android
   - Fire OS
-models:
-  - delivery: cloud
-    free_trial: true
-    pricing_available: false
-    has_freemium: true
-    pricing: []
 stats: {}
 notes: []
 features: []
@@ -30,3 +26,12 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: true
+    pricing_available: false
+    has_freemium: true
+    pricing: []

@@ -1,6 +1,8 @@
 name: DigitalSigns.ai
 slug: digitalsigns-ai
-description: Cloud and on-premise digital signage CMS with a freemium plan and support for Android, ChromeOS, and web-based displays.
+description: >-
+  Cloud and on-premise digital signage CMS with a freemium plan and support for Android, ChromeOS, and web-based
+  displays.
 website: https://digitalsigns.ai
 year_founded: 2024
 headquarters:
@@ -16,22 +18,6 @@ platforms:
   - ChromeOS
   - Fire OS
   - Web Browser
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: true
-    pricing:
-      - name: Free
-        payment_model: free
-        billing_basis: per_device
-        monthly: 0
-        yearly: 0
-  - delivery: on-premise
-    free_trial: false
-    pricing_available: false
-    has_freemium: false
-    pricing: []
 stats: {}
 notes: []
 features: []
@@ -42,3 +28,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: true
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0

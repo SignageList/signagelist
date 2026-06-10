@@ -1,38 +1,19 @@
-name: "ijjix"
+name: ijjix
 slug: ijjix
 description: ""
-website: "https://ijjix.xyz/en"
+website: https://ijjix.xyz/en
 year_founded: 2025
-headquarters: ["Brazil"]
+headquarters:
+  - Brazil
 open_source: false
 rss_feed_url: null
 self_signup: true
 discontinued: false
-categories: ["CMS"]
+categories:
+  - CMS
 platforms:
-    - "Android"
-    - Fire OS
-models:
-    - delivery: cloud
-      free_trial: false
-      pricing_available: true
-      has_freemium: false
-      pricing:
-        - name: "Start - 1 to 20 screens"
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 4
-          yearly: 35
-        - name: "Pro - 20 to 500 screens"
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 3
-          yearly: 30
-        - name: "Enterprise - 500+ screens"
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 2.5
-          yearly: 25
+  - Android
+  - Fire OS
 stats: {}
 notes: []
 features: []
@@ -43,3 +24,27 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Start - 1 to 20 screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4
+        yearly: 35
+      - name: Pro - 20 to 500 screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 3
+        yearly: 30
+      - name: Enterprise - 500+ screens
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 2.5
+        yearly: 25

@@ -1,39 +1,25 @@
-name: "Supacms"
+name: Supacms
 slug: supacms
 description: ""
-website: "https://supacms.metaworcs.com/"
+website: https://supacms.metaworcs.com/
 year_founded: 2025
-headquarters: ["Pakistan"]
+headquarters:
+  - Pakistan
 open_source: false
 rss_feed_url: null
 self_signup: true
 discontinued: false
-categories: ["CMS"]
+categories:
+  - CMS
 platforms:
-    - "Web Browser"
-    - "Android"
-    - Fire OS
-models:
-    - delivery: cloud
-      free_trial: true
-      pricing_available: true
-      has_freemium: false
-      pricing:
-        - name: "Standard"
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 7
-          yearly: 70
-        - name: "PRO"
-          payment_model: subscription
-          billing_basis: per_device
-          monthly: 14
-          yearly: 140
+  - Web Browser
+  - Android
+  - Fire OS
 stats:
-    screens:
-        total: 1000
-        source: https://supacms.metaworcs.com/
-        date: 2026-03
+  screens:
+    total: 1000
+    source: https://supacms.metaworcs.com/
+    date: 2026-03
 notes: []
 features: []
 integrations: []
@@ -43,3 +29,22 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 7
+        yearly: 70
+      - name: PRO
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 14
+        yearly: 140

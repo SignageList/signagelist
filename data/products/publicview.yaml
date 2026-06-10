@@ -15,9 +15,23 @@ platforms:
   - Fire OS
   - Windows
   - webOS
+stats: {}
+notes:
+  - One time start-up fee of $109.9 is not included in the subcription price.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
 models:
-  - delivery: cloud
-    free_trial: false
+  - free_trial: false
     pricing_available: true
     has_freemium: false
     pricing:
@@ -36,14 +50,3 @@ models:
         billing_basis: per_device
         monthly: null
         yearly: 624
-stats: {}
-notes:
-  - One time start-up fee of $109.9 is not included in the subcription price.
-features: []
-integrations: []
-target_audience: []
-deployment_options: []
-support_channels: []
-languages: []
-screenshots: []
-last_verified: null

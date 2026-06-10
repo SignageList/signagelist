@@ -13,9 +13,27 @@ categories:
 platforms:
   - Android
   - Fire OS
+stats:
+  screens:
+    total: 1000
+    source: >-
+      https://www.sixteen-nine.net/2025/03/17/alastair-taft-of-tasmanias-luna-screens-explains-his-approach-to-really-simple-digital-signage-software/
+    date: 2025-03
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
 models:
-  - delivery: cloud
-    free_trial: true
+  - free_trial: true
     pricing_available: true
     has_freemium: true
     pricing:
@@ -29,17 +47,3 @@ models:
         billing_basis: per_device
         monthly: 3.75
         yearly: 35
-stats:
-  screens:
-    total: 1000
-    source: https://www.sixteen-nine.net/2025/03/17/alastair-taft-of-tasmanias-luna-screens-explains-his-approach-to-really-simple-digital-signage-software/
-    date: 2025-03
-notes: []
-features: []
-integrations: []
-target_audience: []
-deployment_options: []
-support_channels: []
-languages: []
-screenshots: []
-last_verified: null

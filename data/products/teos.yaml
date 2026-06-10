@@ -17,17 +17,6 @@ platforms:
   - Windows
   - iOS
   - macOS
-models:
-  - delivery: cloud
-    free_trial: true
-    pricing_available: true
-    has_freemium: true
-    pricing:
-      - name: Advanced / Control & Scheduling
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 4.87
-        yearly: null
 stats: {}
 notes: []
 features: []
@@ -38,3 +27,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Advanced / Control & Scheduling
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4.87
+        yearly: null

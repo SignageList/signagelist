@@ -21,24 +21,15 @@ platforms:
   - Linux
   - Raspberry Pi
   - Web Browser
-models:
-  - delivery: cloud
-    free_trial: true
-    pricing_available: true
-    has_freemium: true
-    pricing:
-      - name: Basic
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 1.67
-        yearly: 1.67
 stats:
   screens:
     total: 125493
     source: https://pisignage.com/homepage/index.html
     date: 2025-04
 notes:
-  - A player license is required for open-source server usage, though subscription charges are waived if opting for an open-source server.
+  - >-
+    A player license is required for open-source server usage, though subscription charges are waived if opting for an
+    open-source server.
 features: []
 integrations: []
 target_audience: []
@@ -47,3 +38,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 1.67
+        yearly: 1.67

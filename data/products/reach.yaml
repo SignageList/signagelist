@@ -11,20 +11,8 @@ self_signup: false
 discontinued: false
 categories:
   - CMS
-platforms: [
-  "Amazon Signage"
-]
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: false
-    pricing:
-      - name: Pro Plam
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 19.99
-        yearly: null
+platforms:
+  - Amazon Signage
 stats:
   screens:
     total: 40000
@@ -39,3 +27,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pro Plam
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 19.99
+        yearly: null

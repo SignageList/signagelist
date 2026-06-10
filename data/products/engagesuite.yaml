@@ -15,16 +15,11 @@ platforms:
   - Web Browser
   - Windows
   - webOS
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: false
-    has_freemium: false
-    pricing: []
 stats:
   screens:
     total: 120000
-    source: https://www.linkedin.com/company/zetadisplay/?utm_campaign=Global-%20Newsletter&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_p7VztyRT_Em6v_YcQLol_-IgMZ_dy29VxPAbqplr6ySGfv3x7M5eyr1tCN5viNmfBD9qW
+    source: >-
+      https://www.linkedin.com/company/zetadisplay/?utm_campaign=Global-%20Newsletter&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_p7VztyRT_Em6v_YcQLol_-IgMZ_dy29VxPAbqplr6ySGfv3x7M5eyr1tCN5viNmfBD9qW
     date: 2025-04
 notes: []
 features: []
@@ -35,3 +30,12 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []

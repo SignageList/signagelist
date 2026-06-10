@@ -14,9 +14,26 @@ platforms:
   - Linux
   - Raspberry Pi
   - Windows
+stats:
+  screens:
+    total: 2000
+    source: https://github.com/514sid/digital-signage-list/issues/42
+    date: 2025-07
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
 models:
-  - delivery: cloud
-    free_trial: true
+  - free_trial: true
     pricing_available: true
     has_freemium: true
     pricing:
@@ -40,17 +57,3 @@ models:
         billing_basis: per_device
         monthly: 7.99
         yearly: null
-stats:
-  screens:
-    total: 2000
-    source: https://github.com/514sid/digital-signage-list/issues/42
-    date: 2025-07
-notes: []
-features: []
-integrations: []
-target_audience: []
-deployment_options: []
-support_channels: []
-languages: []
-screenshots: []
-last_verified: null

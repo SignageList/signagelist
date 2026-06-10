@@ -19,9 +19,25 @@ platforms:
   - iOS
   - macOS
   - tvOS
+stats: {}
+notes:
+  - >-
+    Digital signage for schools mainly, but also offers options per screen for Charity, Voluntary organisation, or
+    Business.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
 models:
-  - delivery: cloud
-    free_trial: true
+  - free_trial: true
     pricing_available: true
     has_freemium: false
     pricing:
@@ -35,14 +51,3 @@ models:
         billing_basis: per_device
         monthly: null
         yearly: 2406
-stats: {}
-notes:
-  - Digital signage for schools mainly, but also offers options per screen for Charity, Voluntary organisation, or Business.
-features: []
-integrations: []
-target_audience: []
-deployment_options: []
-support_channels: []
-languages: []
-screenshots: []
-last_verified: null

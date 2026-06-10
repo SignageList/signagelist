@@ -2,7 +2,13 @@ import { z } from 'zod'
 
 const ProductCategorySchema = z.enum(['CMS', 'Content provider', 'Computer vision'])
 
-const DeliverySchema = z.enum(['cloud', 'on-premise', 'hybrid', 'self-hosted'])
+const DeploymentSchema = z
+	.object({
+		cloud: z.boolean().nullable().default(null),
+		on_premise: z.boolean().nullable().default(null),
+		self_hosted: z.boolean().nullable().default(null),
+	})
+	.default({ cloud: null, on_premise: null, self_hosted: null })
 
 const PaymentModelSchema = z.enum(['subscription', 'one-time', 'pay-as-you-go', 'free'])
 
@@ -21,7 +27,6 @@ const PricingSchema = z.object({
 })
 
 const ModelSchema = z.object({
-	delivery: DeliverySchema,
 	free_trial: z.boolean(),
 	pricing_available: z.boolean(),
 	has_freemium: z.boolean(),
@@ -71,6 +76,10 @@ const ProductSchema = z
 		has_saml: z.boolean().default(false),
 		self_signup: z.boolean(),
 		discontinued: z.boolean(),
+
+		// Deployment
+		deployments: DeploymentSchema,
+
 		// Taxonomies
 		categories: z.array(ProductCategorySchema),
 		platforms: z.array(z.string()),
@@ -102,9 +111,10 @@ const ProductSchema = z
 		path: ['developer_portal_url'],
 	})
 
-export { ProductSchema, ProductCategorySchema, ModelSchema, PricingSchema }
+export { ProductSchema, ProductCategorySchema, ModelSchema, PricingSchema, DeploymentSchema }
 
 export type Product = z.infer<typeof ProductSchema>
 export type ProductCategory = z.infer<typeof ProductCategorySchema>
 export type Model = z.infer<typeof ModelSchema>
 export type Pricing = z.infer<typeof PricingSchema>
+export type Deployment = z.infer<typeof DeploymentSchema>

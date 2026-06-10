@@ -18,17 +18,6 @@ platforms:
   - Tizen
   - Windows
   - webOS
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: false
-    pricing:
-      - name: Player
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 21.66
-        yearly: null
 stats: {}
 notes: []
 features: []
@@ -39,3 +28,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Player
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 21.66
+        yearly: null

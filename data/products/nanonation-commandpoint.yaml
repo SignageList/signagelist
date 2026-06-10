@@ -18,12 +18,6 @@ platforms:
   - Tizen
   - webOS
   - Windows
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: false
-    has_freemium: false
-    pricing: []
 stats:
   screens:
     total: 100000
@@ -39,3 +33,12 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []

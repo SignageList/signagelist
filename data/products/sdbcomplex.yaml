@@ -12,12 +12,6 @@ categories:
   - CMS
 platforms:
   - Windows
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: false
-    pricing: []
 stats:
   screens:
     total: 7135
@@ -32,3 +26,12 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing: []

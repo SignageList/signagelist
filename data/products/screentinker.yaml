@@ -1,6 +1,8 @@
 name: ScreenTinker
 slug: screentinker
-description: Open-source digital signage platform for remote management of content across multiple displays, with scheduling, video walls, and real-time monitoring.
+description: >-
+  Open-source digital signage platform for remote management of content across multiple displays, with scheduling, video
+  walls, and real-time monitoring.
 website: https://screentinker.com
 year_founded: 2026
 headquarters:
@@ -20,9 +22,22 @@ platforms:
   - Raspberry Pi
   - Web Browser
   - Windows
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
+deployments:
+  cloud: true
+  on_premise: true
+  self_hosted: true
 models:
-  - delivery: hybrid
-    free_trial: true
+  - free_trial: true
     pricing_available: true
     has_freemium: true
     pricing:
@@ -46,18 +61,3 @@ models:
         billing_basis: flat_rate
         monthly: 199
         yearly: 1989
-  - delivery: self-hosted
-    free_trial: false
-    pricing_available: false
-    has_freemium: true
-    pricing: []
-stats: {}
-notes: []
-features: []
-integrations: []
-target_audience: []
-deployment_options: []
-support_channels: []
-languages: []
-screenshots: []
-last_verified: null

@@ -20,17 +20,6 @@ platforms:
   - Windows
   - macOS
   - webOS
-models:
-  - delivery: cloud
-    free_trial: true
-    pricing_available: true
-    has_freemium: false
-    pricing:
-      - name: Core
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 24
-        yearly: 240
 stats:
   screens:
     total: 100000
@@ -45,3 +34,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Core
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 24
+        yearly: 240

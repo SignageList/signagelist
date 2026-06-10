@@ -1,6 +1,8 @@
 name: AdCast
 slug: adcast
-description: Mobile-driven digital signage app for casting content to Android TV and Fire TV with playlist scheduling and remote updates.
+description: >-
+  Mobile-driven digital signage app for casting content to Android TV and Fire TV with playlist scheduling and remote
+  updates.
 website: https://adcast.app/
 year_founded: 2024
 headquarters:
@@ -13,17 +15,6 @@ categories:
 platforms:
   - Android
   - Fire OS
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: false
-    pricing:
-      - name: 1 Device
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 12.99
-        yearly: 129.99
 stats: {}
 notes: []
 features: []
@@ -34,3 +25,17 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: 1 Device
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 12.99
+        yearly: 129.99

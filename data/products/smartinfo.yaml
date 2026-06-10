@@ -11,12 +11,6 @@ discontinued: false
 categories:
   - CMS
 platforms: []
-models:
-  - delivery: cloud
-    free_trial: false
-    pricing_available: true
-    has_freemium: false
-    pricing: []
 stats: {}
 notes: []
 features: []
@@ -27,3 +21,12 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing: []

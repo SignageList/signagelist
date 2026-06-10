@@ -1,33 +1,18 @@
-name: "SignageFlow"
+name: SignageFlow
 slug: signageflow
 description: ""
-website: "https://signageflow.com/"
+website: https://signageflow.com/
 year_founded: 2025
-headquarters: ["UAE"]
+headquarters:
+  - UAE
 open_source: false
 rss_feed_url: null
 self_signup: true
 discontinued: false
-categories: ["CMS"]
-platforms: [
-  "Web Browser",
-]
-models:
-  - delivery: cloud
-    free_trial: true
-    pricing_available: true
-    has_freemium: false
-    pricing:
-      - name: "5 screen Pack"
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 15
-        yearly: 150
-      - name: "10 Screen pack"
-        payment_model: subscription
-        billing_basis: per_device
-        monthly: 30
-        yearly: 299
+categories:
+  - CMS
+platforms:
+  - Web Browser
 stats: {}
 notes: []
 features: []
@@ -38,3 +23,22 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+deployments:
+  cloud: true
+  on_premise: null
+  self_hosted: null
+models:
+  - free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: 5 screen Pack
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 15
+        yearly: 150
+      - name: 10 Screen pack
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 30
+        yearly: 299
