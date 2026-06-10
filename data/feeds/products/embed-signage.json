@@ -1,7 +1,13 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-06-09T06:29:44.707Z",
+  "fetched_at": "2026-06-10T06:36:55.413Z",
   "items": [
+    {
+      "title": "New Devices Page Update",
+      "link": "https://embedsignage.com/releases/new-devices-page-update/",
+      "date": "2026-06-09T07:18:03.000Z",
+      "description": ""
+    },
     {
       "title": "New Send HTTP/WebHook to any URL from content and various Bug Fixes",
       "link": "https://embedsignage.com/releases/new-send-http-webhook-to-any-url-from-content-and-various-bug-fixes/",
