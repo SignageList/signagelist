@@ -3,7 +3,8 @@ slug: displaynxt
 description: Cloud-based digital signage platform for managing displays across any industry.
 website: https://displaynxt.pro
 year_founded: null
-headquarters: []
+headquarters:
+  - India
 open_source: false
 self_signup: true
 discontinued: false
