@@ -1,0 +1,54 @@
+name: agentView
+slug: agentview
+description: Cloud-based digital signage CMS with AI-powered features, freemium pricing, and broad platform support.
+website: https://agentview.de
+year_founded: 2026
+headquarters:
+  - Germany
+open_source: false
+has_api: true
+developer_portal_url: https://agentview.de/developers.html
+has_mcp: true
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - iOS
+  - Linux
+  - macOS
+  - Raspberry Pi
+  - Tizen
+  - tvOS
+  - Web Browser
+  - webOS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4
+        yearly: 40
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
