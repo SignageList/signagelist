@@ -1,0 +1,71 @@
+name: Gibeon
+slug: gibeon
+description: Cloud-based digital signage CMS built and hosted in the EU, with a freemium plan and broad platform support.
+website: https://www.gibeon.io
+year_founded: 2024
+headquarters:
+  - Belgium
+open_source: false
+has_api: true
+developer_portal_url: https://www.gibeon.io/dev
+has_mcp: true
+has_sso: true
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - macOS
+  - Raspberry Pi
+  - Tizen
+  - Web Browser
+  - webOS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+      - name: Starter
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 39
+        yearly: 390
+      - name: Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+      - name: Business
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 198
+        yearly: 1980
+      - name: Agency
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 249
+        yearly: 2490
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
