@@ -6,6 +6,10 @@ year_founded: 2014
 headquarters:
   - India
 open_source: false
+has_api: true
+developer_portal_url: https://piathome.com/apidocs/
+has_sso: true
+has_saml: true
 self_signup: true
 discontinued: false
 categories:
@@ -26,8 +30,8 @@ models:
       - name: Basic
         payment_model: subscription
         billing_basis: per_device
-        monthly: 3.43
-        yearly: null
+        monthly: 1.67
+        yearly: 1.67
 stats:
   screens:
     total: 125493
