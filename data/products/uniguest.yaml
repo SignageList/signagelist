@@ -2,12 +2,14 @@ name: Uniguest
 slug: uniguest
 description: ""
 website: https://uniguest.com/
-year_founded: 2006
+year_founded: 1986
 headquarters:
   - USA
 open_source: false
 self_signup: false
 discontinued: false
+has_sso: true
+has_saml: true
 categories:
   - CMS
 platforms:
