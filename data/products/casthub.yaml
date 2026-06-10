@@ -1,0 +1,58 @@
+name: CastHub
+slug: casthub
+description: Flat-rate digital signage with unlimited screens, enterprise features, and easy setup.
+website: https://cast-hub.com
+year_founded: 2025
+headquarters:
+  - USA
+open_source: false
+has_api: true
+developer_portal_url: https://cast-hub.com/mcp/
+has_mcp: true
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - iOS
+  - Linux
+  - macOS
+  - Raspberry Pi
+  - Tizen
+  - Web Browser
+  - webOS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 12
+        yearly: null
+      - name: Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 35
+        yearly: null
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 95
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
