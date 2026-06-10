@@ -1,0 +1,41 @@
+name: SignageNow Digital Signage Software
+slug: signagenow
+description: Free cloud digital signage software that lets users manage displays directly from a browser without extra hardware. Self-service sign-up with no credit card required.
+website: https://www.signagenow.tv
+year_founded: 2026
+headquarters:
+  - Germany
+open_source: false
+self_signup: true
+discontinued: false
+has_logo: true
+categories:
+  - CMS
+  - Content provider
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - macOS
+  - Raspberry Pi
+  - Tizen
+  - Web Browser
+  - webOS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
