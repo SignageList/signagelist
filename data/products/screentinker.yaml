@@ -1,0 +1,63 @@
+name: ScreenTinker
+slug: screentinker
+description: Open-source digital signage platform for remote management of content across multiple displays, with scheduling, video walls, and real-time monitoring.
+website: https://screentinker.com
+year_founded: 2026
+headquarters:
+  - USA
+open_source: true
+license: MIT
+source_code_url: https://github.com/screentinker/screentinker
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Web Browser
+  - Windows
+models:
+  - delivery: hybrid
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Starter
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 39
+        yearly: 389
+      - name: Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 99
+        yearly: 989
+      - name: Business
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 199
+        yearly: 1989
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
