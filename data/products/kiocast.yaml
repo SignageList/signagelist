@@ -1,0 +1,40 @@
+name: Kiocast
+slug: kiocast
+description: Professional digital signage system that ensures content looks stunning and runs smoothly on any screen.
+website: https://kiocast.com
+year_founded: 2023
+headquarters:
+  - Canada
+open_source: false
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Windows
+models:
+  - delivery: hybrid
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
