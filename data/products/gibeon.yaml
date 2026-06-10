@@ -34,26 +34,35 @@ models:
         billing_basis: flat_rate
         monthly: 0
         yearly: 0
+        included_screens: 3
+        max_screens: 3
       - name: Starter
         payment_model: subscription
         billing_basis: flat_rate
         monthly: 39
         yearly: 390
+        included_screens: 5
+        max_screens: 5
       - name: Pro
         payment_model: subscription
         billing_basis: flat_rate
         monthly: null
         yearly: null
+        included_screens: 10
+        overage_per_screen: 5
       - name: Business
         payment_model: subscription
         billing_basis: flat_rate
         monthly: 198
         yearly: 1980
+        included_screens: 10
+        overage_per_screen: 5
       - name: Agency
         payment_model: subscription
         billing_basis: flat_rate
         monthly: 249
         yearly: 2490
+        included_screens: 20
       - name: Enterprise
         payment_model: subscription
         billing_basis: flat_rate

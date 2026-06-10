@@ -15,6 +15,9 @@ const PricingSchema = z.object({
 	monthly: z.number().nullable(),
 	yearly: z.number().nullable(),
 	price: z.number().nullable().optional(),
+	included_screens: z.number().int().nullable().default(null),
+	overage_per_screen: z.number().nullable().default(null),
+	max_screens: z.number().int().nullable().default(null),
 })
 
 const ModelSchema = z.object({
