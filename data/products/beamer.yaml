@@ -1,0 +1,41 @@
+name: Beamer
+slug: beamer
+description: Turn any Apple TV into a digital signage display. Create, schedule, and manage content right from your iPhone.
+website: https://www.getbeamer.co
+year_founded: 2026
+headquarters:
+  - Netherlands
+open_source: false
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - iOS
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+      - name: Beamer Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
