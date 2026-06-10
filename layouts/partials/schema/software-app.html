@@ -9,7 +9,7 @@
 	{{ with $p.platforms }}"operatingSystem": "{{ delimit . ", " }}",{{ end }}
 	"url": "{{ .Permalink }}",
 	{{ $cloudModel := false }}
-	{{ range $p.models }}{{ if eq .delivery "cloud" }}{{ $cloudModel = . }}{{ end }}{{ end }}
+	{{ if $p.models }}{{ $cloudModel = index $p.models 0 }}{{ end }}
 	{{ if and $cloudModel $cloudModel.pricing_available }}
 	{{ $firstPricing := false }}
 	{{ range $cloudModel.pricing }}{{ if and (not $firstPricing) .monthly }}{{ $firstPricing = . }}{{ end }}{{ end }}

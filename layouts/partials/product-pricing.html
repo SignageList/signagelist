@@ -6,10 +6,8 @@
 {{ $result := "-" }}
 {{ $cloudModel := false }}
 
-{{ range .Params.models }}
-  {{ if eq .delivery "cloud" }}
-    {{ $cloudModel = . }}
-  {{ end }}
+{{ if .Params.models }}
+  {{ $cloudModel = index .Params.models 0 }}
 {{ end }}
 
 {{ if and .Params.open_source (not (and $cloudModel $cloudModel.pricing_available)) }}
