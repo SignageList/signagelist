@@ -1,0 +1,51 @@
+name: Screen Keep
+slug: screen-keep
+description: Web-powered digital signage app for Android TV, Google TV, and Chromecast that turns any webpage, dashboard, menu, schedule, or hosted video URL into a display, with auto-refresh, scheduling, and optional online or on-device management.
+website: https://www.screenkeep.com
+year_founded: null
+headquarters:
+  - United States
+open_source: false
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Web Browser
+models:
+  - delivery: hybrid
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: 7-Day Event Pass
+        payment_model: one-time
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+        price: 14.95
+      - name: Online Management
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 3.49
+        yearly: 24.95
+      - name: On-Device Management
+        payment_model: one-time
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+        price: 45
+stats: {}
+notes:
+  - Runs on Android TV, Google TV, and Chromecast with Google TV devices.
+  - On-Device Management is a $45 one-time purchase that includes 3 months of online management.
+  - The first screen can be launched free for a one-week evaluation before purchase.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
