@@ -1,0 +1,39 @@
+name: Gymboard
+slug: gymboard
+description: Cloud digital signage CMS for fitness facilities such as BJJ academies, CrossFit boxes, and dance studios that displays real-time class schedules, active classes, and announcements on Android, Fire OS, and web-connected screens.
+website: https://gymboard.app
+year_founded: 2026
+headquarters:
+  - United States
+open_source: false
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 40
+        yearly: null
+stats: {}
+notes:
+  - Pro costs $40 per month and includes one location with unlimited displays, classes, and announcements. Additional locations are $15 per month each.
+  - Offers a 14-day free trial with no credit card required.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
