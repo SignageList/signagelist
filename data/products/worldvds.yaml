@@ -6,14 +6,18 @@ year_founded: 2012
 headquarters:
   - Portugal
 open_source: false
+has_api: true
+developer_portal_url: https://www.amplitudenet.pt/en/digital-signage-software/
+has_sso: true
 self_signup: false
-discontinued: true
+discontinued: false
 categories:
   - CMS
 platforms:
   - Android
   - Fire OS
   - Linux
+  - Raspberry Pi
   - Tizen
   - Windows
   - webOS
