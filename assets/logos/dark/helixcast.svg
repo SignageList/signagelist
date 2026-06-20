@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="7" fill="#0f172a"/>
+
+  <!-- H: left bar, right bar, crossbar -->
+  <rect x="2"  y="5" width="5" height="22" fill="#22d3ee"/>
+  <rect x="12" y="5" width="5" height="22" fill="#22d3ee"/>
+  <rect x="2"  y="13" width="15" height="6" fill="#22d3ee"/>
+
+  <!--
+    C: annular arc, center (19,16), outer r=10, inner r=6, opening at ±45°.
+    Outer top  (26,9)  → outer arc CCW (sweep=0, large-arc=1) → outer bottom (26,23)
+    Line inward          → inner bottom (23,20)
+    Inner arc  CW       (sweep=1, large-arc=1) → inner top (23,12)
+    Close line           → back to outer top (26,9)
+  -->
+  <path d="M 26,9 A 10,10 0 1,0 26,23 L 23,20 A 6,6 0 1,1 23,12 Z" fill="#60a5fa"/>
+</svg>

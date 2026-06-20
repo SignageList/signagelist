@@ -1,0 +1,55 @@
+name: HelixCast
+slug: helixcast
+description: Digital signage and wireless screen mirroring platform that displays curated content on idle screens and switches to live casting from any device when someone needs to present.
+website: https://helixcast.com
+year_founded: 2022
+headquarters:
+  - Canada
+open_source: false
+has_sso: true
+has_saml: true
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+  - Content provider
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Raspberry Pi
+  - Web Browser
+  - Windows
+  - macOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Signage Plus
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 8
+        yearly: 80
+      - name: Signage & Mirroring
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 13
+        yearly: 130
+      - name: Unlocked
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 17
+        yearly: 170
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
