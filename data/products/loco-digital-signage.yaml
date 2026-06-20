@@ -1,0 +1,39 @@
+name: Loco Digital Signage
+slug: loco-digital-signage
+description: Offline-ready digital signage for small businesses that casts content to Android TV, Google TV, and Fire TV screens over local WiFi, managed from a mobile app without dedicated signage hardware.
+website: https://locosignage.com
+year_founded: 2025
+headquarters:
+  - India
+open_source: false
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: self-hosted
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 6
+        yearly: 57.6
+stats: {}
+notes:
+  - Runs fully offline over a local WiFi network with no cloud dependency.
+  - The 3-day free trial requires no credit card and is limited to 2 screens.
+  - Enterprise plans are available with custom pricing.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
