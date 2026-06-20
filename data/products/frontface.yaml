@@ -6,13 +6,16 @@ year_founded: 2005
 headquarters:
   - Germany
 open_source: false
-self_signup: false
+has_api: true
+developer_portal_url: https://www.mirabyte.com/en/frontface/features/plugin-sdk.html
+self_signup: true
 discontinued: false
 categories:
   - CMS
 platforms:
   - Android
   - Fire OS
+  - Linux
   - Windows
 models:
   - delivery: cloud
@@ -25,6 +28,17 @@ models:
         billing_basis: per_device
         monthly: 39.95
         yearly: null
+  - delivery: on-premise
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Perpetual License for one Player
+        payment_model: one-time
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+        price: 669.95
 stats: {}
 notes: []
 features: []
