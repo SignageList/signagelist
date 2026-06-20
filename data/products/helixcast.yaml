@@ -31,18 +31,18 @@ models:
       - name: Signage Plus
         payment_model: subscription
         billing_basis: per_device
-        monthly: 8
-        yearly: 80
+        monthly: 5.68
+        yearly: 56.8
       - name: Signage & Mirroring
         payment_model: subscription
         billing_basis: per_device
-        monthly: 13
-        yearly: 130
+        monthly: 9.23
+        yearly: 92.3
       - name: Unlocked
         payment_model: subscription
         billing_basis: per_device
-        monthly: 17
-        yearly: 170
+        monthly: 12.07
+        yearly: 120.7
 stats: {}
 notes: []
 features: []
