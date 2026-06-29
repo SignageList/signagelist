@@ -1,0 +1,37 @@
+name: Digital Signage Apps
+slug: digital-signage-apps
+description: Free, open-source collection of vendor-agnostic digital signage apps (clock, weather, quotes, RSS, and more) that run on any smart TV or signage player.
+website: https://signage-apps.com/
+year_founded: 2026
+headquarters:
+  - USA
+open_source: true
+license: AGPL-3.0-only
+source_code_url: https://github.com/Screenly-Labs
+self_signup: true
+discontinued: false
+categories:
+  - Content provider
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: null
+stats: {}
+notes:
+  - Free and open-source apps maintained under the Screenly-Labs organization; usable on any screen and self-hostable.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
