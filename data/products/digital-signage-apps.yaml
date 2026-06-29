@@ -25,8 +25,7 @@ models:
         monthly: 0
         yearly: null
 stats: {}
-notes:
-  - Free and open-source apps maintained under the Screenly-Labs organization; usable on any screen and self-hostable.
+notes: []
 features: []
 integrations: []
 target_audience: []
