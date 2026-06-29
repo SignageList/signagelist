@@ -1,0 +1,47 @@
+name: Framebaker
+slug: framebaker
+description: Cloud-based digital signage platform to launch, schedule, and manage screens with reliable playback on dedicated signage hardware.
+website: https://framebaker.com/
+year_founded: 2024
+headquarters:
+  - Netherlands
+open_source: false
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Linux
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Starter
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9
+        yearly: null
+      - name: Business
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 19
+        yearly: null
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 39
+        yearly: null
+stats: {}
+notes:
+  - Pricing is listed in EUR (Starter €9, Business €19, Pro €39 per screen/month). The Pro plan is marked "coming soon".
+  - Offers a 30-day free trial with no credit card required.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
