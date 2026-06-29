@@ -1,0 +1,40 @@
+name: Menuzen
+slug: menuzen
+description: Digital menu board content provider for quick-service restaurants, syncing real-time pricing from POS systems across multiple locations.
+website: https://www.menuzen.com/
+year_founded: 2019
+headquarters:
+  - Australia
+open_source: false
+has_sso: true
+self_signup: false
+discontinued: false
+categories:
+  - Content provider
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Per environment
+        payment_model: subscription
+        billing_basis: per_location
+        monthly: 200
+        yearly: 2000
+stats:
+  screens:
+    total: 7000
+    source: https://www.ampeddigital.com.au/case-studies/projects/subways-national-digital-signage-rollout/
+    date: 2025-01
+notes:
+  - Content provider that integrates with CMS platforms as a plugin or addon to design, build, and deploy dynamic digital menu board content.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
