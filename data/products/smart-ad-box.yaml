@@ -1,0 +1,32 @@
+name: Smart Ad Box
+slug: smart-ad-box
+description: Cloud-based digital signage CMS paired with Android-powered display boxes for restaurants, retail, healthcare, and education.
+website: https://www.smart-adbox.com/
+year_founded: null
+headquarters:
+  - Bangladesh
+open_source: false
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Linux
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
