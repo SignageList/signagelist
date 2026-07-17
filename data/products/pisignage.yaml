@@ -8,6 +8,8 @@ headquarters:
 open_source: false
 has_api: true
 developer_portal_url: https://piathome.com/apidocs/
+has_docs: true
+docs_url: https://pisignage.com/doc
 has_sso: true
 has_saml: true
 self_signup: true

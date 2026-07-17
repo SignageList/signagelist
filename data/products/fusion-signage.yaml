@@ -8,6 +8,8 @@ headquarters:
 open_source: false
 has_api: true
 developer_portal_url: https://developers.fusionsignage.com.au
+has_docs: true
+docs_url: https://support.fusionsignage.com.au/en/
 has_saml: true
 rss_feed_url: https://fusionsignage.com.au/blog/rss.xml
 self_signup: true

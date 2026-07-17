@@ -8,6 +8,8 @@ headquarters:
 open_source: false
 has_api: true
 developer_portal_url: https://developer.screenly.io
+has_docs: true
+docs_url: https://support.screenly.io/hc/en-us
 has_cli: true
 has_mcp: true
 has_sso: true

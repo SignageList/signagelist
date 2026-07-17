@@ -8,6 +8,8 @@ headquarters:
 open_source: false
 has_api: true
 developer_portal_url: https://www.gibeon.io/dev
+has_docs: true
+docs_url: https://www.gibeon.io/docs/
 has_mcp: true
 has_sso: true
 self_signup: true

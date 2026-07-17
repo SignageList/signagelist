@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: AGPL-3.0-only
 source_code_url: https://github.com/castmill/castmill
+has_docs: true
+docs_url: https://docs.castmill.com
 self_signup: true
 discontinued: false
 categories:

@@ -8,6 +8,8 @@ headquarters:
 open_source: false
 has_api: true
 developer_portal_url: https://cast-hub.com/mcp/
+has_docs: true
+docs_url: https://cast-hub.com/docs/
 has_mcp: true
 self_signup: true
 discontinued: false

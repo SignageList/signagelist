@@ -8,6 +8,8 @@ headquarters:
 open_source: false
 has_api: true
 developer_portal_url: https://developer.reveldigital.com
+has_docs: true
+docs_url: https://support.reveldigital.com/
 has_mcp: true
 has_sso: true
 self_signup: true

@@ -65,6 +65,8 @@ const ProductSchema = z
 		rss_feed_url: z.string().url().nullable().default(null),
 		has_api: z.boolean().default(false),
 		developer_portal_url: z.string().url().nullable().default(null),
+		has_docs: z.boolean().default(false),
+		docs_url: z.string().url().nullable().default(null),
 		has_cli: z.boolean().default(false),
 		has_mcp: z.boolean().default(false),
 		has_sso: z.boolean().default(false),
@@ -100,6 +102,10 @@ const ProductSchema = z
 	.refine((data) => !data.has_api || data.developer_portal_url !== null, {
 		message: 'developer_portal_url is required when has_api is true',
 		path: ['developer_portal_url'],
+	})
+	.refine((data) => !data.has_docs || data.docs_url !== null, {
+		message: 'docs_url is required when has_docs is true',
+		path: ['docs_url'],
 	})
 
 export { ProductSchema, ProductCategorySchema, ModelSchema, PricingSchema }
