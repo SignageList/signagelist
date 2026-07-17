@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: AGPL-3.0-only
 source_code_url: https://github.com/niclet/garlic-player
+has_docs: true
+docs_url: https://garlic-signage.com/resources/
 self_signup: true
 discontinued: false
 categories:

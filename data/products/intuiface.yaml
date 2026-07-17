@@ -7,6 +7,8 @@ headquarters:
   - France
 open_source: false
 rss_feed_url: https://intuiface.com/blog/rss.xml
+has_docs: true
+docs_url: https://support.intuiface.com/hc
 self_signup: true
 discontinued: false
 categories:

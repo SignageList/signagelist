@@ -7,6 +7,8 @@ headquarters:
   - USA
   - Australia
 open_source: false
+has_docs: true
+docs_url: https://juuno.co/help
 self_signup: true
 discontinued: false
 categories:

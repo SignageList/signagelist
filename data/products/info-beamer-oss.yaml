@@ -6,6 +6,10 @@ year_founded: 2012
 headquarters:
   - Germany
 open_source: false
+has_api: true
+developer_portal_url: https://info-beamer.com/doc/api
+has_docs: true
+docs_url: https://info-beamer.com/doc/index
 self_signup: true
 discontinued: true
 categories:

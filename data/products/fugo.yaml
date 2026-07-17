@@ -7,6 +7,8 @@ headquarters:
   - United Kingdom
 open_source: false
 rss_feed_url: https://www.fugo.ai/rss
+has_docs: true
+docs_url: https://help.fugo.ai/en/
 self_signup: true
 discontinued: false
 categories:

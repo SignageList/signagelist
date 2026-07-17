@@ -7,6 +7,8 @@ headquarters:
   - Norway
 open_source: false
 rss_feed_url: https://fyresign.com/en/feed.xml
+has_docs: true
+docs_url: https://fyresign.com/en/helpcenter
 self_signup: true
 discontinued: false
 categories:

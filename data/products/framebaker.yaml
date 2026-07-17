@@ -6,6 +6,8 @@ year_founded: 2024
 headquarters:
   - Netherlands
 open_source: false
+has_docs: true
+docs_url: https://framebaker.com/faq/hardware
 self_signup: true
 discontinued: false
 categories:

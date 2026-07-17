@@ -6,6 +6,8 @@ year_founded: 2021
 headquarters:
   - Russia
 open_source: false
+has_docs: true
+docs_url: https://fijee.ru/docs/
 self_signup: true
 discontinued: false
 categories:

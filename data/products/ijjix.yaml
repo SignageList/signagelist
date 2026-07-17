@@ -6,6 +6,8 @@ year_founded: 2025
 headquarters: ["Brazil"]
 open_source: false
 rss_feed_url: null
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories: ["CMS"]

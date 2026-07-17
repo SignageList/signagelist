@@ -6,6 +6,8 @@ year_founded: 2024
 headquarters: ["Canada"]
 open_source: false
 rss_feed_url: null
+has_docs: true
+docs_url: https://www.dvdify.com/support
 self_signup: true
 discontinued: false
 categories: ["Content provider"]

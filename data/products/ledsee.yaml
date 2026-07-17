@@ -7,6 +7,8 @@ headquarters:
   - Poland
 open_source: false
 rss_feed_url: https://ledsee.pl/digital-signage/feed/
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories:

@@ -6,6 +6,10 @@ year_founded: 2014
 headquarters:
   - USA
 open_source: false
+has_api: true
+developer_portal_url: https://api.next.kitcast.tv/api/v1/documentation
+has_docs: true
+docs_url: https://knowledgebase.kitcast.tv/
 self_signup: true
 discontinued: false
 categories:

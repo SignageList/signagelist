@@ -7,6 +7,8 @@ headquarters:
   - Finland
 open_source: false
 has_sso: true
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories:

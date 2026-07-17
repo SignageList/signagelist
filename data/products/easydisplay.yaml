@@ -6,6 +6,8 @@ year_founded: 2025
 headquarters:
   - Hong Kong
 open_source: true
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories:
