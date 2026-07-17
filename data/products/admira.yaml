@@ -6,6 +6,10 @@ year_founded: 2006
 headquarters:
   - Spain
 open_source: false
+has_api: true
+developer_portal_url: https://docs.admira.com/english/contents/html-content/admira-api-html5-content.md
+has_docs: true
+docs_url: https://docs.admira.com/v/english
 self_signup: true
 discontinued: false
 categories:

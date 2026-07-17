@@ -7,6 +7,8 @@ headquarters:
   - United Kingdom
 open_source: false
 rss_feed_url: https://www.digitalsignage.net/feed/
+has_docs: true
+docs_url: https://digitalsignage.zendesk.com/hc/en-us/categories/115000319103-Core-Edition-Software-Support
 self_signup: true
 discontinued: false
 categories:

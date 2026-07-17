@@ -7,6 +7,10 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://www.brightsign.biz/feed/
+has_api: true
+developer_portal_url: https://docs.brightsign.biz/developers
+has_docs: true
+docs_url: https://docs.brightsign.biz/
 self_signup: true
 discontinued: false
 categories:

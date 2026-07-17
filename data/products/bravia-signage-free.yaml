@@ -6,6 +6,8 @@ year_founded: 2004
 headquarters:
   - Japan
 open_source: false
+has_docs: true
+docs_url: https://pro-bravia.sony.net/resources/software/bravia-signage-free/index.html
 self_signup: true
 discontinued: false
 categories:

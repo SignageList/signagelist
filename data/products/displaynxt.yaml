@@ -6,6 +6,10 @@ year_founded: null
 headquarters:
   - India
 open_source: false
+has_api: true
+developer_portal_url: https://displaynxt.pro/documentation/api
+has_docs: true
+docs_url: https://displaynxt.pro/documentation
 self_signup: true
 discontinued: false
 categories:

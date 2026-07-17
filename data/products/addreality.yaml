@@ -7,6 +7,10 @@ headquarters:
   - Russia
 open_source: false
 rss_feed_url: https://addreality.com/rss.xml
+has_api: true
+developer_portal_url: https://docs.addreality.ru/article/77662
+has_docs: true
+docs_url: https://docs.addreality.ru/
 self_signup: true
 discontinued: false
 categories:

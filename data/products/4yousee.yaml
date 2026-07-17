@@ -7,6 +7,8 @@ headquarters:
   - Brazil
 open_source: false
 rss_feed_url: https://www.4yousee.com.br/en/4yousee-manager/feed/
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories:

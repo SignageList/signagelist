@@ -6,6 +6,8 @@ year_founded: 2023
 headquarters:
   - India
 open_source: false
+has_docs: true
+docs_url: https://docs.bharatsignage.com/docs/intro
 self_signup: true
 discontinued: false
 categories:

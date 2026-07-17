@@ -6,6 +6,10 @@ year_founded: 2020
 headquarters:
   - Taiwan
 open_source: false
+has_api: true
+developer_portal_url: https://docs.bricks.tools/ctor-pkg/index.md
+has_docs: true
+docs_url: https://docs.bricks.tools/
 self_signup: true
 discontinued: false
 categories:

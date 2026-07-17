@@ -5,6 +5,10 @@ website: https://www.apexvuedigital.com/
 year_founded: 2024
 headquarters: []
 open_source: false
+has_api: true
+developer_portal_url: https://www.apexvuedigital.com/docs/mcp/
+has_docs: true
+docs_url: https://www.apexvuedigital.com/docs/
 self_signup: true
 discontinued: false
 categories:

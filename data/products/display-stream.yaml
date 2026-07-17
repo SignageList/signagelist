@@ -7,6 +7,8 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://www.display.stream/feed/
+has_docs: true
+docs_url: https://www.display.stream/documentation/
 self_signup: true
 discontinued: false
 categories:

@@ -6,6 +6,10 @@ year_founded: 2013
 headquarters:
   - France
 open_source: false
+has_api: true
+developer_portal_url: https://api.comeen.io/docs/index.html
+has_docs: true
+docs_url: https://support.comeen.com/
 self_signup: true
 discontinued: false
 categories:

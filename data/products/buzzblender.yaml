@@ -7,6 +7,8 @@ headquarters:
   - UAE
 open_source: false
 rss_feed_url: https://buzzblender.com/rss.xml
+has_docs: true
+docs_url: https://help.buzzblender.com/
 self_signup: true
 discontinued: false
 categories:

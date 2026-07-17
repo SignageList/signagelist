@@ -7,6 +7,8 @@ headquarters:
   - Brazil
 open_source: false
 rss_feed_url: https://site.admooh.com/feed/
+has_docs: true
+docs_url: https://help.admooh.com/
 self_signup: true
 discontinued: false
 categories:

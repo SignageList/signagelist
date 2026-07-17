@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: AGPL-3.0-only
 source_code_url: https://github.com/Screenly-Labs
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories:

@@ -7,6 +7,8 @@ headquarters:
   - India
 open_source: false
 rss_feed_url: https://digisigns.in/feed/
+has_docs: true
+docs_url: https://docs.digisigns.in
 self_signup: true
 discontinued: false
 categories:

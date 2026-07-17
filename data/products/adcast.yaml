@@ -6,6 +6,8 @@ year_founded: 2024
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://adcast.app/support/
 self_signup: true
 discontinued: false
 categories:

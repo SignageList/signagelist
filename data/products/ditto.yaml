@@ -6,6 +6,8 @@ year_founded: 2008
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://help.airsquirrels.com/ditto?hsLang=en
 self_signup: true
 discontinued: false
 categories:

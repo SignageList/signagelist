@@ -6,6 +6,10 @@ year_founded: 2008
 headquarters:
   - France
 open_source: false
+has_api: true
+developer_portal_url: https://www.disign.tv/en/developers
+has_docs: true
+docs_url: https://support.disign.tv/en/doc
 self_signup: true
 discontinued: false
 categories:

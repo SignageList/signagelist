@@ -6,6 +6,8 @@ year_founded: 2007
 headquarters:
   - USA
 open_source: false
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories:
