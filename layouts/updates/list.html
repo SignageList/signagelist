@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+{{ $releases := sort .Pages "Date" "desc" }}
+
+<div class="max-w-5xl mx-auto px-6 py-8">
+
+  <div class="mb-6 flex items-end justify-between">
+    <div>
+      <h1 class="text-xl font-semibold text-neutral-900">Updates</h1>
+      <p class="text-sm text-neutral-500 mt-1">A changelog of data additions and improvements to the catalog.</p>
+    </div>
+    <p class="text-sm text-neutral-400 tabular-nums">{{ len $releases }} releases</p>
+  </div>
+
+  {{ if $releases }}
+  <div class="space-y-5">
+    {{ range $releases }}
+    {{ $products := .Params.products }}
+    <article class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden">
+      <div class="p-5 sm:p-6">
+        <div class="flex items-start justify-between gap-4">
+          <h2 class="text-base font-semibold text-neutral-900">
+            <a href="{{ .RelPermalink }}" class="hover:text-neutral-600 transition-colors">{{ .Title }}</a>
+          </h2>
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-xs text-neutral-400 shrink-0 mt-0.5">{{ .Date | time.Format "Jan 2, 2006" }}</time>
+        </div>
+        {{ with .Params.description }}
+        <p class="text-sm text-neutral-600 mt-2 leading-relaxed">{{ . }}</p>
+        {{ end }}
+      </div>
+
+      {{ if $products }}
+      <div class="border-t border-neutral-100 max-h-96 overflow-y-auto divide-y divide-neutral-100">
+        {{ range $products }}
+        {{ $page := site.GetPage (printf "/products/%s" .slug) }}
+        <div class="flex items-center gap-3 px-5 sm:px-6 py-2.5">
+          {{ if $page }}
+          {{ partial "product-logo.html" (dict "Params" $page.Params "size" "sm") }}
+          <div class="min-w-0 flex-1">
+            <a href="{{ $page.RelPermalink }}" class="text-sm font-medium text-neutral-900 hover:text-neutral-600 transition-colors">{{ $page.Params.name }}</a>
+            <p class="text-xs text-neutral-500 mt-0.5 truncate">{{ .change }}</p>
+          </div>
+          {{ else }}
+          <div class="min-w-0 flex-1">
+            <span class="text-sm font-medium text-neutral-900">{{ .slug }}</span>
+            <p class="text-xs text-neutral-500 mt-0.5 truncate">{{ .change }}</p>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="border-t border-neutral-100 px-5 sm:px-6 py-2.5 bg-neutral-50/60">
+        <p class="text-xs text-neutral-400">{{ len $products }} products changed</p>
+      </div>
+      {{ end }}
+    </article>
+    {{ end }}
+  </div>
+  {{ else }}
+  <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm p-16 text-center">
+    <p class="text-neutral-500 text-sm">No updates yet. Check back later.</p>
+  </div>
+  {{ end }}
+
+</div>
+
+{{ end }}
