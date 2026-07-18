@@ -7,6 +7,8 @@ headquarters:
   - India
 open_source: false
 rss_feed_url: null
+has_docs: true
+docs_url: https://yugna.com/docs/
 self_signup: true
 discontinued: false
 categories:
