@@ -4,11 +4,11 @@ date: 2026-07-18
 description: "Added the has_docs and docs_url fields to track each product's public support documentation (separate from the existing has_api/developer_portal_url pair), then researched and backfilled real links across every self-signup product in the catalog."
 products:
   - slug: 1glance
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: 1play
     change: "Added docs_url → https://1play.tv/frequently-asked-questions"
   - slug: 4yousee
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: ablesign
     change: "Added docs_url → https://www.ablesign.tv/digital-signage/knowledge-base/"
   - slug: adcast
@@ -16,21 +16,21 @@ products:
   - slug: addreality
     change: "Added docs_url → https://docs.addreality.ru/"
   - slug: admefy
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: admira
     change: "Added docs_url → https://docs.admira.com/v/english"
   - slug: admooh
     change: "Added docs_url → https://help.admooh.com/"
   - slug: agentview
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: androidsignage
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: appspace
     change: "Added docs_url → https://community.appspace.com/knowledge-base"
   - slug: avsign-lite
     change: "Added docs_url → https://www.apexvuedigital.com/docs/"
   - slug: beamer
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: bharat-signage
     change: "Added docs_url → https://docs.bharatsignage.com/docs/intro"
   - slug: bizplay
@@ -48,27 +48,27 @@ products:
   - slug: casthub
     change: "Added docs_url → https://cast-hub.com/docs/"
   - slug: castit
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: castmill
     change: "Added docs_url → https://docs.castmill.com"
   - slug: cirrus-screenhub
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: cloudshow
     change: "Added docs_url → https://cloud.show/Help"
   - slug: cloudyfy-tv
     change: "Added docs_url → https://www.cloudyfy.tv/faqs/"
   - slug: cms-signage
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: comeen
     change: "Added docs_url → https://support.comeen.com/"
   - slug: dakboard
     change: "Added docs_url → https://dakboard.freshdesk.com/support/home"
   - slug: digichief-mercury
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: digisigns
     change: "Added docs_url → https://docs.digisigns.in"
   - slug: digital-signage-apps
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: digitalsignage-net
     change: "Added docs_url → https://digitalsignage.zendesk.com/hc/en-us/categories/115000319103-Core-Edition-Software-Support"
   - slug: digitalsigns-ai
@@ -94,25 +94,25 @@ products:
   - slug: ditto
     change: "Added docs_url → https://help.airsquirrels.com/ditto?hsLang=en"
   - slug: dopublicity
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: dotsignage
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: dripboards
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: dsgo-pro
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: dsgo
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: dst-connect
     change: "Added docs_url → https://support.digitalsignage-templates.com"
   - slug: dvdify
     change: "Added docs_url → https://www.dvdify.com/support"
   - slug: dydomite
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: easy-signage
     change: "Added docs_url → https://easysignage.com/help"
   - slug: easydisplay
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: embed-signage
     change: "Added docs_url → http://support.embedsignage.com/en/"
   - slug: engage
@@ -122,9 +122,9 @@ products:
   - slug: eztv
     change: "Added docs_url → https://eztv.plus/faq/"
   - slug: fastpano
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: feedsome
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: fijee
     change: "Added docs_url → https://fijee.ru/docs/"
   - slug: framebaker
@@ -148,25 +148,25 @@ products:
   - slug: gibeon
     change: "Added docs_url → https://www.gibeon.io/docs/"
   - slug: glootv
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: greet-tv
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: gymboard
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: helixcast
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: hipdeck
     change: "Added docs_url → https://hipdeck.co/guides/getting-started"
   - slug: iisignage
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: ijjix
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: info-beamer-oss
     change: "Added docs_url → https://info-beamer.com/doc/index"
   - slug: info-beamer
     change: "Added docs_url → https://info-beamer.com/doc/index"
   - slug: infobox
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: intraactive-replay
     change: "Added docs_url → https://docs.intraactive.net/intraactive-replay/"
   - slug: intuiface
@@ -176,9 +176,9 @@ products:
   - slug: kitcast
     change: "Added docs_url → https://knowledgebase.kitcast.tv/"
   - slug: kiwi-signage
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: ledsee
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: liqvid
     change: "Added docs_url → https://help.liqvid.io/en/"
   - slug: loco-digital-signage
@@ -210,17 +210,17 @@ products:
   - slug: mirror
     change: "Added docs_url → https://www.mirrorsignage.io/docs"
   - slug: mydia
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: neovo-signage
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: nixplay
     change: "Added docs_url → https://www.nixplaysignage.com/pages/help"
   - slug: novacloud
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: novisign
     change: "Added docs_url → https://www.novisign.com/help-center/"
   - slug: novods
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: nowsignage
     change: "Added docs_url → https://knowledgebase.nowsignage.com"
   - slug: obscreen
@@ -268,19 +268,19 @@ products:
   - slug: ryarc-campaignmanager
     change: "Added docs_url → https://www.ryarc.net/CM6Help-Stage/"
   - slug: samsung-vxt
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: screen-keep
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: screencloud
     change: "Added docs_url → https://help.screencloud.com/en/"
   - slug: screendrive
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: screenfeed
     change: "Added docs_url → https://www.screenfeed.com/support"
   - slug: screenfluence
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: screenivo
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: screenly
     change: "Added docs_url → https://support.screenly.io/hc/en-us"
   - slug: screenmanager
@@ -294,11 +294,11 @@ products:
   - slug: signage-orchestrator
     change: "Added docs_url → https://github.com/marco-buratto/signage-orchestrator#readme"
   - slug: signage-rocket
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: signage-space
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: signageflow
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: signagenow
     change: "Added docs_url → https://www.signagenow.tv/support"
   - slug: signageos
@@ -306,13 +306,13 @@ products:
   - slug: signagetube
     change: "Added docs_url → https://signagetube.com/docs/"
   - slug: signet
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: signmate
     change: "Added docs_url → https://www.signmate.co/digitalsignage/documentation"
   - slug: signmenu
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: sippo
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: sitekiosk
     change: "Added docs_url → https://www.sitekiosk.com/sitekiosk-documentation/"
   - slug: skoop
@@ -322,11 +322,11 @@ products:
   - slug: slideshow
     change: "Added docs_url → https://slideshow.digital/documentation/"
   - slug: smart-prospective
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: smartersign
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: smilcontrol
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: snapcomms
     change: "Added docs_url → https://support.snapcomms.com/hc/en-us"
   - slug: socialwalls
@@ -336,11 +336,11 @@ products:
   - slug: splashtiles
     change: "Added docs_url → https://splash-tiles.com/help/tutorial.php"
   - slug: squizz
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: strandvision
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: supacms
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
   - slug: superbolt
-    change: "Marked has_docs: false — no public docs found"
+    change: "Marked has_docs: false (no public docs found)"
 ---
