@@ -7,6 +7,8 @@ headquarters:
   - Belgium
 open_source: false
 rss_feed_url: https://signagetube.com/feed/
+has_docs: true
+docs_url: https://signagetube.com/docs/
 self_signup: true
 discontinued: false
 categories:

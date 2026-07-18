@@ -6,6 +6,8 @@ year_founded: 2017
 headquarters:
   - Thailand
 open_source: false
+has_docs: true
+docs_url: https://www.signmate.co/digitalsignage/documentation
 self_signup: true
 discontinued: false
 categories:

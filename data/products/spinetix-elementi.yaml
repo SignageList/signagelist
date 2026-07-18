@@ -6,6 +6,8 @@ year_founded: 2017
 headquarters:
   - Switzerland
 open_source: false
+has_docs: true
+docs_url: https://www.spinetix.com/digital-signage-resources/support
 self_signup: true
 discontinued: false
 categories:

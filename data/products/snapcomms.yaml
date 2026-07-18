@@ -7,6 +7,8 @@ headquarters:
   - New Zealand
 open_source: false
 rss_feed_url: https://www.snapcomms.com/blog/rss.xml
+has_docs: true
+docs_url: https://support.snapcomms.com/hc/en-us
 self_signup: true
 discontinued: false
 categories:
