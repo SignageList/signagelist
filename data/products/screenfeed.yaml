@@ -6,6 +6,8 @@ year_founded: 1999
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://www.screenfeed.com/support
 self_signup: true
 discontinued: false
 categories:

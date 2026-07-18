@@ -8,6 +8,8 @@ headquarters:
 open_source: false
 has_api: true
 developer_portal_url: https://agentview.de/developers.html
+has_docs: false
+docs_url: null
 has_mcp: true
 self_signup: true
 discontinued: false
