@@ -6,6 +6,10 @@ year_founded: 2014
 headquarters:
   - Israel
 open_source: false
+has_api: true
+developer_portal_url: https://radix-int.com/features/api-sdk-for-developers/
+has_docs: true
+docs_url: https://radix-int.com/customer-support/
 self_signup: true
 discontinued: false
 categories:

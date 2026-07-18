@@ -6,6 +6,8 @@ year_founded: 2020
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://playshield.help
 self_signup: true
 discontinued: false
 categories:

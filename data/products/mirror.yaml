@@ -6,6 +6,8 @@ year_founded: 2023
 headquarters:
   - Sweden
 open_source: false
+has_docs: true
+docs_url: https://www.mirrorsignage.io/docs
 self_signup: true
 discontinued: false
 categories:

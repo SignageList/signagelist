@@ -6,6 +6,10 @@ year_founded: 2013
 headquarters:
   - United Kingdom
 open_source: false
+has_api: true
+developer_portal_url: https://knowledgebase.nowsignage.com/technical-api-documentation?hsLang=en
+has_docs: true
+docs_url: https://knowledgebase.nowsignage.com
 self_signup: true
 discontinued: false
 categories:

@@ -6,6 +6,8 @@ year_founded: 2023
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://pyrosign.com/frequently-asked-questions
 self_signup: true
 discontinued: false
 categories:

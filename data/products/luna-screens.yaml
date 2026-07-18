@@ -6,6 +6,8 @@ year_founded: 2024
 headquarters:
   - Australia
 open_source: false
+has_docs: true
+docs_url: https://lunascreens.com/docs/
 self_signup: true
 discontinued: false
 categories:

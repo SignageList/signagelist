@@ -7,6 +7,8 @@ headquarters:
   - Canada
 open_source: false
 rss_feed_url: https://mangodisplay.com/feed/
+has_docs: true
+docs_url: https://help.mangodisplay.com/en/
 self_signup: true
 discontinued: false
 categories:

@@ -6,6 +6,10 @@ year_founded: 2024
 headquarters:
   - France
 open_source: false
+has_api: true
+developer_portal_url: https://docs.obscreen.com/features/advanced/api
+has_docs: true
+docs_url: https://docs.obscreen.com
 self_signup: true
 discontinued: false
 categories:

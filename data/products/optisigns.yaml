@@ -6,6 +6,10 @@ year_founded: 2016
 headquarters:
   - USA
 open_source: false
+has_api: true
+developer_portal_url: https://docs.optisigns.com/introduction
+has_docs: true
+docs_url: https://support.optisigns.com/hc/en-us
 self_signup: true
 discontinued: false
 categories:

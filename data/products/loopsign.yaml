@@ -6,6 +6,8 @@ year_founded: 2018
 headquarters:
   - Norway
 open_source: false
+has_docs: true
+docs_url: https://loop24.no/loopsign/faq/
 self_signup: true
 discontinued: false
 categories:

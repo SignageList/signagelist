@@ -7,6 +7,10 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://playsignage.com/feed/
+has_api: true
+developer_portal_url: https://api.playsignage.com/docs
+has_docs: true
+docs_url: https://playsignage.com/support/
 self_signup: true
 discontinued: false
 categories:

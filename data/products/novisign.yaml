@@ -7,6 +7,10 @@ headquarters:
   - Israel
 open_source: false
 rss_feed_url: https://www.novisign.com/feed/
+has_api: true
+developer_portal_url: https://www.novisign.com/help-center/api/
+has_docs: true
+docs_url: https://www.novisign.com/help-center/
 self_signup: true
 discontinued: false
 categories:

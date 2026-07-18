@@ -6,6 +6,10 @@ year_founded: 2017
 headquarters:
   - Denmark
 open_source: false
+has_api: true
+developer_portal_url: https://api.nordicscreen.com/
+has_docs: true
+docs_url: https://help.nordicscreen.com/portal/en/home
 self_signup: true
 discontinued: false
 categories:

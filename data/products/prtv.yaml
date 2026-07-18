@@ -7,6 +7,8 @@ headquarters:
   - Russia
 open_source: false
 rss_feed_url: https://s.prtv.su/rss.xml
+has_docs: true
+docs_url: https://s.prtv.su/instrukczii/faq
 self_signup: true
 discontinued: false
 categories:

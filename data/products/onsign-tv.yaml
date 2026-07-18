@@ -6,6 +6,10 @@ year_founded: 2012
 headquarters:
   - China
 open_source: false
+has_api: true
+developer_portal_url: https://github.com/onsigntv/apps/tree/master/docs
+has_docs: true
+docs_url: https://docs.onsign.com
 self_signup: true
 discontinued: false
 categories:
