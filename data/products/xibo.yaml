@@ -9,6 +9,8 @@ open_source: true
 license: AGPL-3.0-or-later
 source_code_url: https://github.com/xibosignage/xibo-cms
 rss_feed_url: https://xibosignage.com/feed/
+has_docs: true
+docs_url: https://xibosignage.com/manual/en/
 self_signup: true
 discontinued: false
 categories:

@@ -7,6 +7,8 @@ headquarters:
   - United Kingdom
 open_source: false
 rss_feed_url: https://www.trilbytv.co.uk/feed/
+has_docs: true
+docs_url: https://kb.trilbytv.co.uk
 self_signup: true
 discontinued: false
 categories:

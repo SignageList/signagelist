@@ -6,6 +6,8 @@ year_founded: 2013
 headquarters:
   - Germany
 open_source: false
+has_docs: true
+docs_url: https://docs.viewneo.com/en
 self_signup: true
 discontinued: false
 categories:

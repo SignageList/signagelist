@@ -7,6 +7,8 @@ headquarters:
   - Italy
 open_source: false
 rss_feed_url: https://visionbox.it/en/visionbox-one/feed/
+has_docs: true
+docs_url: https://support.visionbox.it/support/home
 self_signup: true
 discontinued: false
 categories:

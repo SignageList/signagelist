@@ -6,6 +6,8 @@ year_founded: 2001
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://www.benq.com/en-us/business/support/user-manual/x-sign-20.html
 self_signup: true
 discontinued: false
 categories:
