@@ -27,6 +27,9 @@
         {{ with .Params.description }}
         <p class="text-sm text-neutral-600 mt-2 leading-relaxed">{{ . }}</p>
         {{ end }}
+        {{ with .Content }}
+        <div class="text-sm text-neutral-600 leading-relaxed mt-3 space-y-3 [&_a]:text-neutral-900 [&_a]:underline [&_a]:underline-offset-2 [&_strong]:font-semibold [&_strong]:text-neutral-900 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-1">{{ . }}</div>
+        {{ end }}
       </div>
 
       {{ if $products }}

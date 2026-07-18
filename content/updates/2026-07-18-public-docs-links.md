@@ -344,3 +344,6 @@ products:
   - slug: superbolt
     change: "No product documentation available yet"
 ---
+
+This release also introduces this **Updates** page: a changelog where you can track what's added and changed across the directory over time.
+
