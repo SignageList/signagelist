@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: GPL-3.0-only
 source_code_url: https://github.com/marco-buratto/signage-orchestrator
+has_docs: true
+docs_url: https://github.com/marco-buratto/signage-orchestrator#readme
 self_signup: true
 discontinued: false
 categories:

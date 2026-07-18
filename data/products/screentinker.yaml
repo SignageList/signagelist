@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: MIT
 source_code_url: https://github.com/screentinker/screentinker
+has_docs: true
+docs_url: https://screentinker.com/guides.html
 self_signup: true
 discontinued: false
 categories:

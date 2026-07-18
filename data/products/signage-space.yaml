@@ -7,6 +7,8 @@ headquarters:
   - Sweden
 open_source: false
 rss_feed_url: https://signagespace.com/blog/feed/
+has_docs: false
+docs_url: null
 self_signup: true
 discontinued: false
 categories:

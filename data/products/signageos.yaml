@@ -6,6 +6,8 @@ year_founded: 2016
 headquarters:
   - Czechia
 open_source: false
+has_docs: true
+docs_url: https://developers.signageos.io/docs/
 self_signup: true
 discontinued: false
 categories:

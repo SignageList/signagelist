@@ -7,6 +7,8 @@ headquarters:
   - Germany
 open_source: false
 rss_feed_url: https://www.signagenow.tv/rss.xml
+has_docs: true
+docs_url: https://www.signagenow.tv/support
 self_signup: true
 discontinued: false
 has_logo: true

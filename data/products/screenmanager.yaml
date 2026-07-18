@@ -6,6 +6,8 @@ year_founded: 2017
 headquarters:
   - Czechia
 open_source: false
+has_docs: true
+docs_url: https://screenmanager.tech/documentation
 self_signup: true
 discontinued: false
 categories:

@@ -6,6 +6,8 @@ year_founded: 2018
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://support.signpresenter.com
 self_signup: true
 discontinued: false
 categories:
