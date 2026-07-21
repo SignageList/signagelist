@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-07-20T08:15:09.823Z",
+  "fetched_at": "2026-07-21T07:39:47.684Z",
   "items": [
+    {
+      "title": "Temporary workspace members",
+      "link": "https://www.screenly.io/blog/2026/07/20/temporary-workspace-members/",
+      "date": "2026-07-20T00:00:00.000Z",
+      "description": "<p>A lot of why screens managed via centralized digital signage software beat a printed poster, or a USB stick someone has to carry around to every screen, comes down to automation. Content updates i…"
+    },
     {
       "title": "Screenly Sync 0x06: July updates from Screenly",
       "link": "https://www.screenly.io/blog/2026/07/13/screenly-sync-0x06/",
