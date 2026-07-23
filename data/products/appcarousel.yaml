@@ -1,0 +1,39 @@
+name: AppCarousel
+slug: appcarousel
+description: Android app that turns old phones and tablets into always-on smart displays, cycling through photos, web pages, and apps with no new hardware needed.
+website: https://360wonder.co.uk
+year_founded: 2026
+headquarters:
+  - United Kingdom
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: One-time purchase
+        payment_model: one-time
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+        price: 3.49
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
