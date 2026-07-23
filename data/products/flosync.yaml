@@ -1,0 +1,38 @@
+name: FloSync
+slug: flosync
+description: Free software for digital signage and video walls, running synchronized video, image, and web content across one or many computers.
+website: https://flosync.com
+year_founded: 2007
+headquarters:
+  - USA
+open_source: false
+has_docs: true
+docs_url: https://flosync.com/docs/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Windows
+  - macOS
+models:
+  - delivery: on-premise
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
