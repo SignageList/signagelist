@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: GPL-2.0-only
 source_code_url: https://github.com/Screenly/Anthias
+has_docs: true
+docs_url: https://anthias.screenly.io/docs/
 self_signup: false
 discontinued: false
 categories:

@@ -6,6 +6,8 @@ year_founded: 2022
 headquarters:
   - United Kingdom
 open_source: false
+has_docs: true
+docs_url: https://ad-sign.tv/docs/
 self_signup: false
 discontinued: false
 categories:
