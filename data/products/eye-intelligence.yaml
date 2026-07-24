@@ -7,6 +7,8 @@ headquarters:
   - Canada
   - USA
 open_source: false
+has_docs: true
+docs_url: https://doc.eye-in.com/docs/eye-intelligence-en/
 self_signup: false
 discontinued: false
 categories:

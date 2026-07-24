@@ -6,6 +6,8 @@ year_founded: 2017
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://product.korbyt.com/help
 self_signup: false
 discontinued: false
 categories:

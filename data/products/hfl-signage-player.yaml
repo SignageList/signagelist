@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: MIT
 source_code_url: https://github.com/henrik-leppa/hfl-signage-player
+has_docs: true
+docs_url: https://github.com/henrik-leppa/hfl-signage-player/blob/master/README.md
 self_signup: false
 discontinued: true
 categories:

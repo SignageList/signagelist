@@ -7,6 +7,8 @@ headquarters:
   - Netherlands
 open_source: false
 rss_feed_url: https://gobright.com/products/digital-signage/feed/
+has_docs: true
+docs_url: https://support.gobright.com/
 self_signup: false
 discontinued: false
 categories:
