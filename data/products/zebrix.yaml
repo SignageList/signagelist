@@ -6,6 +6,8 @@ year_founded: 2011
 headquarters:
   - France
 open_source: false
+has_docs: true
+docs_url: https://documentation.zebrix.net/doku.php?id=en:start
 self_signup: false
 discontinued: false
 categories:

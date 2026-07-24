@@ -6,6 +6,8 @@ year_founded: 2006
 headquarters:
   - Ukraine
 open_source: false
+has_docs: true
+docs_url: https://help.screenberry.com/
 self_signup: false
 discontinued: false
 categories:

@@ -7,6 +7,8 @@ headquarters:
   - Netherlands
 open_source: false
 rss_feed_url: https://pads4.com/digital-signage/feed/
+has_docs: true
+docs_url: https://pads4documentation.blob.core.windows.net/installation/Content/PADS4%20Modules%20overview.htm
 self_signup: false
 discontinued: false
 categories:

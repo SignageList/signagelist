@@ -5,6 +5,8 @@ website: https://www.tippler.tv/
 year_founded: 2025
 headquarters: []
 open_source: false
+has_docs: true
+docs_url: https://tippler.tv/docs
 self_signup: false
 discontinued: false
 categories:

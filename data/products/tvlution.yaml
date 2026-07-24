@@ -7,6 +7,8 @@ headquarters:
   - Germany
 open_source: false
 rss_feed_url: https://accenta.de/digital-signage/feed/
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: false
 categories:

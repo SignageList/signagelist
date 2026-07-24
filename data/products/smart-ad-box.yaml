@@ -7,6 +7,9 @@ headquarters:
   - Bangladesh
 open_source: false
 rss_feed_url: https://www.smart-adbox.com/feed/
+# www.smart-adbox.com returned 403 and is blocked; only third-party aggregator manuals found, no first-party docs
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: false
 categories:

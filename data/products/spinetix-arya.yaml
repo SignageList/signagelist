@@ -6,6 +6,8 @@ year_founded: 2019
 headquarters:
   - Switzerland
 open_source: false
+has_docs: true
+docs_url: https://support.spinetix.com/wiki/SpinetiX_ARYA
 self_signup: false
 discontinued: false
 categories:

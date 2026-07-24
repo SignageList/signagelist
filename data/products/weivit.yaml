@@ -5,6 +5,9 @@ website: https://weivit.com/
 year_founded: 2020
 headquarters: []
 open_source: false
+# weivit.com connection refused (ECONNREFUSED); site unreachable, docs unverified
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: true
 categories:

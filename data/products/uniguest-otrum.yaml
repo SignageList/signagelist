@@ -7,6 +7,8 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://otrumsignage.com/feed/
+has_docs: true
+docs_url: https://otrumsignage.com/support/
 self_signup: false
 discontinued: false
 categories:

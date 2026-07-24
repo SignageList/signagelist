@@ -7,6 +7,8 @@ headquarters:
   - Italy
 open_source: false
 rss_feed_url: https://www.xuniplay.com/en/feed/
+has_docs: true
+docs_url: https://wiki.xuniplay.com/en/home
 self_signup: false
 discontinued: false
 categories:

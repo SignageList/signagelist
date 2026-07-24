@@ -6,6 +6,8 @@ year_founded: 2013
 headquarters:
   - Russia
 open_source: false
+has_docs: true
+docs_url: http://wiki.visiobox.ru/
 self_signup: false
 discontinued: false
 categories:

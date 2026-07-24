@@ -6,6 +6,8 @@ year_founded: 1996
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://knowledgebase.poppulo.com/
 self_signup: false
 discontinued: false
 categories:

@@ -6,6 +6,8 @@ year_founded: 2011
 headquarters:
   - Austria
 open_source: false
+has_docs: true
+docs_url: https://help.sklera.tv/
 self_signup: false
 discontinued: false
 categories:

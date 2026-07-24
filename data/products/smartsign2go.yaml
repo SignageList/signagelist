@@ -7,6 +7,8 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://smartsign2go.com/feed/
+has_docs: true
+docs_url: https://knowledgebase.smartsign2go.com/en/basics/what-you-need
 self_signup: false
 discontinued: false
 categories:

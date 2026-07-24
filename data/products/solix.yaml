@@ -6,6 +6,9 @@ year_founded: 2002
 headquarters:
   - Poland
 open_source: false
+# solix.pl is hard-blocked by Cloudflare; no public docs found in search
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: false
 categories:
