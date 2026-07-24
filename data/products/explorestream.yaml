@@ -6,6 +6,8 @@ year_founded: 2017
 headquarters: ["USA", "Canada"]
 open_source: false
 rss_feed_url: null
+has_docs: true
+docs_url: https://support.explorestream.com/
 self_signup: false
 discontinued: false
 categories: ["CMS"]

@@ -6,6 +6,8 @@ year_founded: 2005
 headquarters:
   - Finland
 open_source: false
+has_docs: true
+docs_url: https://tuki.idid.fi/
 self_signup: false
 discontinued: false
 categories:

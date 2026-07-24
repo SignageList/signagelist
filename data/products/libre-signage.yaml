@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: BSD-3-Clause
 source_code_url: https://github.com/eerotal/LibreSignage
+has_docs: true
+docs_url: https://github.com/eerotal/LibreSignage
 self_signup: false
 discontinued: true
 categories:

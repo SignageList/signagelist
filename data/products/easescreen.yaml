@@ -6,6 +6,8 @@ year_founded: 1999
 headquarters:
   - Austria
 open_source: false
+has_docs: true
+docs_url: https://support.easescreen.com/hc/en-us
 self_signup: false
 discontinued: false
 categories:

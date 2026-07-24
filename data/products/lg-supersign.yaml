@@ -6,6 +6,8 @@ year_founded: 2010
 headquarters:
   - South Korea
 open_source: false
+has_docs: true
+docs_url: https://solutions.lg.com/us/software/supersign/supersign-downloads
 self_signup: false
 discontinued: false
 categories:
