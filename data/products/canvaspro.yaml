@@ -5,6 +5,8 @@ website: https://canvaspro.tech/
 year_founded: 2024
 headquarters: []
 open_source: false
+has_docs: true
+docs_url: https://docs.canvaspro.tech/
 self_signup: false
 discontinued: false
 categories:

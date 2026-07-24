@@ -8,6 +8,8 @@ headquarters:
 open_source: true
 license: Apache-2.0
 source_code_url: https://github.com/concerto/concerto
+has_docs: true
+docs_url: https://github.com/concerto/concerto/wiki
 self_signup: false
 discontinued: false
 categories:

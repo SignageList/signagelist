@@ -7,6 +7,8 @@ headquarters:
   - France
 open_source: false
 rss_feed_url: https://deepidoo.com/en/our-solutions/deepiscreen/feed/
+has_docs: true
+docs_url: https://deepischool.zendesk.com/hc/en-us
 self_signup: false
 discontinued: false
 categories:
