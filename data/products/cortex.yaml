@@ -6,6 +6,8 @@ year_founded: 2011
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://help.vistarmedia.com/hc/en-us
 self_signup: false
 discontinued: false
 categories:

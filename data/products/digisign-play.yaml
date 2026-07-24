@@ -6,6 +6,8 @@ year_founded: 2023
 headquarters:
   - Indonesia
 open_source: false
+has_docs: true
+docs_url: https://digisignplay.com/manuals-guide
 self_signup: false
 discontinued: false
 categories:

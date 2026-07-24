@@ -6,6 +6,8 @@ year_founded: 2021
 headquarters:
   - United Kingdom
 open_source: false
+has_docs: true
+docs_url: https://support.clevertouch.com/
 self_signup: false
 discontinued: false
 categories:

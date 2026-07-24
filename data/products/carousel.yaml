@@ -10,6 +10,8 @@ has_api: true
 developer_portal_url: https://www.carouselsignage.com/cloud/api
 has_sso: true
 has_saml: true
+has_docs: true
+docs_url: https://support.carouselsignage.com/hc/en-us
 self_signup: false
 discontinued: false
 categories:
