@@ -6,6 +6,8 @@ year_founded: null
 headquarters: []
 open_source: false
 rss_feed_url: https://aquaji.com/feed/
+has_docs: true
+docs_url: https://manual-aquajipro.navori.com/
 self_signup: false
 discontinued: false
 categories:

@@ -6,6 +6,8 @@ year_founded: 2007
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://wiki.22miles.com/
 self_signup: false
 discontinued: false
 categories:
