@@ -7,6 +7,9 @@ headquarters:
   - Australia
 open_source: false
 has_sso: true
+# help.menuzen.com could not be accessed (TLS/connection failure); a Freshdesk KB appears to exist but is unverified
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: false
 categories:

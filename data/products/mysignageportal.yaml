@@ -6,6 +6,8 @@ year_founded: 2013
 headquarters:
   - United Kingdom
 open_source: false
+has_docs: true
+docs_url: https://mysignageportal.com/cdms/support/downloads-documents.html
 self_signup: false
 discontinued: false
 categories:
