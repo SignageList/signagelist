@@ -1,37 +1,38 @@
-name: 22Miles
-slug: 22miles
-description: Digital signage CMS for colleges, universities, hospitals, and government buildings.
-website: https://www.22miles.com/solutions/digital-signage-2/
-year_founded: 2007
+name: Envoy Screens
+slug: envoy-screens
+description: Cloud-based workplace digital signage for sharing alerts, announcements, and key information across office screens, with centralized remote device management and compliance reporting.
+website: https://envoy.com/products/digital-signage-software
+year_founded: 2013
 headquarters:
   - USA
 open_source: false
 has_docs: true
-docs_url: https://wiki.22miles.com/
+docs_url: https://envoy.help/en/collections/14098232-screens
 self_signup: false
 discontinued: false
 categories:
   - CMS
 platforms:
+  - Amazon Signage
   - Android
-  - BrightSign
+  - ChromeOS
   - Crestron AirMedia
   - Fire OS
+  - iOS
+  - macOS
   - Raspberry Pi
   - Tizen
-  - Windows
+  - tvOS
+  - Web Browser
   - webOS
+  - Windows
 models:
   - delivery: cloud
     free_trial: false
     pricing_available: false
     has_freemium: false
     pricing: []
-stats:
-  screens:
-    total: 22000
-    source: https://www.22miles.com/about/
-    date: 2025-04
+stats: {}
 notes: []
 features: []
 integrations: []

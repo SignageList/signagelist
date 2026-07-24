@@ -7,6 +7,8 @@ headquarters:
   - Netherlands
 open_source: false
 rss_feed_url: https://www.netpresenter.com/feed/
+has_docs: true
+docs_url: https://service.netpresenter.com/support
 self_signup: false
 discontinued: false
 categories:

@@ -7,6 +7,8 @@ headquarters:
   - India
   - Bahrain
 open_source: false
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: true
 categories:

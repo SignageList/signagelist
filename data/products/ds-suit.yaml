@@ -6,6 +6,8 @@ year_founded: 1999
 headquarters:
   - Turkey
 open_source: false
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: false
 categories:

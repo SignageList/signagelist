@@ -7,6 +7,8 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://www.42digitalsignage.com/digital-signage-cms/feed/
+has_docs: true
+docs_url: https://app.42digitalsignage.com/help
 self_signup: false
 discontinued: false
 categories:

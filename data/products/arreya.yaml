@@ -7,6 +7,8 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://arreya.com/feed/
+has_docs: true
+docs_url: https://support.arreya.com/
 self_signup: false
 discontinued: false
 categories:

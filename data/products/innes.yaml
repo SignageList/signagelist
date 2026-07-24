@@ -6,6 +6,9 @@ year_founded: 2005
 headquarters:
   - France
 open_source: false
+# Documentation pages at innes.pro/en/support return 403 (only the FAQ is public); docs status unverified
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: true
 categories:

@@ -5,6 +5,8 @@ website: https://www.aitrios.sony-semicon.com/
 year_founded: null
 headquarters: []
 open_source: false
+has_docs: true
+docs_url: https://developer.aitrios.sony-semicon.com/en/docs
 self_signup: false
 discontinued: false
 categories:

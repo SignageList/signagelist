@@ -7,6 +7,9 @@ headquarters:
   - Sweden
 open_source: false
 rss_feed_url: https://www.dise.com/feed/
+# Knowledge base at kb8.dise.com could not be accessed (connection refused); docs status unverified
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: false
 categories:

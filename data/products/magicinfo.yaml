@@ -6,6 +6,8 @@ year_founded: 2015
 headquarters:
   - South Korea
 open_source: false
+has_docs: true
+docs_url: https://docs.samsungvx.com/
 self_signup: false
 discontinued: false
 categories:

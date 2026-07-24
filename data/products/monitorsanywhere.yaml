@@ -7,6 +7,8 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://monitorsanywhere.com/feed/
+has_docs: true
+docs_url: https://help.monitorsanywhere.com/portal/en/kb/monitors-anywhere
 self_signup: false
 discontinued: false
 categories:

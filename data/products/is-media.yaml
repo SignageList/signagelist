@@ -6,6 +6,8 @@ year_founded: 2000
 headquarters:
   - Russia
 open_source: false
+has_docs: true
+docs_url: https://wiki.ccrs.ru/is-media/
 self_signup: false
 discontinued: false
 categories:
