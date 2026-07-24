@@ -6,6 +6,8 @@ year_founded: 2003
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://www.video-storm.com/signage.php
 self_signup: false
 discontinued: false
 categories:
