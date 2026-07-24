@@ -7,6 +7,8 @@ headquarters:
   - Australia
 open_source: false
 rss_feed_url: https://www.vivi.io/feed/
+has_docs: true
+docs_url: https://support.vivi.io/
 self_signup: false
 discontinued: false
 categories:

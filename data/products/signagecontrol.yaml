@@ -7,6 +7,9 @@ headquarters:
   - Netherlands
 open_source: false
 rss_feed_url: https://signagecontrol.com/en/feed/
+# HTTPS cert expired; docs load over http only at support.cms-ds.com
+has_docs: true
+docs_url: http://support.cms-ds.com/
 self_signup: false
 discontinued: false
 categories:

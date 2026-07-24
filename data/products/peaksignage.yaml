@@ -7,6 +7,8 @@ headquarters:
   - United Kingdom
 open_source: false
 rss_feed_url: https://www.lamasatech.com/solutions/digital-signage/feed/
+has_docs: true
+docs_url: https://hub.lamasatech.com/help/peak-signage/
 self_signup: false
 discontinued: false
 categories:

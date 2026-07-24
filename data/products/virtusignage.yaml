@@ -6,6 +6,8 @@ year_founded: 2016
 headquarters:
   - India
 open_source: false
+has_docs: true
+docs_url: https://www.virtubox.io/help/account
 self_signup: false
 discontinued: false
 categories:

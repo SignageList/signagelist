@@ -6,6 +6,8 @@ year_founded: 2011
 headquarters:
   - United Kingdom
 open_source: false
+has_docs: true
+docs_url: https://support.targetr.net/hc/en-gb
 self_signup: false
 discontinued: false
 categories:

@@ -6,6 +6,8 @@ year_founded: 2016
 headquarters:
   - Sweden
 open_source: false
+has_docs: true
+docs_url: https://pixilab.se/docs/blocks
 self_signup: false
 discontinued: false
 categories:

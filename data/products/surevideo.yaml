@@ -6,6 +6,8 @@ year_founded: 2013
 headquarters:
   - USA
 open_source: false
+has_docs: true
+docs_url: https://docs.42gears.com/v2/surevideo-android/about-surevideo
 self_signup: false
 discontinued: false
 categories:

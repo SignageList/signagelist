@@ -6,6 +6,8 @@ year_founded: 2010
 headquarters:
   - Sweden
 open_source: false
+has_docs: true
+docs_url: https://support.visualart.com/
 self_signup: false
 discontinued: false
 categories:

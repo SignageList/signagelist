@@ -7,6 +7,8 @@ headquarters:
   - Italy
 open_source: false
 rss_feed_url: https://wallinone.tv/en/feed/
+has_docs: true
+docs_url: https://support.wallin.tv/
 self_signup: false
 discontinued: false
 categories:

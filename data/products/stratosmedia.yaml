@@ -7,6 +7,8 @@ headquarters:
   - Australia
 open_source: false
 rss_feed_url: https://stratosmedia.com/feed/
+has_docs: true
+docs_url: https://stratosmedia.com/wp-content/uploads/2016/05/StratosMedia_User_Guide.pdf
 self_signup: false
 discontinued: false
 categories:

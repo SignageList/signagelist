@@ -7,6 +7,8 @@ headquarters: []
 open_source: true
 license: MIT
 source_code_url: https://github.com/niclet/screenlite
+has_docs: true
+docs_url: https://github.com/screenlite/screenlite
 self_signup: false
 discontinued: false
 categories:

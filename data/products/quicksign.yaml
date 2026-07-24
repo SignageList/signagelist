@@ -7,6 +7,9 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://quicksigncloud.com/features/feed/
+# quicksigncloud.com under maintenance at check time; written tutorials appear to exist at /tutorial but could not be verified
+has_docs: false
+docs_url: null
 self_signup: false
 discontinued: false
 categories:

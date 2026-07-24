@@ -7,6 +7,8 @@ headquarters:
   - Norway
 open_source: false
 rss_feed_url: https://www.screenpublishing.no/feed/
+has_docs: true
+docs_url: https://www.screenpublishing.no/support/
 self_signup: false
 discontinued: false
 categories:

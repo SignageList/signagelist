@@ -6,6 +6,8 @@ year_founded: 2009
 headquarters:
   - India
 open_source: false
+has_docs: true
+docs_url: https://helpdesk.xtreme-media.in/portal/en/home
 self_signup: false
 discontinued: false
 categories:

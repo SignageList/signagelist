@@ -6,6 +6,8 @@ year_founded: 2018
 headquarters:
   - Sweden
 open_source: false
+has_docs: true
+docs_url: https://tigermeeting.app/uploads/documents/20260109/Tigermeeting-user-manual-3.4.3-en.pdf
 self_signup: false
 discontinued: false
 categories:

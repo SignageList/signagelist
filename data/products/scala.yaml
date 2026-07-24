@@ -7,6 +7,8 @@ headquarters:
   - USA
 open_source: false
 rss_feed_url: https://scala.com/feed/
+has_docs: true
+docs_url: https://docs.scala.com/
 self_signup: false
 discontinued: false
 categories:

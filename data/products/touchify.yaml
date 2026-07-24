@@ -7,6 +7,8 @@ headquarters:
   - France
 open_source: false
 rss_feed_url: https://www.touchify.io/en/blog/rss.xml
+has_docs: true
+docs_url: https://help.touchify.io/
 self_signup: false
 discontinued: false
 categories:

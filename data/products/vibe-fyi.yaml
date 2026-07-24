@@ -6,6 +6,8 @@ year_founded: 2001
 headquarters:
   - New Zealand
 open_source: false
+has_docs: true
+docs_url: https://support.vibe.fyi/portal/en/kb
 self_signup: false
 discontinued: false
 categories:

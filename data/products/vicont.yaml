@@ -6,6 +6,8 @@ year_founded: 2023
 headquarters:
   - Russia
 open_source: false
+has_docs: true
+docs_url: https://vicont.elecard.online/docs/guide/en/index.html
 self_signup: false
 discontinued: false
 categories:
