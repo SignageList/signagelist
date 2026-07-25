@@ -22,6 +22,7 @@ platforms:
   - Bluefin
   - BrightSign
   - ChromeOS
+  - Fire OS
   - iOS
   - macOS
   - Mersive Solstice

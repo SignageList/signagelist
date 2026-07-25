@@ -19,6 +19,7 @@ categories:
 platforms:
   - Android
   - ChromeOS
+  - Fire OS
   - macOS
   - Raspberry Pi
   - Tizen

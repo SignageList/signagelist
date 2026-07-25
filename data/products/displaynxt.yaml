@@ -16,6 +16,7 @@ categories:
   - CMS
 platforms:
   - Android
+  - Fire OS
   - Tizen
   - webOS
 models:

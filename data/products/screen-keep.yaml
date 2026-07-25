@@ -15,6 +15,7 @@ categories:
   - CMS
 platforms:
   - Android
+  - Fire OS
   - Web Browser
 models:
   - delivery: hybrid
