@@ -17,6 +17,7 @@ discontinued: false
 categories:
   - CMS
 platforms:
+  - Amazon Signage
   - Android
   - BrightSign
   - ChromeOS
