@@ -1,0 +1,32 @@
+name: Netsign.tv
+slug: netsign
+description: Cloud digital signage platform by Advisia for creating, managing, and broadcasting content to screens.
+website: https://netsign.tv/en
+year_founded: 2013
+headquarters:
+  - Canada
+open_source: false
+has_docs: true
+docs_url: https://netsign.tv/docs/en/player-and-screen-installation-guide.pdf
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Tizen
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
