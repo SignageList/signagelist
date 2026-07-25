@@ -1,0 +1,32 @@
+name: SignJet
+slug: signjet
+description: Cloud-based digital signage CMS by TriggerPoint Media for scheduling and remotely managing content across screen networks.
+website: https://triggerpointmedia.com/
+year_founded: null
+headquarters:
+  - United States
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
