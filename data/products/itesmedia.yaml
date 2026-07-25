@@ -1,0 +1,39 @@
+name: ITESlive
+slug: itesmedia
+description: Cloud-based digital signage software (ITESlive) for creating, scheduling, and managing content across Windows, Android, Raspberry Pi, BrightSign, and smart displays.
+website: https://itesmedia.tv/
+year_founded: null
+headquarters:
+  - Canada
+open_source: false
+has_docs: true
+docs_url: https://support.itesmedia.tv/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - Fire OS
+  - Raspberry Pi
+  - Tizen
+  - Web Browser
+  - webOS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

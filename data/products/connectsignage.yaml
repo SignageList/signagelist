@@ -1,0 +1,31 @@
+name: connectSignage
+slug: connectsignage
+description: German digital signage content management platform with integrations for Microsoft 365, business intelligence, and social media.
+website: https://www.connectsignage.com/
+year_founded: null
+headquarters:
+  - Germany
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

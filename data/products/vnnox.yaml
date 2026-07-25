@@ -1,0 +1,31 @@
+name: VNNOX
+slug: vnnox
+description: Cloud platform from NovaStar for remotely publishing, scheduling, and monitoring content on LED displays.
+website: https://www.vnnox.com/
+year_founded: null
+headquarters:
+  - China
+open_source: false
+has_docs: true
+docs_url: https://docs.vnnox.com/display/VNNOXEN/1++Getting+Started
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,31 @@
+name: FirstView MediaCloud
+slug: firstview
+description: Cloud-based content management system for digital signage, audio announcements, and interactive kiosk content.
+website: https://www.firstview.fi/en/solutions/digital-signage-content-management/
+year_founded: 2004
+headquarters:
+  - Finland
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

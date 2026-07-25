@@ -1,0 +1,32 @@
+name: Wallflower
+slug: wallflower
+description: Windows-based digital signage software suite developed by the New Zealand company Wallflower Advanced Digital Signage.
+website: https://wallflowerglobal.com/
+year_founded: 1993
+headquarters:
+  - New Zealand
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Windows
+models:
+  - delivery: on-premise
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
