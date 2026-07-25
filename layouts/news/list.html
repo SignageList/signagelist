@@ -1,37 +1,6 @@
 {{ define "main" }}
 
-{{/* Collect and sort all feed items */}}
-{{ $allItems := slice }}
-
-{{ range $_, $feed := site.Data.feeds.industry }}
-  {{ range first 10 .items }}
-    {{ $allItems = $allItems | append (dict
-      "title" .title
-      "link" .link
-      "date" .date
-      "description" .description
-      "source" $feed.source
-      "sourceType" "industry"
-      "slug" ""
-    ) }}
-  {{ end }}
-{{ end }}
-
-{{ range $slug, $feed := site.Data.feeds.products }}
-  {{ range first 5 .items }}
-    {{ $allItems = $allItems | append (dict
-      "title" .title
-      "link" .link
-      "date" .date
-      "description" .description
-      "source" $feed.source
-      "sourceType" "product"
-      "slug" $slug
-    ) }}
-  {{ end }}
-{{ end }}
-
-{{ $sorted := sort $allItems "date" "desc" }}
+{{ $paginator := .Paginate (.Pages.ByDate.Reverse) 25 }}
 
 <div class="max-w-5xl mx-auto px-6 py-8">
 
@@ -40,27 +9,27 @@
       <h1 class="text-xl font-semibold text-neutral-900">Industry News</h1>
       <p class="text-sm text-neutral-500 mt-1">Latest updates from digital signage companies and publications.</p>
     </div>
-    <p class="text-sm text-neutral-400 tabular-nums" id="news-count">{{ len $sorted }} articles</p>
+    <p class="text-sm text-neutral-400 tabular-nums">{{ $paginator.TotalNumberOfElements }} articles</p>
   </div>
 
-  {{ if $sorted }}
-  <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden" id="news-list">
-    {{ range $i, $item := $sorted }}
-    <article data-news-item class="{{ if gt $i 0 }}border-t border-neutral-100{{ end }} px-5 py-4 hover:bg-neutral-50 transition-[background-color] duration-100 hidden">
-      {{ $outboundUrl := partial "outbound-url.html" (dict "url" $item.link "campaign" "news_feed") }}
+  {{ if $paginator.Pages }}
+  <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden">
+    {{ range $i, $item := $paginator.Pages }}
+    <article class="{{ if gt $i 0 }}border-t border-neutral-100{{ end }} px-5 py-4 hover:bg-neutral-50 transition-[background-color] duration-100">
+      {{ $outboundUrl := partial "outbound-url.html" (dict "url" $item.Params.link "campaign" "news_feed") }}
       <a href="{{ $outboundUrl }}" target="_blank" rel="noopener noreferrer" class="block group">
-        <p class="text-sm font-medium text-neutral-900 leading-snug group-hover:text-neutral-600 transition-colors">{{ $item.title | htmlUnescape }}</p>
-        {{ with $item.description }}
+        <p class="text-sm font-medium text-neutral-900 leading-snug group-hover:text-neutral-600 transition-colors">{{ $item.Title | htmlUnescape }}</p>
+        {{ with $item.Params.description }}
         <p class="text-sm text-neutral-500 mt-1 line-clamp-2 leading-relaxed">{{ . | htmlUnescape | plainify }}</p>
         {{ end }}
       </a>
       <div class="flex items-center gap-2 mt-2.5">
-        {{ if eq $item.sourceType "industry" }}
-          <span class="text-xs font-medium text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">{{ $item.source }}</span>
+        {{ if eq $item.Params.sourceType "industry" }}
+          <span class="text-xs font-medium text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md">{{ $item.Params.source }}</span>
         {{ else }}
-          <a href="/products/{{ $item.slug }}/" class="text-xs font-medium text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md hover:bg-neutral-200 transition-colors">{{ $item.source }}</a>
+          <a href="/products/{{ $item.Params.productSlug }}/" class="text-xs font-medium text-neutral-500 bg-neutral-100 px-2 py-0.5 rounded-md hover:bg-neutral-200 transition-colors">{{ $item.Params.source }}</a>
         {{ end }}
-        {{ with $item.date }}
+        {{ with $item.Params.itemDate }}
         <span class="text-xs text-neutral-400">{{ time.AsTime . | time.Format "Jan 2, 2006" }}</span>
         {{ end }}
       </div>
@@ -68,19 +37,25 @@
     {{ end }}
   </div>
 
-  <div class="flex items-center justify-between mt-6" id="news-pagination">
-    <p class="text-sm text-neutral-400" id="news-page-info"></p>
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="flex items-center justify-between mt-6" aria-label="Pagination">
+    <p class="text-sm text-neutral-400">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</p>
     <div class="flex items-center gap-2">
-      <button id="news-prev"
-        class="px-4 py-2 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors disabled:opacity-30 disabled:cursor-not-allowed">
-        ← Previous
-      </button>
-      <button id="news-next"
-        class="px-4 py-2 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors disabled:opacity-30 disabled:cursor-not-allowed">
-        Next →
-      </button>
+      {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" rel="prev"
+        class="px-4 py-2 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors">← Previous</a>
+      {{ else }}
+      <span class="px-4 py-2 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg opacity-30 cursor-not-allowed">← Previous</span>
+      {{ end }}
+      {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" rel="next"
+        class="px-4 py-2 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg hover:bg-neutral-50 transition-colors">Next →</a>
+      {{ else }}
+      <span class="px-4 py-2 text-sm font-medium text-neutral-600 bg-white border border-neutral-200 rounded-lg opacity-30 cursor-not-allowed">Next →</span>
+      {{ end }}
     </div>
-  </div>
+  </nav>
+  {{ end }}
 
   {{ else }}
   <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm p-16 text-center">
@@ -89,52 +64,5 @@
   {{ end }}
 
 </div>
-
-<script>
-(function () {
-  const PER_PAGE = 25
-  const items = Array.from(document.querySelectorAll('[data-news-item]'))
-  const total = items.length
-  const totalPages = Math.ceil(total / PER_PAGE)
-  let page = Math.max(1, parseInt(new URLSearchParams(location.search).get('page') || '1', 10))
-
-  const prevBtn = document.getElementById('news-prev')
-  const nextBtn = document.getElementById('news-next')
-  const pageInfo = document.getElementById('news-page-info')
-
-  function render() {
-    page = Math.min(Math.max(1, page), totalPages)
-    const start = (page - 1) * PER_PAGE
-    const end = Math.min(start + PER_PAGE, total)
-
-    // Remove border-t from first visible item
-    let firstVisible = true
-    items.forEach((el, i) => {
-      const visible = i >= start && i < end
-      el.classList.toggle('hidden', !visible)
-      if (visible && firstVisible) {
-        el.classList.remove('border-t', 'border-neutral-100')
-        firstVisible = false
-      } else if (visible) {
-        el.classList.add('border-t', 'border-neutral-100')
-      }
-    })
-
-    if (pageInfo) pageInfo.textContent = 'Page ' + page + ' of ' + totalPages
-    if (prevBtn) prevBtn.disabled = page <= 1
-    if (nextBtn) nextBtn.disabled = page >= totalPages
-
-    const url = new URL(location.href)
-    if (page === 1) url.searchParams.delete('page')
-    else url.searchParams.set('page', String(page))
-    history.replaceState(null, '', url)
-  }
-
-  prevBtn?.addEventListener('click', () => { page--; render(); window.scrollTo({ top: 0, behavior: 'smooth' }) })
-  nextBtn?.addEventListener('click', () => { page++; render(); window.scrollTo({ top: 0, behavior: 'smooth' }) })
-
-  render()
-})()
-</script>
 
 {{ end }}

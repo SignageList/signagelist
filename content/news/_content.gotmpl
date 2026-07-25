@@ -1,0 +1,50 @@
+{{/*
+  Generate one (non-rendered) page per RSS feed item so the /news list can use
+  Hugo's built-in paginator. Pages are marked render:never via cascade in
+  content/news/_index.md, so no per-item output pages are emitted — they exist
+  only to be paginated. Mirrors the previous limits: 10 items per industry feed,
+  5 per product feed.
+*/}}
+{{ $epoch := time.AsTime "1970-01-01T00:00:00Z" }}
+
+{{ range $fslug, $feed := .Site.Data.feeds.industry }}
+  {{ range $i, $item := first 10 $feed.items }}
+    {{ $date := $epoch }}
+    {{ with $item.date }}{{ $date = time.AsTime . }}{{ end }}
+    {{ $.AddPage (dict
+      "kind" "page"
+      "path" (printf "i-%s-%d" $fslug $i)
+      "title" $item.title
+      "dates" (dict "date" $date)
+      "params" (dict
+        "link" $item.link
+        "description" $item.description
+        "source" $feed.source
+        "sourceType" "industry"
+        "productSlug" ""
+        "itemDate" $item.date
+      )
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{ range $pslug, $feed := .Site.Data.feeds.products }}
+  {{ range $i, $item := first 5 $feed.items }}
+    {{ $date := $epoch }}
+    {{ with $item.date }}{{ $date = time.AsTime . }}{{ end }}
+    {{ $.AddPage (dict
+      "kind" "page"
+      "path" (printf "p-%s-%d" $pslug $i)
+      "title" $item.title
+      "dates" (dict "date" $date)
+      "params" (dict
+        "link" $item.link
+        "description" $item.description
+        "source" $feed.source
+        "sourceType" "product"
+        "productSlug" $pslug
+        "itemDate" $item.date
+      )
+    ) }}
+  {{ end }}
+{{ end }}
