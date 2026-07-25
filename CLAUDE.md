@@ -18,7 +18,14 @@ bun run preview          # Preview built site
 
 # Data tools
 bun run check            # Validate all YAML files against Zod schema
-bun run add              # Interactive CLI to create a new product YAML
+bun run add              # Scaffold a new product YAML file
+
+# Data CLI (scripts/cli.ts) — run `bun run cli help` for the full list
+bun run cli <command>    # check | add | gen-og | gen-terms | sync-platforms |
+                         # sync-amazon | discover-rss | fetch-feeds | check-urls
+bun run gen:og           # Generate missing OG images
+# Mutating commands (sync-platforms, sync-amazon, discover-rss) are dry-run by
+# default; pass --write to persist changes.
 
 # Linting
 bun run lint             # Check TypeScript with Biome
@@ -109,6 +116,8 @@ No auto-commit of generated files. No preprocessing steps.
 | `assets/ts/filter.ts` | FilterEngine — client-side filtering |
 | `assets/ts/main.ts` | Entry point — wires up all interactivity |
 | `assets/css/main.css` | Tailwind v4 CSS with theme tokens |
-| `scripts/lib/schema.ts` | Zod schema for normalized YAML |
-| `scripts/check.ts` | Validates all YAML against schema |
+| `scripts/cli.ts` | Data CLI entry — dispatches to `scripts/commands/*` |
+| `scripts/lib/schema.ts` | Zod schema for normalized YAML (source of truth) |
+| `scripts/lib/products.ts` | Shared data layer — validated `loadProducts()` used by every command |
+| `scripts/commands/*.ts` | One module per command (`check`, `gen-og`, `sync-platforms`, …) |
 | `biome.json` | Biome linter configuration |
