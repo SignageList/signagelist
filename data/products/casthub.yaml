@@ -16,6 +16,7 @@ discontinued: false
 categories:
   - CMS
 platforms:
+  - Amazon Signage
   - Android
   - ChromeOS
   - Fire OS
