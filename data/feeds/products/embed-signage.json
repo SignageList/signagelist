@@ -1,6 +1,6 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-07-25T07:09:31.000Z",
+  "fetched_at": "2026-07-25T07:26:19.336Z",
   "items": [
     {
       "title": "Various Bug Fixes",
@@ -60,6 +60,18 @@
       "title": "Nexmosphere XC-748 and Content App updates",
       "link": "https://embedsignage.com/releases/nexmosphere-xc-748-and-content-app-updates/",
       "date": "2026-04-23T08:56:16.000Z",
+      "description": ""
+    },
+    {
+      "title": "RoomStream &#8211; Meeting Room Digital Signage",
+      "link": "https://embedsignage.com/roomstream/",
+      "date": "2026-02-18T22:50:37.000Z",
+      "description": ""
+    },
+    {
+      "title": "Bug fix for Playlist delete",
+      "link": "https://embedsignage.com/releases/bug-fix-for-playlist-delete/",
+      "date": "2026-02-04T12:20:45.000Z",
       "description": ""
     }
   ]
