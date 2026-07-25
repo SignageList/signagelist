@@ -99,10 +99,6 @@ const ProductSchema = z
 		screenshots: z.array(z.string()).default([]),
 		last_verified: z.string().nullable().default(null),
 	})
-	.refine((data) => !data.has_api || data.developer_portal_url !== null, {
-		message: 'developer_portal_url is required when has_api is true',
-		path: ['developer_portal_url'],
-	})
 	.refine((data) => !data.has_docs || data.docs_url !== null, {
 		message: 'docs_url is required when has_docs is true',
 		path: ['docs_url'],
