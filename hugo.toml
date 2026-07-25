@@ -9,7 +9,7 @@ capitalizeListTitles = false
   platform = "platforms"
 
 [params]
-  description = "A curated directory of 548+ digital signage software products."
+  description = "A curated directory of digital signage software products."
   githubRepo = "https://github.com/SignageList/signagelist"
 
 # Custom output formats for LLM-friendly pages
