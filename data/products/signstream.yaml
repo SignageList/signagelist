@@ -1,0 +1,33 @@
+name: SignStream
+slug: signstream
+description: Cloud-based digital menu board and signage software for restaurants that runs on Fire TV and a web player with POS integration.
+website: https://getsignstream.com/
+year_founded: null
+headquarters: []
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Fire OS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

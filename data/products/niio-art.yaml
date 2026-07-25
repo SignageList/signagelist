@@ -1,0 +1,30 @@
+name: Niio Art
+slug: niio-art
+description: Digital art platform that streams and distributes curated video and moving-image artworks to screens.
+website: https://www.niio.com/
+year_founded: null
+headquarters: []
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - Content provider
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

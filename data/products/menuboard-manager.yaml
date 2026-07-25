@@ -1,0 +1,36 @@
+name: Menuboard Manager
+slug: menuboard-manager
+description: Cloud-based digital menu board software that syncs restaurant menus with POS systems and displays them on screens.
+website: https://menuboardmanager.com/
+year_founded: 2010
+headquarters:
+  - United States
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - BrightSign
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

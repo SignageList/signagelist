@@ -1,0 +1,32 @@
+name: OnSignage
+slug: onsignage
+description: Cloud-based digital signage software for creating, managing, and updating content remotely on internet-connected screens.
+website: https://www.onsignage.com/
+year_founded: null
+headquarters:
+  - Israel
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,37 @@
+name: Pixage
+slug: pixage
+description: Digital signage software developed by KoçSistem for centrally managing and scheduling content across screens.
+website: https://pixage.com.tr/
+year_founded: null
+headquarters:
+  - Turkey
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - Linux
+  - Tizen
+  - webOS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

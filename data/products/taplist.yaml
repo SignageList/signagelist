@@ -1,0 +1,36 @@
+name: Taplist
+slug: taplist
+description: Cloud-based digital menu management software for bars, breweries, and restaurants that displays and updates menus across TV screens, web pages, and print.
+website: https://taplist.io/
+year_founded: 2016
+headquarters:
+  - United States
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Fire OS
+  - Roku OS
+  - tvOS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

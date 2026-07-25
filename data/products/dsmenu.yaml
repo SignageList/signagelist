@@ -1,0 +1,36 @@
+name: DsMenu
+slug: dsmenu
+description: Cloud-based software for designing and managing digital menu boards.
+website: https://www.dsmenu.com/
+year_founded: 2012
+headquarters:
+  - United States
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Fire OS
+  - Tizen
+  - Web Browser
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: true
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

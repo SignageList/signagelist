@@ -1,0 +1,35 @@
+name: Screen Pulse
+slug: screen-pulse
+description: Cloud-based digital signage content management system for managing and scheduling content on screens across locations.
+website: https://screenpulse.io/
+year_founded: null
+headquarters: []
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Amazon Signage
+  - Android
+  - Fire OS
+  - Raspberry Pi
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
