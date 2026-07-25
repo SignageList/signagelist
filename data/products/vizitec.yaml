@@ -1,0 +1,38 @@
+name: Vizitec
+slug: vizitec
+description: Cloud digital signage for scheduling and managing content on remote screens, with player apps for Windows, Linux, Raspberry Pi, Android, macOS, and Tizen displays.
+website: https://vizitec.com
+year_founded: null
+headquarters:
+  - Bulgaria
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Linux
+  - macOS
+  - Raspberry Pi
+  - Tizen
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

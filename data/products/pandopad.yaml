@@ -1,0 +1,31 @@
+name: PandoPad
+slug: pandopad
+description: Browser-based CMS (PandoPad Manager) for managing and scheduling content across displays, interactive panels, totems, video walls, and tablets.
+website: https://www.pandopad.com
+year_founded: null
+headquarters:
+  - Croatia
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: hybrid
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

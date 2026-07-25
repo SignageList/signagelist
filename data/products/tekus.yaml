@@ -1,0 +1,33 @@
+name: Tekus
+slug: tekus
+description: Colombian digital signage platform (Arkbox) for remotely managing and scheduling multimedia content across screens, video walls, and interactive kiosks.
+website: https://www.tekus.co
+year_founded: 2013
+headquarters:
+  - Colombia
+open_source: false
+has_docs: true
+docs_url: https://wiki.tekus.co
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
