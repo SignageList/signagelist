@@ -1,0 +1,32 @@
+name: Designage
+slug: designage
+description: Cloud-based digital signage content management platform developed by the Swedish company Desquare.
+website: https://designage.io/
+year_founded: 2018
+headquarters:
+  - Sweden
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Tizen
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

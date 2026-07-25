@@ -1,0 +1,45 @@
+name: Signital
+slug: signital
+description: Cloud-based digital signage software with native player apps for Samsung Tizen, LG webOS, Amazon Fire TV, and Android devices.
+website: https://signital.com/
+year_founded: null
+headquarters:
+  - Iceland
+open_source: false
+has_docs: true
+docs_url: https://docs.signital.is/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 7
+        yearly: null
+      - name: Business
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 12
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
