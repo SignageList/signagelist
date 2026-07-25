@@ -1,4 +1,4 @@
 ---
 title: "Digital Signage Software Directory"
-description: "Browse and compare 548+ digital signage software products."
+description: "Browse and compare digital signage software products."
 ---

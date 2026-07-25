@@ -2,7 +2,7 @@
 
 > {{ .Site.Params.description }}
 
-SignageList is a curated open dataset of digital signage software products. It provides structured data on 548+ products including pricing, supported platforms, headquarters, and more.
+SignageList is a curated open dataset of digital signage software products. It provides structured data on {{ len site.Data.products }} products including pricing, supported platforms, headquarters, and more.
 
 ## Key Pages
 
