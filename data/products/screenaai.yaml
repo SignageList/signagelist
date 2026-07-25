@@ -1,0 +1,58 @@
+name: ScreenaAI
+slug: screenaai
+description: Cloud digital signage that uses AI prompts to create, schedule, publish, and monitor content on screens.
+website: https://screenaai.com
+year_founded: 2025
+headquarters:
+  - USA
+open_source: false
+has_docs: false
+docs_url: null
+has_sso: true
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Tizen
+  - Web Browser
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Core
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 12
+        yearly: 130
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 18
+        yearly: 194
+      - name: Pay Per Use
+        payment_model: pay-as-you-go
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+        price: 10
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
