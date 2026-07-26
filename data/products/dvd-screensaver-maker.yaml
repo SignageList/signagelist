@@ -1,0 +1,31 @@
+name: DVD Screensaver Maker
+slug: dvd-screensaver-maker
+description: Free web tool for creating a bouncing-logo (DVD-style) screensaver with custom logos, exportable as GIF, MP4, WebM, or HTML.
+website: https://dvdscreensavermaker.com/
+year_founded: 2026
+headquarters:
+  - India
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - Content provider
+platforms: []
+models:
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
