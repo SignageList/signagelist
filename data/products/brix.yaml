@@ -5,8 +5,8 @@ website: https://brixsignage.com/
 year_founded: null
 headquarters: []
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://brixsignage.com/guides/
 self_signup: true
 discontinued: false
 categories:

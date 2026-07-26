@@ -10,7 +10,7 @@ rss_feed_url: https://www.hughes.com/what-we-offer/digital-signage/cloud-based-d
 has_docs: false
 docs_url: null
 self_signup: false
-discontinued: true
+discontinued: false
 categories:
   - CMS
 platforms:
