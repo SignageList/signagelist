@@ -5,8 +5,8 @@ website: https://www.niio.com/
 year_founded: null
 headquarters: []
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://help.niio.com/en/
 self_signup: true
 discontinued: false
 categories:

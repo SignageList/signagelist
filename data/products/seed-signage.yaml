@@ -6,8 +6,8 @@ year_founded: null
 headquarters:
   - United States
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://support.getseed.io/
 self_signup: false
 discontinued: false
 categories:

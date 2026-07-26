@@ -6,8 +6,8 @@ year_founded: null
 headquarters:
   - United States
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://help.untappd.com/hc/en-us/categories/360001962551-Untappd-for-Business
 self_signup: true
 discontinued: false
 categories:
