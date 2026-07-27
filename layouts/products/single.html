@@ -143,6 +143,36 @@
 
 			{{/* RSS Feed */}}
 			{{ partial "rss-feed.html" . }}
+
+			{{/* Comparisons — only for products in the compare allowlist */}}
+			{{ $allow := site.Data.compare.products }}
+			{{ if in $allow $p.slug }}
+				{{ $cur := index site.Data.products $p.slug }}
+				{{ $peers := slice }}
+				{{ range $allow }}
+					{{ if ne . $p.slug }}
+						{{ $peer := index site.Data.products . }}
+						{{ if and $peer (not $peer.discontinued) }}
+							{{ $shared := false }}
+							{{ range $peer.categories }}{{ if in $cur.categories . }}{{ $shared = true }}{{ end }}{{ end }}
+							{{ if $shared }}
+								{{ $pair := sort (slice $p.slug .) }}
+								{{ $peers = $peers | append (dict "name" $peer.name "url" (printf "/compare/%s-vs-%s/" (index $pair 0) (index $pair 1))) }}
+							{{ end }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+				{{ if $peers }}
+				<div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm p-6">
+					<h2 class="text-sm font-semibold text-neutral-900 mb-3">Compare {{ $p.name }} with</h2>
+					<div class="flex flex-wrap gap-2">
+						{{ range sort $peers "name" }}
+						<a href="{{ .url }}" class="px-3 py-1.5 bg-neutral-100 text-neutral-700 rounded-lg text-sm hover:bg-neutral-200 transition-colors">{{ .name }}</a>
+						{{ end }}
+					</div>
+				</div>
+				{{ end }}
+			{{ end }}
 		</div>
 
 		{{/* ── Sidebar ── */}}
