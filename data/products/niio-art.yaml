@@ -7,6 +7,7 @@ headquarters: []
 open_source: false
 has_docs: true
 docs_url: https://help.niio.com/en/
+rss_feed_url: https://www.niio.com/blog/feed/
 self_signup: true
 discontinued: false
 categories:
