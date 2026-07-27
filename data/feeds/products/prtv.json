@@ -1,7 +1,37 @@
 {
   "source": "PRTV",
-  "fetched_at": "2026-07-25T07:26:19.336Z",
+  "fetched_at": "2026-07-27T15:47:30.496Z",
   "items": [
+    {
+      "title": "x",
+      "link": "https://s.prtv.su/novosti/x-5",
+      "date": "2026-07-26T21:58:36.000Z",
+      "description": ""
+    },
+    {
+      "title": "x",
+      "link": "https://s.prtv.su/novosti/x-4",
+      "date": "2026-07-26T13:30:11.000Z",
+      "description": ""
+    },
+    {
+      "title": "x",
+      "link": "https://s.prtv.su/novosti/x-3",
+      "date": "2026-07-25T11:50:27.000Z",
+      "description": ""
+    },
+    {
+      "title": "x",
+      "link": "https://s.prtv.su/novosti/x-2",
+      "date": "2026-07-25T11:29:50.000Z",
+      "description": ""
+    },
+    {
+      "title": "x",
+      "link": "https://s.prtv.su/novosti/x",
+      "date": "2026-07-25T11:03:55.000Z",
+      "description": ""
+    },
     {
       "title": "Поиск по сайту",
       "link": "https://s.prtv.su/poisk-po-sajtu",

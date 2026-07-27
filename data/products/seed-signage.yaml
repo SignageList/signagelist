@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://support.getseed.io/
+rss_feed_url: https://getseed.io/blog/rss.xml
 self_signup: false
 discontinued: false
 categories:

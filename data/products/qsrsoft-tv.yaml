@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: false
 docs_url: null
+rss_feed_url: https://www.qsrsoft.com/feed/
 self_signup: true
 discontinued: false
 categories:
