@@ -1,0 +1,51 @@
+{{/* Generate one comparison page per unordered pair of products that share a
+     category. Only products in the data/compare.yaml allowlist are eligible,
+     and pairs never cross categories (e.g. CMS vs Content provider).
+     Only slugs are stored in params; the layout looks up full data by slug. */}}
+
+{{/* Allowlist set */}}
+{{ $allow := dict }}
+{{ range .Site.Data.compare.products }}
+  {{ $allow = merge $allow (dict . true) }}
+{{ end }}
+
+{{/* Group active, allowlisted products by category */}}
+{{ $byCat := dict }}
+{{ range $slug, $p := .Site.Data.products }}
+  {{ if and (not $p.discontinued) (index $allow $slug) }}
+    {{ range $p.categories }}
+      {{ $list := index $byCat . | default slice }}
+      {{ $byCat = merge $byCat (dict . ($list | append $slug)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $seen := newScratch }}
+{{ range $cat, $slugs := $byCat }}
+  {{ $sorted := sort $slugs }}
+  {{ range $i, $a := $sorted }}
+    {{ range $j, $b := $sorted }}
+      {{ if lt $i $j }}
+        {{ $key := printf "%s|%s" $a $b }}
+        {{ if not ($seen.Get $key) }}
+          {{ $seen.Set $key true }}
+          {{ $pa := index $.Site.Data.products $a }}
+          {{ $pb := index $.Site.Data.products $b }}
+          {{ $.AddPage (dict
+            "kind" "page"
+            "path" (printf "%s-vs-%s" $a $b)
+            "title" (printf "%s vs %s" $pa.name $pb.name)
+            "params" (dict
+              "a" $a
+              "b" $b
+              "cat" $cat
+              "seo_title" (printf "%s vs %s: Compare %s Digital Signage" $pa.name $pb.name $cat)
+              "description" (printf "Compare %s and %s, two %s digital signage products, side by side on pricing, supported platforms, and capabilities." $pa.name $pb.name $cat)
+            )
+            "content" (dict "mediaType" "text/html" "value" "")
+          ) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
