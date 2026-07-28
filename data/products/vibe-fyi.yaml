@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://support.vibe.fyi/portal/en/kb
+rss_feed_url: https://www.vibe.fyi/feeds/posts/rss/?post_category_id=87
 self_signup: false
 discontinued: false
 categories:
