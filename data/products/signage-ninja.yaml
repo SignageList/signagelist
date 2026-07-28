@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: false
 docs_url: null
+rss_feed_url: https://signage.ninja/feed/
 self_signup: false
 discontinued: false
 categories:
