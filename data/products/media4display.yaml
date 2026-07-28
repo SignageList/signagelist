@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://www.telelogos.com/produits/fichiers/Media4Display_QuickStartGuide_EN_600.pdf
+rss_feed_url: https://www.telelogos.com/en/feed/
 self_signup: false
 discontinued: false
 categories:
