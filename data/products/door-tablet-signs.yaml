@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://www.door-tablet.com/doors-help/get-started
+rss_feed_url: https://www.door-tablet.com/doortablet/feeds//help.xml
 self_signup: false
 discontinued: false
 categories:
