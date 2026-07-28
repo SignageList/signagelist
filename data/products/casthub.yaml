@@ -11,6 +11,7 @@ developer_portal_url: https://cast-hub.com/mcp/
 has_docs: true
 docs_url: https://cast-hub.com/docs/
 has_mcp: true
+rss_feed_url: https://cast-hub.com/feed/
 self_signup: true
 discontinued: false
 categories:
