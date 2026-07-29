@@ -1,6 +1,6 @@
 {
   "source": "info-beamer",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
     {
       "title": "info-beamer hosted 16 released",
@@ -61,6 +61,246 @@
       "link": "https://info-beamer.com/blog/running-the-35c3-info-beamer-screens",
       "date": "2019-01-04T00:00:00.000Z",
       "description": "As is tradition, I've been running the info screens at the anual 35C3 conference again."
+    },
+    {
+      "title": "Edge computing and digital signage",
+      "link": "https://info-beamer.com/blog/edge-computing-and-digital-signage",
+      "date": "2018-09-06T00:00:00.000Z",
+      "description": "The reliability of your digital signs is very important. In the best case they still fully function during network outages or other temporary problems. The info-beamer hosted system can help with tha…"
+    },
+    {
+      "title": "info-beamer hosted 9 released",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-update-stable-0009",
+      "date": "2018-07-10T00:00:00.000Z",
+      "description": "The info-beamer hosted operating system gets a new major release."
+    },
+    {
+      "title": "info-beamer hosted on the CM3-PANEL",
+      "link": "https://info-beamer.com/blog/info-beamer-on-cm3-panel",
+      "date": "2018-06-16T00:00:00.000Z",
+      "description": "info-beamer hosted now supports the CM3-PANEL for digital signage."
+    },
+    {
+      "title": "info-beamer hosted CEC support",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-adds-cec-support",
+      "date": "2018-05-10T00:00:00.000Z",
+      "description": "The next info-beamer hosted OS will add easy CEC support."
+    },
+    {
+      "title": "info-beamer pi 0.9.9 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.9-released",
+      "date": "2018-04-16T00:00:00.000Z",
+      "description": "info-beamer pi 0.9.9 adds minor improvements and finally allows paused HDMI audio for videos thanks to a firmware fix."
+    },
+    {
+      "title": "Using the REST API for automating video wall configuration",
+      "link": "https://info-beamer.com/blog/automating-video-walls-with-the-api",
+      "date": "2018-02-20T00:00:00.000Z",
+      "description": "Using the REST API unleashes the true power of info-beamer hosted. This blog post describes how it can be used to automatically create configurations for synced video walls."
+    },
+    {
+      "title": "Accelerated peer-to-peer content distribution",
+      "link": "https://info-beamer.com/blog/introducing-peer-to-peer-content-distribution",
+      "date": "2018-01-10T00:00:00.000Z",
+      "description": "info-beamer hosted can soon optionally distribute content locally among your devices. This can speed up downloads of large files to devices located in the same local network."
+    },
+    {
+      "title": "Remote control interfaces",
+      "link": "https://info-beamer.com/blog/introducing-device-remote-control-interfaces",
+      "date": "2018-01-05T00:00:00.000Z",
+      "description": "info-beamer hosted now allows a package to include a custom remote control interface that can be used to control the devices running that package in real time."
+    },
+    {
+      "title": "The 34C3 info beamer setup",
+      "link": "https://info-beamer.com/blog/running-the-34c3-info-beamer-screens",
+      "date": "2018-01-04T00:00:00.000Z",
+      "description": "I've been running an installation at the yearly chaos communication congress again. Here's how it worked."
+    },
+    {
+      "title": "info-beamer hosted 8 released",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-update-stable-0008",
+      "date": "2017-12-17T00:00:00.000Z",
+      "description": "The info-beamer hosted operating system gets a new major release."
+    },
+    {
+      "title": "info-beamer hosted on Artista-IoT",
+      "link": "https://info-beamer.com/blog/info-beamer-on-artista-iot",
+      "date": "2017-11-04T00:00:00.000Z",
+      "description": "info-beamer hosted fully supports the Artista-IoT TFT controller board by Data Display."
+    },
+    {
+      "title": "Pricing updates and a Free Tier",
+      "link": "https://info-beamer.com/blog/digital-signage-free-tier",
+      "date": "2017-10-16T00:00:00.000Z",
+      "description": "info-beamer hosted now offers a Free Tier. One device as well as 1GB of storage are now free forever."
+    },
+    {
+      "title": "info-beamer hosted on NEC displays",
+      "link": "https://info-beamer.com/blog/info-beamer-on-nec-displays",
+      "date": "2017-09-20T00:00:00.000Z",
+      "description": "info-beamer hosted fully supports the NEC P and V Series of professional displays."
+    },
+    {
+      "title": "info-beamer pi 0.9.8 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.8-released",
+      "date": "2017-08-14T00:00:00.000Z",
+      "description": "info-beamer pi 0.9.8 adds support for Raspbian Stretch as well as other minor improvements."
+    },
+    {
+      "title": "What other systems do wrong - what info-beamer hosted does better",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-why-its-better",
+      "date": "2017-05-13T00:00:00.000Z",
+      "description": "Why you should choose info-beamer hosted for your digital signage installation."
+    },
+    {
+      "title": "info-beamer hosted 7 released",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-update-stable-0007",
+      "date": "2017-04-20T00:00:00.000Z",
+      "description": "The info-beamer hosted operating system has been updated. It adds a wide range of new features."
+    },
+    {
+      "title": "info-beamer pi 0.9.7 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.7-released",
+      "date": "2017-04-05T00:00:00.000Z",
+      "description": "This release corrects minor problems and adds a new way of playing 1080p60 videos."
+    },
+    {
+      "title": "How info-beamer hosted handled two big internet incidents",
+      "link": "https://info-beamer.com/blog/cloudbleed-and-s3-outage",
+      "date": "2017-03-14T00:00:00.000Z",
+      "description": "Recently two major incidents made it to the news. This blog post describes both those incidents as well as how info-beamer was built to minimize the impact of those incidents."
+    },
+    {
+      "title": "info-beamer hosted 6 released",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-update-stable-0006",
+      "date": "2017-01-16T00:00:00.000Z",
+      "description": "The info-beamer hosted operating system has been updated. It offers minor updates and fixes."
+    },
+    {
+      "title": "The 33C3 info beamer setup",
+      "link": "https://info-beamer.com/blog/running-the-33c3-info-screens",
+      "date": "2017-01-09T00:00:00.000Z",
+      "description": "At the recent 33C3 conference in Hamburg I was running the information screens in all halls as well as on all venue TV screens again. Similar to the last 3 years I have been using info-beamer hosted …"
+    },
+    {
+      "title": "Updates to info-beamer hosted",
+      "link": "https://info-beamer.com/blog/some-info-beamer-hosted-updates",
+      "date": "2016-11-14T00:00:00.000Z",
+      "description": "The info-beamer hosted website is constantly being improved. Often changes are not visible unless you search for them. This blog post summarizes what happend recently."
+    },
+    {
+      "title": "info-beamer hosted 5 released",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-update-stable-0005",
+      "date": "2016-09-27T00:00:00.000Z",
+      "description": "The info-beamer hosted has been updated and offers a wide range of additional features."
+    },
+    {
+      "title": "info-beamer pi 0.9.6 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.6-released",
+      "date": "2016-07-25T00:00:00.000Z",
+      "description": "This release updates the library LuaJIT used by info-beamer. The version used in 0.9.5 could result in wrong numerical results in some cases. If you're using 0.9.5 you should upgrade."
+    },
+    {
+      "title": "info-beamer pi 0.9.5 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.5-released",
+      "date": "2016-07-18T00:00:00.000Z",
+      "description": "After more than half a year of development the new info-beamer 0.9.5 release is ready. It offers a number of improvements like nested content."
+    },
+    {
+      "title": "info-beamer hosted 4 released",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-update-stable-0004",
+      "date": "2016-04-26T00:00:00.000Z",
+      "description": "The info-beamer hosted has been updated to officially support the Raspberry Pi3 as well as adding additional features."
+    },
+    {
+      "title": "A new way of organizing code and assets",
+      "link": "https://info-beamer.com/blog/introducing-nested-nodes",
+      "date": "2016-02-29T00:00:00.000Z",
+      "description": "info-beamer pi 0.9.5 will add a new optional way of organizing code and content of a node. This post describes how it works and what's possible with the new nested node feature."
+    },
+    {
+      "title": "The info-beamer hosted architecture",
+      "link": "https://info-beamer.com/blog/info-beamer-hosted-insights",
+      "date": "2016-02-16T00:00:00.000Z",
+      "description": "info-beamer hosted is designed to be as reliable as possible. This blog post describes the info-beamer hosted architecture and how it archives this goal."
+    },
+    {
+      "title": "Creating a reliable operating system",
+      "link": "https://info-beamer.com/blog/building-a-reliable-raspberry-pi-distribution",
+      "date": "2016-01-24T00:00:00.000Z",
+      "description": "When running a digital signage installation it is important to make sure that your devices are as reliable as possible. Here's how info-beamer hosted solves this challenge."
+    },
+    {
+      "title": "info-beamer pi 0.9.4 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.4-released",
+      "date": "2015-12-08T00:00:00.000Z",
+      "description": "info-beamer 0.9.4 now officially supports Raspbian Jessie. Various minor improvements make it easier to develop and debug visualizations."
+    },
+    {
+      "title": "OMX vs CPU jpeg decoding",
+      "link": "https://info-beamer.com/blog/omx-jpeg-decoding-performance-vs-libjpeg-turbo",
+      "date": "2015-10-24T00:00:00.000Z",
+      "description": "There are multiple ways of loading JPEG images on the Pi. OMX (hardware acceleration) and using the host CPU. This blog post compares those two options on the Pi1 and Pi2."
+    },
+    {
+      "title": "info-beamer for Raspbian Jessie",
+      "link": "https://info-beamer.com/blog/info-beamer-for-raspbian-jessie",
+      "date": "2015-10-03T00:00:00.000Z",
+      "description": "There is now an info-beamer version that supports the new Raspbian Jessie release."
+    },
+    {
+      "title": "Performance experiments",
+      "link": "https://info-beamer.com/blog/faster-texture-loading-experiments",
+      "date": "2015-09-28T00:00:00.000Z",
+      "description": "Getting the most out of the Raspberry PI is one of the top priorities for info-beamer. Not all improvements work as expected. This blog post shows three examples."
+    },
+    {
+      "title": "info-beamer pi 0.9.3 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.3-released",
+      "date": "2015-09-22T00:00:00.000Z",
+      "description": "info-beamer 0.9.3 adds an option that makes it easier to use the official Raspberry PI display."
+    },
+    {
+      "title": "info-beamer pi 0.9.2 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.2-released",
+      "date": "2015-08-27T00:00:00.000Z",
+      "description": "info-beamer 0.9.2 improves smoothness for visualizations that are running for a long time and provides a new way to safe energy."
+    },
+    {
+      "title": "Running info-beamer in production",
+      "link": "https://info-beamer.com/blog/running-info-beamer-in-production",
+      "date": "2015-07-07T00:00:00.000Z",
+      "description": "You have developed your visualization and are not sure how to run it in production? This post highlights a few recommendations."
+    },
+    {
+      "title": "Playing a video on multiple screens",
+      "link": "https://info-beamer.com/blog/raspberry-pi-single-video-multiple-screens",
+      "date": "2015-06-28T00:00:00.000Z",
+      "description": "This is a walkthrough on how to use info-beamer as a multiscreen video player."
+    },
+    {
+      "title": "info-beamer pi 0.9.1 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.1-released",
+      "date": "2015-06-28T00:00:00.000Z",
+      "description": "info-beamer 0.9.1 fixes a bug introduced in 0.9 that could lead to info-beamer getting stuck."
+    },
+    {
+      "title": "info-beamer pi 0.9.0 released",
+      "link": "https://info-beamer.com/blog/info-beamer-pi-0.9.0-released",
+      "date": "2015-06-11T00:00:00.000Z",
+      "description": "info-beamer 0.9.0 is the result of three months of development. It has some pretty awesome improvements."
+    },
+    {
+      "title": "Unix filesystem semantics or 'How to foolproof your syncing process'",
+      "link": "https://info-beamer.com/blog/hooray-for-unix-filesystem-semantics",
+      "date": "2015-04-20T00:00:00.000Z",
+      "description": "Sometimes you want play a sequence of videos or images. Making sure they are not deleted while playing them might be tricky. It might add complexity to your process of syncing media files to info-bea…"
+    },
+    {
+      "title": "Understanding Pi dispmanx/HVS",
+      "link": "https://info-beamer.com/blog/raspberry-pi-hardware-video-scaler",
+      "date": "2015-04-10T00:00:00.000Z",
+      "description": "info-beamer 0.9 will offer an additional way of displaying videos. To use it it's important to understand how the Raspberry produces a video signal. This first blog post will walk you through all the…"
     }
   ]
 }

@@ -1,0 +1,186 @@
+{
+  "source": "Door Tablet SIGNS",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
+  "items": [
+    {
+      "title": "Active Directory",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/2DF87894C070543680258E1E003E92D3",
+      "date": "2026-06-23T15:19:04.000Z",
+      "description": "From V10.50.4 Door Tablet supports Active Directory integration combined with RFID. The end user experience goes like this: User needs to reserve a room or check-in at the tablet They need to..."
+    },
+    {
+      "title": "Changing the Time",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/25EAAF6541A93D3B80258330003FAB8B",
+      "date": "2026-06-17T17:22:12.000Z",
+      "description": "The Door Tablet device allows you to change the time zone of the API. This can also be done through the Door Tablet enterprise application itself, please click here for more information. To..."
+    },
+    {
+      "title": "V10.50.35",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/F1B56FED19E6389F80258E0F005273A7",
+      "date": "2026-06-07T15:03:37.000Z",
+      "description": "Door Tablet V10.50.38 - 7 June 2026 Door Tablet End-point Few updates to the remote LED modules. These affect the test features and run time where automatic launch did not start the LEDs..."
+    },
+    {
+      "title": "Introduction",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/E620AB4F90F38835802580760042C8EC",
+      "date": "2026-05-31T08:30:54.000Z",
+      "description": "Door Tablet offers motion sensors, health monitors and external LEDs. These devices are installed inside meeting spaces and communicate with the tablets outside of them. The main purpose of the..."
+    },
+    {
+      "title": "General Web",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/528D1E50FEEA595980258D5100434E4A",
+      "date": "2026-05-17T17:37:52.000Z",
+      "description": "From version 10.50.12, you can run Door Tablet on Crestron display hardware using a URL instead of installing the APK. When using this mode: Crestron LEDs are fully supported You have access to all..."
+    },
+    {
+      "title": "V10.50.35",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/22595BC48E04FF6C80258DFA004C6A9C",
+      "date": "2026-05-17T13:57:24.000Z",
+      "description": "Door Tablet V10.50.34 - 14 May 2026 Door Tablet End-point This update fixes a bug in remote LED controls and improves on the interface when setting the LED characteristics Now you can also select..."
+    },
+    {
+      "title": "SL Android 12 to 14",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/308FC393F326B75180258DF90063BFD6",
+      "date": "2026-05-16T18:09:31.000Z",
+      "description": "This document describes how to migrate a Door Tablet SL running Android 12 to Android 14. Please note that you cannot revert back to Android 12 once you device is upgraded to Android 14. The..."
+    },
+    {
+      "title": "V10.50.34",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/2E58A5B5FC69A99380258DF7005DE564",
+      "date": "2026-05-14T17:10:13.000Z",
+      "description": "Door Tablet V10.50.34 - 14 May 2026 Door Tablet End-point This update fixes a bug in remote LED controls and improves on the interface when setting the LED characteristics Now you can also select..."
+    },
+    {
+      "title": "Remote LEDs Software",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/1A863E5866AA484A80258DC9003F637D",
+      "date": "2026-05-14T14:40:34.000Z",
+      "description": "With a Door Tablet Device Hub installed, you can also control Remote LED lights and affect the colours based on room status. The LED light electronics connect to the Device Hub which we connect..."
+    },
+    {
+      "title": "Remote Config Tool",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/47704CFC6E520E50802584B90061AAD8",
+      "date": "2026-05-13T14:43:02.000Z",
+      "description": "Why use remote configuration? The remote configuration tool is used to configure a large number of devices. It can also be used to set up tablet settings such as: Tablet time-zones and..."
+    },
+    {
+      "title": "V10.50.33",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/20681CB089F0507380258DF4005E4FEF",
+      "date": "2026-05-11T17:23:45.000Z",
+      "description": "Door Tablet V10.50.33 - 10 May 2026 Door Tablet End-point New booking options when using Prism by Tenants Note: If you are running an old version of the Door Tablet AIO you will need to upgrade..."
+    },
+    {
+      "title": "V10.50.24",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/E86482A5787B108D80258DE00034DAC8",
+      "date": "2026-05-11T17:11:48.000Z",
+      "description": "Door Tablet V10.50.24 - 21 April 2026 This release provides for updates both at the server side and end-point software. Server Updates Server bridge to Prism Server Admin For Prism users you no..."
+    },
+    {
+      "title": "Prism Bookings",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/6C3CF33BF5A679F480258DE6004FF5A5",
+      "date": "2026-05-11T17:09:55.000Z",
+      "description": "Door Tablet offers a number of reservation options when working with Prism. The following options are available from V10.20.00 Simple booking Just specify the duration and the number of..."
+    },
+    {
+      "title": "V10.50.22",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/799236ACD01A311380258DBE00690CCE",
+      "date": "2026-05-10T13:28:33.000Z",
+      "description": "Door Tablet V10.50.22 - 18 March 2026 This release provides for updates both at the server side and end-point software. Server Updates Server bridge to Prism Server bridge to MDaemon Server bridge..."
+    },
+    {
+      "title": "V10.50",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/C5E77844FFD10D4F80258CDF006C00CD",
+      "date": "2026-05-10T13:27:56.000Z",
+      "description": "7 August 2025 This is a major release for the Door Tablet server. Almost every element in the system was updated to support the new permission sub system to allow administrators greater control..."
+    },
+    {
+      "title": "V10.14",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/91EA5F28F0870F7F80258B47007512E2",
+      "date": "2026-05-10T13:26:16.000Z",
+      "description": "26 June 2024 The following describe change made in this release 10.14 Door Tablet Server Updates relating to Door Tablet EPS Door Tablet App New support for Semite languages switching with Latin..."
+    },
+    {
+      "title": "V10.25",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/41F42B6C5530E6F980258CB100543B94",
+      "date": "2026-05-10T13:18:35.000Z",
+      "description": "21 June 2025 Note: There have been no formal release notes since version 10.14. However, any updates made to the system are documented on the relevant feature pages. The following describes..."
+    },
+    {
+      "title": "V10.12.27",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/095183E5DA7029C780258B06005A0050",
+      "date": "2026-05-10T13:16:39.000Z",
+      "description": "21 April 2024 The following describe change made in this release 10.12.27 Server Major updates to Door Tablet EPS (more below) Change affecting the way RFID registrations are handled Change Meeting..."
+    },
+    {
+      "title": "V10.12.23",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/5F7F97EA46996C2980258AE60061EEE3",
+      "date": "2026-05-10T13:06:11.000Z",
+      "description": "20 March 2024 The following describe change made in this release 10.12.23 (candidate for V10.13) Server Updates to Door Tablet EPS Web UI enhancement offering column sorting in views and..."
+    },
+    {
+      "title": "V10.12",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/B6BC92A2C1819D5380258A9500634A2A",
+      "date": "2026-05-10T13:01:21.000Z",
+      "description": "30 December 2023 The following describe change made in this release 10.12.0 Server Add-in fix in harvester creating duplicate entries Changed mechanism for the working of Master & Slave rooms Added..."
+    },
+    {
+      "title": "V10.11",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/00064A541934B89880258A520071CBDE",
+      "date": "2026-05-10T13:00:18.000Z",
+      "description": "24 October 2023 The following describe change made in this release 10.11.0 Server Update Door Tablet EPS templates for EPS controller New dynamic language switching offering Fixes for Embedded..."
+    },
+    {
+      "title": "V10.10",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/24704ACA3586C24080258A1A0052C000",
+      "date": "2026-05-10T12:59:42.000Z",
+      "description": "29 August 2023 The following describe change made in this release 10.10.0 Server Added Door Tablet EPS - E-Paper System App Support for..."
+    },
+    {
+      "title": "V10.09",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/41B4EC3A01D1F7CD802589C4006E476E",
+      "date": "2026-05-10T12:58:28.000Z",
+      "description": "4 June 2023 The following describe change made in this release 10.9.0 Server Added support for Buttonless in the CMS Updated the browser interface with various App minor bug fixes Add ROAMER..."
+    },
+    {
+      "title": "V10.08",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/119B8CEE902DF428802589410069BA29",
+      "date": "2026-05-10T12:57:48.000Z",
+      "description": "10 April 2023 The following describe change made in this release Access to Microsoft 365: We have add a new method of connecting to Microsoft 365. Now you can use Application permissions instead..."
+    },
+    {
+      "title": "V10.07 ",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/A05AE7D0E58D2C628025891E0030C17D",
+      "date": "2026-05-10T12:57:14.000Z",
+      "description": "20 Jan 2023 The following describe change made in this release Release Notes Making such notes public. Zoom: authentication method changed for JWT to OAuth 2, using Server-to-Server OAuth. ..."
+    },
+    {
+      "title": "NHS Test and Trace",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/D0807F828047A3EA802586000046741B",
+      "date": "2026-05-10T12:56:44.000Z",
+      "description": "In response to COVID-19, the UK National Health Service (NHS) has launched a Test & Trace application to track people movements and alert in the event of proximity to a verifiable infected..."
+    },
+    {
+      "title": "Hygiene",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/969809886B2D12498025856D0076AF77",
+      "date": "2026-05-10T12:56:08.000Z",
+      "description": "Following the pandemic of COVID-19 companies have become aware that staff returning to work will need to adhere to new hygiene rules. These rules, as part of a variety of measures, include: Social..."
+    },
+    {
+      "title": "Samsung SSSP",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/02CBF6889FBFBCF180257F190059BE40",
+      "date": "2026-05-10T12:55:41.000Z",
+      "description": "Samsung Smart Signage Platform (SSSP) hardware range is fully supported via the Door Tablet server. The following devices are supported: 10\" touch display 22\" touch display (suitable for Door..."
+    },
+    {
+      "title": "Windows Tablets",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/FBEE7202732690A980257F19004E3AE4",
+      "date": "2026-05-10T12:55:15.000Z",
+      "description": "Windows tablets are fully supported using a Windows Store application. Search and download the application using the term \"Door Tablet\" The following devices are supported: Tablets with Windows..."
+    },
+    {
+      "title": "Android Tablets",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/B40D1EAAB1DAE65A80257F190046FD86",
+      "date": "2026-05-10T12:54:41.000Z",
+      "description": "Android tablets are fully supported using a Google Play Store application. Search and download the application using the term \"Door Tablet\" The following devices are supported: Android tablets..."
+    }
+  ]
+}

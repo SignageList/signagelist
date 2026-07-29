@@ -1,0 +1,66 @@
+{
+  "source": "FrontFace",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
+  "items": [
+    {
+      "title": "More Platforms for Digital Signage: FrontFace to Support Linux and Raspberry Pi for Greater Sustainability",
+      "link": "https://blog.mirabyte.com/en/digital-signage-software-frontface-supports-linux-and-raspberry-pi/",
+      "date": "2026-06-24T08:04:22.000Z",
+      "description": "The FrontFace digital signage and kiosk software is best known as on-premises software for the Windows operating system. Although it also offers an Android version, the primary focus remains on Windo…"
+    },
+    {
+      "title": "Secure Kiosk Browser (e.g., for Websites) with FrontFace",
+      "link": "https://blog.mirabyte.com/en/secure-kiosk-browser-for-websites/",
+      "date": "2026-03-25T09:04:25.000Z",
+      "description": "Displaying a simple website on a secure kiosk terminal may sound straightforward, but, as is often the case, the devil is in the details. Conventional browsers like Chrome, Edge, and Firefox are not …"
+    },
+    {
+      "title": "The Best Way to Show Websites on Digital Signage Screens",
+      "link": "https://blog.mirabyte.com/en/the-best-way-to-show-websites-on-digital-signage-screens/",
+      "date": "2025-12-02T14:02:00.000Z",
+      "description": "The FrontFace digital signage software supports a wide variety of media types and file formats for on-screen display. In addition to images, videos, and PDFs, this also includes websites. The advanta…"
+    },
+    {
+      "title": "Digital Bulletin Boards for Businesses, Government Agencies, and Schools",
+      "link": "https://blog.mirabyte.com/en/digital-bulletin-boards-for-business-government-agencies-and-schools/",
+      "date": "2025-10-30T14:15:16.000Z",
+      "description": "Digital communication is becoming increasingly important. Digital information screens offer an excellent opportunity to improve internal and external communication, especially for companies, schools,…"
+    },
+    {
+      "title": "Create Accessibility-Enabled Touch Menus with FrontFace",
+      "link": "https://blog.mirabyte.com/en/accessibility-enabled-touch-menus-with-frontface/",
+      "date": "2025-09-26T08:31:03.000Z",
+      "description": "Interactive touchscreen interfaces and kiosk terminal content can be problematic, or even unusable, for people with physical disabilities. Therefore, ensuring barrier-free access to information syste…"
+    },
+    {
+      "title": "Offline Digital Signage: Without Internet Connection &#038; Cloud",
+      "link": "https://blog.mirabyte.com/en/offline-digital-signage-without-internet-or-cloud/",
+      "date": "2025-07-04T13:01:03.000Z",
+      "description": "Many digital signage software solutions are cloud-based, i.e. they require (permanent) access to the Internet. Getting connected anytime, anywhere is not a problem in most cases, but there are certai…"
+    },
+    {
+      "title": "FrontFace Now also Available as a Cloud License!",
+      "link": "https://blog.mirabyte.com/en/frontface-cloud-license/",
+      "date": "2025-02-05T13:44:50.000Z",
+      "description": "FrontFace is well known as a digital signage and kiosk software, especially as a proven on-premise solution. FrontFace can be used to implement a wide range of digital signage applications such as in…"
+    },
+    {
+      "title": "Scrolling News Ticker for Your Digital Signage Screens",
+      "link": "https://blog.mirabyte.com/en/scrolling-news-ticker-digital-signage/",
+      "date": "2024-11-18T12:51:32.000Z",
+      "description": "To display news or headlines in a scrolling ticker bar in the FrontFace digital signage software, you can use the &#8220;Ticker&#8221; media object. To display the ticker permanently in a playlist, e…"
+    },
+    {
+      "title": "Data Collection and Interactive Forms on Kiosk Terminals",
+      "link": "https://blog.mirabyte.com/en/using-ms-forms-on-kiosk-terminals/",
+      "date": "2024-10-08T12:27:06.000Z",
+      "description": "When it comes to self-service terminals, sooner or later there will be a need to capture user input (with forms). Whether it is customer satisfaction surveys, reservations/bookings, or business proce…"
+    },
+    {
+      "title": "New Improved Version of RSS Newsboard Plugin",
+      "link": "https://blog.mirabyte.com/en/new-rss-newsboard-plugin/",
+      "date": "2024-09-03T11:38:43.000Z",
+      "description": "The standard functionality of FrontFace can be easily extended by plugins. The &#8220;Newsboard&#8221; plugin was one of the first plugins made available for FrontFace and is one of the most popular.…"
+    }
+  ]
+}

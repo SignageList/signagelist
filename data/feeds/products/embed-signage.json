@@ -1,6 +1,6 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
     {
       "title": "Various Bug Fixes",
@@ -63,15 +63,243 @@
       "description": ""
     },
     {
+      "title": "Dynamic Data Added POST Method for JSON and XML Sources",
+      "link": "https://embedsignage.com/releases/dynamic-data-added-post-method-for-json-and-xml-sources/",
+      "date": "2026-04-13T15:59:09.000Z",
+      "description": ""
+    },
+    {
+      "title": "New Dashboard, User Activity Logs and Subscription Updates",
+      "link": "https://embedsignage.com/releases/new-dashboard-user-activity-logs-and-subscription-updates/",
+      "date": "2026-03-26T09:31:56.000Z",
+      "description": ""
+    },
+    {
+      "title": "Improved Analytics Export and New Detailed Impressions Report",
+      "link": "https://embedsignage.com/releases/improved-analytics-export-and-new-detailed-impressions-report/",
+      "date": "2026-03-19T09:56:27.000Z",
+      "description": ""
+    },
+    {
+      "title": "Improved User Group Deletion Process and Bug Fix for Analytics",
+      "link": "https://embedsignage.com/releases/improved-user-group-deletion-process-and-bug-fix-for-analytics/",
+      "date": "2026-03-12T10:39:18.000Z",
+      "description": ""
+    },
+    {
+      "title": "Widgets",
+      "link": "https://embedsignage.com/features/widgets/",
+      "date": "2026-03-10T10:44:36.000Z",
+      "description": ""
+    },
+    {
+      "title": "Updated default video playlist animation and Room Booking bug fix",
+      "link": "https://embedsignage.com/releases/updated-default-video-playlist-animation-setting-and-room-booking-bug-fix/",
+      "date": "2026-03-09T11:26:00.000Z",
+      "description": ""
+    },
+    {
+      "title": "How to Turn 70% Wasted Screen Time Into Employee Engagement",
+      "link": "https://embedsignage.com/how-to-turn-70-wasted-screen-time-into-employee-engagement/",
+      "date": "2026-02-19T10:19:11.000Z",
+      "description": ""
+    },
+    {
+      "title": "RoomStream: Stream full-screen signage to your Meeting Rooms",
+      "link": "https://embedsignage.com/releases/new-roomstream-stream-full-screen-signage-to-your-meeting-rooms/",
+      "date": "2026-02-19T10:18:24.000Z",
+      "description": ""
+    },
+    {
+      "title": "Digital Signage Pricing &#8211; Simple Annual Costs &#8211; Guide Pricing",
+      "link": "https://embedsignage.com/pricing/",
+      "date": "2026-02-19T09:27:19.000Z",
+      "description": ""
+    },
+    {
       "title": "RoomStream &#8211; Meeting Room Digital Signage",
       "link": "https://embedsignage.com/roomstream/",
       "date": "2026-02-18T22:50:37.000Z",
       "description": ""
     },
     {
+      "title": "Refreshed Sidebar UI",
+      "link": "https://embedsignage.com/releases/refreshed-sidebar-ui/",
+      "date": "2026-02-09T21:15:13.000Z",
+      "description": ""
+    },
+    {
       "title": "Bug fix for Playlist delete",
       "link": "https://embedsignage.com/releases/bug-fix-for-playlist-delete/",
       "date": "2026-02-04T12:20:45.000Z",
+      "description": ""
+    },
+    {
+      "title": "Display your Microsoft Teams Channel on any screen, automatically",
+      "link": "https://embedsignage.com/display-your-microsoft-teams-channel-on-any-screen-automatically/",
+      "date": "2026-02-02T09:44:19.000Z",
+      "description": ""
+    },
+    {
+      "title": "Playlists update: improved workflow, enhanced flexibility",
+      "link": "https://embedsignage.com/releases/playlists-update-improved-workflow-enhanced-flexibility/",
+      "date": "2026-01-28T14:34:22.000Z",
+      "description": ""
+    },
+    {
+      "title": "New Quividi Audience Data Conditional Play, LG WebOS app update v1.2.1 and Services Alert bug fix",
+      "link": "https://embedsignage.com/releases/new-quividi-audience-data-conditional-play-lg-webos-app-update-v1-2-1-and-services-alert-bug-fix/",
+      "date": "2026-01-26T11:04:38.000Z",
+      "description": ""
+    },
+    {
+      "title": "Become a Reseller | Digital Signage Partner Resellers",
+      "link": "https://embedsignage.com/resellers/",
+      "date": "2026-01-21T15:50:57.000Z",
+      "description": ""
+    },
+    {
+      "title": "Security & Compliance &#8211; Secure Digital Signage Software",
+      "link": "https://embedsignage.com/security/",
+      "date": "2026-01-21T15:32:31.000Z",
+      "description": ""
+    },
+    {
+      "title": "Supported Digital Signage Players and Devices",
+      "link": "https://embedsignage.com/devices/",
+      "date": "2026-01-21T15:25:15.000Z",
+      "description": ""
+    },
+    {
+      "title": "GANT Global Retail Digital Signage",
+      "link": "https://embedsignage.com/customers/gant/",
+      "date": "2026-01-21T15:15:46.000Z",
+      "description": ""
+    },
+    {
+      "title": "BrightSign Digital Signage &#8211; CMS Advanced Partner",
+      "link": "https://embedsignage.com/devices/brightsign/",
+      "date": "2026-01-21T15:14:33.000Z",
+      "description": ""
+    },
+    {
+      "title": "Digital Signage for Windows OS",
+      "link": "https://embedsignage.com/devices/windows/",
+      "date": "2026-01-21T15:08:47.000Z",
+      "description": ""
+    },
+    {
+      "title": "Ways to Watch &#038; Engage with the Qatar World Cup 2022 on your Digital Signage ⚽",
+      "link": "https://embedsignage.com/ways-to-watch-engage-qatar-world-cup-2022-on-your-digital-signage/",
+      "date": "2026-01-21T13:38:05.000Z",
+      "description": ""
+    },
+    {
+      "title": "Show Social Media Posts on your Digital Signage screens, automatically",
+      "link": "https://embedsignage.com/show-social-media-posts-on-your-digital-signage-screens-automatically/",
+      "date": "2026-01-21T13:37:23.000Z",
+      "description": ""
+    },
+    {
+      "title": "Hivestack by Perion integration with embed signage",
+      "link": "https://embedsignage.com/hivestack-by-perion-integration-with-embed-signage/",
+      "date": "2026-01-21T13:36:08.000Z",
+      "description": ""
+    },
+    {
+      "title": "Microsoft Power BI Secure Integration for Digital Signage",
+      "link": "https://embedsignage.com/features/widgets/power-bi/",
+      "date": "2026-01-21T13:34:35.000Z",
+      "description": ""
+    },
+    {
+      "title": "embed signage Tutorial: PowerPoint for Digital Signage",
+      "link": "https://embedsignage.com/embed-signage-tutorial-powerpoint-for-digital-signage/",
+      "date": "2026-01-21T13:31:45.000Z",
+      "description": ""
+    },
+    {
+      "title": "embed signage is a Digital Signage Experience Awards (DIZZIE) 2022 Finalist",
+      "link": "https://embedsignage.com/embed-signage-is-a-digital-signage-experience-awards-dizzie-2022-finalist/",
+      "date": "2026-01-21T13:31:04.000Z",
+      "description": ""
+    },
+    {
+      "title": "embed becomes a BrightSign BSN.Cloud CMS Integrated Partner",
+      "link": "https://embedsignage.com/embed-becomes-a-brightsign-bsn-cloud-cms-integrated-partner/",
+      "date": "2026-01-21T13:30:19.000Z",
+      "description": ""
+    },
+    {
+      "title": "Display your SharePoint News on Digital Signage screens, automatically",
+      "link": "https://embedsignage.com/display-your-sharepoint-news-on-digital-signage-screens-automatically/",
+      "date": "2026-01-21T13:29:44.000Z",
+      "description": ""
+    },
+    {
+      "title": "AV Awards 2022 Leisure and Hospitality Project of the Year Finalist Krispy Kreme UK and Ireland",
+      "link": "https://embedsignage.com/av-awards-2022-leisure-hospitality-project-of-the-year-finalist-krispy-kreme-uk-ireland/",
+      "date": "2026-01-21T13:27:49.000Z",
+      "description": ""
+    },
+    {
+      "title": "Automate and scale your network management with the embed signage API",
+      "link": "https://embedsignage.com/automate-and-scale-your-network-management-with-the-embed-signage-api/",
+      "date": "2026-01-21T13:26:55.000Z",
+      "description": ""
+    },
+    {
+      "title": "embed signage &#8211; digital signage software",
+      "link": "https://embedsignage.com/",
+      "date": "2026-01-21T13:24:14.000Z",
+      "description": ""
+    },
+    {
+      "title": "TikTok on Digital Signage and BrightSign app update v2.1.3",
+      "link": "https://embedsignage.com/releases/tiktok-on-digital-signage-and-brightsign-app-update-v2-1-3/",
+      "date": "2026-01-20T11:21:04.000Z",
+      "description": ""
+    },
+    {
+      "title": "Overview",
+      "link": "https://embedsignage.com/features/",
+      "date": "2026-01-15T10:32:28.000Z",
+      "description": ""
+    },
+    {
+      "title": "Devices",
+      "link": "https://embedsignage.com/features/devices/",
+      "date": "2026-01-15T10:32:27.000Z",
+      "description": ""
+    },
+    {
+      "title": "Media",
+      "link": "https://embedsignage.com/features/media/",
+      "date": "2026-01-15T10:32:24.000Z",
+      "description": ""
+    },
+    {
+      "title": "Layouts",
+      "link": "https://embedsignage.com/features/layouts/",
+      "date": "2026-01-15T10:32:24.000Z",
+      "description": ""
+    },
+    {
+      "title": "Channels",
+      "link": "https://embedsignage.com/features/channels/",
+      "date": "2026-01-15T10:32:24.000Z",
+      "description": ""
+    },
+    {
+      "title": "Plugins &#038; Widgets",
+      "link": "https://embedsignage.com/features/plugins-widgets/",
+      "date": "2026-01-15T10:32:22.000Z",
+      "description": ""
+    },
+    {
+      "title": "Blog",
+      "link": "https://embedsignage.com/blog/",
+      "date": "2026-01-15T10:31:32.000Z",
       "description": ""
     }
   ]

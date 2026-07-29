@@ -1,6 +1,6 @@
 {
   "source": "Valotalive",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
     {
       "title": "The Next Phase of B2B Digital Signage: From Passive Info Display to Interactive, Operational Workspace",
@@ -61,6 +61,12 @@
       "link": "https://valota.live/how-to-share-your-power-bi-dashboards-and-reports-on-digital-signage/",
       "date": "2025-04-22T12:56:00.000Z",
       "description": "Drive action with Digital Signage &#038; Business Insights. This blog post covers the steps to securely share your Power BI Dashboard or Report on Digital Signage displays to engage employees. Artikk…"
+    },
+    {
+      "title": "What is Warehouse Digital Signage",
+      "link": "https://valota.live/what-is-warehouse-digital-signage/",
+      "date": "2024-11-25T11:04:27.000Z",
+      "description": "Take your warehouse operations to the next level with digital signage. Learn from a real-world case study and explore the key components of a successful digital signage solution. Discover how to impr…"
     }
   ]
 }

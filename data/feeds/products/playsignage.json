@@ -1,6 +1,6 @@
 {
   "source": "Play Digital Signage (PlaySignage)",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
     {
       "title": "Easiest Digital Signage Software To Use (And the Features to Look For)",
@@ -87,6 +87,12 @@
       "description": "Discover how the Play Digital Signage community brings tutorials, support, discussions, and feature requests together to strengthen the platform and help users succeed."
     },
     {
+      "title": "Why We Built Our Community",
+      "link": "https://playsignage.com/blog/why-we-built-our-community/",
+      "date": "2025-11-20T00:00:00.000Z",
+      "description": "Discover how the Play Digital Signage community brings tutorials, support, discussions, and feature requests together to strengthen the platform and help users succeed."
+    },
+    {
       "title": "OptiSigns vs Play Digital Signage: A Comprehensive Comparison for 2026",
       "link": "https://playsignage.com/blog/optisigns-vs-play/",
       "date": "2025-11-06T00:00:00.000Z",
@@ -97,6 +103,222 @@
       "link": "https://playsignage.com/blog/The-Real-Value-of-24-7-Human-Support-in-Digital-Signage/",
       "date": "2025-11-02T00:00:00.000Z",
       "description": "Frustrated with bots and ticket systems? Discover how Play Digital Signage delivers real 24/7/365 human support — fast, honest, and always available."
+    },
+    {
+      "title": "The Real Value of 24/7 Human Support in Digital Signage",
+      "link": "https://playsignage.com/blog/the-real-value-of-24-7-human-support-in-digital-signage/",
+      "date": "2025-11-02T00:00:00.000Z",
+      "description": "Frustrated with bots and ticket systems? Discover how Play Digital Signage delivers real 24/7/365 human support — fast, honest, and always available."
+    },
+    {
+      "title": "Free Digital Signage for Churches",
+      "link": "https://playsignage.com/blog/how-to-set-up-free-digital-signage-for-churches/",
+      "date": "2025-10-27T00:00:00.000Z",
+      "description": "Discover how your church can use Play Digital Signage to inspire and inform your congregation. Get one free screen, set it up in minutes, and start sharing announcements, events, and worship messages…"
+    },
+    {
+      "title": "How to Keep Your Digital Signage Running Smoothly",
+      "link": "https://playsignage.com/blog/how-to-keep-your-digital-signage-running-smoothly/",
+      "date": "2025-06-09T00:00:00.000Z",
+      "description": "Digital signage is designed to run continuously—24 hours a day, 7 days a week, 365 days a year. The software at the heart of Play Digital Signage is engineered to make this a reality, incorporating f…"
+    },
+    {
+      "title": "Uniguest Tripleplay vs Play Digital Signage: 2026 Platform Breakdown",
+      "link": "https://playsignage.com/blog/uniguest-tripleplay-vs-play-digital-signage-2026-platform-breakdown/",
+      "date": "2025-05-19T00:00:00.000Z",
+      "description": "Compare Uniguest Tripleplay and Play Digital Signage in 2026, covering capabilities, costs, advantages, limitations, and user views to determine the best match."
+    },
+    {
+      "title": "How to Increase Sales by 20% with Digital Signage",
+      "link": "https://playsignage.com/blog/how-to-increase-sales-with-digital-signage/",
+      "date": "2025-04-08T00:00:00.000Z",
+      "description": "Learn how digital signage with Play Digital Signage can increase your sales by 20%, with easy setup, budget-friendly tools, and powerful retail marketing."
+    },
+    {
+      "title": "How we build the Tizen app for Samsung",
+      "link": "https://playsignage.com/blog/how-we-build-the-tizen-app-for-samsung/",
+      "date": "2025-03-18T00:00:00.000Z",
+      "description": "In this article we’ll be looking at the pros and cons of SSSP application from both user and developer perspective. We’ll be also setting up tooling to incorporate the development into a command line…"
+    },
+    {
+      "title": "Building a scoreboard at Keepthescore.com",
+      "link": "https://playsignage.com/blog/building-a-scoreboard-at-keepthescore-com/",
+      "date": "2025-02-20T00:00:00.000Z",
+      "description": "Setting up a scoreboard has always been costly and complex, but digital signage changes that! With KeepTheScore & Play Digital Signage, you can create a custom, real-time scoreboard on any screen. Af…"
+    },
+    {
+      "title": "Improving Patient Experience with Digital Signage in Healthcare",
+      "link": "https://playsignage.com/blog/improving-patient-experience-with-digital-signage-in-healthcare/",
+      "date": "2025-02-11T00:00:00.000Z",
+      "description": "Going to a doctor, hospital, or any healthcare facility can be an overwhelming and, quite frankly, boring experience. You book an appointment for 2 PM, show up on time, and then—according to statisti…"
+    },
+    {
+      "title": "Enhancing Content Management using a public API",
+      "link": "https://playsignage.com/blog/enhancing-content-management-using-a-public-api/",
+      "date": "2025-02-05T00:00:00.000Z",
+      "description": "Discover how First Bankers Trust, a trusted institution since 1946, leveraged Play Digital Signage to enhance customer communication and streamline operations, continuing its legacy of exceptional se…"
+    },
+    {
+      "title": "Case Study; Improved Communication at First Bankers Trust",
+      "link": "https://playsignage.com/blog/improved-communication-at-first-bankers-trust/",
+      "date": "2025-01-22T00:00:00.000Z",
+      "description": "Discover how First Bankers Trust, a trusted institution since 1946, leveraged Play Digital Signage to enhance customer communication and streamline operations, continuing its legacy of exceptional se…"
+    },
+    {
+      "title": "Enhanced Text Effects, PWA App, Dashboard Updates & More",
+      "link": "https://playsignage.com/blog/enhanced-text-effects-pwa-app-dashboard-updates/",
+      "date": "2025-01-19T00:00:00.000Z",
+      "description": "At PlaySignage, we continue to enhance our platform with new features designed to improve usability, customization, and efficiency. In this update, we are excited to introduce text styling for the We…"
+    },
+    {
+      "title": "How Digital Signage can boost sales in Retail Stores",
+      "link": "https://playsignage.com/blog/how-digital-signage-can-boost-sales-in-retail-stores/",
+      "date": "2025-01-15T00:00:00.000Z",
+      "description": "Imagine you have content running on several screens throughout your retail store. These screens are running content that strengthens your brand and shows items from the store, new product lines, and …"
+    },
+    {
+      "title": "Replace Assets, Bulk Slide Editing, and Expanded Device Support",
+      "link": "https://playsignage.com/blog/replace-assets-bulk-slide-editing-and-expanded-device-support/",
+      "date": "2024-11-28T00:00:00.000Z",
+      "description": "At PlaySignage, we continuously update our platform to improve usability and functionality for our users. Our latest update introduces several powerful new features, including easy asset replacement …"
+    },
+    {
+      "title": "The Tech Guide: Choosing the Right Digital Signage Hardware",
+      "link": "https://playsignage.com/blog/the-tech-guide-choosing-the-right-digital-signage-hardware/",
+      "date": "2024-11-19T00:00:00.000Z",
+      "description": "The world of digital signage has come a long way. Forget clunky servers and complicated network setups – these days, it's all about the cloud! With cloud-based digital signage solutions like Play Dig…"
+    },
+    {
+      "title": "Creating Compelling Content for Digital Signage",
+      "link": "https://playsignage.com/blog/creating-compelling-content-for-digital-signage/",
+      "date": "2024-11-13T00:00:00.000Z",
+      "description": "Digital signage has become an essential tool for businesses, organizations, and event planners looking to communicate effectively with their audiences. Whether it’s in retail stores, corporate office…"
+    },
+    {
+      "title": "Sustainable Events: Reduce Waste with Digital Signage",
+      "link": "https://playsignage.com/blog/sustainable-events-reduce-waste-with-digital-signage/",
+      "date": "2024-11-06T00:00:00.000Z",
+      "description": "Sustainability has become an essential consideration for businesses and event organizers alike. With climate change and environmental concerns at the forefront of global conversations, industries are…"
+    },
+    {
+      "title": "Integrating Digital Signage with Social Media",
+      "link": "https://playsignage.com/blog/integrating-digital-signage-with-social-media/",
+      "date": "2024-10-29T00:00:00.000Z",
+      "description": "One of the most effective ways to connect with your audience is by integrating digital signage with social media. This combination not only boosts engagement but also adds a dynamic and interactive e…"
+    },
+    {
+      "title": "Amazon Signage Stick and Play Digital Signage: The Ultimate Digital Signage Solution",
+      "link": "https://playsignage.com/blog/amazon-signage-stick-and-play-digital-signage-the-ultimate-digital-signage-solution/",
+      "date": "2024-10-25T00:00:00.000Z",
+      "description": "The world of digital signage is constantly evolving, and Amazon is now making waves with its innovative new product: the Amazon Signage Stick. Play Digital Signage is proud to be an official launch p…"
+    },
+    {
+      "title": "The Role of Digital Signage in Crisis Communication",
+      "link": "https://playsignage.com/blog/the-role-of-digital-signage-in-crisis-communication/",
+      "date": "2024-10-22T00:00:00.000Z",
+      "description": "In times of crisis, effective communication can make all the difference. Whether it’s a natural disaster, public health emergency, or a security threat, the ability to quickly convey crucial informat…"
+    },
+    {
+      "title": "Omnichannel Advertising and Digital Signage in Marketing",
+      "link": "https://playsignage.com/blog/omnichannel-advertising-and-digital-signage-in-marketing/",
+      "date": "2024-10-15T00:00:00.000Z",
+      "description": "In the world of marketing, brands are always looking for innovative ways to reach and engage their audience. As consumer behavior becomes more complex, businesses are embracing an omnichannel approac…"
+    },
+    {
+      "title": "Library Upload Queue & SuperAdmin Role",
+      "link": "https://playsignage.com/blog/library-upload-queue-superadmin-role/",
+      "date": "2024-10-11T00:00:00.000Z",
+      "description": "At PlaySignage, we are always improving our platform to offer a smoother and more efficient experience for our users. Our latest update includes queued processing for library uploads and the introduc…"
+    },
+    {
+      "title": "Digital Signage in Remote Patient Monitoring and Telehealth",
+      "link": "https://playsignage.com/blog/digital-signage-in-remote-patient-monitoring-and-telehealth/",
+      "date": "2024-10-07T00:00:00.000Z",
+      "description": "The landscape of healthcare is changing rapidly, especially with the rise of telehealth and remote patient monitoring (RPM). As more healthcare services move to digital platforms, there’s a growing n…"
+    },
+    {
+      "title": "Digital Signage in Airports: Enhance Passenger Experience",
+      "link": "https://playsignage.com/blog/digital-signage-in-airports-enhance-passenger-experience/",
+      "date": "2024-09-30T00:00:00.000Z",
+      "description": "Airports have evolved beyond being mere transit hubs; they’re now immersive environments that aim to enhance the passenger experience. One of the key technologies making this possible is digital sign…"
+    },
+    {
+      "title": "The Impact of Digital Signage on Employee Training",
+      "link": "https://playsignage.com/blog/the-impact-of-digital-signage-on-employee-training/",
+      "date": "2024-09-17T00:00:00.000Z",
+      "description": "With a fast-paced business environment, the need for efficient, scalable, and engaging employee training solutions is more critical than ever. Traditional methods such as printed manuals, static pres…"
+    },
+    {
+      "title": "Introducing Tenor: GIFs on Play Digital Signage",
+      "link": "https://playsignage.com/blog/introducing-tenor-gifs-on-play-digital-signage/",
+      "date": "2024-09-11T00:00:00.000Z",
+      "description": "In the ever-evolving landscape of digital signage, capturing and retaining audience attention is paramount. Static images and text, while informative, may not always elicit the desired level of engag…"
+    },
+    {
+      "title": "Digital Signage Vs. Traditional Signage: Long-Term Cost",
+      "link": "https://playsignage.com/blog/digital-signage-vs-traditional-signage-long-term-cost/",
+      "date": "2024-09-11T00:00:00.000Z",
+      "description": "These days attention spans are short and competition for visibility is fierce. Businesses must make strategic decisions about how they communicate with their audience. Signage, whether digital or tra…"
+    },
+    {
+      "title": "Digital Signage: Impacting Store Layout & Customer Flow",
+      "link": "https://playsignage.com/blog/digital-signage-impacting-store-layout-and-customer-flow/",
+      "date": "2024-09-04T00:00:00.000Z",
+      "description": "Imagine walking into a store where every corner captivates your attention and every step guides you seamlessly through a curated journey. This is no longer a retail fantasy but a reality made possibl…"
+    },
+    {
+      "title": "Digital Signage for Real Estate: Property Marketing & Sales",
+      "link": "https://playsignage.com/blog/digital-signage-for-real-estate-property-marketing-and-sales/",
+      "date": "2024-08-28T00:00:00.000Z",
+      "description": "In the fiercely competitive real estate market, standing out is crucial to success. Whether you're marketing a luxury high-rise, a cozy suburban home, or a commercial space, how you present propertie…"
+    },
+    {
+      "title": "Boosting Productivity with Digital Signage in the Workplace",
+      "link": "https://playsignage.com/blog/boosting-productivity-with-digital-signage-in-the-workplace/",
+      "date": "2024-08-21T00:00:00.000Z",
+      "description": "In today’s fast-paced work environment, productivity is key to success. Companies are continually seeking innovative ways to streamline communication, keep employees engaged, and maintain focus on th…"
+    },
+    {
+      "title": "Tree View in the Library for Easier File Management",
+      "link": "https://playsignage.com/blog/tree-view-in-the-library-for-easier-file-management/",
+      "date": "2024-08-19T00:00:00.000Z",
+      "description": "At PlaySignage, we are always working to improve the usability and efficiency of our platform. Our latest update introduces a Tree View in the Library, making it easier to navigate, organize, and man…"
+    },
+    {
+      "title": "Improving Tourism & Visitor Experiences with Digital Signage",
+      "link": "https://playsignage.com/blog/improving-tourism-and-visitor-experiences-with-digital-signage/",
+      "date": "2024-08-14T00:00:00.000Z",
+      "description": "Tourism is a dynamic industry that thrives on delivering memorable experiences to visitors. As travel becomes increasingly accessible, the competition among destinations grows, making it essential fo…"
+    },
+    {
+      "title": "Sustainability in Retail: Green Digital Signage Solutions",
+      "link": "https://playsignage.com/blog/sustainability-in-retail-green-digital-signage-solutions/",
+      "date": "2024-08-07T00:00:00.000Z",
+      "description": "Green digital signage,Sustainable digital signage,Digital signage solutions,Sustainability in retail,Digital Signage,Play Digital Signage"
+    },
+    {
+      "title": "Discover the top 10 digital signage content ideas to make your event stand out, the benefits of using digital signage for events, and more!",
+      "link": "https://playsignage.com/blog/top-10-digital-signage-content-ideas-for-events/",
+      "date": "2024-07-31T00:00:00.000Z",
+      "description": "For any successful event, engaging attendees and conveying information effectively is crucial. Digital signage offers a versatile and dynamic solution to achieve these goals. From conferences and tra…"
+    },
+    {
+      "title": "Stadium & Venue Digital Signage: Ideas, Benefits, & More",
+      "link": "https://playsignage.com/blog/stadium-and-venue-digital-signage-ideas-benefits-and-more/",
+      "date": "2024-07-24T00:00:00.000Z",
+      "description": "Digital signage has revolutionized the way information is conveyed in public spaces, and stadiums and venues are no exception."
+    },
+    {
+      "title": "Using Digital Signage at Home: What You Need to Know",
+      "link": "https://playsignage.com/blog/using-digital-signage-at-home-what-you-need-to-know/",
+      "date": "2024-07-10T00:00:00.000Z",
+      "description": "Digital signage has traditionally been seen in commercial settings like retail stores, restaurants, and corporate offices. However, its versatility and impact are now making it a popular choice for h…"
+    },
+    {
+      "title": "Healthcare Digital Signage: Benefits, Content Ideas, & Getting Started",
+      "link": "https://playsignage.com/blog/healthcare-digital-signage-benefits-and-content-ideas/",
+      "date": "2024-07-03T00:00:00.000Z",
+      "description": "In today’s fast-paced healthcare environment, clear and efficient communication is essential. One powerful tool for enhancing communication and patient experience is digital signage. From displaying …"
     }
   ]
 }

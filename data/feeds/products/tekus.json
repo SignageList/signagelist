@@ -1,7 +1,13 @@
 {
   "source": "Tekus",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
+    {
+      "title": "Mercados y Carnes OR / Convierte atención en ventas",
+      "link": "https://www.tekus.co/blog-tekus/caso-de-exito-mercados-y-carnes-or-convierte-atencion-en-ventas/",
+      "date": "2025-12-09T23:01:56.000Z",
+      "description": ""
+    },
     {
       "title": "Primer pantalla All In One de 136&#8243; en Colombia",
       "link": "https://www.tekus.co/blog-tekus/primer-pantalla-all-in-one-de-136-en-colombia/",
@@ -45,9 +51,39 @@
       "description": ""
     },
     {
+      "title": "Integración Tekus + Loggro: automatiza, aumenta ventas y reduce costos.",
+      "link": "https://www.tekus.co/blog-tekus/integracion-tekus-loggro-impulsa-ventas-reduce-costos/",
+      "date": "2025-10-27T15:01:19.000Z",
+      "description": ""
+    },
+    {
       "title": "PIGASUS revoluciona su experiencia gastronómica con señalización digital de Tekus",
       "link": "https://www.tekus.co/blog-tekus/menu-digital-pigasus-pantalla-led/",
       "date": "2025-10-22T14:18:55.000Z",
+      "description": ""
+    },
+    {
+      "title": "Pantallas",
+      "link": "https://www.tekus.co/pantallas-digital-signage/",
+      "date": "2025-09-15T22:27:27.000Z",
+      "description": ""
+    },
+    {
+      "title": "Soluciones en señalización digital",
+      "link": "https://www.tekus.co/",
+      "date": "2025-09-15T22:19:21.000Z",
+      "description": ""
+    },
+    {
+      "title": "Pantallas LED en 2025: La revolución de la señalización digital",
+      "link": "https://www.tekus.co/blog-tekus/pantallas-led-en-2025/",
+      "date": "2025-09-05T16:55:04.000Z",
+      "description": ""
+    },
+    {
+      "title": "Blog",
+      "link": "https://www.tekus.co/blog-tekus/",
+      "date": "2025-09-05T16:45:44.000Z",
       "description": ""
     },
     {
@@ -60,6 +96,204 @@
       "title": "De lo Analógico a lo Digital: Transformando la experiencia gastronómica con menú para restaurante en formato digital",
       "link": "https://www.tekus.co/blog-tekus/de-lo-analogico-a-lo-digital-transformando-la-experiencia-gastronomica-con-menu-para-restaurante-en-formato-digital/",
       "date": "2025-08-27T16:33:42.000Z",
+      "description": ""
+    },
+    {
+      "title": "Kioscos",
+      "link": "https://www.tekus.co/kioscos/",
+      "date": "2025-08-14T16:32:26.000Z",
+      "description": ""
+    },
+    {
+      "title": "Sector &#8211; Moda",
+      "link": "https://www.tekus.co/blog-tekus/sector-moda/",
+      "date": "2025-07-28T23:14:54.000Z",
+      "description": ""
+    },
+    {
+      "title": "Sector &#8211; Retail",
+      "link": "https://www.tekus.co/blog-tekus/sector-retail/",
+      "date": "2025-07-28T23:14:31.000Z",
+      "description": ""
+    },
+    {
+      "title": "Sector &#8211; Restaurantes",
+      "link": "https://www.tekus.co/blog-tekus/sector-restaurantes/",
+      "date": "2025-07-28T14:48:41.000Z",
+      "description": ""
+    },
+    {
+      "title": "Plataforma",
+      "link": "https://www.tekus.co/suite-tekus-plataforma-de-senalizacion-digital/",
+      "date": "2025-07-21T17:01:41.000Z",
+      "description": ""
+    },
+    {
+      "title": "Droguerías Cafam",
+      "link": "https://www.tekus.co/blog-tekus/cafam/",
+      "date": "2025-07-11T19:04:17.000Z",
+      "description": ""
+    },
+    {
+      "title": "Cinemas Procinal",
+      "link": "https://www.tekus.co/blog-tekus/https-www-tekus-co-new-casos-de-exito/",
+      "date": "2025-07-11T19:03:39.000Z",
+      "description": ""
+    },
+    {
+      "title": "Publicidad digital: transforma, conecta y conquista el mundo",
+      "link": "https://www.tekus.co/blog-tekus/la-publicidad-digital-una-nueva-forma-de-ver-sentir-y-conectar-con-el-mundo/",
+      "date": "2025-07-11T12:51:43.000Z",
+      "description": ""
+    },
+    {
+      "title": "Nosotros",
+      "link": "https://www.tekus.co/nosotros/",
+      "date": "2025-07-11T00:24:44.000Z",
+      "description": ""
+    },
+    {
+      "title": "-De lo Analógico a lo Digital: Transformando la experiencia gastronómica con menú para restaurante en formato digital",
+      "link": "https://www.tekus.co/blog-tekus/menu-para-restaurante/",
+      "date": "2025-06-12T16:40:45.000Z",
+      "description": ""
+    },
+    {
+      "title": "NEW Productos",
+      "link": "https://www.tekus.co/new-productos/",
+      "date": "2025-05-25T14:06:22.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip1 &#8211; capacitacion",
+      "link": "https://www.tekus.co/flip1-capacitacion/",
+      "date": "2025-02-17T14:54:19.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip1 &#8211; Copy",
+      "link": "https://www.tekus.co/flip1-copy/",
+      "date": "2025-02-17T14:34:43.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip50",
+      "link": "https://www.tekus.co/flip50/",
+      "date": "2024-08-08T21:20:51.000Z",
+      "description": ""
+    },
+    {
+      "title": "NewBrandHome",
+      "link": "https://www.tekus.co/newbrandhome-2/",
+      "date": "2024-08-06T15:55:33.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip23",
+      "link": "https://www.tekus.co/flip23/",
+      "date": "2024-07-30T03:44:16.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip42",
+      "link": "https://www.tekus.co/flip42/",
+      "date": "2024-07-30T03:12:35.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip41",
+      "link": "https://www.tekus.co/flip41/",
+      "date": "2024-07-30T03:09:43.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip40",
+      "link": "https://www.tekus.co/flip40/",
+      "date": "2024-07-30T03:07:10.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip39",
+      "link": "https://www.tekus.co/flip39/",
+      "date": "2024-07-30T03:04:27.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip38",
+      "link": "https://www.tekus.co/flip38/",
+      "date": "2024-07-30T03:00:05.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip37",
+      "link": "https://www.tekus.co/flip37/",
+      "date": "2024-07-30T02:53:20.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip36",
+      "link": "https://www.tekus.co/flip36/",
+      "date": "2024-07-30T02:50:34.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip35",
+      "link": "https://www.tekus.co/flip35/",
+      "date": "2024-07-30T02:46:48.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip34",
+      "link": "https://www.tekus.co/flip34/",
+      "date": "2024-07-30T02:43:47.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip33",
+      "link": "https://www.tekus.co/flip33/",
+      "date": "2024-07-30T02:38:49.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip32",
+      "link": "https://www.tekus.co/flip32/",
+      "date": "2024-07-30T02:33:27.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip31",
+      "link": "https://www.tekus.co/flip31/",
+      "date": "2024-07-30T02:31:25.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip30",
+      "link": "https://www.tekus.co/flip30/",
+      "date": "2024-07-30T02:22:27.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip29",
+      "link": "https://www.tekus.co/flip29/",
+      "date": "2024-07-30T02:17:32.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip28",
+      "link": "https://www.tekus.co/flip28/",
+      "date": "2024-07-30T02:15:15.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip27",
+      "link": "https://www.tekus.co/flip27/",
+      "date": "2024-07-30T02:08:53.000Z",
+      "description": ""
+    },
+    {
+      "title": "flip26",
+      "link": "https://www.tekus.co/flip26/",
+      "date": "2024-07-30T02:04:19.000Z",
       "description": ""
     }
   ]

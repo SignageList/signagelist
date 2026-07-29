@@ -1,0 +1,48 @@
+{
+  "source": "Ryarc CampaignManager",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
+  "items": [
+    {
+      "title": "Making IoT adoption affordable",
+      "link": "https://ryarc.com/resources/blog/ryarc-iot-device-management/",
+      "date": "2024-01-16T15:43:52.000Z",
+      "description": "Various reports suggest that organizations of all sizes are adopting or planning to adopt IoT to increase automation and operational efficiency. We expect that within the next three to five years, al…"
+    },
+    {
+      "title": "DOOH Retail Audio",
+      "link": "https://ryarc.com/resources/blog/ryarc-dappler-retail-dooh-audio/",
+      "date": "2023-11-24T18:27:36.000Z",
+      "description": "Something often overlooked by many retailers and DOOH companies is the use of audio, be it music, advertisements, announcements, or promotions, to engage people as they move around. The post DOOH Ret…"
+    },
+    {
+      "title": "Tamper-proof your QR codes",
+      "link": "https://ryarc.com/resources/blog/digital-signage-secure-qr-code/",
+      "date": "2023-09-15T15:48:09.000Z",
+      "description": "Modern-day payments or information sharing, especially post-COVID, is unthinkable without QR codes. The Japanese who invented the QR code (an abbreviation for Quick Response) in the 1990s to track ve…"
+    },
+    {
+      "title": "Ryarc ATSC 3.0 Datacasting",
+      "link": "https://ryarc.com/resources/blog/atsc-datacasting-ryarc-digital-signage/",
+      "date": "2023-07-18T18:26:32.000Z",
+      "description": "For the last couple of months, we have been receiving requests to support ATSC 3.0. For the uninitiated, ATSC 3.0 is the latest and most promising broadcast technology that can help save expensive ne…"
+    },
+    {
+      "title": "Ryarc Edge AI: What Is It and What Does It Do?",
+      "link": "https://ryarc.com/resources/blog/ryarc-edge-ai-what-is-it-and-what-does-it-do/",
+      "date": "2023-05-18T23:57:45.000Z",
+      "description": "Edge AI is no longer some future-facing concept for tech demos or isolated experiments. It’s here. It’s real. And it’s running on the same edge devices powering your digital signage networks. With Ry…"
+    },
+    {
+      "title": "Ryarc rIOT? What is it? What does it do",
+      "link": "https://ryarc.com/resources/blog/ryarc-riot-what-is-it-what-does-it-do/",
+      "date": "2022-09-11T18:18:28.000Z",
+      "description": "What is Ryarc Agent / rIOT and What Problems Does It Solve? 🎯 What is Ryarc’s rIOT? Ryarc’s rIOT (Internet of Things) is an edge device and sensor management platform built into the Ryarc CampaignMa…"
+    },
+    {
+      "title": "What is Foro? What problem does it solve?",
+      "link": "https://ryarc.com/resources/blog/what-is-foro-what-problem-does-it-solve/",
+      "date": "2022-03-11T18:15:29.000Z",
+      "description": "What is Foro, and What Does It Fix? Foro is a platform that lets brands book digital ads in physical spaces—like shopping centers, airports, train stations, and stores—directly from the screen owners…"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "source": "Castit",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
     {
       "title": "Digital Signage for Company Canteens: Uses and Benefits",
@@ -97,6 +97,210 @@
       "link": "https://castitsignage.com/blog/castit-apps-upgrade-easier-install-setup-and-management",
       "date": "2026-03-12T11:43:45.000Z",
       "description": "Castit Apps have been redesigned to simplify how you add and manage digital signage apps inside the Castit CMS. The updated Apps section provides a clearer way to discover, install, and configure the…"
+    },
+    {
+      "title": "Castit for Professional Displays: Philips and Commercial Screens",
+      "link": "https://castitsignage.com/blog/castit-for-professional-displays-philips-and-commercial-screens",
+      "date": "2026-03-10T14:01:57.000Z",
+      "description": "Digital signage is most effective when it runs on hardware designed specifically for continuous display and commercial environments. That is where professional displays come in. From retail stores an…"
+    },
+    {
+      "title": "How to Create Digital Signage Content That Works",
+      "link": "https://castitsignage.com/blog/how-to-create-digital-signage-content-that-works",
+      "date": "2026-03-09T13:00:05.000Z",
+      "description": "Digital signage is only as effective as the content displayed on the screen. Even the best screens and software will not deliver results if the content is unclear, outdated, or difficult to read. Bus…"
+    },
+    {
+      "title": "Digital Signage for Retail: Practical Use Cases and Business Benefits",
+      "link": "https://castitsignage.com/blog/digital-signage-for-retail-practical-use-cases-and-business-benefits",
+      "date": "2026-03-06T11:16:14.000Z",
+      "description": "Retail stores are constantly competing for customer attention. Shoppers move quickly through stores, compare products, and expect up-to-date information about prices, promotions, and availability. St…"
+    },
+    {
+      "title": "E-Paper Displays in Castit: How the Integration Works",
+      "link": "https://castitsignage.com/blog/e-paper-displays-in-castit-how-the-integration-works",
+      "date": "2026-03-04T11:23:45.000Z",
+      "description": "Digital signage is evolving. Businesses are looking for ways to communicate information on screens while reducing energy consumption, simplifying infrastructure, and maintaining clear visibility in d…"
+    },
+    {
+      "title": "What We Learned at ISE 2026: Industry Trends Shaping Digital Signage",
+      "link": "https://castitsignage.com/blog/what-we-learned-at-ise-2026-industry-trends-shaping-digital-signage",
+      "date": "2026-02-27T15:02:30.000Z",
+      "description": "Each year, the global AV and digital signage industry gathers to present new technologies and discuss future direction. For the Castit team, participating in ISE 2026 was not only about presenting ou…"
+    },
+    {
+      "title": "Digital Signage Players: Types, Cost & Setup",
+      "link": "https://castitsignage.com/blog/digital-signage-players-types-cost-and-setup",
+      "date": "2026-02-26T15:43:43.000Z",
+      "description": "Behind every successful digital signage setup, there is one component that quietly makes everything work: the digital signage player. While screens and content often receive most of the attention, it…"
+    },
+    {
+      "title": "Two-Factor Authentication (2FA) in Castit",
+      "link": "https://castitsignage.com/blog/two-factor-authentication-2fa-in-castit",
+      "date": "2026-02-23T12:16:01.000Z",
+      "description": "Castit now supports Two-Factor Authentication (2FA) to add an extra layer of protection to your account. With 2FA enabled, logging in requires both your password and a temporary 6-digit code generate…"
+    },
+    {
+      "title": "How Much Does Digital Signage Cost?",
+      "link": "https://castitsignage.com/blog/how-much-does-digital-signage-cost",
+      "date": "2026-02-18T11:56:45.000Z",
+      "description": "If you are researching digital signage , one of the first questions you will ask is simple: how much does digital signage cost? The short answer is that digital signage costs vary widely, depending o…"
+    },
+    {
+      "title": "How Does Digital Signage Work?",
+      "link": "https://castitsignage.com/blog/how-does-digital-signage-work",
+      "date": "2026-02-09T12:00:10.000Z",
+      "description": "Digital signage is a practical way to show information, messages, and content on screens instead of using printed materials. It is used by businesses and organizations that need their information to …"
+    },
+    {
+      "title": "Castit and ShiMeta MBOX-3568A: A Compatible Digital Signage Setup",
+      "link": "https://castitsignage.com/blog/castit-and-shimeta-mbox-3568a-a-compatible-digital-signage-setup",
+      "date": "2026-01-27T08:52:00.000Z",
+      "description": "A reliable digital signage solution depends on how well software and hardware work together. Stability, performance, and ease of management are achieved not by individual features, but by compatibili…"
+    },
+    {
+      "title": "New Integrations and Apps Now Available in the Castit Platform",
+      "link": "https://castitsignage.com/blog/new-integrations-and-apps-now-available-in-the-castit-platform",
+      "date": "2025-12-04T10:23:21.000Z",
+      "description": "Castit is continuously expanding and improving its capabilities for creating and displaying digital content. One of the most powerful aspects of the platform is the collection of built-in apps and in…"
+    },
+    {
+      "title": "Castit Slide Creator: Gradients, Shadows & More Visual Upgrades",
+      "link": "https://castitsignage.com/blog/castit-slide-creator-gradients-shadows-and-more-visual-upgrades",
+      "date": "2025-12-03T15:42:52.000Z",
+      "description": "The Castit Slide Creator has received powerful new visual upgrades that help you design more modern, polished, and professional-looking content directly inside the CMS. Whether you're creating a bran…"
+    },
+    {
+      "title": "Introducing Castit’s New “Report a Problem” Feature",
+      "link": "https://castitsignage.com/blog/introducing-castits-new-report-a-problem-feature",
+      "date": "2025-12-03T12:45:27.000Z",
+      "description": "Support is one of those things you rarely think about when everything works, but it becomes essential the moment something stops. That’s why Castit now includes a brand-new, faster, and more intuitiv…"
+    },
+    {
+      "title": "How to Pair a Screen and a Player in Castit",
+      "link": "https://castitsignage.com/blog/how-to-pair-a-screen-and-a-player-in-castit",
+      "date": "2025-12-01T15:11:02.000Z",
+      "description": "On the Castit digital signage platform , everything revolves around two core elements: Screens and Players . A Screen is where you manage your content, scheduling, and settings, while a Player is the…"
+    },
+    {
+      "title": "Castit CMS Update: A Clearer Connection Between Screens and Players",
+      "link": "https://castitsignage.com/blog/castit-cms-update-a-clearer-connection-between-screens-and-players",
+      "date": "2025-11-28T08:18:31.000Z",
+      "description": "We’ve introduced a new, more intuitive relationship between Screens and Players inside Castit CMS, making your workflow simpler, setup faster, and content management more predictable and flexible. Th…"
+    },
+    {
+      "title": "New Structure in Castit CMS: Retiring Screen Groups",
+      "link": "https://castitsignage.com/blog/new-structure-in-castit-cms-screen-groups-are-now-screens",
+      "date": "2025-11-25T13:30:47.000Z",
+      "description": "Digital signage should be simple, especially when managing multiple displays, Players, and content sources. That’s why Castit now introduces an important improvement to the CMS: the Screen Groups fea…"
+    },
+    {
+      "title": "Castit Slide Creator Now Supports Animations",
+      "link": "https://castitsignage.com/blog/castit-slide-creator-now-supports-animations",
+      "date": "2025-11-25T11:08:35.000Z",
+      "description": "Digital screens no longer have to be static. With the new animation feature in the Slide Creator, Castit now lets you create modern, eye-catching content directly inside the CMS, without extra softwa…"
+    },
+    {
+      "title": "New in Castit: Add Playlists and Apps Directly to Your Slides",
+      "link": "https://castitsignage.com/blog/new-in-castit-add-playlists-and-apps-directly-to-your-slides",
+      "date": "2025-11-24T14:07:02.000Z",
+      "description": "Digital signage content is becoming more dynamic every day. Screens are no longer static posters; they’re real-time information hubs with constantly updated content. That’s why we’ve upgraded the Sli…"
+    },
+    {
+      "title": "Meet our New Slide Creator",
+      "link": "https://castitsignage.com/blog/meet-our-new-slide-creator",
+      "date": "2025-10-26T12:51:14.000Z",
+      "description": "Creating content for your digital signage screens should be straightforward: it should have enough features, but not become unnecessarily complex. We've spent the past months completely rebuilding Ca…"
+    },
+    {
+      "title": "Our New Slide Creator",
+      "link": "https://castitsignage.com/blog/our-new-slide-creator",
+      "date": "2025-09-24T10:59:48.000Z",
+      "description": "What's Coming in the Next Few Weeks To prepare for these exciting enhancements, we'll be making a simple organizational change in the coming weeks. Your current Slide Creator will be renamed to \"Imag…"
+    },
+    {
+      "title": "Castit Digital Signage Update 2025 Phase 1",
+      "link": "https://castitsignage.com/blog/castit-digital-signage-update-2025-phase-1-redesigned-playlist-no-channels-smarter-scheduling",
+      "date": "2025-08-11T15:01:11.000Z",
+      "description": "The highly anticipated Castit digital signage update 2025 Phase 1 has officially launched, marking a significant milestone in our comprehensive platform transformation. The update is a redesigned pla…"
+    },
+    {
+      "title": "Power BI with Digital Signage",
+      "link": "https://castitsignage.com/blog/how-to-use-power-bi-with-digital-signage",
+      "date": "2025-08-08T14:18:27.000Z",
+      "description": "The answer lies in learning how to effectively utilize Power BI in conjunction with digital signage . By integrating Microsoft Power BI reports into your digital signage, you can turn static displays…"
+    },
+    {
+      "title": "Digital Bulletin Board: Complete Guide for Modern Communication Solutions",
+      "link": "https://castitsignage.com/blog/digital-bulletin-board-complete-guide-for-modern-communication-solutions",
+      "date": "2025-07-29T15:09:24.000Z",
+      "description": "What is a Digital Bulletin Board? Picture a digital bulletin board as your classic cork board's smart, tech-enhanced relative. It’s a digital display system that features announcements, updates, and …"
+    },
+    {
+      "title": "Dropbox for Digital Signage",
+      "link": "https://castitsignage.com/blog/dropbox-for-digital-signage",
+      "date": "2025-06-02T12:26:45.000Z",
+      "description": "Managing content on one or across multiple digital signs just got simpler. With Castit's new Dropbox integration for digital signage , you can import files directly from your cloud storage to your me…"
+    },
+    {
+      "title": "PDF Viewer for Digital Signage",
+      "link": "https://castitsignage.com/blog/pdf-viewer-for-digital-signage",
+      "date": "2025-05-26T12:34:03.000Z",
+      "description": "Still printing and reprinting menus, announcements, and documents every time you need updates? There's a better way. What is a PDF Viewer intended for Digital Signage? PDF viewer for digital signage …"
+    },
+    {
+      "title": "Google Chromecast vs Google Streamer for Digital Signage",
+      "link": "https://castitsignage.com/blog/google-chromecast-vs-google-streamer-for-digital-signage",
+      "date": "2025-04-24T14:39:31.000Z",
+      "description": "With the evolving nature of digital signage solutions , choosing the right media player for a successful roll-out is imperative. This detailed comparison will assist you in determining the most suita…"
+    },
+    {
+      "title": "PowerPoint for Digital Signage",
+      "link": "https://castitsignage.com/blog/powerpoint-for-digital-signage",
+      "date": "2025-04-23T10:10:07.000Z",
+      "description": "Developing engaging digital signage content need not be challenging. Microsoft PowerPoint , a tool familiar to many professionals, is a robust solution for creating attractive digital signage with ea…"
+    },
+    {
+      "title": "Canva for Digital Signage",
+      "link": "https://castitsignage.com/blog/canva-for-digital-signage",
+      "date": "2025-04-23T10:10:07.000Z",
+      "description": "The appearance of your digital signage content is all that matters in capturing viewers' attention and telling your message. Good looks, compelling design, and professional composition are no longer …"
+    },
+    {
+      "title": "Top Digital Signage Players: Affordable Solutions for Every Business",
+      "link": "https://castitsignage.com/blog/top-digital-signage-players-affordable-solutions-for-every-business",
+      "date": "2025-04-10T12:54:02.000Z",
+      "description": "Digital displays have become crucial for efficient communication and advertising. Central to any effective digital signage deployment is a dependable digital signage player - the hardware element tha…"
+    },
+    {
+      "title": "Announcement Screens: Display Info Instantly",
+      "link": "https://castitsignage.com/blog/announcement-screens-display-info-instantly",
+      "date": "2025-02-06T16:39:20.000Z",
+      "description": "Old communication methods and some modern ones are becoming obsolete and are failing since everything changes fast nowadays. Emails vanish into overflowing inboxes. Important updates get lost in endl…"
+    },
+    {
+      "title": "Improve Internal Communication with Digital Signage",
+      "link": "https://castitsignage.com/blog/why-digital-signage-is-the-missing-piece-in-internal-communications",
+      "date": "2025-01-20T16:40:19.000Z",
+      "description": "A client of ours, an expanding technology company, was encountering difficulties with their internal communication. The team was spread out over two offices, and even with the use of email, Slack, an…"
+    },
+    {
+      "title": "Digital Signage Info Channel",
+      "link": "https://castitsignage.com/blog/digital-signage-info-channel",
+      "date": "2025-01-17T15:11:05.000Z",
+      "description": "Last month, I entered a nearby coffee shop and saw something that made me pause. Rather than the typical chaotic bulletin board filled with a mix of worn flyers and old notices, there was a modern di…"
+    },
+    {
+      "title": "CMS Redesign: Bringing Order and Usability to Castit",
+      "link": "https://castitsignage.com/blog/castit-digital-signage-redesign-of-cms-platform",
+      "date": "2024-12-03T16:35:01.000Z",
+      "description": "In this blog post, part 3 of the series of 3 blogs around the topic, and this time from the designer's perspective, we'll guide you on an engaging exploration of the design process that led to the Ca…"
+    },
+    {
+      "title": "Castit&#039;s Technical CMS Redesign",
+      "link": "https://castitsignage.com/blog/castit-technical-cms-redesign",
+      "date": "2024-11-29T16:34:47.000Z",
+      "description": "By transitioning to a sophisticated React-based frontend and enhancing our backend structure, we've examined all elements in our mission to deliver a more resilient, efficient, and user-centric platf…"
     }
   ]
 }
