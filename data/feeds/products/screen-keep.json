@@ -1,6 +1,6 @@
 {
   "source": "Screen Keep",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
     {
       "title": "The Cheapest Digital Signage Setup We'd Actually Use",
@@ -67,6 +67,18 @@
       "link": "https://www.screenkeep.com/blog/android-tv-digital-signage/",
       "date": "2026-02-18T00:00:00.000Z",
       "description": "A practical Android TV digital signage setup guide covering hardware, pairing, web-page workflows, and what matters most for simple screen deployments."
+    },
+    {
+      "title": "How to Display a Website or Webpage on a TV Screen",
+      "link": "https://www.screenkeep.com/blog/display-website-on-tv/",
+      "date": "2026-02-11T00:00:00.000Z",
+      "description": "Learn the best way to display a website or webpage on a TV screen, including Samsung TV, Android TV, Google TV, login pages, refresh, and simple digital signage workflows."
+    },
+    {
+      "title": "DIY Digital Signage Guide for Small Businesses",
+      "link": "https://www.screenkeep.com/blog/diy-digital-signage/",
+      "date": "2026-02-03T00:00:00.000Z",
+      "description": "Learn what DIY digital signage actually requires, when simple web-page signage is enough, and when a full CMS is more than you need."
     }
   ]
 }

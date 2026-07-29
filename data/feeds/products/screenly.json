@@ -1,6 +1,6 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-07-29T07:52:16.217Z",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
   "items": [
     {
       "title": "Temporary workspace members",
@@ -199,6 +199,108 @@
       "link": "https://www.screenly.io/blog/2025/12/13/screenly-sync-0x00/",
       "date": "2025-12-13T00:00:00.000Z",
       "description": "<p>Screenly Sync is your monthly update on all things Screenly, including our Player, Backend, Apps, and <a href=&#34;https://anthias.screenly.io/&#34;>Anthias</a>.</p> <p>In this first edition and 2…"
+    },
+    {
+      "title": "Our philosophy on device-agnostic digital signage",
+      "link": "https://www.screenly.io/blog/2025/12/12/device-agnostic-digital-signage/",
+      "date": "2025-12-12T00:00:00.000Z",
+      "description": "<p>If you’ve ever looked into setting up digital signage for your business, you know that the screens on the wall are just the tip of the iceberg. Behind every display, there’s a key component runnin…"
+    },
+    {
+      "title": "Why digital signage in the cloud dominates the market",
+      "link": "https://www.screenly.io/blog/2025/12/10/digital-signage-in-the-cloud/",
+      "date": "2025-12-10T00:00:00.000Z",
+      "description": "<p>While screens were once standalone and required manual attention, cloud-based digital signage has been the dominant standard in the market for over a decade. This dynamic is no mystery, as the clo…"
+    },
+    {
+      "title": "Introducing the QR Code App with Built-In UTM Tracking",
+      "link": "https://www.screenly.io/blog/2025/12/09/new-qr-code-app-with-utm/",
+      "date": "2025-12-09T00:00:00.000Z",
+      "description": "<p>The QR Code Generator App is an easy way to create clean, scannable QR codes for your digital signage. Whether you’re sharing links to menus, event registrations, feedback forms, product pages, or…"
+    },
+    {
+      "title": "Screenly Changelog Episode 16 - Why signage is becoming enterprise infrastructure",
+      "link": "https://www.screenly.io/blog/2025/12/05/screenly-changelog-episode-16/",
+      "date": "2025-12-05T00:00:00.000Z",
+      "description": "<p><strong>Screenly Changelog Episode 16:</strong> <em>Why Signage Is Becoming Enterprise Infrastructure With Jon Collins of GigaOm</em></p> <p>Digital signage has a funny way of sitting at the edge …"
+    },
+    {
+      "title": "Security Incident Response: How We Investigated a Data Leak and What We&#39;re Doing Next",
+      "link": "https://www.screenly.io/blog/2025/11/10/security-incident-response-magic-links/",
+      "date": "2025-11-10T00:00:00.000Z",
+      "description": "<h2 id=&#34;tldr---no-need-to-panic&#34;>TL;DR - No Need to Panic</h2> <p><strong>Your Screenly account is secure.</strong> We investigated a reported data leak and confirmed it did NOT originate fro…"
+    },
+    {
+      "title": "Screenly Changelog Episode 15 - The future was yesterday: security, simplicity and the real cost of digital signage",
+      "link": "https://www.screenly.io/blog/2025/11/05/screenly-changelog-episode-15/",
+      "date": "2025-11-05T00:00:00.000Z",
+      "description": "<p><strong>Screenly Changelog Episode 15:</strong> <em>The Future Was Yesterday: Security, Simplicity and the Real Cost of Digital Signage With Deacon Wardlow of Vantage LED</em></p> <p>Digital signa…"
+    },
+    {
+      "title": "Introducing live RTSP streaming on Screenly",
+      "link": "https://www.screenly.io/blog/2025/10/24/rtsp-url-streaming-digital-signage/",
+      "date": "2025-10-24T00:00:00.000Z",
+      "description": "<p>At Screenly, we believe digital signage should be dynamic, relevant, and simple to manage. You already use Screenly to display compelling videos, eye-catching images, and live web dashboards. But …"
+    },
+    {
+      "title": "Screenly’s 2025 Annual Summit: Through the Lens of a First-Time Organizer (and a Non-Developer Newbie)",
+      "link": "https://www.screenly.io/blog/2025/10/22/screenly-2025-annual-summit/",
+      "date": "2025-10-22T00:00:00.000Z",
+      "description": "<p>Last October 5th, we wrapped up Screenly’s 2025 Annual Summit in sunny Phuket, Thailand. With 12 team members in attendance, our biggest turnout yet, the week was filled with tropical adventures, …"
+    },
+    {
+      "title": "Screenly Changelog Episode 14 - Screenly summit in Thailand, Screenly&#39;s bug bounty program, and more!",
+      "link": "https://www.screenly.io/blog/2025/10/16/screenly-changelog-episode-14/",
+      "date": "2025-10-16T00:00:00.000Z",
+      "description": "<p><strong>Screenly Changelog Episode 14:</strong> <em>Screenly Summit in Thailand, remote-first culture, Screenly&rsquo;s bug bounty program, Secure by Default, Screenly App Store, &amp; the future …"
+    },
+    {
+      "title": "Introducing the New Power BI Integration for Screenly Apps",
+      "link": "https://www.screenly.io/blog/2025/10/10/introducing-the-new-powerbi-integration-for-screenly-apps/",
+      "date": "2025-10-10T00:00:00.000Z",
+      "description": "<p>With the new Power BI integration, you can now link your Microsoft account directly to Screenly. No more dealing with manual IDs or complex setup steps. Just connect, choose your dashboard, and di…"
+    },
+    {
+      "title": "Introducing the Calendar App",
+      "link": "https://www.screenly.io/blog/2025/10/07/introducing-the-calendar-app/",
+      "date": "2025-10-07T00:00:00.000Z",
+      "description": "<p>At Screenly, we make sure that people are aware of important events and deadlines. That&rsquo;s why we&rsquo;ve created the Calendar App. This new app allows you to display events from your calend…"
+    },
+    {
+      "title": "The Hidden Risks of Using Android Smart TVs for Digital Signage",
+      "link": "https://www.screenly.io/blog/2025/09/17/android-smart-tv-digital-signage-risks/",
+      "date": "2025-09-17T00:00:00.000Z",
+      "description": "<p>Android smart TVs are everywhere. They&rsquo;ve become a common choice not only for consumers but also for professional digital signage displays. On the surface, Android is a flexible and powerful…"
+    },
+    {
+      "title": "Grow your enterprise digital signage fleet with dedicated support",
+      "link": "https://www.screenly.io/blog/2025/09/15/enterprise-digital-signage-support-sla/",
+      "date": "2025-09-15T00:00:00.000Z",
+      "description": "<p>Digital signage is a powerful tool for modern enterprises. It can transform how you communicate with both your employees and your customers. From sharing important company updates in the breakroom…"
+    },
+    {
+      "title": "Enterprise communication at scale using Screenly AlignCentral",
+      "link": "https://www.screenly.io/blog/2025/09/11/enterprise-communication-screenly-aligncentral/",
+      "date": "2025-09-11T00:00:00.000Z",
+      "description": "<p>Enterprises can use digital signs to communicate with their employees more effectively at scale. In the article below, we cover the limitations of popular existing communication mediums and how ad…"
+    },
+    {
+      "title": "Screenly Changelog Episode 13 - Managed signage, security blind spots, the EU&#39;s CRA, and AI&#39;s impact",
+      "link": "https://www.screenly.io/blog/2025/09/09/screenly-changelog-episode-13/",
+      "date": "2025-09-09T00:00:00.000Z",
+      "description": "<p><strong>Screenly Changelog Episode 13:</strong> <em>Florian Rotberg from invidis, managed signage, security blind spots, the EU&rsquo;s CRA, and AI&rsquo;s impact</em></p> <p>Welcome back to the S…"
+    },
+    {
+      "title": "Why granular user access controls are key for enterprise digital signage",
+      "link": "https://www.screenly.io/blog/2025/09/05/enterprise-digital-signage-user-access-controls/",
+      "date": "2025-09-05T00:00:00.000Z",
+      "description": "<p>As your digital signage network grows, so does the complexity of managing it. You need to be able to control who has access to what and what they can do with that access. This is where granular us…"
+    },
+    {
+      "title": "The EU’s Cyber Resilience Act (CRA) &amp; digital signage security risk",
+      "link": "https://www.screenly.io/blog/2025/09/02/eu-cyber-resiliance-act-digital-signage/",
+      "date": "2025-09-02T00:00:00.000Z",
+      "description": "<p>Digital signage is everywhere you look these days. From <a href=&#34;/use-cases/dashboard/&#34;>data dashboards</a> to <a href=&#34;/use-cases/corporate-campus-digital-signage/&#34;>corporate comm…"
     }
   ]
 }

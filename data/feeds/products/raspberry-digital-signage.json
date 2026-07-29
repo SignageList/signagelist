@@ -1,0 +1,66 @@
+{
+  "source": "Raspberry Digital Signage",
+  "fetched_at": "2026-07-29T12:30:03.626Z",
+  "items": [
+    {
+      "title": "Raspberry Pi Kiosk",
+      "link": "https://www.binaryemotions.com/raspberry-pi-kiosk/",
+      "date": "2024-12-16T21:13:34.000Z",
+      "description": "A WEB KIOSK OPERATING SYSTEM FOR YOUR RASPBERRY PI Binary Emotions provides an operating system designed for kiosk installations on the Raspberry Pi: it displays a full-screen browser view restricted…"
+    },
+    {
+      "title": "Raspberry Digital Signage 21.0 released",
+      "link": "https://www.binaryemotions.com/raspberry-digital-signage-21-0-released/",
+      "date": "2024-12-08T14:17:55.000Z",
+      "description": "Raspberry Digital Signage 21.0 released Raspberry Digital Signage is an operating system designed for digital signage installations on the Raspberry Pi: it displays a full-screen browser view restric…"
+    },
+    {
+      "title": "Signage Orchestrator",
+      "link": "https://www.binaryemotions.com/signage-orchestrator/",
+      "date": "2023-10-19T14:31:21.000Z",
+      "description": "SIGNAGE ORCHESTRATOR &#160; Signage Orchestrator is a centralized web interface you can use to schedule Raspberry Digital Signage and Raspberry Slideshow players to display URLs/slide media in a cale…"
+    },
+    {
+      "title": "Raspberry Pi 5 Digital Signage",
+      "link": "https://www.binaryemotions.com/raspberry-pi-5-digital-signage/",
+      "date": "2023-10-09T18:14:26.000Z",
+      "description": "DIGITAL SIGNAGE FOR RASPBERRY PI 5 Raspberry Digital Signage is an operating system designed for digital signage on the Raspberry Pi 5. A full-screen browser view displays your web resources from Int…"
+    },
+    {
+      "title": "Raspberry Digital Signage 19.0 has been released",
+      "link": "https://www.binaryemotions.com/raspberry-digital-signage-19-0-has-been-released/",
+      "date": "2023-07-06T14:13:51.000Z",
+      "description": "Raspberry Digital Signage 19.0 released Raspberry Digital Signage is an operating system designed for digital signage installations on the Raspberry Pi: it displays a full-screen browser view restric…"
+    },
+    {
+      "title": "A Magic Mirror for Raspberry Pi (MagicMirror²)",
+      "link": "https://www.binaryemotions.com/a-magic-mirror-for-raspberry-pi-magicmirror%c2%b2/",
+      "date": "2022-05-09T17:20:05.000Z",
+      "description": "A Magic Mirror for Raspberry Pi MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathro…"
+    },
+    {
+      "title": "Raspberry Digital Signage 18 released",
+      "link": "https://www.binaryemotions.com/raspberry-digital-signage-18-released/",
+      "date": "2022-04-26T11:55:12.000Z",
+      "description": "Raspberry Digital Signage 18.0 released Raspberry Digital Signage is an operating system designed for digital signage installations on the Raspberry Pi: it displays a full-screen browser view restric…"
+    },
+    {
+      "title": "Raspberry Slideshow 15.0 has been released",
+      "link": "https://www.binaryemotions.com/raspberry-slideshow-15-0-has-been-released/",
+      "date": "2022-01-05T15:10:40.000Z",
+      "description": "Raspberry Slideshow is an operating system for the Raspberry Pi microcomputer lineup used for digital signage when you need images&#8217; or videos&#8217; slideshows. It plays all media contained in …"
+    },
+    {
+      "title": "Raspberry Digital Signage 17.0 released",
+      "link": "https://www.binaryemotions.com/raspberry-digital-signage-17-0-released/",
+      "date": "2021-12-30T17:07:54.000Z",
+      "description": "Raspberry Digital Signage 17.0 released Raspberry Digital Signage is an operating system designed for digital signage installations on the Raspberry Pi: it displays a full-screen browser view restric…"
+    },
+    {
+      "title": "Raspberry Digital Signage FAQ",
+      "link": "https://www.binaryemotions.com/raspberry-digital-signage-faq/",
+      "date": "2021-12-26T18:25:56.000Z",
+      "description": "RASPBERRY DIGITAL SIGNAGE About &#124; Download &#124; Donation &#124; Docs &#124; FAQ &#124; Changelog &#124; Plugins &#124; Signage Orchestrator UPDATE THE UDERLYING RASPBERRY PI OS OPERATING SYSTE…"
+    }
+  ]
+}
