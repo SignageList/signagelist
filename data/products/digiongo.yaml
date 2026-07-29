@@ -5,7 +5,7 @@ website: "https://digiongo.com/"
 year_founded: 2025
 headquarters: ["Serbia"]
 open_source: false
-rss_feed_url: null
+rss_feed_url: https://digiongo.com/rss.xml
 has_docs: false
 docs_url: null
 self_signup: false

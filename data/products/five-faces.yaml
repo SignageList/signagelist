@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: false
 docs_url: null
+rss_feed_url: https://fivefaces.com.au/feed/
 self_signup: false
 discontinued: false
 categories:

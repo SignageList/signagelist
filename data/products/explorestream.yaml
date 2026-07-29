@@ -5,7 +5,7 @@ website: https://explorestream.com/
 year_founded: 2017
 headquarters: ["USA", "Canada"]
 open_source: false
-rss_feed_url: null
+rss_feed_url: https://explorestream.com/feed/
 has_docs: true
 docs_url: https://support.explorestream.com/
 self_signup: false

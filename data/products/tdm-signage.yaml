@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://tdmsignage.zendesk.com/hc/en-us
+rss_feed_url: https://tdmsignage.com/feed/?lang=en
 self_signup: true
 discontinued: false
 categories:

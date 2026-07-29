@@ -6,7 +6,7 @@ year_founded: null
 headquarters:
   - Taiwan
 open_source: false
-rss_feed_url: null
+rss_feed_url: https://tcit-tw.com/en/feed/
 has_docs: false
 docs_url: null
 self_signup: false

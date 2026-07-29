@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://loop24.no/loopsign/faq/
+rss_feed_url: https://loop24.no/feed/
 self_signup: true
 discontinued: false
 categories:

@@ -10,6 +10,7 @@ has_api: true
 developer_portal_url: https://www.mirabyte.com/en/frontface/features/plugin-sdk.html
 has_docs: true
 docs_url: https://www.mirabyte.com/en/support/knowledge-base.html
+rss_feed_url: https://blog.mirabyte.com/en/category/products/frontface/feed/
 self_signup: true
 discontinued: false
 categories:
