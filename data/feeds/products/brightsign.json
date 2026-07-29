@@ -1,10 +1,16 @@
 {
   "source": "BrightSign",
-  "fetched_at": "2026-07-27T15:47:30.496Z",
+  "fetched_at": "2026-07-29T07:52:16.217Z",
   "items": [
     {
       "title": "The State of Digital Signage: Post-InfoComm Recap &#038; Trend Forecast",
       "link": "https://www.brightsign.biz/blog/the-state-of-digital-signage-post-infocomm-recap-trend-forecast/",
+      "date": "2026-07-16T21:18:21.000Z",
+      "description": "From AI-powered NPUs to cloud-based fleet management, see the top digital signage trends from InfoComm 2026 and what they mean for the rest of the year. The post The State of Digital Signage: Post-In…"
+    },
+    {
+      "title": "The State of Digital Signage: Post-InfoComm Recap &#038; Trend Forecast",
+      "link": "https://www.brightsign.biz/en/blog/the-state-of-digital-signage-post-infocomm-recap-trend-forecast/",
       "date": "2026-07-16T21:18:21.000Z",
       "description": "From AI-powered NPUs to cloud-based fleet management, see the top digital signage trends from InfoComm 2026 and what they mean for the rest of the year. The post The State of Digital Signage: Post-In…"
     },
@@ -15,8 +21,20 @@
       "description": "See how AI capabilities like real-time personalization and intelligent scheduling are reshaping digital signage experiences across workplaces, retail, QSR, and healthcare. The post How AI-Powered Dig…"
     },
     {
+      "title": "How AI-Powered Digital Signage Is Transforming Customer Experiences in 2026",
+      "link": "https://www.brightsign.biz/en/blog/how-ai-powered-digital-signage-is-transforming-customer-experiences/",
+      "date": "2026-07-09T13:45:36.000Z",
+      "description": "See how AI capabilities like real-time personalization and intelligent scheduling are reshaping digital signage experiences across workplaces, retail, QSR, and healthcare. The post How AI-Powered Dig…"
+    },
+    {
       "title": "Digital Signage in Healthcare: Improving the Patient Experience from Check-In to Discharge",
       "link": "https://www.brightsign.biz/blog/digital-signage-in-healthcare-improving-the-patient-experience-from-check-in-to-discharge/",
+      "date": "2026-06-29T14:31:03.000Z",
+      "description": "From check-in to discharge, discover how digital signage improves navigation, reduces wait-time anxiety, and keeps care teams connected. The post Digital Signage in Healthcare: Improving the Patient …"
+    },
+    {
+      "title": "Digital Signage in Healthcare: Improving the Patient Experience from Check-In to Discharge",
+      "link": "https://www.brightsign.biz/en/blog/digital-signage-in-healthcare-improving-the-patient-experience-from-check-in-to-discharge/",
       "date": "2026-06-29T14:31:03.000Z",
       "description": "From check-in to discharge, discover how digital signage improves navigation, reduces wait-time anxiety, and keeps care teams connected. The post Digital Signage in Healthcare: Improving the Patient …"
     },
@@ -27,8 +45,20 @@
       "description": "Discover how leading retailers use in-store digital displays to drive purchase decisions, boost basket size, and compete with e-commerce. The post 7 Ways In-Store Digital Displays Increase Retail Sal…"
     },
     {
+      "title": "7 Ways In-Store Digital Displays Increase Retail Sales",
+      "link": "https://www.brightsign.biz/en/blog/7-ways-in-store-digital-displays-increase-retail-sales/",
+      "date": "2026-06-11T15:33:13.000Z",
+      "description": "Discover how leading retailers use in-store digital displays to drive purchase decisions, boost basket size, and compete with e-commerce. The post 7 Ways In-Store Digital Displays Increase Retail Sal…"
+    },
+    {
       "title": "Campus Digital Signage: How Universities Keep Students Informed &#038; Engaged",
       "link": "https://www.brightsign.biz/blog/campus-digital-signage-how-universities-keep-students-informed-engaged/",
+      "date": "2026-05-28T17:41:10.000Z",
+      "description": "See how BrightSign and Carousel power unified campus digital signage, from dining menus to emergency alerts. The post Campus Digital Signage: How Universities Keep Students Informed & Engaged appeare…"
+    },
+    {
+      "title": "Campus Digital Signage: How Universities Keep Students Informed &#038; Engaged",
+      "link": "https://www.brightsign.biz/en/blog/campus-digital-signage-how-universities-keep-students-informed-engaged/",
       "date": "2026-05-28T17:41:10.000Z",
       "description": "See how BrightSign and Carousel power unified campus digital signage, from dining menus to emergency alerts. The post Campus Digital Signage: How Universities Keep Students Informed & Engaged appeare…"
     },
@@ -39,8 +69,20 @@
       "description": "See how AI-powered digital menu boards help QSRs cut wait times, increase sales, and streamline operations. The post Digital Menu Boards for QSRs: Enhance Customer Experiences & Drive Operational Eff…"
     },
     {
+      "title": "Digital Menu Boards for QSRs: Enhance Customer Experiences &#038; Drive Operational Efficiency",
+      "link": "https://www.brightsign.biz/en/blog/digital-menu-boards-for-qsrs-enhance-customer-experiences-drive-operational-efficiency/",
+      "date": "2026-05-19T13:00:00.000Z",
+      "description": "See how AI-powered digital menu boards help QSRs cut wait times, increase sales, and streamline operations. The post Digital Menu Boards for QSRs: Enhance Customer Experiences & Drive Operational Eff…"
+    },
+    {
       "title": "Why Remote Signage Management Is Critical for Bank Branches",
       "link": "https://www.brightsign.biz/blog/why-remote-signage-management-is-critical-for-bank-branches/",
+      "date": "2026-05-04T15:17:54.000Z",
+      "description": "Learn why remote digital signage management is critical for multi-branch banks and how BrightSign delivers the reliability, quality, and centralized control they need. The post Why Remote Signage Man…"
+    },
+    {
+      "title": "Why Remote Signage Management Is Critical for Bank Branches",
+      "link": "https://www.brightsign.biz/en/blog/why-remote-signage-management-is-critical-for-bank-branches/",
       "date": "2026-05-04T15:17:54.000Z",
       "description": "Learn why remote digital signage management is critical for multi-branch banks and how BrightSign delivers the reliability, quality, and centralized control they need. The post Why Remote Signage Man…"
     },
@@ -51,14 +93,32 @@
       "description": "Discover how video wall solutions transform corporate lobbies, retail flagships, entertainment venues, and more into unforgettable visual experiences. The post Video Wall Solutions for Large-Scale Di…"
     },
     {
+      "title": "Video Wall Solutions for Large-Scale Displays",
+      "link": "https://www.brightsign.biz/en/blog/video-wall-solutions-for-large-scale-displays/",
+      "date": "2026-04-23T14:21:14.000Z",
+      "description": "Discover how video wall solutions transform corporate lobbies, retail flagships, entertainment venues, and more into unforgettable visual experiences. The post Video Wall Solutions for Large-Scale Di…"
+    },
+    {
       "title": "Five Digital Signage Trends to Watch in 2026",
       "link": "https://www.brightsign.biz/blog/five-digital-signage-trends-to-watch-in-2026/",
       "date": "2025-12-31T16:14:37.000Z",
       "description": "Discover the key digital signage trends to watch in 2026 and how organizations can turn them into measurable business impact with the right technology foundation. The post Five Digital Signage Trends…"
     },
     {
+      "title": "Five Digital Signage Trends to Watch in 2026",
+      "link": "https://www.brightsign.biz/en/blog/five-digital-signage-trends-to-watch-in-2026/",
+      "date": "2025-12-31T16:14:37.000Z",
+      "description": "Discover the key digital signage trends to watch in 2026 and how organizations can turn them into measurable business impact with the right technology foundation. The post Five Digital Signage Trends…"
+    },
+    {
       "title": "Upgrade Your Bank’s Messaging with Targeted Digital Signage",
       "link": "https://www.brightsign.biz/blog/upgrade-your-banks-messaging-with-targeted-digital-signage/",
+      "date": "2025-11-20T19:48:31.000Z",
+      "description": "See how BrightSign &#038; Korbyt help banks enhance the customer experience in banking with targeted, real-time digital signage. Their joint solution delivers secure, scalable content management for …"
+    },
+    {
+      "title": "Upgrade Your Bank’s Messaging with Targeted Digital Signage",
+      "link": "https://www.brightsign.biz/en/blog/upgrade-your-banks-messaging-with-targeted-digital-signage/",
       "date": "2025-11-20T19:48:31.000Z",
       "description": "See how BrightSign &#038; Korbyt help banks enhance the customer experience in banking with targeted, real-time digital signage. Their joint solution delivers secure, scalable content management for …"
     },
