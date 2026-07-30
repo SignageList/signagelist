@@ -1,6 +1,6 @@
 {
   "source": "Smart Ad Box",
-  "fetched_at": "2026-07-29T12:30:03.626Z",
+  "fetched_at": "2026-07-30T07:40:51.559Z",
   "items": [
     {
       "title": "Hello world!",
@@ -23,6 +23,12 @@
     {
       "title": "x",
       "link": "https://www.smart-adbox.com/x/",
+      "date": "2020-01-01T00:00:00.000Z",
+      "description": "Hello world!"
+    },
+    {
+      "title": "x",
+      "link": "https://www.smart-adbox.com/x-4/",
       "date": "2020-01-01T00:00:00.000Z",
       "description": "Hello world!"
     }
