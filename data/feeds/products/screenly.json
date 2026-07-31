@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-07-30T07:40:51.559Z",
+  "fetched_at": "2026-07-31T07:57:14.722Z",
   "items": [
+    {
+      "title": "A simpler way to schedule your content",
+      "link": "https://www.screenly.io/blog/2026/07/29/simpler-way-to-schedule-your-content/",
+      "date": "2026-07-29T00:00:00.000Z",
+      "description": "<p>In Screenly, a playlist is the link between your content and your screens: content goes into a playlist, the playlist is assigned to screens, and a schedule controls when it plays. By default it&r…"
+    },
     {
       "title": "Temporary workspace members",
       "link": "https://www.screenly.io/blog/2026/07/20/temporary-workspace-members/",
