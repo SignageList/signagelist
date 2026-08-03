@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-08-02T07:37:03.177Z",
+  "fetched_at": "2026-08-03T08:38:19.137Z",
   "items": [
+    {
+      "title": "Bring your Salesforce data to your screens",
+      "link": "https://www.screenly.io/blog/2026/07/30/bring-your-salesforce-data-to-your-screens/",
+      "date": "2026-07-30T00:00:00.000Z",
+      "description": "<p>Your CRM holds some of the most important numbers in your business: pipeline value, deals closed, quota attainment, and support response times. But that data usually lives in a browser tab that on…"
+    },
     {
       "title": "A simpler way to schedule your content",
       "link": "https://www.screenly.io/blog/2026/07/29/simpler-way-to-schedule-your-content/",
