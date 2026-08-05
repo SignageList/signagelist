@@ -1,7 +1,13 @@
 {
   "source": "Voome",
-  "fetched_at": "2026-08-03T08:38:19.137Z",
+  "fetched_at": "2026-08-05T07:47:42.018Z",
   "items": [
+    {
+      "title": "The illusion of scalability: why &#8220;Playlist&#8221; management collapses your network",
+      "link": "https://voome.com/the-illusion-of-scalability-why-playlist-management-collapses-your-network/",
+      "date": "2026-08-04T09:21:42.000Z",
+      "description": "The illusion of scalability: why &#8220;Playlist&#8221; management collapses your network Scalability &#038; Operations August 4, 2026 The illusion of scalability: why &#8220;Playlist&#8221; manageme…"
+    },
     {
       "title": "The illusion of control: why basic Device Management kills your scalability.",
       "link": "https://voome.com/the-illusion-of-control-why-basic-device-management-kills-your-scalability/",
