@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-08-05T07:47:42.018Z",
+  "fetched_at": "2026-08-06T07:46:20.732Z",
   "items": [
+    {
+      "title": "Getting Started",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/FA48BB8352D6D05580257C28007FA2C7",
+      "date": "2026-08-05T13:24:26.000Z",
+      "description": "Follow this page to get started using the demo system. If you are ready to set up your own server please start here: Using a browser You can try the Door Tablet app right away using a browser...."
+    },
     {
       "title": "Active Directory",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/2DF87894C070543680258E1E003E92D3",
