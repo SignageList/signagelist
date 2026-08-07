@@ -1,7 +1,25 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-08-06T07:46:20.732Z",
+  "fetched_at": "2026-08-07T06:15:02.868Z",
   "items": [
+    {
+      "title": "Door Tablet CONNECT",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/ECBE7329E8F58BEC80258B670039AA75",
+      "date": "2026-08-06T14:04:10.000Z",
+      "description": "Door Tablet offers a Mulit Tenant Server you can use to manage all your system functionality with little effort. You can also: Run Door Tablet on premise Run Door Tablet on your own cloud <br />..."
+    },
+    {
+      "title": "Door Tablet Demo Server",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/4C3217B4204F097880257BB500506DEA",
+      "date": "2026-08-06T13:55:14.000Z",
+      "description": "Once you have downloaded the Door Tablet application, you can connect to the demo server and experiment with different settings. Connecting to the Demo Server With the demo server in use, you do..."
+    },
+    {
+      "title": "Security",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/A3E55F2D0ECCEE2180257FA2004EC7E8",
+      "date": "2026-08-06T09:52:50.000Z",
+      "description": "The Door Tablet AIO/TC allows you to set up a simple security measure to ensure the devices are not tampered with. Go to Settings and tap \"Security password\": Set your password Type a..."
+    },
     {
       "title": "Getting Started",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/FA48BB8352D6D05580257C28007FA2C7",
