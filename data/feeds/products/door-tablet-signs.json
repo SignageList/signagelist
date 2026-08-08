@@ -1,7 +1,67 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-08-07T06:15:02.868Z",
+  "fetched_at": "2026-08-08T05:49:28.348Z",
   "items": [
+    {
+      "title": "Time Zones",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/63FDF4B71DD1C90C80257D460067315E",
+      "date": "2026-08-07T11:10:54.000Z",
+      "description": "When using Microsoft Exchange you will need to set up Time Zones and change them with the seasons. Create the Zones relevant to your organisation: Note: you can accept all the worldwide Zones but..."
+    },
+    {
+      "title": "User permissions",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/CCC163964A2B4AFE80258CDE003713F3",
+      "date": "2026-08-07T11:01:32.000Z",
+      "description": "From Door Tablet V10.5.0 administrators can assign users limited access to specific features, with refined role-based controls that include both read and edit permissions. Create the user To..."
+    },
+    {
+      "title": "User Records",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/D060DA0A071E3E3680257C3000517599",
+      "date": "2026-08-07T10:57:40.000Z",
+      "description": "The Door Tablet Web UI allows users to access the server in two ways: Full administrative rights Reservations Administrator User records are also used for ID access from the tablets, when using RFID.…"
+    },
+    {
+      "title": "Core Setup",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/33F4667D9C30A6BA80257BC0002F54D1",
+      "date": "2026-08-07T10:53:38.000Z",
+      "description": "Door Tablet allows you to configure the system from a Web UI, available for all platforms. Some security measures can only be edited from the the Web UI - not the Tablet. We recommend that you use..."
+    },
+    {
+      "title": "Start the admin interface",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/9210D6FA7F46296680257C1D00463381",
+      "date": "2026-08-07T10:50:15.000Z",
+      "description": "Door Tablet offers a comprehensive Administration Interface using a browser. We call it the Door Tablet Web UI The interface provides the following functions: Create a connection to your..."
+    },
+    {
+      "title": "Run the Front-end App",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/1E9A187B7534FC6980258CF6003F3EE5",
+      "date": "2026-08-07T10:44:58.000Z",
+      "description": "After installing the Door Tablet App on your tablets run the app. The opening screen allows you to connect to: Your instance of Door Tablet CONNECT on the cloud Your own Door Tablet server, on..."
+    },
+    {
+      "title": "Obtain the Front-end App",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/DAB81A083DCC5C4280257BB500506CEF",
+      "date": "2026-08-07T10:37:19.000Z",
+      "description": "Door Tablet has two main components: End-point software - an application you install on your tablet or display devices. Some display devices may have the application pre-installed Server software -..."
+    },
+    {
+      "title": "Data Protection",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/2D49891A093C193D80258C4800508A3B",
+      "date": "2026-08-07T10:28:31.000Z",
+      "description": "Door Tablet offers robust data protection measures: Minimal Data Storage Customer sensitive data is reduced to the minimum necessary for operation Meeting information is stored temporarily and can..."
+    },
+    {
+      "title": "One Time Password OTP",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/5324078F71BC1BE880258CA000400EA7",
+      "date": "2026-08-07T10:26:07.000Z",
+      "description": "From V10.22 of Door Tablet OTP Service is available The purpose of this feature is to tighten security around the access to the Web UI. When you turn the feature on, the following happens: You are..."
+    },
+    {
+      "title": "Console Command",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/1B5F0C15FD4D1282802584C70040CCE5",
+      "date": "2026-08-07T10:16:10.000Z",
+      "description": "Console commands are not available in Door Tablet CONNECT. Door Tablet offers a number of console commands that you may use in an emergency. Note: you can only issue these commands if you have..."
+    },
     {
       "title": "Door Tablet CONNECT",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/ECBE7329E8F58BEC80258B670039AA75",
