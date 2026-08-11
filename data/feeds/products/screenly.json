@@ -1,7 +1,19 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-08-10T06:17:36.218Z",
+  "fetched_at": "2026-08-11T05:58:54.870Z",
   "items": [
+    {
+      "title": "Screenly Sync 0x07: August updates from Screenly",
+      "link": "https://www.screenly.io/blog/2026/08/10/screenly-sync-0x07/",
+      "date": "2026-08-10T00:00:00.000Z",
+      "description": "<p>Welcome to the 8th edition of Screenly Sync, where we share the latest product and community updates from Screenly. July brought a simpler way to schedule content, more flexibility for managing te…"
+    },
+    {
+      "title": "From Airtable base to digital signage in minutes",
+      "link": "https://www.screenly.io/blog/2026/08/03/from-airtable-base-to-digital-signage-in-minutes/",
+      "date": "2026-08-03T00:00:00.000Z",
+      "description": "<p>Airtable is one of the most versatile tools teams use today. Project trackers, inventory sheets, event schedules, onboarding checklists, product roadmaps. If it involves structured data and collab…"
+    },
     {
       "title": "Bring your Salesforce data to your screens",
       "link": "https://www.screenly.io/blog/2026/07/30/bring-your-salesforce-data-to-your-screens/",
