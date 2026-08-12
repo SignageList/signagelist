@@ -1,7 +1,13 @@
 {
   "source": "Xibo",
-  "fetched_at": "2026-08-11T05:58:54.870Z",
+  "fetched_at": "2026-08-12T06:23:13.905Z",
   "items": [
+    {
+      "title": "Changes to legacy hardware compatibility | Xibo Blog",
+      "link": "https://xibosignage.com/blog/changes-to-legacy-hardware-compatibility-2028",
+      "date": "2026-08-11T12:59:59.000Z",
+      "description": "This blog is intended to give advance notice regarding an upcoming technical change that may impact your older hardware connecting to Xibo Cloud. By June 30th 2028 , Xibo Cloud will no longer be comp…"
+    },
     {
       "title": "Introducing Xibo CMS v4.5 | Xibo, Refined",
       "link": "https://xibosignage.com/blog/introducing-xibo-cms-v4.5",
