@@ -1,7 +1,13 @@
 {
   "source": "Display Star",
-  "fetched_at": "2026-08-13T06:24:28.891Z",
+  "fetched_at": "2026-08-14T06:21:33.286Z",
   "items": [
+    {
+      "title": "Verständliche Content-Architektur in der Verwaltung",
+      "link": "https://www.kommatec-red.de/blog/content-architektur-verwaltung/",
+      "date": "2026-08-13T12:39:29.000Z",
+      "description": "Ein Bildschirm im Rathaus hat im Schnitt genau drei Sekunden Zeit, um das Interesse eines Bürgers zu wecken und eine Information zu vermitteln oder die Frustration wächst. Der Beitrag Verständliche C…"
+    },
     {
       "title": "Rathaus digital: Warum ein Display allein noch keinen Bürger glücklich macht",
       "link": "https://www.kommatec-red.de/blog/rathaus-digital-ungluecklich/",
@@ -15,8 +21,20 @@
       "description": "Es reicht nicht einfach einen Monitor hinzuhängen, um ein gutes digitales, schwarzes Brett zu bekommen. Erfahrt, was ihr hardware-seitig wirklich braucht. Der Beitrag Fatale Fehler bei der Einführung…"
     },
     {
+      "title": "Fatale Fehler bei Einführung des Digitalen Schwarzen Bretts",
+      "link": "https://www.kommatec-red.de/blog/fatale-schwarze-brett-fehler/",
+      "date": "2026-08-05T13:49:06.000Z",
+      "description": "Einfach nur einen Monitor an die Wand zu hängen und zu sagen: „Das ist jetzt unser Digitales Schwarzes Brett“, ist blinder Aktionismus. Der Beitrag Fatale Fehler bei Einführung des Digitalen Schwarze…"
+    },
+    {
       "title": "Vom Sender zum Empfänger: So etablierst du &#8222;Content-Influencer&#8220; für dein Digitales Schwarzes Brett",
       "link": "https://www.kommatec-red.de/blog/vom-sender-zum-empfaenger",
+      "date": "2026-07-31T07:16:09.000Z",
+      "description": "Es reicht nicht einfach einen Monitor hinzuhängen, um ein gutes digitales, schwarzes Brett zu bekommen. Erfahrt, was ihr hardware-seitig wirklich braucht. Der Beitrag Vom Sender zum Empfänger: So eta…"
+    },
+    {
+      "title": "Vom Sender zum Empfänger: So etablierst du &#8222;Content-Influencer&#8220; für dein Digitales Schwarzes Brett",
+      "link": "https://www.kommatec-red.de/blog/vom-sender-zum-empfaenger/",
       "date": "2026-07-31T07:16:09.000Z",
       "description": "Es reicht nicht einfach einen Monitor hinzuhängen, um ein gutes digitales, schwarzes Brett zu bekommen. Erfahrt, was ihr hardware-seitig wirklich braucht. Der Beitrag Vom Sender zum Empfänger: So eta…"
     },
@@ -27,8 +45,20 @@
       "description": "Es reicht nicht einfach einen Monitor hinzuhängen, um ein gutes digitales, schwarzes Brett zu bekommen. Erfahrt, was ihr hardware-seitig wirklich braucht. Der Beitrag Performance-Check für dein Digit…"
     },
     {
+      "title": "Performance-Check für dein Digitales Schwarzes Brett: Warum jede Millisekunde zählt",
+      "link": "https://www.kommatec-red.de/blog/performance-check-digitales-schwarzes-brett/",
+      "date": "2026-07-21T08:18:05.000Z",
+      "description": "Wenn die Technik nur halbherzig funktioniert, bietet sie keine Lösung, sondern erzeugt Frust. Das beachten wir schon ab Minute 1! Der Beitrag Performance-Check für dein Digitales Schwarzes Brett: War…"
+    },
+    {
       "title": "Psychologie statt Design: Dein Digitales Schwarzes Brett muss wie Instagram funktionieren",
       "link": "https://www.kommatec-red.de/blog/psychologie-statt-design-digitales-schwarzes-brett",
+      "date": "2026-07-16T08:03:47.000Z",
+      "description": "Viele benutzen ihr digitales schwarzes Brett noch wie ein zweites Intranet. Doch im Zeitalter von Instagram, TikTok und Co. muss das anders laufen! Der Beitrag Psychologie statt Design: Dein Digitale…"
+    },
+    {
+      "title": "Psychologie statt Design: Dein Digitales Schwarzes Brett muss wie Instagram funktionieren",
+      "link": "https://www.kommatec-red.de/blog/psychologie-statt-design-digitales-schwarzes-brett/",
       "date": "2026-07-16T08:03:47.000Z",
       "description": "Viele benutzen ihr digitales schwarzes Brett noch wie ein zweites Intranet. Doch im Zeitalter von Instagram, TikTok und Co. muss das anders laufen! Der Beitrag Psychologie statt Design: Dein Digitale…"
     },
@@ -39,8 +69,20 @@
       "description": "Ihr digitales schwarzes Brett scheitert? Wir erklären warum. Der Beitrag Schluss mit der digitalen Zettelwirtschaft: Warum dein Digitales Schwarzes Brett ein Update braucht erschien zuerst auf komma,…"
     },
     {
+      "title": "Schluss mit der digitalen Zettelwirtschaft: Warum dein Digitales Schwarzes Brett ein Update braucht",
+      "link": "https://www.kommatec-red.de/blog/schluss-mit-zettelwirtschaft-digitales-schwarzes-brett/",
+      "date": "2026-07-15T08:38:23.000Z",
+      "description": "Ihr digitales schwarzes Brett scheitert? Wir erklären warum. Der Beitrag Schluss mit der digitalen Zettelwirtschaft: Warum dein Digitales Schwarzes Brett ein Update braucht erschien zuerst auf komma,…"
+    },
+    {
       "title": "Digital Signage im Hotel: 6 Lösungen für bessere Gästekommunikation",
       "link": "https://www.kommatec-red.de/blog/digital-signage-im-hotel%3A-6-loesungen-fuer-bessere-gaestekommunikation",
+      "date": "2026-05-04T13:27:21.000Z",
+      "description": "Dieser Artikel erklärt die Unterschiede klar, technisch korrekt und praxisnah. Der Beitrag Digital Signage im Hotel: 6 Lösungen für bessere Gästekommunikation erschien zuerst auf komma,tec redaction …"
+    },
+    {
+      "title": "Digital Signage im Hotel: 6 Lösungen für bessere Gästekommunikation",
+      "link": "https://www.kommatec-red.de/blog/digital-signage-im-hotel%3A-6-loesungen-fuer-bessere-gaestekommunikation/",
       "date": "2026-05-04T13:27:21.000Z",
       "description": "Dieser Artikel erklärt die Unterschiede klar, technisch korrekt und praxisnah. Der Beitrag Digital Signage im Hotel: 6 Lösungen für bessere Gästekommunikation erschien zuerst auf komma,tec redaction …"
     },
@@ -53,6 +95,12 @@
     {
       "title": "ISE 2026 – wir sind vor Ort in Barcelona",
       "link": "https://www.kommatec-red.de/blog/ise-2026-wir-sind-vor-ort-in-barcelona",
+      "date": "2026-04-27T13:49:11.000Z",
+      "description": "Dieser Artikel erklärt die Unterschiede klar, technisch korrekt und praxisnah. Der Beitrag ISE 2026 – wir sind vor Ort in Barcelona erschien zuerst auf komma,tec redaction GmbH ."
+    },
+    {
+      "title": "ISE 2026 – wir sind vor Ort in Barcelona",
+      "link": "https://www.kommatec-red.de/blog/ise-2026-wir-sind-vor-ort-in-barcelona/",
       "date": "2026-04-27T13:49:11.000Z",
       "description": "Dieser Artikel erklärt die Unterschiede klar, technisch korrekt und praxisnah. Der Beitrag ISE 2026 – wir sind vor Ort in Barcelona erschien zuerst auf komma,tec redaction GmbH ."
     },
