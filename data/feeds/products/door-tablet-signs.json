@@ -1,7 +1,19 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-08-13T06:24:28.891Z",
+  "fetched_at": "2026-08-14T06:21:33.286Z",
   "items": [
+    {
+      "title": "Workplace Spaces",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/E791DA96B0AC0F4480257BB500506E29",
+      "date": "2026-08-13T13:04:49.000Z",
+      "description": "Meeting spaces are edited using the Web UI. Before you edit your workspaces or even try to create ones, click on Synchronise and Door Tablet will connect to your scheduling system, and bring the..."
+    },
+    {
+      "title": "Clone Space Settings",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/F99C83F17E2158F280258042005E7E3C",
+      "date": "2026-08-13T12:18:39.000Z",
+      "description": "From Door Tablet V8 we offer a new tool that makes it easy to copy settings from one meeting space to many others, selectively. Using the Assign Meeting Space Settings Tool Follow these steps to..."
+    },
     {
       "title": "Time Zones",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/63FDF4B71DD1C90C80257D460067315E",

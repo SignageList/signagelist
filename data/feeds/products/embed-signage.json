@@ -1,7 +1,13 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-08-13T06:24:28.891Z",
+  "fetched_at": "2026-08-14T06:21:33.286Z",
   "items": [
+    {
+      "title": "Instagram Social Feed Content App Bug Fix",
+      "link": "https://embedsignage.com/releases/instagram-social-feed-content-app-bug-fix/",
+      "date": "2026-08-13T12:50:48.000Z",
+      "description": ""
+    },
     {
       "title": "Updated Travel Board options, plus Timezone and formatting improvements for Time and Date",
       "link": "https://embedsignage.com/releases/updated-travel-board-options-plus-timezone-and-formatting-improvements-for-time-and-date/",
