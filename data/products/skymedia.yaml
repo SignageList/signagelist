@@ -6,11 +6,11 @@ year_founded: 2015
 headquarters:
   - Singapore
 open_source: false
-rss_feed_url: https://www.skymedia.com.sg/feed/
+rss_feed_url: null
 has_docs: false
 docs_url: null
 self_signup: false
-discontinued: false
+discontinued: true
 categories:
   - CMS
 platforms: []
@@ -23,6 +23,7 @@ models:
 stats: {}
 notes:
   - One-time charge without subscription.
+  - "Marked discontinued in August 2026: skymedia.com.sg no longer offers digital signage and now hosts an unrelated Singapore lifestyle blog. The RSS feed was removed at the same time."
 features: []
 integrations: []
 target_audience: []
