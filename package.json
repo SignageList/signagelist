@@ -14,6 +14,7 @@
     "preview": "hugo server --minify",
     "cli": "bun run scripts/cli.ts",
     "check": "bun run scripts/cli.ts check",
+    "test": "bun test",
     "add": "bun run scripts/cli.ts add",
     "gen:og": "bun run scripts/cli.ts gen-og",
     "gen:terms": "bun run scripts/cli.ts gen-terms",
@@ -22,8 +23,8 @@
     "discover:rss": "bun run scripts/cli.ts discover-rss",
     "fetch-feeds": "bun run scripts/cli.ts fetch-feeds",
     "check:urls": "bun run scripts/cli.ts check-urls",
-    "lint": "bunx biome check assets/ts/ scripts/",
-    "lint:fix": "bunx biome check --write assets/ts/ scripts/"
+    "lint": "bunx biome check assets/ts/ scripts/ tests/",
+    "lint:fix": "bunx biome check --write assets/ts/ scripts/ tests/"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.0",

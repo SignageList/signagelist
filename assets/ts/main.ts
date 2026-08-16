@@ -2,6 +2,7 @@ import { initAuthenticationDropdown } from './authentication-dropdown'
 import { initComplianceDropdown } from './compliance-dropdown'
 import { FilterEngine } from './filter'
 import { initGitHubStars } from './github-stars'
+import { initHomeUrlSync } from './home-url-sync'
 import { initProductModal } from './modal'
 import { initPlatformDropdown } from './platform-dropdown'
 import { initSearch } from './search'
@@ -548,6 +549,11 @@ function initHomePage(productList: HTMLElement): void {
 				scrollToList()
 			}
 		})
+
+	initHomeUrlSync(engine, () => {
+		syncTypePills(typePills, engine)
+		updateMobileFilterBadge()
+	})
 
 	engine.applyFilters()
 	initProductModal(productList, engine)

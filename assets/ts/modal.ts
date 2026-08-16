@@ -1,7 +1,9 @@
 import type { FilterEngine } from './filter'
 
 export function initProductModal(productList: HTMLElement, engine: FilterEngine): void {
-	const listUrl = location.href
+	// Captured each time the modal opens, so closing returns to the list URL as it
+	// was then, filters and all, rather than to a snapshot from page load.
+	let listUrl = location.href
 	let currentIndex = -1
 	let isOpen = false
 	const cache = new Map<string, string>()
@@ -109,7 +111,10 @@ export function initProductModal(productList: HTMLElement, engine: FilterEngine)
 			}),
 		)
 		openLink.href = href
-		if (pushState) history.pushState({ modal: true, href }, '', href)
+		if (pushState) {
+			listUrl = location.href
+			history.pushState({ modal: true, href }, '', href)
+		}
 		updateNav()
 		await loadProduct(href)
 	}
