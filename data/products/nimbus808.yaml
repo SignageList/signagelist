@@ -1,0 +1,41 @@
+name: Nimbus808
+slug: nimbus808
+description: Cloud-based digital signage CMS for small businesses, with drag-and-drop design tools and scheduling for smart TVs and streaming devices.
+website: https://nimbus808.com/
+year_founded: 2024
+headquarters:
+  - USA
+open_source: false
+has_docs: true
+docs_url: https://nimbus808.com/docs/basics/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: GROW
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 9
+        yearly: null
+        included_screens: 2
+        overage_per_screen: 5
+stats: {}
+notes: []
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
