@@ -1,0 +1,67 @@
+name: TVpilot.App
+slug: tvpilot-app
+description: Cloud digital signage CMS with a permanent free tier, running on Raspberry Pi, Fire TV, Android TV, or any modern browser.
+website: https://tvpilot.app/
+year_founded: 2026
+headquarters:
+  - Netherlands
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+  - Raspberry Pi
+  - Linux
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+        included_screens: 1
+        max_screens: 1
+      - name: Starter
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 5
+        yearly: null
+        included_screens: 5
+        max_screens: 5
+      - name: Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 19
+        yearly: null
+        included_screens: 25
+        max_screens: 25
+      - name: Business
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+stats: {}
+notes:
+  - Pricing is listed in EUR (Free €0, Starter €5, Pro €19 per month). Business is custom priced for 25 or more screens.
+  - Plans are also capped by storage (250 MB on Free, 1 GB on Starter, 10 GB on Pro).
+  - There is no time-limited trial. The free plan is permanent and needs no credit card.
+  - Playback is browser-based, including on Fire TV Stick through the Silk browser and on Android TV. Raspberry Pi uses a one-command Chromium install.
+  - SSO, SAML, and audit logs are offered on request rather than as standard plan features.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
