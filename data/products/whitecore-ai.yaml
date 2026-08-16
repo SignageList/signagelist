@@ -1,0 +1,75 @@
+name: WhiteCore.AI
+slug: whitecore-ai
+description: Cloud digital signage CMS with optional Vision AI camera analytics for visitor counting, dwell time, and content triggers.
+website: https://whitecore.ai/
+year_founded: null
+headquarters:
+  - Australia
+open_source: false
+has_api: true
+has_docs: true
+docs_url: https://whitecore.ai/support
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+  - Computer vision
+platforms:
+  - Windows
+  - macOS
+  - Linux
+  - Raspberry Pi
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Studio
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 29
+        yearly: null
+        included_screens: 10
+        max_screens: 10
+      - name: Insights
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 39
+        yearly: null
+        included_screens: 0
+        max_screens: 0
+      - name: Studio + Insights
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 69
+        yearly: null
+        included_screens: 25
+        max_screens: 25
+      - name: Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 99
+        yearly: null
+        included_screens: 50
+        max_screens: 50
+      - name: White Label
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+stats: {}
+notes:
+  - Pricing is listed in AUD (Studio A$29, Insights A$39, Studio + Insights A$69, Pro A$99 per month).
+  - Vision AI adds A$10 per active camera per month on the Insights, Studio + Insights, and Pro plans.
+  - The Insights plan is camera analytics only and does not include media players or content publishing.
+  - The 7-day free trial requires a credit card.
+  - API access is limited to the Pro and White Label plans, and there is no public developer portal.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
