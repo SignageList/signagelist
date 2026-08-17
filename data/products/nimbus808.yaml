@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://nimbus808.com/docs/basics/
+rss_feed_url: https://nimbus808.com/feed/
 self_signup: true
 discontinued: false
 categories:
