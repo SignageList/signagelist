@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-08-17T05:41:39.238Z",
+  "fetched_at": "2026-08-18T05:38:41.300Z",
   "items": [
+    {
+      "title": "Live TradingView charts on your screens",
+      "link": "https://www.screenly.io/blog/2026/08/17/live-tradingview-charts-on-your-screens/",
+      "date": "2026-08-17T00:00:00.000Z",
+      "description": "<p>Financial data moves fast. Prices update by the second, sentiment shifts before you finish your coffee, and the market never waits for anyone to refresh a browser tab.</p> <p>Most teams that care …"
+    },
     {
       "title": "Screenly Sync 0x07: August updates from Screenly",
       "link": "https://www.screenly.io/blog/2026/08/10/screenly-sync-0x07/",
