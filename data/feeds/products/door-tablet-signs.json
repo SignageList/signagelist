@@ -1,7 +1,61 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-08-18T05:38:41.300Z",
+  "fetched_at": "2026-08-19T05:38:05.642Z",
   "items": [
+    {
+      "title": "Master and Slave rooms",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/C0483138450E36D180258A5B0052D655",
+      "date": "2026-08-18T20:38:04.000Z",
+      "description": "From Door Tablet V10.11.5 we are exposing a feature in Door Tablet that allows for rooms to be merged and split. We use the names Slave and Master rooms. <br><br><a..."
+    },
+    {
+      "title": "Installation",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/A75CA379D6A58133802587670069DC14",
+      "date": "2026-08-18T20:38:02.000Z",
+      "description": "Door Tablet SIGNS requires that you install its player on Door Tablet ABXs. The software is installed on a Door Tablet end-point (ABX), but the SIGNS server remains on the cloud and does not..."
+    },
+    {
+      "title": "TLS and Java Security",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/A1B9C5189C6534AC8025848000263E9A",
+      "date": "2026-08-18T20:38:02.000Z",
+      "description": "TLS Many organisations need to switch to use TLS1.2. If you are one of these, follow these steps to enable TLS1.2 connections between the Door Tablet server and your scheduling..."
+    },
+    {
+      "title": "Cross Certified Servers",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/9F8C30E1E3C585AD802589DF003C8C2E",
+      "date": "2026-08-18T20:38:02.000Z",
+      "description": "Door Tablet may run as a stand alone server and connect to your Domino Resource Reservation Server through the advent of Cross Certification. Overall steps Install the Door Tablet Server on a PC on..."
+    },
+    {
+      "title": "Single Sign On (SSO)",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/9AFE2D42BF1F8720802588AF005CDBC3",
+      "date": "2026-08-18T20:38:00.000Z",
+      "description": "When you configure SSO for Door tablet with Microsoft 365 the expectation is that this is done to enable easy access for 365 users to Door Tablet BOOKER. The basics steps Configure Door Tablet to..."
+    },
+    {
+      "title": "Languages",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/64D6F0E9AA9938E680257BCD00412681",
+      "date": "2026-08-18T20:37:55.000Z",
+      "description": "When using Door Tablet, you have the ability to choose what language you want to operate in. We currently support the following languages,..."
+    },
+    {
+      "title": "Device Hub",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/5A62AC063AE605AB80258077003747A3",
+      "date": "2026-08-18T20:37:53.000Z",
+      "description": "Door Tablet external devices are easy to configure and install. The following steps are required: Prepare your devices by first attaching them to your PC using a USB cable Devices include motion..."
+    },
+    {
+      "title": "Users imports",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/4F0E9B5F1D0E88F6802580ED003739FB",
+      "date": "2026-08-18T20:37:52.000Z",
+      "description": "When you deploy Door Tablet and you wish to use RFID your users must be registered on the system. You can register users and RFID tags individually (see here ) but often when you need to have..."
+    },
+    {
+      "title": "Remote LEDs Hardware",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/122B00C8E7FCAD6F80258C270047611E",
+      "date": "2026-08-18T20:37:45.000Z",
+      "description": "Door Tablet offers packages that combine the Device Hub and other electronics. This includes devices that do not need to be away from the Device Hub or exposed to the inner part of a room. One..."
+    },
     {
       "title": "Workplace Spaces",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/E791DA96B0AC0F4480257BB500506E29",
