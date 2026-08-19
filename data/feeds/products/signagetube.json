@@ -1,7 +1,13 @@
 {
   "source": "SignageTube",
-  "fetched_at": "2026-08-18T05:38:41.300Z",
+  "fetched_at": "2026-08-19T05:38:05.642Z",
   "items": [
+    {
+      "title": "How to Put a Live SQL Server Query on a Factory Screen",
+      "link": "https://signagetube.com/blog/live-sql-query-factory-screen/",
+      "date": "2026-08-18T09:00:00.000Z",
+      "description": "Step by step: connect SQL Server to a factory floor display, write the query, set the refresh interval, and keep IT happy. The post How to Put a Live SQL Server Query on a Factory Screen first appear…"
+    },
     {
       "title": "What Industries Use Digital Signage? 12 Real-World Examples",
       "link": "https://signagetube.com/blog/what-industries-use-digital-signage/",
