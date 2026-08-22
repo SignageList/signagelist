@@ -1,6 +1,6 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-08-21T05:39:30.176Z",
+  "fetched_at": "2026-08-22T05:34:26.421Z",
   "items": [
     {
       "title": "Live TradingView charts on your screens",
@@ -13,6 +13,12 @@
       "link": "https://www.screenly.io/blog/2026/08/10/screenly-sync-0x07/",
       "date": "2026-08-10T00:00:00.000Z",
       "description": "<p>Welcome to the 8th edition of Screenly Sync, where we share the latest product and community updates from Screenly. July brought a simpler way to schedule content, more flexibility for managing te…"
+    },
+    {
+      "title": "Screenly Achieves ISO/IEC 27001:2022 Certification",
+      "link": "https://www.screenly.io/blog/2026/08/10/iso-27001-certification/",
+      "date": "2026-08-10T00:00:00.000Z",
+      "description": "<p>Screenly is now certified to ISO/IEC 27001:2022, the international standard for Information Security Management Systems. This was not a self-assessment. Our security practices, cloud platform, dev…"
     },
     {
       "title": "From Airtable base to digital signage in minutes",
