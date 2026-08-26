@@ -1,7 +1,19 @@
 {
   "source": "Arreya",
-  "fetched_at": "2026-08-25T05:38:23.836Z",
+  "fetched_at": "2026-08-26T05:40:40.933Z",
   "items": [
+    {
+      "title": "How to Deploy Digital Signage via Google Admin Console (Using Arreya’s Registration URL)",
+      "link": "https://arreya.com/blog/how-to-deploy-digital-signage-via-google-admin-console-using-arreya-s-registration-url",
+      "date": "2026-08-25T18:19:02.000Z",
+      "description": "Deploying digital signage through the Google Admin Console allows IT teams to remotely manage ChromeOS devices in Kiosk mode. Using Arreya's Device Registration URL, you can automatically link custom…"
+    },
+    {
+      "title": "Digital Signage Manufacturing Productivity: 2026 Guide to 25% Gains with KPI Dashboards",
+      "link": "https://arreya.com/blog/digital-signage-manufacturing-productivity-2026-guide-to-25-gains-with-kpi-dashboards",
+      "date": "2026-08-12T13:09:00.000Z",
+      "description": "What is a digital signage manufacturing productivity dashboard? It broadcasts live OEE metrics directly to the factory floor, cutting downtime by up to 35%. Backed by nearly 30 years of experience an…"
+    },
     {
       "title": "Monthly Free Graphics &#8211; August 2026",
       "link": "https://arreya.com/blog/content-resources/monthly-free-graphics-august-2026",
