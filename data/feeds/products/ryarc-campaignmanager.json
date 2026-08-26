@@ -1,7 +1,13 @@
 {
   "source": "Ryarc CampaignManager",
-  "fetched_at": "2026-08-25T05:38:23.836Z",
+  "fetched_at": "2026-08-26T05:40:40.933Z",
   "items": [
+    {
+      "title": "Programmatic Decoded, Part 1",
+      "link": "https://ryarc.com/resources/blog/adding-one-video-as-additional-content/",
+      "date": "2024-03-16T07:42:51.000Z",
+      "description": "Is Programmatic Actually Making You Money — Or Just Moving It Around? In the last year or two, the rush toward programmatic among small and mid-size DOOH companies has seen a significant rise. Sales …"
+    },
     {
       "title": "Making IoT adoption affordable",
       "link": "https://ryarc.com/resources/blog/ryarc-iot-device-management/",
