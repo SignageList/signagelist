@@ -1,7 +1,13 @@
 {
   "source": "Xibo",
-  "fetched_at": "2026-08-26T05:40:40.933Z",
+  "fetched_at": "2026-08-27T16:20:51.475Z",
   "items": [
+    {
+      "title": "August 2026 Releases | Xibo Blog",
+      "link": "https://xibosignage.com/blog/august-2026-releases",
+      "date": "2026-08-26T09:00:00.000Z",
+      "description": "Welcome to Xibo’s August 2026 release updates. This update includes the enhancements released this month across all of Xibo’s product lines."
+    },
     {
       "title": "Changes to legacy hardware compatibility | Xibo Blog",
       "link": "https://xibosignage.com/blog/changes-to-legacy-hardware-compatibility-2028",

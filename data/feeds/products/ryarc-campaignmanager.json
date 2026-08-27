@@ -1,10 +1,22 @@
 {
   "source": "Ryarc CampaignManager",
-  "fetched_at": "2026-08-26T05:40:40.933Z",
+  "fetched_at": "2026-08-27T16:20:51.475Z",
   "items": [
+    {
+      "title": "DOOH Programmatic Decoded, Part 2.",
+      "link": "https://ryarc.com/resources/blog/programmatic-decoded-part-two/",
+      "date": "2026-08-27T13:41:34.000Z",
+      "description": "Programmatic Won&#8217;t Save Your DOOH Business. Your Screens Will. In my last post — Programmatic Decoded, Part 1: Is Programmatic Actually Making You Money — Or Just Moving It Around? — I made the…"
+    },
     {
       "title": "Programmatic Decoded, Part 1",
       "link": "https://ryarc.com/resources/blog/adding-one-video-as-additional-content/",
+      "date": "2024-03-16T07:42:51.000Z",
+      "description": "Is Programmatic Actually Making You Money — Or Just Moving It Around? In the last year or two, the rush toward programmatic among small and mid-size DOOH companies has seen a significant rise. Sales …"
+    },
+    {
+      "title": "DOOH Programmatic Decoded, Part 1",
+      "link": "https://ryarc.com/resources/blog/dooh-programmatic-decoded-part-one/",
       "date": "2024-03-16T07:42:51.000Z",
       "description": "Is Programmatic Actually Making You Money — Or Just Moving It Around? In the last year or two, the rush toward programmatic among small and mid-size DOOH companies has seen a significant rise. Sales …"
     },
