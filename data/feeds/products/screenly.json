@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-08-26T05:40:40.933Z",
+  "fetched_at": "2026-08-27T16:20:51.475Z",
   "items": [
+    {
+      "title": "Screenly achieves ISO/IEC 27001:2022 certification",
+      "link": "https://www.screenly.io/blog/2026/08/21/iso-27001-certification/",
+      "date": "2026-08-21T00:00:00.000Z",
+      "description": "<p>Screenly is now certified against <strong>ISO/IEC 27001:2022</strong>, the international standard for information security management systems. The certification was issued by Glocert International…"
+    },
     {
       "title": "Live TradingView charts on your screens",
       "link": "https://www.screenly.io/blog/2026/08/17/live-tradingview-charts-on-your-screens/",

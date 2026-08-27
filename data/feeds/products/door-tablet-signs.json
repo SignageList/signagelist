@@ -1,7 +1,37 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-08-26T05:40:40.933Z",
+  "fetched_at": "2026-08-27T16:20:51.475Z",
   "items": [
+    {
+      "title": "Message Template",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/38D8EA00100C51E4802583300043334A",
+      "date": "2026-08-26T13:19:56.000Z",
+      "description": "Door Tablet allows you to create and template various messages using HTML. <br /> <br /> <a href=\"/vids/message-templates-25v1 \"><span class=\"playVideo\">VIDEO: Message templates </span></a><br..."
+    },
+    {
+      "title": "Booking",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/182EA6439F5369F980258DB50055725C",
+      "date": "2026-08-26T13:05:09.000Z",
+      "description": "How to Book a Desk with Door Tablet BOOKER Door Tablet BOOKER provides several ways to book a desk, depending on how your system is configured. You can book either: Using the time bars (ideal for..."
+    },
+    {
+      "title": "LibCal",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/C4125F5713A00D0480258D86004846CB",
+      "date": "2026-08-26T13:05:09.000Z",
+      "description": "The Door Tablet bridge to LibCal from SpringShare brings all of Door Tablet features to a LibCal environment. The integration is mainly in the bridge but some minor changes have been implemented..."
+    },
+    {
+      "title": "Uploading desks",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/09F21E587015F70880258D7F0062411B",
+      "date": "2026-08-26T13:05:08.000Z",
+      "description": "Create desks in Door Tablet You may create desks in two ways Upload a CSV file containing desk Create desk individually Once you have uploaded desks you will need to import them. See below. Upload..."
+    },
+    {
+      "title": "Basic QR Codes",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/750E1CCA6FC8EE9E80258D69003CD875",
+      "date": "2026-08-26T13:05:08.000Z",
+      "description": "Door Tablet displays QR Codes in a few places. This list show where we set these codes and display them for the user: Meeting room displays Nearby screens in room displays Hot desk displays ePaper..."
+    },
     {
       "title": "Master and Slave rooms",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/C0483138450E36D180258A5B0052D655",
