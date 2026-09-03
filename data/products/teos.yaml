@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://pro.sony/ue_US/product-resources/knowledge-panel/teos-how-to-guides-faq-software
+rss_feed_url: https://teos.solutions/feed/
 self_signup: false
 discontinued: false
 categories:
