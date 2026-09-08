@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-09-07T10:05:40.376Z",
+  "fetched_at": "2026-09-08T09:29:16.725Z",
   "items": [
+    {
+      "title": "Microsoft 365 GCC",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/342F51F0F75D684A80258AD9007AAE99",
+      "date": "2026-09-07T18:48:09.000Z",
+      "description": "From version 10.11.14 Door Tablet supports access to Microsoft 365 for USA Government, including GCC High and DoD. To enable 365 Government connection do the following: Open the System..."
+    },
     {
       "title": "Message Template",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/38D8EA00100C51E4802583300043334A",
