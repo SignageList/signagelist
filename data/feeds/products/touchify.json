@@ -1,7 +1,13 @@
 {
   "source": "Touchify",
-  "fetched_at": "2026-09-08T09:29:16.725Z",
+  "fetched_at": "2026-09-09T09:33:11.683Z",
   "items": [
+    {
+      "title": "LED pixel pitch and viewing distance: how close is too close?",
+      "link": "https://touchify.io/en/blog/led-pixel-pitch-viewing-distance",
+      "date": "2026-08-13T09:00:00.000Z",
+      "description": "How LED pixel pitch sets the viewing distance at which an image stays sharp, why manufacturers' formulas disagree, and how to spec a wall without overpaying."
+    },
     {
       "title": "Enrich the customer experience in a network of 135 stores",
       "link": "https://www.touchify.io/en/blog/digitization-network-dealer-giant",

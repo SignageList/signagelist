@@ -1,7 +1,19 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-09-08T09:29:16.725Z",
+  "fetched_at": "2026-09-09T09:33:11.683Z",
   "items": [
+    {
+      "title": "Screenly Sync 0x08: September updates from Screenly",
+      "link": "https://www.screenly.io/blog/2026/09/07/screenly-sync-0x08/",
+      "date": "2026-09-07T00:00:00.000Z",
+      "description": "<p>Welcome to the 9th edition of Screenly Sync, where we share the latest product, security, and community updates from Screenly.</p> <p>August was a busy month: we shipped a new app, picked up an im…"
+    },
+    {
+      "title": "Bring your Slack announcements to your screens",
+      "link": "https://www.screenly.io/blog/2026/08/31/bring-your-slack-announcements-to-your-screens/",
+      "date": "2026-08-31T00:00:00.000Z",
+      "description": "<p>Slack is where teams post the updates that matter: shift changes, safety alerts, &ldquo;we hit the number,&rdquo; the message that needs to reach people who are not sitting at a laptop. The proble…"
+    },
     {
       "title": "Screenly achieves ISO/IEC 27001:2022 certification",
       "link": "https://www.screenly.io/blog/2026/08/21/iso-27001-certification/",
