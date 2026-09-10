@@ -1,7 +1,13 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-09-09T09:33:11.683Z",
+  "fetched_at": "2026-09-10T09:30:06.237Z",
   "items": [
+    {
+      "title": "Various Bug Fixes and License email improvement",
+      "link": "https://embedsignage.com/releases/various-bug-fixes-and-license-email-improvement/",
+      "date": "2026-09-09T10:40:55.000Z",
+      "description": ""
+    },
     {
       "title": "BrightSign App 2.1.5, Meta Source and Instagram Collaborative Posts",
       "link": "https://embedsignage.com/releases/brightsign-app-2-1-5-and-instagram-collaborative-posts/",

@@ -1,6 +1,6 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-09-09T09:33:11.683Z",
+  "fetched_at": "2026-09-10T09:30:06.237Z",
   "items": [
     {
       "title": "ClipboardFusion 6.4 (Beta 6) Now Available!",
@@ -21,6 +21,12 @@
       "description": "We are excited to announce the addition of Zammad as an External Ticketing integration in CheckCentral. Once configured, CheckCentral will automatically open tickets in Zammad for failed Checks. It w…"
     },
     {
+      "title": "New Ticketing System: Zammad",
+      "link": "https://www.checkcentral.cc/Discussions/View/new-ticketing-system-zammad/?ID=01a05de0-4d78-749f-b647-5f29c006fa8c",
+      "date": "2026-09-01T16:49:36.000Z",
+      "description": "We are excited to announce the addition of Zammad as an External Ticketing System in CheckCentral. Once configured, CheckCentral will automatically open tickets in Zammad for failed Checks. It will k…"
+    },
+    {
       "title": "Top WallpaperFusion Members for August 2026",
       "link": "https://www.wallpaperfusion.com/Discussions/View/top-wallpaperfusion-members-for-august-2026/?ID=01a05dc8-b4e3-750c-bf8c-ebbd9c587947",
       "date": "2026-09-01T16:23:50.000Z",
@@ -37,6 +43,12 @@
       "link": "https://www.checkcentral.cc/Discussions/View/new-external-ticketing-system-gorelo/?ID=01a058e8-dfe9-7115-807e-853dc2783744",
       "date": "2026-08-31T17:40:52.000Z",
       "description": "We are excited to announce the addition of Gorelo as an External Ticketing integration in CheckCentral. Once configured, CheckCentral will automatically open tickets in Gorelo for failed Checks. It w…"
+    },
+    {
+      "title": "New Ticketing System: Gorelo",
+      "link": "https://www.checkcentral.cc/Discussions/View/new-ticketing-system-gorelo/?ID=01a058e8-dfe9-7115-807e-853dc2783744",
+      "date": "2026-08-31T17:40:52.000Z",
+      "description": "We are excited to announce the addition of Gorelo as an External Ticketing System in CheckCentral. Once configured, CheckCentral will automatically open tickets in Gorelo for failed Checks. It will k…"
     },
     {
       "title": "FileSeek 7.3 (Beta 1) Now Available!",
