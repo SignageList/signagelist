@@ -1,15 +1,17 @@
 name: GarlicSignage
 slug: garlic-signage
-description: Open-source digital signage applications.
+description: Self-hosted digital signage suite with a SMIL player (garlic-player) and web CMS (garlic-hub).
 website: https://garlic-signage.com/
 year_founded: 2025
 headquarters:
   - Germany
 open_source: true
 license: AGPL-3.0-only
-source_code_url: https://github.com/niclet/garlic-player
+source_code_url: https://github.com/garlic-signage/
 has_docs: true
+rss_feed_url: https://garlic-signage.com/index.xml
 docs_url: https://garlic-signage.com/resources/
+has_api: true
 self_signup: true
 discontinued: false
 categories:
@@ -18,18 +20,22 @@ platforms:
   - Android
   - Fire OS
   - Linux
+  - Raspberry Pi
   - Web Browser
   - Windows
   - macOS
 models:
-  - delivery: cloud
+  - delivery: self-hosted
     free_trial: false
     pricing_available: false
     has_freemium: false
     pricing: []
 stats: {}
 notes:
-  - You can buy professional support via SmilControl
+  - Professional support and hosting available via SmilControl
+  - garlic-player speaks SMIL and works with any SMIL-compatible CMS
+  - Player and CMS can be deployed independently
+  - garlic-player exposes a REST API (see https://garlic-signage.com/...)
 features: []
 integrations: []
 target_audience: []
@@ -38,4 +44,3 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
-# 2026-07-27 - RSS feed not found
