@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-09-14T10:28:46.343Z",
+  "fetched_at": "2026-09-15T09:54:51.870Z",
   "items": [
+    {
+      "title": "V10.70.0",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/876FEA3218C63CCB80258E72005C8528",
+      "date": "2026-09-14T17:56:20.000Z",
+      "description": "Door Tablet V10.70.0 - 10 September 2026 Door Tablet End-point New NLS subsystem - 27 languages loaded on demand Better handling of Translation Sets Support for IAdea MDEP displays Support for MIMO..."
+    },
     {
       "title": "Microsoft 365 GCC",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/342F51F0F75D684A80258AD9007AAE99",
