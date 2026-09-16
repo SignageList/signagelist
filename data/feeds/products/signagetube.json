@@ -1,7 +1,13 @@
 {
   "source": "SignageTube",
-  "fetched_at": "2026-09-14T10:28:46.343Z",
+  "fetched_at": "2026-09-16T09:49:25.029Z",
   "items": [
+    {
+      "title": "Digital Signage for Government and Public Sector Buildings",
+      "link": "https://signagetube.com/blog/government-digital-signage/",
+      "date": "2026-09-15T09:00:00.000Z",
+      "description": "How government and public sector buildings use digital signage for service information, accessibility, and clear public communication. The post Digital Signage for Government and Public Sector Buildi…"
+    },
     {
       "title": "How to Put a Live SQL Server Query on a Factory Screen",
       "link": "https://signagetube.com/blog/live-sql-query-factory-screen/",
