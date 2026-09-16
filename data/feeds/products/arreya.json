@@ -1,7 +1,13 @@
 {
   "source": "Arreya",
-  "fetched_at": "2026-09-14T10:28:46.343Z",
+  "fetched_at": "2026-09-16T09:49:25.029Z",
   "items": [
+    {
+      "title": "Kiosk Security and Privacy: How to Lock Down Your Interactive Displays",
+      "link": "https://arreya.com/blog/kiosk-security-and-privacy-how-to-lock-down-your-interactive-displays",
+      "date": "2026-09-08T14:50:00.000Z",
+      "description": "What is digital signage kiosk mode? It is a security feature that locks interactive displays to a single app, preventing unauthorized browsing. Backed by nearly 30 years of experience, Arreya makes s…"
+    },
     {
       "title": "How to Deploy Digital Signage via Google Admin Console (Using Arreya’s Registration URL)",
       "link": "https://arreya.com/blog/how-to-deploy-digital-signage-via-google-admin-console-using-arreya-s-registration-url",
