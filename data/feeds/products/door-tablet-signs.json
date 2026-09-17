@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-09-16T09:49:25.029Z",
+  "fetched_at": "2026-09-17T09:57:14.156Z",
   "items": [
+    {
+      "title": "Monitoring Tablets",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/C3E519D54359B7E280257EB9003BCAFF",
+      "date": "2026-09-16T10:00:55.000Z",
+      "description": "From Door Tablet V7.1, you can enable the server to monitor the Door Tablet devices. If, for any reason, the clients no longer communicate with the server, and are OFF-LINE, an alert is emailed to..."
+    },
     {
       "title": "V10.70.0",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/876FEA3218C63CCB80258E72005C8528",
