@@ -1,7 +1,43 @@
 {
   "source": "DigiOnGo",
-  "fetched_at": "2026-09-17T09:57:14.156Z",
+  "fetched_at": "2026-09-18T09:33:37.028Z",
   "items": [
+    {
+      "title": "A Two-Bay Car Wash Lets the Weather Switch Its Screen Visuals",
+      "link": "https://digiongo.com/en/blog/car-wash-weather-triggers/",
+      "date": "2026-09-17T00:00:00.000Z",
+      "description": "A two-bay car wash generated three AI visuals for three kinds of weather and lets trigger scripts switch them automatically — sun, rain, frost — with no one touching the screen."
+    },
+    {
+      "title": "AI Image Generator for Digital Signage: Visuals From a Text Prompt",
+      "link": "https://digiongo.com/en/blog/ai-image-generator/",
+      "date": "2026-09-16T00:00:00.000Z",
+      "description": "DigiOnGo now generates images for your screens from a text description: 11 formats, ready-to-play content in your library, included in every plan."
+    },
+    {
+      "title": "How a Small Coffee Shop Makes Its Own Screen Ads With AI",
+      "link": "https://digiongo.com/en/blog/coffee-shop-ai-signage/",
+      "date": "2026-09-16T00:00:00.000Z",
+      "description": "A 30-seat coffee shop with no designer keeps its menu screen and window display fresh every week — prompts, routine, and what actually changed."
+    },
+    {
+      "title": "A Two-Chair Barbershop Fills Its Window Screen With AI Visuals",
+      "link": "https://digiongo.com/en/blog/barbershop-ai-signage/",
+      "date": "2026-09-16T00:00:00.000Z",
+      "description": "A two-chair barbershop replaced a static window poster with a vertical screen — and fills it with AI-generated visuals for services, promos and slow-hour offers."
+    },
+    {
+      "title": "A Small Dental Clinic Runs Calm Waiting Room Screens With AI",
+      "link": "https://digiongo.com/en/blog/dental-clinic-ai-signage/",
+      "date": "2026-09-16T00:00:00.000Z",
+      "description": "A three-dentist clinic replaced TV news in the waiting room with calm, on-brand AI-generated visuals and service information — no agency, no stock photos."
+    },
+    {
+      "title": "A Flower Shop Keeps Its Window Screen in Season With AI Visuals",
+      "link": "https://digiongo.com/en/blog/flower-shop-ai-signage/",
+      "date": "2026-09-16T00:00:00.000Z",
+      "description": "A one-owner flower shop with weekly-changing stock keeps its window screen in season with AI-generated bouquets, holiday promos and delivery reminders."
+    },
     {
       "title": "FitZone Gym: 50% Increase in Class Bookings",
       "link": "https://digiongo.com/en/blog/gym-case-study",
@@ -127,6 +163,18 @@
       "link": "https://digiongo.com/en/blog/bank-case-study",
       "date": "2025-01-08T00:00:00.000Z",
       "description": "Retail bank improves customer experience with digital signage"
+    },
+    {
+      "title": "Getting Started with Weather-Based Content",
+      "link": "https://digiongo.com/en/blog/weather-content/",
+      "date": "2024-12-28T00:00:00.000Z",
+      "description": "A complete guide to creating weather-responsive digital signage campaigns."
+    },
+    {
+      "title": "Security Best Practices for Digital Signage",
+      "link": "https://digiongo.com/en/blog/security-best-practices/",
+      "date": "2024-12-20T00:00:00.000Z",
+      "description": "Essential security measures to protect your displays and content from threats."
     }
   ]
 }
