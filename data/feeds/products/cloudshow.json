@@ -1,7 +1,13 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-09-17T09:57:14.156Z",
+  "fetched_at": "2026-09-18T09:33:37.028Z",
   "items": [
+    {
+      "title": "ClipboardFusion 6.4 (Beta 7) Now Available!",
+      "link": "https://www.clipboardfusion.com/Discussions/View/clipboardfusion-64-beta-7-now-available/?ID=01a0b08a-71e6-730d-805f-21bb1df24199",
+      "date": "2026-09-17T18:04:18.000Z",
+      "description": "We're very excited to announce that ClipboardFusion 6.4 (Beta 7) is now available for download! This new version updates ClipboardFusion to .NET 10 and improves the performance and stability. Clipboa…"
+    },
     {
       "title": "DisplayFusion 12.1.2 (Beta 1) Now Available!",
       "link": "https://www.displayfusion.com/Discussions/View/displayfusion-1212-beta-1-now-available/?ID=01a09112-7d96-7013-80b4-c662776a95d3",
