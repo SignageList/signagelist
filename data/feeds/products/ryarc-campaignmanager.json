@@ -1,7 +1,25 @@
 {
   "source": "Ryarc CampaignManager",
-  "fetched_at": "2026-09-18T09:33:37.028Z",
+  "fetched_at": "2026-09-19T09:21:03.393Z",
   "items": [
+    {
+      "title": "DOOH Programmatic Decoded, Part 5.",
+      "link": "https://ryarc.com/resources/blog/dooh-programmatic-decoded-part-5/",
+      "date": "2026-09-18T14:56:12.000Z",
+      "description": "Your CMS and Your Marketplace Are Not the Same Purchase Part 1 argued that programmatic is a transaction mechanism, not a demand strategy. Part 2 showed that whether it helps or costs you depends on …"
+    },
+    {
+      "title": "Programmatic Decoded, Part 4.",
+      "link": "https://ryarc.com/resources/blog/programmatic-part-4/",
+      "date": "2026-09-18T14:47:19.000Z",
+      "description": "The Absentee Landlord Part 1 argued that programmatic is a transaction mechanism, not a demand strategy. Part 2 showed that whether it helps or costs you depends on where your market sits — concentra…"
+    },
+    {
+      "title": "Programmatic Decoded, Part 3",
+      "link": "https://ryarc.com/resources/blog/programmatic-decoded-part-3/",
+      "date": "2026-09-18T14:31:26.000Z",
+      "description": "Disintermediation, Reintermediation, Repeat Two claims opened this series. First: programmatic is a transaction mechanism, not a magic pill for increased revenue. Second: whether it actually helps or…"
+    },
     {
       "title": "DOOH Programmatic Decoded, Part 2.",
       "link": "https://ryarc.com/resources/blog/programmatic-decoded-part-two/",
