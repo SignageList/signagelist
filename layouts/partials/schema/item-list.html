@@ -1,17 +1,26 @@
-<script type="application/ld+json">
-{
-	"@context": "https://schema.org",
-	"@type": "ItemList",
-	"numberOfItems": {{ len .Pages }},
-	"itemListElement": [
-		{{ range $i, $page := .Pages.ByTitle }}{{ if $i }},{{ end }}
-		{
-			"@type": "ListItem",
-			"position": {{ add $i 1 }},
-			"url": "{{ $page.Permalink }}",
-			"name": "{{ $page.Title }}"
-		}
-		{{ end }}
-	]
-}
-</script>
+{{ $pages := .Pages.ByTitle }}
+{{ $items := slice }}
+{{ range $i, $page := $pages }}
+	{{ $item := dict
+		"@type" "ListItem"
+		"position" (add $i 1)
+		"url" $page.Permalink
+		"name" $page.Title
+	}}
+	{{ with $page.Params.description }}{{ $item = merge $item (dict "description" .) }}{{ end }}
+	{{ $items = $items | append $item }}
+{{ end }}
+<script type="application/ld+json">{{ (dict
+	"@context" "https://schema.org"
+	"@type" "CollectionPage"
+	"@id" (printf "%s#collection" .Permalink)
+	"url" .Permalink
+	"name" (.Params.seo_title | default .Title)
+	"description" (partial "meta-description.html" .)
+	"isPartOf" (dict "@type" "WebSite" "url" .Site.BaseURL "name" .Site.Title)
+	"license" "https://opendatacommons.org/licenses/odbl/1-0/"
+	"mainEntity" (dict
+		"@type" "ItemList"
+		"numberOfItems" (len $pages)
+		"itemListOrder" "https://schema.org/ItemListOrderAscending"
+		"itemListElement" $items)) | jsonify | safeJS }}</script>

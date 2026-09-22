@@ -1,0 +1,13 @@
+{{- $label := cond (eq .Data.Plural "categories") "Categories" (humanize .Data.Plural | title) -}}
+# {{ with .Params.seo_title }}{{ . }}{{ else }}{{ $label }}{{ end }}
+
+{{ with .Params.description }}> {{ . }}
+
+{{ end }}{{ len .Pages }} {{ lower $label }} group the {{ len (site.GetPage "/products").Pages }} products in the SignageList directory.
+
+Source: {{ .Permalink }}
+
+## {{ $label }}
+
+{{ range .Pages.ByTitle }}- [{{ .Title }}]({{ .Permalink }}): {{ len .Pages }} product{{ if ne (len .Pages) 1 }}s{{ end }}{{ with .Params.description }}. {{ . }}{{ end }}
+{{ end }}

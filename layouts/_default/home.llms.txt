@@ -1,26 +1,57 @@
+{{- $products := (.Site.GetPage "/products").Pages -}}
+{{- $active := where $products "Params.discontinued" "!=" true -}}
 # {{ .Site.Title }}
 
 > {{ .Site.Params.description }}
 
-SignageList is a curated open dataset of digital signage software products. It provides structured data on {{ len site.Data.products }} products including pricing, supported platforms, headquarters, and more.
+SignageList is a hand-curated open directory of {{ len $products }} digital signage software products, {{ len $active }} of them currently active. Every listing is a structured record covering pricing plans, supported playback platforms, delivery model (cloud, on-premise, hybrid, self-hosted), headquarters, founding year, licensing, compliance certifications, and developer surface (API, CLI, MCP, SSO, SAML). Records are maintained by hand from vendor sources rather than scraped, and each carries a last-verified date.
 
-## Key Pages
+The directory is edited by 514sid, who works in the digital signage industry. Corrections and additions go through GitHub issues and pull requests at {{ .Site.Params.githubRepo }}.
 
-- [Product Directory]({{ .Site.BaseURL }}products/): Filterable table of all products
-- [Categories]({{ .Site.BaseURL }}categories/): Products grouped by type (CMS, Content provider, Computer vision)
-- [Platforms]({{ .Site.BaseURL }}platforms/): Products by supported platform
-- [Full LLM Context]({{ .Site.BaseURL }}llms-full.txt): Complete product data in text format
+Last updated: {{ .Site.Lastmod.Format "2006-01-02" }}
 
-## Product Data Schema
+## How to read this site
 
-Each product includes: name, description, website, year_founded, headquarters, open_source (boolean), self_signup (boolean), discontinued (boolean), categories, platforms, pricing models (delivery type, plans with monthly/yearly pricing), screen statistics, and more.
+Every page has a Markdown twin at the same URL plus `index.md`: for example {{ .Site.BaseURL }}products/screenly/index.md. Use those instead of the HTML when you want the content without markup.
+
+- [Full directory in one file]({{ .Site.BaseURL }}llms-full.txt): every product with its complete record, as plain text
+- [Whole dataset as JSON]({{ .Site.BaseURL }}products.json): the same records, machine-parseable
+- [Home page as Markdown]({{ .Site.BaseURL }}index.md): links to every product profile
+- [Raw YAML records]({{ .Site.Params.githubRepo }}/tree/main/data/products): one file per product, the source of truth
+- [Sitemap]({{ .Site.BaseURL }}sitemap.xml): every URL on the site
+
+## Key pages
+
+- [Product directory]({{ .Site.BaseURL }}): filterable table of all {{ len $products }} products
+- [Categories]({{ .Site.BaseURL }}categories/): products grouped by type
+- [Platforms]({{ .Site.BaseURL }}platforms/): products grouped by supported playback platform
+- [Free and freemium]({{ .Site.BaseURL }}free/): products with a permanent free tier or an open-source license
+- [Industry news]({{ .Site.BaseURL }}news/): headlines aggregated from vendor and trade feeds
+- [Directory changelog]({{ .Site.BaseURL }}updates/): what changed in the dataset and when
+- [About]({{ .Site.BaseURL }}about/): who maintains this and how records are verified
 
 ## Categories
 
-- CMS: Content Management Systems for digital signage
-- Content provider: Ready-made content for digital signage
-- Computer vision: Vision and analytics for digital signage
+{{ range $name, $terms := .Site.Taxonomies.categories }}{{ with $.Site.GetPage (printf "/categories/%s" $name) }}- [{{ .Title }}]({{ .Permalink }}): {{ len $terms }} products{{ with .Params.description }}. {{ . }}{{ end }}
+{{ end }}{{ end }}
+## Platforms
 
-## Optional
+{{ range $name, $terms := .Site.Taxonomies.platforms }}{{ with $.Site.GetPage (printf "/platforms/%s" $name) }}- [{{ .Title }}]({{ .Permalink }}): {{ len $terms }} products
+{{ end }}{{ end }}
+## Record schema
 
-- [Product Data (YAML)]({{ .Site.Params.githubRepo }}/tree/main/data/products): Raw YAML data files for all products
+Each product record uses these fields:
+
+- name, slug, description, website
+- year_founded (integer or null), headquarters (list of country or city strings)
+- categories (CMS, Content provider, Computer vision), platforms (list of playback platforms)
+- open_source (boolean), license (SPDX identifier or null), source_code_url
+- models: a list of delivery models, each with delivery (cloud, on-premise, hybrid, self-hosted), free_trial, has_freemium, pricing_available, and pricing plans carrying name, payment_model, billing_basis (per_device, per_user, per_location, flat_rate), monthly, yearly, included_screens, overage_per_screen, max_screens
+- has_api, developer_portal_url, has_docs, docs_url, has_cli, has_mcp, has_sso, has_saml, self_signup
+- compliance: soc2, iso27001, hipaa, cra, fedramp (booleans)
+- stats.screens: total, source, date
+- discontinued (boolean), notes, features, integrations, last_verified
+
+## License and attribution
+
+The dataset is licensed under the Open Database License (ODbL) v1.0. When quoting or reusing these records, attribute as: SignageList dataset © 514sid and contributors, licensed under ODbL v1.0, {{ .Site.BaseURL }}

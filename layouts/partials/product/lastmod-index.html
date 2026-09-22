@@ -1,0 +1,17 @@
+{{/*
+  Builds a slug -> most recent changelog date map from /updates/, so product
+  pages can advertise a real dateModified. Call through partialCached.
+*/}}
+{{ $idx := dict }}
+{{ range (where site.RegularPages "Section" "updates") }}
+	{{ $date := .Date }}
+	{{ range .Params.products }}
+		{{ with .slug }}
+			{{ $prev := index $idx . }}
+			{{ if or (not $prev) (gt $date $prev) }}
+				{{ $idx = merge $idx (dict . $date) }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+{{ return $idx }}

@@ -1,5 +1,8 @@
 {{ define "main" }}
 {{ $p := .Params }}
+{{ $facts := partial "product/facts.html" $p }}
+{{ $summary := partial "product/summary.html" (dict "p" $p "facts" $facts) }}
+{{ $faq := partial "product/faq.html" (dict "p" $p "facts" $facts) }}
 {{ $urlSidebarCta := partial "outbound-url.html" (dict "url" $p.website "campaign" "product_sidebar_cta") | safeURL }}
 
 <div id="main-content" class="max-w-5xl w-full mx-auto px-6 py-8">
@@ -38,6 +41,14 @@
 					</div>
 				</div>
 			</div>
+
+			{{/* Overview: the answer, stated plainly, from structured data */}}
+			{{ with $summary }}
+			<div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm p-6">
+				<h2 class="text-sm font-semibold text-neutral-900 mb-2">Overview</h2>
+				<p class="text-sm text-neutral-600 leading-relaxed">{{ delimit . " " }}</p>
+			</div>
+			{{ end }}
 
 			{{/* Pricing */}}
 			{{ range $p.models }}
@@ -139,6 +150,21 @@
 				</ul>
 			</div>
 			{{ end }}
+			{{ end }}
+
+			{{/* FAQ: mirrors the FAQPage JSON-LD so the two never diverge */}}
+			{{ with $faq }}
+			<div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm p-6">
+				<h2 class="text-sm font-semibold text-neutral-900 mb-4">Frequently asked questions</h2>
+				<div class="space-y-4">
+					{{ range . }}
+					<div>
+						<h3 class="text-sm font-medium text-neutral-900">{{ .q }}</h3>
+						<p class="text-sm text-neutral-500 leading-relaxed mt-1">{{ .a }}</p>
+					</div>
+					{{ end }}
+				</div>
+			</div>
 			{{ end }}
 
 			{{/* RSS Feed */}}

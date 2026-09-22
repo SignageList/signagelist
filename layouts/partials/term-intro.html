@@ -1,0 +1,31 @@
+{{/*
+  Factual lead sentences for a taxonomy term page, computed from the products
+  in that term. Returns a string.
+*/}}
+{{ $pages := .Pages }}
+{{ $total := len $pages }}
+{{ $active := len (where $pages "Params.discontinued" "!=" true) }}
+{{ $oss := len (where $pages "Params.open_source" true) }}
+{{ $signup := len (where $pages "Params.self_signup" true) }}
+{{ $freemium := len (where $pages "Params.has_freemium" true) }}
+
+{{ $label := .Title }}
+{{ $one := eq $total 1 }}
+{{ $subject := "" }}
+{{ if eq .Data.Singular "platform" }}
+	{{ $subject = printf "%s on %s" (cond $one "runs" "run") $label }}
+{{ else }}
+	{{ $subject = printf "%s listed under %s" (cond $one "is" "are") $label }}
+{{ end }}
+
+{{ $out := printf "%d of the %d products in the SignageList directory %s" $total (len (site.GetPage "/products").Pages) $subject }}
+{{ if lt $active $total }}{{ $out = printf "%s, %d of them still active" $out $active }}{{ end }}
+{{ $out = printf "%s." $out }}
+
+{{ $parts := slice }}
+{{ if gt $oss 0 }}{{ $parts = $parts | append (printf "%d %s open source" $oss (cond (eq $oss 1) "is" "are")) }}{{ end }}
+{{ if gt $freemium 0 }}{{ $parts = $parts | append (printf "%d %s a permanent free tier" $freemium (cond (eq $freemium 1) "has" "have")) }}{{ end }}
+{{ if gt $signup 0 }}{{ $parts = $parts | append (printf "%d %s you sign up without contacting sales" $signup (cond (eq $signup 1) "lets" "let")) }}{{ end }}
+{{ with $parts }}{{ $out = printf "%s Of those, %s." $out (delimit . ", " " and ") }}{{ end }}
+
+{{ return $out }}

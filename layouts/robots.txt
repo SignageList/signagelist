@@ -1,9 +1,84 @@
+# SignageList: an open directory of digital signage software.
+# AI assistants, search crawlers and agents are welcome to read, quote and cite
+# this content. Attribution: SignageList dataset © 514sid and contributors,
+# licensed under ODbL v1.0, {{ .Site.BaseURL }}
+
 User-agent: *
+Allow: /
+
+# Search and answer engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Others
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: YouBot
 Allow: /
 
 Sitemap: {{ .Site.BaseURL }}sitemap.xml
 
-# LLM-friendly content
+# Machine-readable entry points
 # See https://llmstxt.org/
-# llms.txt: {{ .Site.BaseURL }}llms.txt
-# llms-full.txt: {{ .Site.BaseURL }}llms-full.txt
+# Directory index for LLMs:  {{ .Site.BaseURL }}llms.txt
+# Every product, plain text: {{ .Site.BaseURL }}llms-full.txt
+# Whole dataset as JSON:     {{ .Site.BaseURL }}products.json
+# Markdown twin of any page: append index.md to its URL

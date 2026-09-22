@@ -28,12 +28,27 @@ capitalizeListTitles = false
     baseName = "llms-full"
     isPlainText = true
     notAlternative = true
+  # Markdown mirror of every page, for AI crawlers and agents that prefer
+  # clean text over HTML. Linked from <link rel="alternate" type="text/markdown">.
+  [outputFormats.md]
+    mediaType = "text/markdown"
+    baseName = "index"
+    isPlainText = true
+    permalinkable = false
+    notAlternative = false
+  # Whole-directory JSON dump at /products.json
+  [outputFormats.productsjson]
+    mediaType = "application/json"
+    baseName = "products"
+    isPlainText = true
+    notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "llms", "llmsfull"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML"]
-  term = ["HTML"]
+  home = ["HTML", "RSS", "llms", "llmsfull", "productsjson", "md"]
+  page = ["HTML", "md"]
+  section = ["HTML", "RSS", "md"]
+  taxonomy = ["HTML", "md"]
+  term = ["HTML", "md"]
 
 [sitemap]
   changefreq = "weekly"

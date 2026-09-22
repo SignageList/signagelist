@@ -1,36 +1,79 @@
 {{ $p := .Params }}
-<script type="application/ld+json">
-{
-	"@context": "https://schema.org",
-	"@type": "SoftwareApplication",
-	"name": "{{ $p.name }}",
-	"description": "{{ $p.description }}",
-	"applicationCategory": "Digital Signage Software",
-	{{ with $p.platforms }}"operatingSystem": "{{ delimit . ", " }}",{{ end }}
-	"url": "{{ .Permalink }}",
-	{{ $cloudModel := false }}
-	{{ range $p.models }}{{ if eq .delivery "cloud" }}{{ $cloudModel = . }}{{ end }}{{ end }}
-	{{ if and $cloudModel $cloudModel.pricing_available }}
-	{{ $firstPricing := false }}
-	{{ range $cloudModel.pricing }}{{ if and (not $firstPricing) .monthly }}{{ $firstPricing = . }}{{ end }}{{ end }}
-	{{ with $firstPricing }}
-	"offers": {
-		"@type": "Offer",
-		"price": "{{ .monthly }}",
-		"priceCurrency": "USD"
-	},
+{{ $f := partial "product/facts.html" $p }}
+{{ $sameAs := slice }}
+{{ with $p.source_code_url }}{{ $sameAs = $sameAs | append . }}{{ end }}
+{{ with $p.docs_url }}{{ $sameAs = $sameAs | append . }}{{ end }}
+{{ with $p.developer_portal_url }}{{ $sameAs = $sameAs | append . }}{{ end }}
+
+{{ $offers := dict }}
+{{ if gt $f.lowestMonthly 0.0 }}
+	{{ $offers = dict
+		"@type" "AggregateOffer"
+		"priceCurrency" "USD"
+		"lowPrice" (printf "%g" $f.lowestMonthly)
+		"highPrice" (printf "%g" (cond (gt $f.highestMonthly $f.lowestMonthly) $f.highestMonthly $f.lowestMonthly))
+		"offerCount" $f.planCount
+		"url" $p.website
+		"availability" (cond $p.discontinued "https://schema.org/Discontinued" "https://schema.org/InStock")
+	}}
+{{ else if or $p.open_source $f.freemium }}
+	{{ $offers = dict
+		"@type" "Offer"
+		"price" "0"
+		"priceCurrency" "USD"
+		"url" $p.website
+		"availability" (cond $p.discontinued "https://schema.org/Discontinued" "https://schema.org/InStock")
+	}}
+{{ end }}
+
+{{ $provider := dict "@type" "Organization" "name" $p.name "url" $p.website }}
+{{ with $p.year_founded }}{{ $provider = merge $provider (dict "foundingDate" (printf "%d" .)) }}{{ end }}
+{{ with $p.headquarters }}
+	{{ if gt (len .) 0 }}
+		{{ $provider = merge $provider (dict "address" (dict "@type" "PostalAddress" "addressCountry" (index . 0))) }}
 	{{ end }}
-	{{ else if $p.open_source }}
-	"offers": {
-		"@type": "Offer",
-		"price": "0",
-		"priceCurrency": "USD"
-	},
-	{{ end }}
-	"author": {
-		"@type": "Organization",
-		"name": "{{ $p.name }}"
-		{{ with $p.headquarters }}{{ if gt (len .) 0 }},"location": "{{ delimit . ", " }}"{{ end }}{{ end }}
-	}
-}
-</script>
+{{ end }}
+
+{{ $subCategory := "Digital Signage Software" }}
+{{ with $p.categories }}{{ $subCategory = delimit . ", " }}{{ end }}
+
+{{ $app := dict
+	"@context" "https://schema.org"
+	"@type" "SoftwareApplication"
+	"@id" (printf "%s#software" .Permalink)
+	"name" $p.name
+	"description" $p.description
+	"applicationCategory" "BusinessApplication"
+	"applicationSubCategory" $subCategory
+	"url" .Permalink
+	"sameAs" (append (slice $p.website) $sameAs)
+	"isAccessibleForFree" (or $p.open_source $f.freemium)
+	"provider" $provider
+	"publisher" $provider
+	"mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+}}
+{{ with $p.platforms }}{{ if gt (len .) 0 }}{{ $app = merge $app (dict "operatingSystem" (delimit . ", ")) }}{{ end }}{{ end }}
+{{ with $p.features }}{{ if gt (len .) 0 }}{{ $app = merge $app (dict "featureList" .) }}{{ end }}{{ end }}
+{{ if and $p.open_source $p.license }}{{ $app = merge $app (dict "license" (printf "https://spdx.org/licenses/%s.html" $p.license)) }}{{ end }}
+{{ with $p.docs_url }}{{ $app = merge $app (dict "softwareHelp" (dict "@type" "CreativeWork" "url" .)) }}{{ end }}
+{{ if $offers }}{{ $app = merge $app (dict "offers" $offers) }}{{ end }}
+{{ $idx := partialCached "product/lastmod-index.html" . }}
+{{ with index $idx $p.slug }}{{ $app = merge $app (dict "dateModified" (.Format "2006-01-02")) }}{{ end }}
+{{ with $p.last_verified }}{{ if findRE `^\d{4}-\d{2}-\d{2}$` . }}{{ $app = merge $app (dict "dateModified" .) }}{{ end }}{{ end }}
+
+<script type="application/ld+json">{{ $app | jsonify | safeJS }}</script>
+
+{{/* FAQPage mirrors the visible FAQ block on the page. */}}
+{{ $qa := partial "product/faq.html" (dict "p" $p "facts" $f) }}
+{{ $entities := slice }}
+{{ range $qa }}
+	{{ $entities = $entities | append (dict
+		"@type" "Question"
+		"name" .q
+		"acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}
+{{ end }}
+<script type="application/ld+json">{{ (dict
+	"@context" "https://schema.org"
+	"@type" "FAQPage"
+	"@id" (printf "%s#faq" .Permalink)
+	"mainEntity" $entities) | jsonify | safeJS }}</script>

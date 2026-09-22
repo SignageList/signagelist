@@ -1,0 +1,19 @@
+{{- $title := .Title -}}
+# {{ with .Params.seo_title }}{{ . }}{{ else }}{{ $title }} Digital Signage Software{{ end }}
+
+{{ with .Params.description }}> {{ . }}
+
+{{ end }}{{ partial "term-intro.html" . }}
+
+Source: {{ .Permalink }}
+
+## Products
+
+{{ range .Pages.ByTitle }}- [{{ .Params.name }}]({{ .Permalink }}){{ if .Params.discontinued }} (discontinued){{ end }}{{ with .Params.description }}: {{ . }}{{ end }}
+{{ end }}
+{{ with .Content }}
+{{ . | plainify | htmlUnescape }}
+{{ end }}
+---
+
+SignageList dataset © 514sid and contributors, licensed under ODbL v1.0.
