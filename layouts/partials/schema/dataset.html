@@ -1,0 +1,31 @@
+{{/* Describes the directory itself as a citable dataset. */}}
+{{ $products := (.Site.GetPage "/products").Pages }}
+{{ $base := .Site.BaseURL | strings.TrimRight "/" }}
+{{ $ds := dict
+	"@context" "https://schema.org"
+	"@type" "Dataset"
+	"@id" (printf "%s/#dataset" $base)
+	"name" "SignageList digital signage software directory"
+	"description" (printf "Structured records for %d digital signage software products, covering pricing plans, supported playback platforms, delivery model, headquarters, licensing, compliance certifications and developer surface. Curated by hand from vendor sources." (len $products))
+	"url" (printf "%s/" $base)
+	"keywords" (slice "digital signage" "digital signage software" "signage CMS" "content management system" "media players" "software directory")
+	"license" "https://opendatacommons.org/licenses/odbl/1-0/"
+	"isAccessibleForFree" true
+	"creativeWorkStatus" "Published"
+	"dateModified" (.Site.Lastmod.Format "2006-01-02")
+	"creator" (dict
+		"@type" "Person"
+		"name" "514sid"
+		"url" (printf "%s/about/" $base))
+	"publisher" (dict
+		"@type" "Organization"
+		"name" "SignageList"
+		"url" (printf "%s/" $base))
+	"variableMeasured" (slice "product name" "vendor website" "category" "supported platforms" "delivery model" "pricing plans" "billing basis" "headquarters" "year founded" "open source license" "API availability" "compliance certifications" "active screen count")
+	"distribution" (slice
+		(dict "@type" "DataDownload" "encodingFormat" "application/json" "contentUrl" (printf "%s/products.json" $base) "name" "Full directory as JSON")
+		(dict "@type" "DataDownload" "encodingFormat" "text/plain" "contentUrl" (printf "%s/llms-full.txt" $base) "name" "Full directory as plain text")
+		(dict "@type" "DataDownload" "encodingFormat" "text/markdown" "contentUrl" (printf "%s/index.md" $base) "name" "Directory index as Markdown")
+		(dict "@type" "DataDownload" "encodingFormat" "text/yaml" "contentUrl" (printf "%s/tree/main/data/products" .Site.Params.githubRepo) "name" "Raw YAML records"))
+}}
+<script type="application/ld+json">{{ $ds | jsonify | safeJS }}</script>

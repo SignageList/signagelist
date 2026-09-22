@@ -7,12 +7,33 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="canonical" href="{{ .Permalink }}">
 
+{{/* Let search and answer engines quote this page in full */}}
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+{{/* Markdown twin of this page, for AI crawlers and agents */}}
+{{ with .OutputFormats.Get "md" }}
+<link rel="alternate" type="text/markdown" href="{{ .Permalink }}" title="{{ $.Title }} as Markdown">
+{{ end }}
+{{ if .IsHome }}
+<link rel="alternate" type="text/plain" href="{{ absURL "/llms.txt" }}" title="Directory index for LLMs">
+<link rel="alternate" type="text/plain" href="{{ absURL "/llms-full.txt" }}" title="Full directory as plain text">
+<link rel="alternate" type="application/json" href="{{ absURL "/products.json" }}" title="Full directory as JSON">
+{{ end }}
+
 {{/* Open Graph - Rich data cards */}}
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} - Digital Signage Software Directory{{ else }}{{ $pageTitle }} - {{ .Site.Title }}{{ end }}">
 <meta property="og:description" content="{{ partial "meta-description.html" . }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+{{ $modified := .Lastmod }}
+{{ if and .IsPage (eq .Section "products") }}
+	{{ $idx := partialCached "product/lastmod-index.html" . }}
+	{{ with index $idx .Params.slug }}{{ $modified = . }}{{ end }}
+	{{ with $.Params.last_verified }}{{ if findRE `^\d{4}-\d{2}-\d{2}$` . }}{{ $modified = time.AsTime (printf "%sT00:00:00Z" .) }}{{ end }}{{ end }}
+{{ end }}
+{{ if not $modified.IsZero }}<meta property="og:updated_time" content="{{ $modified.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta property="article:modified_time" content="{{ $modified.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
 {{ $ogImage := absURL "/og-image.png" }}
 {{ $ogImageAlt := "SignageList - Digital Signage Software Directory" }}
 {{ if and .IsPage (eq .Section "products") }}
@@ -69,6 +90,9 @@
 
 {{/* Schema.org: WebSite + SearchAction */}}
 {{- partial "schema/website.html" . -}}
+
+{{/* Schema.org: the directory itself as a citable dataset */}}
+{{ if .IsHome }}{{- partial "schema/dataset.html" . -}}{{ end }}
 
 {{/* Schema.org: BreadcrumbList */}}
 {{- partial "schema/breadcrumb.html" . -}}

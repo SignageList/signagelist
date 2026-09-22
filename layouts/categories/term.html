@@ -22,6 +22,7 @@
       {{ with .Params.description }}
       <p class="text-sm text-neutral-500 mt-1">{{ . }}</p>
       {{ end }}
+      <p class="text-sm text-neutral-500 mt-1">{{ partial "term-intro.html" . }}</p>
     </div>
     <span class="text-sm text-neutral-400 tabular-nums flex-shrink-0">{{ len .Pages }} products</span>
   </div>

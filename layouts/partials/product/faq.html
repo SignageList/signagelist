@@ -1,0 +1,92 @@
+{{/*
+  Question/answer pairs generated from product data. Rendered visibly on the
+  product page and mirrored into FAQPage JSON-LD, so the two never diverge.
+  Call with (dict "p" .Params "facts" $facts). Returns a slice of dicts.
+*/}}
+{{ $p := .p }}
+{{ $f := .facts }}
+{{ $qa := slice }}
+
+{{/* What is it: reuse the answer-first overview so the two never diverge */}}
+{{ $what := delimit (partial "product/summary.html" (dict "p" $p "facts" $f)) " " }}
+{{ with $p.description }}{{ $what = printf "%s %s" . $what }}{{ end }}
+{{ $qa = $qa | append (dict "q" (printf "What is %s?" $p.name) "a" $what) }}
+
+{{/* Pricing */}}
+{{ $price := "" }}
+{{ if gt $f.lowestMonthly 0.0 }}
+	{{ $price = printf "Paid plans for %s start at $%g per month" $p.name $f.lowestMonthly }}
+	{{ with $f.lowestMonthlyBasis }}{{ $price = printf "%s, billed %s" $price . }}{{ end }}
+	{{ $price = printf "%s." $price }}
+	{{ if gt $f.highestMonthly $f.lowestMonthly }}
+		{{ $price = printf "%s The published plans run up to $%g per month." $price $f.highestMonthly }}
+	{{ end }}
+{{ else if $p.open_source }}
+	{{ $price = printf "%s is open source and free to self-host." $p.name }}
+{{ else }}
+	{{ $price = printf "%s does not publish prices. Quotes are given on request." $p.name }}
+{{ end }}
+{{ if $f.freemium }}{{ $price = printf "%s A permanent free tier is available." $price }}{{ end }}
+{{ if $f.freeTrial }}{{ $price = printf "%s A free trial is available." $price }}{{ end }}
+{{ $qa = $qa | append (dict "q" (printf "How much does %s cost?" $p.name) "a" $price) }}
+
+{{/* Platforms */}}
+{{ with $p.platforms }}
+	{{ if gt (len .) 0 }}
+		{{ $qa = $qa | append (dict
+			"q" (printf "What platforms does %s support?" $p.name)
+			"a" (printf "%s supports playback on %s." $p.name (delimit . ", " " and "))) }}
+	{{ end }}
+{{ end }}
+
+{{/* Open source */}}
+{{ $os := "" }}
+{{ if $p.open_source }}
+	{{ $os = printf "Yes. %s is open source" $p.name }}
+	{{ with $p.license }}{{ $os = printf "%s under the %s license" $os . }}{{ end }}
+	{{ $os = printf "%s." $os }}
+	{{ with $p.source_code_url }}{{ $os = printf "%s The source code is at %s." $os . }}{{ end }}
+{{ else }}
+	{{ $os = printf "No. %s is proprietary software." $p.name }}
+{{ end }}
+{{ $qa = $qa | append (dict "q" (printf "Is %s open source?" $p.name) "a" $os) }}
+
+{{/* Self-signup */}}
+{{ $signup := "" }}
+{{ if $p.self_signup }}
+	{{ $signup = printf "Yes. %s offers self-service signup directly on its website." $p.name }}
+{{ else if and $p.open_source (not $f.hasPricing) }}
+	{{ $signup = printf "There is nothing to sign up for. %s is self-hosted: you download it and run it on your own hardware." $p.name }}
+	{{ with $p.source_code_url }}{{ $signup = printf "%s The source code is at %s." $signup . }}{{ end }}
+{{ else }}
+	{{ $signup = printf "No. %s requires contacting the vendor before you can get an account." $p.name }}
+{{ end }}
+{{ $qa = $qa | append (dict "q" (printf "Can I sign up for %s without contacting sales?" $p.name) "a" $signup) }}
+
+{{/* API */}}
+{{ $api := "" }}
+{{ if $p.has_api }}
+	{{ $api = printf "Yes. %s offers a public API." $p.name }}
+	{{ with $p.developer_portal_url }}{{ $api = printf "%s The developer documentation is at %s." $api . }}{{ end }}
+{{ else }}
+	{{ $api = printf "No public API is documented for %s." $p.name }}
+{{ end }}
+{{ $qa = $qa | append (dict "q" (printf "Does %s have an API?" $p.name) "a" $api) }}
+
+{{/* Location */}}
+{{ with $p.headquarters }}
+	{{ if gt (len .) 0 }}
+		{{ $where := printf "%s is headquartered in %s" $p.name (delimit . ", " " and ") }}
+		{{ with $p.year_founded }}{{ $where = printf "%s and was founded in %d" $where . }}{{ end }}
+		{{ $qa = $qa | append (dict "q" (printf "Where is %s based?" $p.name) "a" (printf "%s." $where)) }}
+	{{ end }}
+{{ end }}
+
+{{/* Availability */}}
+{{ if $p.discontinued }}
+	{{ $qa = $qa | append (dict
+		"q" (printf "Is %s still available?" $p.name)
+		"a" (printf "No. %s has been discontinued and is no longer sold." $p.name)) }}
+{{ end }}
+
+{{ return $qa }}

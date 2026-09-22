@@ -1,0 +1,73 @@
+{{/*
+  Answer-first prose summary of a product, built from its structured data.
+  Call with (dict "p" .Params "facts" $facts). Returns a slice of sentences.
+*/}}
+{{ $p := .p }}
+{{ $f := .facts }}
+{{ $s := slice }}
+
+{{/* Identity */}}
+{{ $article := cond $p.open_source "an open-source" "a proprietary" }}
+{{ $one := printf "%s is %s %s" $p.name $article $f.categoryPhrase }}
+{{ with $p.year_founded }}{{ $one = printf "%s, founded in %d" $one . }}{{ end }}
+{{ with $p.headquarters }}
+	{{ if gt (len .) 0 }}{{ $one = printf "%s, headquartered in %s" $one (delimit . ", " " and ") }}{{ end }}
+{{ end }}
+{{ $s = $s | append (printf "%s." $one) }}
+
+{{ if $p.discontinued }}
+	{{ $s = $s | append "The product has been discontinued and is no longer offered to new customers." }}
+{{ end }}
+
+{{/* Delivery */}}
+{{ with $f.deliveries }}
+	{{ $s = $s | append (printf "It is delivered as %s software." (delimit . ", " " and ")) }}
+{{ end }}
+
+{{/* Platforms */}}
+{{ with $p.platforms }}
+	{{ if le (len .) 6 }}
+		{{ $s = $s | append (printf "Playback is supported on %s." (delimit . ", " " and ")) }}
+	{{ else }}
+		{{ $s = $s | append (printf "Playback is supported on %d platforms, including %s." (len .) (delimit (first 5 .) ", " " and ")) }}
+	{{ end }}
+{{ end }}
+
+{{/* Pricing */}}
+{{ if gt $f.lowestMonthly 0.0 }}
+	{{ $price := printf "Paid plans start at $%g per month" $f.lowestMonthly }}
+	{{ with $f.lowestMonthlyBasis }}{{ $price = printf "%s, billed %s" $price . }}{{ end }}
+	{{ $s = $s | append (printf "%s." $price) }}
+{{ else if $p.open_source }}
+	{{ $s = $s | append "The software is free to download and self-host." }}
+{{ else if not $f.hasPricing }}
+	{{ $s = $s | append "Pricing is not published; quotes are given on request." }}
+{{ end }}
+
+{{ if $f.freemium }}
+	{{ $s = $s | append "A permanent free tier is available." }}
+{{ end }}
+{{ if $f.freeTrial }}
+	{{ $s = $s | append "A free trial is available." }}
+{{ end }}
+
+{{/* Access */}}
+{{ if $p.self_signup }}
+	{{ $s = $s | append "Accounts can be opened directly on the website without talking to sales." }}
+{{ else if and $p.open_source (not $f.hasPricing) }}
+	{{ $s = $s | append "There is no hosted signup: you install and run it yourself." }}
+{{ else if not $p.discontinued }}
+	{{ $s = $s | append "Getting started requires contacting the vendor." }}
+{{ end }}
+
+{{/* Developer surface */}}
+{{ with $f.capabilities }}
+	{{ $s = $s | append (printf "It provides %s." (delimit . ", " " and ")) }}
+{{ end }}
+
+{{/* Compliance */}}
+{{ with $f.certifications }}
+	{{ $s = $s | append (printf "Reported compliance coverage: %s." (delimit . ", " " and ")) }}
+{{ end }}
+
+{{ return $s }}

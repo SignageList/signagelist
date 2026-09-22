@@ -1,0 +1,85 @@
+{{/*
+  Derives answer-ready facts about a product from its YAML data.
+  Call with a product params map; returns a dict.
+*/}}
+{{ $p := . }}
+
+{{ $hasPricing := false }}
+{{ $freeTrial := false }}
+{{ $freemium := false }}
+{{ $deliveries := slice }}
+{{ range $p.models }}
+	{{ if .free_trial }}{{ $freeTrial = true }}{{ end }}
+	{{ if .has_freemium }}{{ $freemium = true }}{{ end }}
+	{{ if .pricing_available }}{{ $hasPricing = true }}{{ end }}
+	{{ if and .delivery (not (in $deliveries .delivery)) }}
+		{{ $deliveries = $deliveries | append .delivery }}
+	{{ end }}
+{{ end }}
+
+{{/* Cheapest paid monthly plan, and the full monthly range for AggregateOffer. */}}
+{{ $lowest := 0.0 }}
+{{ $highest := 0.0 }}
+{{ $lowestBasis := "" }}
+{{ $lowestPlan := "" }}
+{{ $planCount := 0 }}
+{{ range $p.models }}
+	{{ range .pricing }}
+		{{ $planCount = add $planCount 1 }}
+		{{ $m := cond (ne .monthly nil) (float (.monthly | default 0)) 0.0 }}
+		{{ if gt $m 0.0 }}
+			{{ if or (eq $lowest 0.0) (lt $m $lowest) }}
+				{{ $lowest = $m }}
+				{{ $lowestBasis = replace .billing_basis "_" " " }}
+				{{ $lowestPlan = .name }}
+			{{ end }}
+			{{ if gt $m $highest }}{{ $highest = $m }}{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{ $categoryPhrase := "digital signage product" }}
+{{ $map := dict
+	"CMS" "digital signage CMS"
+	"Content provider" "digital signage content provider"
+	"Computer vision" "computer vision product for digital signage"
+}}
+{{ with $p.categories }}
+	{{ $phrases := slice }}
+	{{ range . }}
+		{{ $phrases = $phrases | append (index $map . | default "digital signage product") }}
+	{{ end }}
+	{{ $categoryPhrase = delimit $phrases ", " " and " }}
+{{ end }}
+
+{{ $capabilities := slice }}
+{{ if $p.has_api }}{{ $capabilities = $capabilities | append "a public API" }}{{ end }}
+{{ if $p.has_cli }}{{ $capabilities = $capabilities | append "a CLI" }}{{ end }}
+{{ if $p.has_mcp }}{{ $capabilities = $capabilities | append "an MCP server" }}{{ end }}
+{{ if $p.has_sso }}{{ $capabilities = $capabilities | append "SSO" }}{{ end }}
+{{ if $p.has_saml }}{{ $capabilities = $capabilities | append "SAML" }}{{ end }}
+
+{{ $certs := slice }}
+{{ with $p.compliance }}
+	{{ if .soc2 }}{{ $certs = $certs | append "SOC 2" }}{{ end }}
+	{{ if .iso27001 }}{{ $certs = $certs | append "ISO 27001" }}{{ end }}
+	{{ if .hipaa }}{{ $certs = $certs | append "HIPAA" }}{{ end }}
+	{{ if .cra }}{{ $certs = $certs | append "CRA" }}{{ end }}
+	{{ if .fedramp }}{{ $certs = $certs | append "FedRAMP" }}{{ end }}
+{{ end }}
+
+{{ return (dict
+	"lowestMonthly" $lowest
+	"highestMonthly" $highest
+	"lowestMonthlyBasis" $lowestBasis
+	"lowestPlanName" $lowestPlan
+	"planCount" $planCount
+	"hasPricing" $hasPricing
+	"freeTrial" $freeTrial
+	"freemium" $freemium
+	"deliveries" $deliveries
+	"capabilities" $capabilities
+	"certifications" $certs
+	"platformCount" (len $p.platforms)
+	"categoryPhrase" $categoryPhrase
+) }}
