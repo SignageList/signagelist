@@ -1,7 +1,13 @@
 {
   "source": "PRTV",
-  "fetched_at": "2026-09-22T09:46:10.571Z",
+  "fetched_at": "2026-09-23T09:52:56.432Z",
   "items": [
+    {
+      "title": "Портфолио слайд-шоу",
+      "link": "https://s.prtv.su/portfolio-rabot-dizajnerov",
+      "date": "2026-09-23T09:48:47.000Z",
+      "description": ""
+    },
     {
       "title": "Меню борд &#8212; шаурмичная кавказский стиль",
       "link": "https://s.prtv.su/menyu-bordy/shaurmichnaya/menyu-bord-shaurmichnaya-kavkazskij-stil-7",
@@ -12,6 +18,18 @@
       "title": "Как сделать меню-борд для кофейни с помощью нейросетей: три кейса",
       "link": "https://s.prtv.su/otraslevye-resheniya/kak-sdelat-menyu-bord-dlya-kofejni-neyrosetyu",
       "date": "2026-09-14T09:55:40.000Z",
+      "description": ""
+    },
+    {
+      "title": "Меню борд &#8212; пирожковая европейский стиль",
+      "link": "https://s.prtv.su/menyu-bordy/pirozhkovaya/menyu-bord-pirozhkovaya-evropejskij-stil-2",
+      "date": "2026-09-14T07:17:25.000Z",
+      "description": ""
+    },
+    {
+      "title": "Меню борд &#8212; пирожковая европейский стиль",
+      "link": "https://s.prtv.su/menyu-bordy/pirozhkovaya/menyu-bord-pirozhkovaya-evropejskij-stil",
+      "date": "2026-09-14T07:15:03.000Z",
       "description": ""
     },
     {

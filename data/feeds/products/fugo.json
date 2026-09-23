@@ -1,7 +1,13 @@
 {
   "source": "Fugo",
-  "fetched_at": "2026-09-22T09:46:10.571Z",
+  "fetched_at": "2026-09-23T09:52:56.432Z",
   "items": [
+    {
+      "title": "How Philips Professional Displays Are Built For Serious Digital Signage",
+      "link": "https://www.fugo.ai/blog/how-philips-professional-displays-are-built-for-serious-digital-signage/",
+      "date": "2026-09-22T10:37:29.000Z",
+      "description": "What actually makes a Philips digital signage display different from a smart TV? We look at the hardware, Android SoC, Wave management and Fugo workflows behind Philips Professional Displays, and why…"
+    },
     {
       "title": "Sony BRAVIA Professional Displays & The Case for Dedicated Signage Hardware",
       "link": "https://www.fugo.ai/blog/sony-bravia-professional-displays-the-case-for-dedicated-signage-hardware/",
