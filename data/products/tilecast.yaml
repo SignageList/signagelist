@@ -1,0 +1,48 @@
+name: Tilecast
+slug: tilecast
+description: Open-source, self-hosted digital signage platform with a web-based management studio and native players for Android TV and Linux.
+website: https://github.com/gbyo/tilecast
+year_founded: 2026
+headquarters:
+  - USA
+open_source: true
+license: AGPL-3.0-only
+source_code_url: https://github.com/gbyo/tilecast
+has_api: true
+developer_portal_url: https://github.com/gbyo/tilecast/blob/main/docs/api.md
+has_docs: true
+docs_url: https://gbyo.github.io/tilecast/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Linux
+models:
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Tilecast
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+stats: {}
+notes:
+  - Tilecast is free software under AGPL-3.0. There is no paid plan or hosted service.
+  - The server runs with Docker Compose on the operator's own hardware and stores content in PostgreSQL. Screens are managed in a browser-based app called Tilecast Studio.
+  - The Android player ships as an APK for Android TV devices, including Fire TV and Google TV. The Linux player is an Electron AppImage for x86_64 computers with systemd and kiosk support. ARM Linux support is listed as in progress.
+  - Players cache content and keep playing when the server or network is unavailable.
+  - The REST API is documented in the repository with an OpenAPI file, and integration tokens and webhooks are available.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
