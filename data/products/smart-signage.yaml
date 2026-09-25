@@ -1,0 +1,69 @@
+name: Smart-Signage
+slug: smart-signage
+description: French cloud digital signage CMS with AI content generation, scheduling, room booking, and players for web browsers, Android, Windows, and LG webOS.
+website: https://smart-signage.app/
+year_founded: 2023
+headquarters:
+  - France
+open_source: false
+has_docs: true
+docs_url: https://smart-signage.app/en/docs/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+  - Android
+  - Fire OS
+  - Windows
+  - webOS
+  - Tizen
+  - Raspberry Pi
+  - Linux
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+        included_screens: 3
+        max_screens: 3
+      - name: Lite
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5
+        yearly: 55
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 9
+        yearly: 99
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats: {}
+notes:
+  - Pricing is listed in EUR before tax (Premium €9 per screen per month or €99 per year, Lite €5 per device per month or €55 per year). Enterprise is custom quoted.
+  - The Free plan covers up to 3 screens and 500 MB of media with no time limit and no credit card. A "Powered by Smart-Signage" badge appears after 30 days.
+  - Lite licenses are only for secondary devices such as meeting room tablets, remote controls, e-paper labels, and secondary video wall tiles. Every broadcasting screen needs a Premium license.
+  - Players are a web player (installable PWA), a signed Android APK with kiosk mode, a Windows app, and a native LG webOS Signage app. Raspberry Pi and Linux PCs run the web player in a browser in kiosk mode.
+  - Samsung Tizen displays play through the web player in the built-in URL Launcher, which requires the Enterprise plan.
+  - A REST API and webhooks exist, but access and technical documentation are provided on request as part of the Enterprise plan.
+  - SSO is listed as an Enterprise feature on the pricing page, while the documentation describes it as planned and set up per customer.
+  - The service is run by Smart-Live SAS, based in Oullins-Pierre-Bénite near Lyon, and is hosted on OVHcloud in France.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
