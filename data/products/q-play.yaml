@@ -10,6 +10,8 @@ has_api: true
 developer_portal_url: https://api.nordicscreen.com/
 has_docs: true
 docs_url: https://help.nordicscreen.com/portal/en/home
+has_sso: true
+has_saml: true
 self_signup: true
 discontinued: false
 categories:
@@ -39,6 +41,7 @@ stats:
     date: 2025-04
 notes:
   - The screen count is based on the number of customers. The actual screen count may vary.
+  - Single sign-on works with Microsoft Entra ID and Google, and supports SAML 2.0 including ADFS.
 features: []
 integrations: []
 target_audience: []
