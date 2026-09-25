@@ -1,7 +1,13 @@
 {
   "source": "Fugo",
-  "fetched_at": "2026-09-24T09:49:37.555Z",
+  "fetched_at": "2026-09-25T10:07:33.870Z",
   "items": [
+    {
+      "title": "Inside Samsung Smart Signage Platform: What Does It Add to a Display?",
+      "link": "https://www.fugo.ai/blog/inside-samsung-smart-signage-platform-what-does-it-add-to-a-display/",
+      "date": "2026-09-24T10:35:48.000Z",
+      "description": "What makes Samsung digital signage different from a consumer TV? This guide breaks down SSSP, Tizen, commercial display hardware, remote provisioning and the kinds of workloads professional Samsung s…"
+    },
     {
       "title": "How Philips Professional Displays Are Built For Serious Digital Signage",
       "link": "https://www.fugo.ai/blog/how-philips-professional-displays-are-built-for-serious-digital-signage/",

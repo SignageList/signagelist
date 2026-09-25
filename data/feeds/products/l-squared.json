@@ -1,7 +1,19 @@
 {
   "source": "L Squared Hub",
-  "fetched_at": "2026-09-24T09:49:37.555Z",
+  "fetched_at": "2026-09-25T10:07:33.870Z",
   "items": [
+    {
+      "title": "A Practical Guide to Offline Digital Signage Incident Response",
+      "link": "https://lsquared.com/digital-signage-insights/complete-guide-to-offline-digital-signage-incident-response",
+      "date": "2026-09-24T12:46:20.000Z",
+      "description": "When a digital screen faults at a remote facility, the resulting downtime depends heavily on whether your operations team has a defined protocol. Relying on an employee to notice a blank display, fig…"
+    },
+    {
+      "title": "What Is Digital Signage Failover Monitoring?",
+      "link": "https://lsquared.com/digital-signage-insights/digital-signage-failover-monitoring",
+      "date": "2026-09-24T10:32:42.000Z",
+      "description": "When a digital display fails at a remote facility, your core problem isn't just broken hardware. It's the visibility gap. Without a team on-site, an offline screen can sit dark for a week before a cu…"
+    },
     {
       "title": "How to Keep Franchise Digital Signage Consistent: Guide",
       "link": "https://lsquared.com/digital-signage-insights/digital-signage-governance-for-franchise-teams",
