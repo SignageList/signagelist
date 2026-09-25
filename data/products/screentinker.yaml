@@ -8,19 +8,26 @@ headquarters:
 open_source: true
 license: MIT
 source_code_url: https://github.com/screentinker/screentinker
+has_api: true
+developer_portal_url: https://screentinker.com/docs
 has_docs: true
 docs_url: https://screentinker.com/guides.html
+has_sso: true
 self_signup: true
 discontinued: false
 categories:
   - CMS
 platforms:
   - Android
+  - BrightSign
   - ChromeOS
   - Fire OS
   - Linux
   - Raspberry Pi
+  - Tizen
+  - Vega OS
   - Web Browser
+  - webOS
   - Windows
 models:
   - delivery: hybrid
@@ -54,7 +61,9 @@ models:
     has_freemium: true
     pricing: []
 stats: {}
-notes: []
+notes:
+  - SSO uses OpenID Connect (Google, Microsoft Entra, Okta and other OIDC providers), with optional per-organization SSO and domain verification. SAML is not supported.
+  - The Vega OS player targets the Fire TV Stick 4K Select and Fire TV Stick HD (2026) and is not yet certified on hardware. BrightSign runs the standard browser player.
 features: []
 integrations: []
 target_audience: []
