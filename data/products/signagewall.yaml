@@ -1,0 +1,55 @@
+name: SignageWall
+slug: signagewall
+description: Cloud digital signage CMS with scheduling, zoned layouts, offline playback, and a catalog of 43 content apps, running on Android, Windows, macOS, and Linux players.
+website: https://www.signagewall.com/
+year_founded: 2026
+headquarters:
+  - Serbia
+open_source: false
+has_api: true
+developer_portal_url: https://api.signagewall.com/api/partner/docs
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - macOS
+  - Linux
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Basic
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 8
+        yearly: null
+        max_screens: 5
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats: {}
+notes:
+  - Pricing is listed in EUR. Basic is €8 per screen per month for up to 5 screens, shown as a launch price against a regular €12. Enterprise covers more than 5 screens and is quoted on request.
+  - Every feature is included on both plans. Billing is a monthly invoice paid by bank transfer, with no card payment.
+  - There is a 21-day free trial with no card required. There is no permanently free plan.
+  - Players are native apps for Android 8.0 or newer, Windows 10 or newer, macOS 12 or newer, and Linux. The Android and desktop builds are not publicly downloadable yet and are sent on request.
+  - The Partner API is read-only and covers screens, playback configuration, playlists, and media.
+  - The dashboard supports signing in with a Google account. No enterprise SSO or SAML is documented.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
