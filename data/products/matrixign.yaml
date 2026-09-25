@@ -1,0 +1,57 @@
+name: Matrixign
+slug: matrixign
+description: Cloud digital signage CMS for screen networks in third-party venues, with players for Android TV boxes, Windows PCs, holographic LED fans, and web browsers.
+website: https://www.matrixign.com/
+year_founded: 2026
+headquarters:
+  - Colombia
+open_source: false
+has_docs: true
+docs_url: https://www.matrixign.com/manual
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Windows
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+        included_screens: 2
+        max_screens: 2
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats: {}
+notes:
+  - The Free plan is permanent, needs no credit card, and includes 2 screens and 500 MB of storage. Pro is sized and priced on request.
+  - There is no time-limited trial.
+  - The Android player is an APK for Android TV and Google TV boxes, installed through the Downloader app. Fire TV is listed among the supported boxes.
+  - A separate Android APK runs on holographic LED fans with Android 7 or later. The vendor offers to handle the factory setup of fans.
+  - The Windows player is a kiosk app for Windows 10 and 11 built on WebView2, with auto-start, remote updates, and one device per attached monitor.
+  - iPads and other devices without a native player use the browser player at matrixign.com/play, which can be added to the iPad home screen to run full screen.
+  - Players cache content locally and keep playing offline. Features include multi-zone layouts on TV and Windows, proof-of-play reports per client and screen, per-client portals with content approval, and admin and technician roles.
+  - The interface is available in English and Spanish.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages:
+  - English
+  - Spanish
+screenshots: []
+last_verified: null
