@@ -1,0 +1,43 @@
+name: Vuubl
+slug: vuubl
+description: Cloud digital signage CMS for small businesses, with playlists, multi-zone layouts, scheduling, and offline playback on browser and Android TV players.
+website: https://www.vuubl.com
+year_founded: 2026
+headquarters:
+  - USA
+open_source: false
+has_docs: true
+docs_url: https://www.vuubl.com/help/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 5
+        yearly: 48
+stats: {}
+notes:
+  - There is a single plan with every feature included, priced at $5 per screen per month or $48 per screen per year.
+  - The free trial covers one screen for 30 days and needs no credit card. It does not convert to a paid subscription automatically.
+  - Players are a browser player at app.vuubl.com/player and the Vuubl Player app on Google Play for Android TV, Google TV, and Android-based media players.
+  - Vuubl is a DBA of Five Ten Ventures LLC, based in Friendswood, Texas.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
