@@ -1,0 +1,53 @@
+name: Lunixo
+slug: lunixo
+description: Cloud digital signage CMS with advertising campaign management and programmatic DOOH, running on its own Linux OS as well as Windows, Android, Tizen, and webOS.
+website: https://lunixo.com/
+year_founded: 2019
+headquarters:
+  - Austria
+open_source: false
+has_api: true
+developer_portal_url: https://lunixo.com/management/swagger/index.html
+has_docs: true
+docs_url: https://lunixo.atlassian.net/wiki/spaces/HELP/pages/1743519750/English
+has_sso: true
+has_saml: false
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Linux
+  - Tizen
+  - Windows
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats:
+  screens:
+    total: 5000
+    source: https://invidis.com/news/2026/04/lunixo-growing-in-the-shadow-of-the-giants/
+    date: 2026-04
+notes:
+  - Pricing is not published. Licenses are billed monthly or yearly under the terms of use, and larger projects are quoted individually.
+  - Test licenses and trial access are offered at Lunixo's discretion. A test license becomes billable once it is released for productive use.
+  - The screen count is the roughly 5,000 active licenses reported by invidis in April 2026.
+  - Supported player platforms are Android 9 or later, Linux x64, webOS 8.0 or later, Samsung Smart Signage on Tizen 6.5 or later, and Windows 11 IoT or Enterprise.
+  - Linux players run Lunixo's own signage OS, installed from a USB stick, with watchdog recovery, filesystem encryption, atomic updates, and SSH remote maintenance.
+  - Advertising features include share of voice, playout caps, fallback campaigns, weather-triggered delivery, and VAST or SSP connections to Vistar Media, Perion, SSP1, Pladway, adlocaite, and EISBACH.
+  - Single sign-on works through Microsoft and Google accounts. SAML is not documented.
+  - The Cloud API is documented with a Swagger reference. Linux players also expose a local HTTP API that is enabled on request.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
