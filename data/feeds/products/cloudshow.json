@@ -1,6 +1,6 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-09-25T10:07:33.870Z",
+  "fetched_at": "2026-09-26T09:48:50.365Z",
   "items": [
     {
       "title": "ClipboardFusion 6.4 (Beta 8) Now Available!",
@@ -9,10 +9,22 @@
       "description": "We're very excited to announce that ClipboardFusion 6.4 (Beta 8) is now available for download! This new version updates ClipboardFusion to .NET 10 and improves the performance and stability. Clipboa…"
     },
     {
+      "title": "New Ticketing System: ITFlow",
+      "link": "https://www.checkcentral.cc/Discussions/View/new-ticketing-system-itflow/?ID=01a0cfe2-5d8e-7745-affc-0237d2be4e30",
+      "date": "2026-09-23T20:08:34.000Z",
+      "description": "We are excited to announce the addition of ITFlow as an External Ticketing System in CheckCentral. Once configured, CheckCentral will automatically open tickets in ITFlow for failed Checks. It will k…"
+    },
+    {
       "title": "ClipboardFusion 6.4 (Beta 7) Now Available!",
       "link": "https://www.clipboardfusion.com/Discussions/View/clipboardfusion-64-beta-7-now-available/?ID=01a0b08a-71e6-730d-805f-21bb1df24199",
       "date": "2026-09-17T18:04:18.000Z",
       "description": "We're very excited to announce that ClipboardFusion 6.4 (Beta 7) is now available for download! This new version updates ClipboardFusion to .NET 10 and improves the performance and stability. Clipboa…"
+    },
+    {
+      "title": "New Feature: Notification and Ticket Content Customization",
+      "link": "https://www.checkcentral.cc/Discussions/View/new-feature-notification-and-ticket-content-customization/?ID=01a0ab8a-a392-720b-b2d8-4619776e947b",
+      "date": "2026-09-16T18:46:25.000Z",
+      "description": "We're very happy to announce that a long awaited feature, notification and ticketing content customization, is now available in CheckCentral! To customize the notification content for personal notifi…"
     },
     {
       "title": "DisplayFusion 12.1.2 (Beta 1) Now Available!",
