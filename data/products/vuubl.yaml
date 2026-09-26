@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://www.vuubl.com/help/
+rss_feed_url: https://www.vuubl.com/blog/rss.xml
 self_signup: true
 discontinued: false
 categories:
