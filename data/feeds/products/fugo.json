@@ -1,7 +1,13 @@
 {
   "source": "Fugo",
-  "fetched_at": "2026-09-29T11:15:22.923Z",
+  "fetched_at": "2026-09-30T11:03:46.213Z",
   "items": [
+    {
+      "title": "Raspberry Pi’s Smart Display Module Adds a New Option for Integrated Signage Players",
+      "link": "https://www.fugo.ai/blog/raspberry-pis-smart-display-module-adds-a-new-option-for-integrated-signage-players/",
+      "date": "2026-09-30T09:53:59.000Z",
+      "description": "Raspberry Pi’s new Smart Display Module brings Compute Module 5 into SDM-compatible professional displays. We look at where it fits in digital signage, what it changes physically, and the limits impo…"
+    },
     {
       "title": "Putting Salesforce on the Wall: Event-Driven Signage for Revenue Teams",
       "link": "https://www.fugo.ai/blog/salesforce-digital-signage/",
