@@ -1,7 +1,19 @@
 {
   "source": "Xibo",
-  "fetched_at": "2026-09-30T11:03:46.213Z",
+  "fetched_at": "2026-10-01T11:30:32.875Z",
   "items": [
+    {
+      "title": "September 2026 Releases | Xibo Blog",
+      "link": "https://xibosignage.com/blog/september-2026-releases",
+      "date": "2026-10-01T09:20:47.000Z",
+      "description": "Welcome to Xibo’s September 2026 release updates. This update includes the enhancements released this month across all of Xibo’s product lines."
+    },
+    {
+      "title": "The Xibo Player App for Linux Is Here",
+      "link": "https://xibosignage.com/blog/the-xibo-player-app-for-linux-is-here",
+      "date": "2026-10-01T09:14:51.000Z",
+      "description": "Across our community forums and customer feedback channels, one request has consistently topped the list: a production-ready, first-class Linux player."
+    },
     {
       "title": "August 2026 Releases | Xibo Blog",
       "link": "https://xibosignage.com/blog/august-2026-releases",
