@@ -9,9 +9,9 @@ open_source: false
 has_api: true
 developer_portal_url: https://developers.fusionsignage.com.au
 has_docs: true
-docs_url: https://support.fusionsignage.com.au/en/
+docs_url: https://support.fusionsignage.com.au/
 has_saml: true
-rss_feed_url: https://fusionsignage.com.au/blog/rss.xml
+rss_feed_url: https://fusionsignage.com.au/news/rss.xml
 self_signup: true
 discontinued: false
 categories:
@@ -36,18 +36,18 @@ models:
       - name: Basic
         payment_model: subscription
         billing_basis: per_device
-        monthly: null
-        yearly: 124
+        monthly: 11.90
+        yearly: 143
       - name: Advanced
         payment_model: subscription
         billing_basis: per_device
-        monthly: null
-        yearly: 170
+        monthly: 16.30
+        yearly: 196
       - name: Pro
         payment_model: subscription
         billing_basis: per_device
-        monthly: null
-        yearly: 261
+        monthly: 25
+        yearly: 300
 stats:
   screens:
     total: 19500
@@ -55,7 +55,7 @@ stats:
     date: 2026-03
 compliance:
   soc2: true
-  iso27001: false
+  iso27001: true
   hipaa: false
   cra: false
   fedramp: false
