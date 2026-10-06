@@ -1,7 +1,13 @@
 {
   "source": "SignageTube",
-  "fetched_at": "2026-10-05T12:12:10.569Z",
+  "fetched_at": "2026-10-06T11:55:29.996Z",
   "items": [
+    {
+      "title": "OEE and Production Dashboards on the Plant Floor: The Data Model",
+      "link": "https://signagetube.com/blog/oee-production-dashboard-plant-floor/",
+      "date": "2026-10-06T09:00:00.000Z",
+      "description": "What data you actually need to put OEE on a plant floor screen: the tables, the calculation, and the display rules. The post OEE and Production Dashboards on the Plant Floor: The Data Model first app…"
+    },
     {
       "title": "Digital Signage for Government and Public Sector Buildings",
       "link": "https://signagetube.com/blog/government-digital-signage/",

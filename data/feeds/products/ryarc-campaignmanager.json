@@ -1,6 +1,6 @@
 {
   "source": "Ryarc CampaignManager",
-  "fetched_at": "2026-10-05T12:12:10.569Z",
+  "fetched_at": "2026-10-06T11:55:29.996Z",
   "items": [
     {
       "title": "DOOH Programmatic Decoded, Part 5.",
@@ -21,10 +21,70 @@
       "description": "Disintermediation, Reintermediation, Repeat Two claims opened this series. First: programmatic is a transaction mechanism, not a magic pill for increased revenue. Second: whether it actually helps or…"
     },
     {
+      "title": "What is Foro? What problem does it solve?",
+      "link": "https://ryarc.com/blog/what-is-foro-what-problem-does-it-solve/",
+      "date": "2026-09-18T08:00:00.000Z",
+      "description": "What is Foro, and What Does It Fix?Foro is a platform that lets brands book digital ads in physical spaces—like shopping centers, airports, train stations, and stores—directly from the screen owners.…"
+    },
+    {
+      "title": "Ryarc rIOT? What is it? What does it do",
+      "link": "https://ryarc.com/blog/ryarc-riot-what-is-it-what-does-it-do/",
+      "date": "2026-09-17T09:00:00.000Z",
+      "description": "What is Ryarc Agent / rIOT and What Problems Does It Solve? What is Ryarc’s rIOT? Ryarc’s rIOT (Internet of Things) is an edge device and sensor management platform built into the Ryarc CampaignManag…"
+    },
+    {
+      "title": "Ryarc Edge AI: What Is It and What Does It Do?",
+      "link": "https://ryarc.com/blog/ryarc-edge-ai-what-is-it-and-what-does-it-do/",
+      "date": "2026-09-16T15:16:02.000Z",
+      "description": "Edge AI is no longer some future-facing concept for tech demos or isolated experiments. It’s here. It’s real. And it’s running on the same edge devices powering your digital signage networks. With Ry…"
+    },
+    {
+      "title": "DOOH Programmatic Decoded, Part 5",
+      "link": "https://ryarc.com/blog/dooh-programmatic-decoded-part-5/",
+      "date": "2026-09-09T21:00:00.000Z",
+      "description": "Your CMS and Your Marketplace Are Not the Same Purchase Part 1 argued that programmatic is a transaction mechanism, not a demand strategy. Part 2 showed that whether it helps or costs you depends on …"
+    },
+    {
+      "title": "DOOH Programmatic Decoded, Part 4",
+      "link": "https://ryarc.com/blog/programmatic-part-4/",
+      "date": "2026-09-03T09:00:00.000Z",
+      "description": "The Absentee Landlord Part 1 argued that programmatic is a transaction mechanism, not a demand strategy. Part 2 showed that whether it helps or costs you depends on where your market sits — concentra…"
+    },
+    {
+      "title": "DOOH Programmatic Decoded, Part 3",
+      "link": "https://ryarc.com/blog/programmatic-decoded-part-3/",
+      "date": "2026-09-01T21:00:00.000Z",
+      "description": "Disintermediation, Reintermediation, Repeat Two claims opened this series. First: programmatic is a transaction mechanism, not a magic pill for increased revenue. Second: whether it actually helps or…"
+    },
+    {
       "title": "DOOH Programmatic Decoded, Part 2.",
       "link": "https://ryarc.com/resources/blog/programmatic-decoded-part-two/",
       "date": "2026-08-27T13:41:34.000Z",
       "description": "Programmatic Won&#8217;t Save Your DOOH Business. Your Screens Will. In my last post — Programmatic Decoded, Part 1: Is Programmatic Actually Making You Money — Or Just Moving It Around? — I made the…"
+    },
+    {
+      "title": "DOOH Programmatic Decoded, Part 2",
+      "link": "https://ryarc.com/blog/programmatic-decoded-part-two/",
+      "date": "2026-08-27T09:30:00.000Z",
+      "description": "Programmatic Won&#8217;t Save Your DOOH Business. Your Screens Will. In my last post — Programmatic Decoded, Part 1: Is Programmatic Actually Making You Money — Or Just Moving It Around? — I made the…"
+    },
+    {
+      "title": "DOOH Programmatic Decoded, Part 1",
+      "link": "https://ryarc.com/blog/dooh-programmatic-decoded-part-one/",
+      "date": "2026-08-25T11:00:00.000Z",
+      "description": "Is Programmatic Actually Making You Money — Or Just Moving It Around? In the last year or two, the rush toward programmatic among small and mid-size DOOH companies has seen a significant rise. Sales …"
+    },
+    {
+      "title": "Coverage of Ryarc Digital Signage using broadcast technology (Zero Cellular)",
+      "link": "https://ryarc.com/blog/coverage-of-recent-demonstration-of-using-broadcast-tv-technology-with-ryarc-campaignmanager/",
+      "date": "2024-08-20T13:48:00.000Z",
+      "description": "Test Demos Moving Digital Signage Content To Remote Displays Using Broadcast TV Tech &#8211; August 20, 2024 by Dave Haynes, sixteen-nine.net Mobile broadband advances and cell tower build-outs have …"
+    },
+    {
+      "title": "Retail Innovation at Abu Dhabi Airport",
+      "link": "https://ryarc.com/blog/retail-innovation-at-abu-dhabi-airport/",
+      "date": "2024-07-22T09:00:00.000Z",
+      "description": "Transforming the Duty-Free Experience with Digital Innovation Blue Rhine Industries&#160; &#160; &#160;July 22, 2024 Lagardère Travel Retail at Abu Dhabi International Airport&#8217;s Terminal A, boa…"
     },
     {
       "title": "Programmatic Decoded, Part 1",
