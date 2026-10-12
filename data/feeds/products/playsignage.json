@@ -1,6 +1,6 @@
 {
   "source": "Play Digital Signage (PlaySignage)",
-  "fetched_at": "2026-10-11T11:22:12.925Z",
+  "fetched_at": "2026-10-12T12:56:59.884Z",
   "items": [
     {
       "title": "“Nothing Fancy” Is Lazy Reporting: The Advanced Features Roundups Skip",
@@ -9,16 +9,34 @@
       "description": "Software roundups often label Play Digital Signage as the budget pick or “nothing fancy.” Easy to start and fairly priced is true; not advanced is not. Here’s the proof they leave out, from CAP emerg…"
     },
     {
+      "title": "Product Update, September 26, 2026: Masking, Grouping and Flipping in the Editor",
+      "link": "https://playsignage.com/blog/product-update-september-26-2026/",
+      "date": "2026-09-26T00:00:00.000Z",
+      "description": "Three design tools in the editor: put a picture inside any shape, group objects so they move as one, and flip images and shapes horizontally or vertically."
+    },
+    {
       "title": "Outgrown Play Digital Signage? Multi-Location Reality Check",
       "link": "https://playsignage.com/blog/outgrown-play-digital-signage-multi-location-reality-check/",
       "date": "2026-09-10T00:00:00.000Z",
       "description": "A factual reply to the “you’ve outgrown Play” claim: how sub-teams, tags, groups, roles, CAP, and screen share support real multi-location networks—and when switching still makes sense."
     },
     {
+      "title": "Product Update, September 10, 2026: Detailed Weather and a Background Upload Queue",
+      "link": "https://playsignage.com/blog/product-update-september-10-2026/",
+      "date": "2026-09-10T00:00:00.000Z",
+      "description": "More weather data with the new Detailed Weather plugin, listen to music before you add it, and uploads that keep converting in the background while you work."
+    },
+    {
       "title": "Case Story: Midland Public Schools Makes Screens an Everyday Tool",
       "link": "https://playsignage.com/blog/midland-public-schools-screens-as-an-everyday-resource/",
       "date": "2026-08-25T00:00:00.000Z",
       "description": "Midland Public Schools wanted its screens to be a real part of school communication, not just show the odd notice. See how the district uses Play every day."
+    },
+    {
+      "title": "Product Update, August 20, 2026: Screen Share and a Fresh Interface",
+      "link": "https://playsignage.com/blog/product-update-august-20-2026/",
+      "date": "2026-08-20T00:00:00.000Z",
+      "description": "Show your laptop on any screen with Screen Share, privately or with a public link for a guest presenter. Plus a refreshed interface and a countdown to the next slide."
     },
     {
       "title": "How to Use AI-Generated Images for Digital Signage Content",
