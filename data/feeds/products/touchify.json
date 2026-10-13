@@ -1,7 +1,13 @@
 {
   "source": "Touchify",
-  "fetched_at": "2026-10-12T12:56:59.884Z",
+  "fetched_at": "2026-10-13T12:35:08.939Z",
   "items": [
+    {
+      "title": "French municipal legal notice requirements: what decree 2021-1311 says",
+      "link": "https://touchify.io/en/blog/french-municipal-legal-notices-decree-2021-1311",
+      "date": "2026-10-13T08:00:00.000Z",
+      "description": "French municipal legal notice requirements changed on 1 July 2022: communes publish acts on their own site. What decree 2021-1311 says, and where a kiosk fits."
+    },
     {
       "title": "LED pixel pitch and viewing distance: how close is too close?",
       "link": "https://touchify.io/en/blog/led-pixel-pitch-viewing-distance",
