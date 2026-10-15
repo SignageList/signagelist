@@ -1,7 +1,13 @@
 {
   "source": "Play Digital Signage (PlaySignage)",
-  "fetched_at": "2026-10-14T10:03:19.724Z",
+  "fetched_at": "2026-10-15T09:45:00.399Z",
   "items": [
+    {
+      "title": "Play Pricing, Corrected (vs Yodeck's Wrong Table)",
+      "link": "https://playsignage.com/blog/play-pricing-corrected-vs-yodeck/",
+      "date": "2026-10-14T00:00:00.000Z",
+      "description": "Yodeck's Playsignage alternative page lists Play Digital Signage at $16 per screen next to Yodeck at $8. That $16 is Play's Ultimate plan. Here is the corrected math, plan for plan, using only the tw…"
+    },
     {
       "title": "“Nothing Fancy” Is Lazy Reporting: The Advanced Features Roundups Skip",
       "link": "https://playsignage.com/blog/nothing-fancy-is-lazy-reporting-the-advanced-features-roundups-skip/",
