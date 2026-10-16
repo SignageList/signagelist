@@ -1,7 +1,13 @@
 {
   "source": "Touchify",
-  "fetched_at": "2026-10-15T09:45:00.399Z",
+  "fetched_at": "2026-10-16T09:38:45.364Z",
   "items": [
+    {
+      "title": "E-paper display power consumption: what \"zero watts\" actually means",
+      "link": "https://touchify.io/en/blog/e-paper-display-power-consumption",
+      "date": "2026-10-16T08:00:00.000Z",
+      "description": "E-paper display power consumption is not zero, even though the panel's is. What a screen really draws, what decides its battery life, and how to spec one."
+    },
     {
       "title": "French municipal legal notice requirements: what decree 2021-1311 says",
       "link": "https://touchify.io/en/blog/french-municipal-legal-notices-decree-2021-1311",
