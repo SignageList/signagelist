@@ -1,7 +1,25 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-10-18T09:27:08.443Z",
+  "fetched_at": "2026-10-19T10:39:32.527Z",
   "items": [
+    {
+      "title": "Screenly Changelog Episode 20 - Digital signage security, cheap hardware, and what the screen is really for",
+      "link": "https://www.screenly.io/blog/2026/10/15/screenly-changelog-episode-20/",
+      "date": "2026-10-15T00:00:00.000Z",
+      "description": "<p><strong>Screenly Changelog episode 20:</strong> <em>Digital Signage Security, Cheap Hardware, and What the Screen Is Really For</em></p> <p>A screen on the wall rarely looks like a security risk. …"
+    },
+    {
+      "title": "We found each other in Kerala: Screenly annual summit 2026",
+      "link": "https://www.screenly.io/blog/2026/10/13/screenly-2026-annual-summit/",
+      "date": "2026-10-13T00:00:00.000Z",
+      "description": "<p>At Screenly, we’ve been fully remote for over ten years. For most of the year, we know each other as little squares on a video call. You know how someone writes in Slack and what time they usually…"
+    },
+    {
+      "title": "Screenly Sync 0x09: October updates from Screenly",
+      "link": "https://www.screenly.io/blog/2026/10/09/screenly-sync-0x09/",
+      "date": "2026-10-09T00:00:00.000Z",
+      "description": "<p>Welcome to the 10th edition of Screenly Sync, where we share the latest product, app, and community updates from Screenly.</p> <p>September brought configurable tables with Export, a brand new doc…"
+    },
     {
       "title": "Screenly Sync 0x08: September updates from Screenly",
       "link": "https://www.screenly.io/blog/2026/09/07/screenly-sync-0x08/",
