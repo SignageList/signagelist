@@ -1,7 +1,25 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-10-18T09:27:08.443Z",
+  "fetched_at": "2026-10-19T10:39:32.527Z",
   "items": [
+    {
+      "title": "CalDAV",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/35D932205B6E783D80258E93004B96E7",
+      "date": "2026-10-18T17:33:56.000Z",
+      "description": "Connecting Door Tablet to CalDAV From version 10.8 of the Door Tablet Server, connect Door Tablet to a CalDAV server to discover room calendars, display their schedules and create bookings..."
+    },
+    {
+      "title": "V10.80.0",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/C3DBE10D1DF2508980258E9400600C96",
+      "date": "2026-10-18T17:31:17.000Z",
+      "description": "Door Tablet V10.80.0 - 18 October 2026 Door Tablet End-point Caters for the new Teams Integration for Prism and CalDAV Door Tablet Server New CalDAV Bridge New support for Team..."
+    },
+    {
+      "title": "Teams Integration",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/BFC97FA4024722C880258E94005EE7EE",
+      "date": "2026-10-18T17:18:02.000Z",
+      "description": "Please see..."
+    },
     {
       "title": "Teams for Prism and CalDAV",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/3BAA22808B56969D80258E93004D7F56",

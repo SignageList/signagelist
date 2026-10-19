@@ -1,7 +1,25 @@
 {
   "source": "PRTV",
-  "fetched_at": "2026-10-18T09:27:08.443Z",
+  "fetched_at": "2026-10-19T10:39:32.527Z",
   "items": [
+    {
+      "title": "Форум",
+      "link": "https://s.prtv.su/forums",
+      "date": "2026-10-19T08:04:16.000Z",
+      "description": ""
+    },
+    {
+      "title": "Инструкция к приложению для Android TV",
+      "link": "https://s.prtv.su/instrukczii/prilozhenie-dlya-android-tv",
+      "date": "2026-10-19T07:42:13.000Z",
+      "description": ""
+    },
+    {
+      "title": "Автозапуск приложения PRTV на Android TV",
+      "link": "https://s.prtv.su/otraslevye-resheniya/avtozapusk-prilozheniya-na-android-tv",
+      "date": "2026-10-19T07:18:52.000Z",
+      "description": ""
+    },
     {
       "title": "Меню борд &#8212; караоке-бар материал-дизайн стиль",
       "link": "https://s.prtv.su/menyu-bordy/karaoke-bar/menyu-bord-karaoke-bar-material-dizajn-stil-3",
