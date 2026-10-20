@@ -1,7 +1,13 @@
 {
   "source": "SignageTube",
-  "fetched_at": "2026-10-19T10:39:32.527Z",
+  "fetched_at": "2026-10-20T09:57:02.089Z",
   "items": [
+    {
+      "title": "PowerPoint That Updates Itself: Linking Slides to a Data Source",
+      "link": "https://signagetube.com/blog/powerpoint-live-data-slides/",
+      "date": "2026-10-20T09:00:00.000Z",
+      "description": "How to link PowerPoint slides to Excel, databases and feeds so the numbers update themselves on screen. The post PowerPoint That Updates Itself: Linking Slides to a Data Source first appeared on Sign…"
+    },
     {
       "title": "OEE and Production Dashboards on the Plant Floor: The Data Model",
       "link": "https://signagetube.com/blog/oee-production-dashboard-plant-floor/",
