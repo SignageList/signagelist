@@ -1,7 +1,13 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-10-23T09:51:57.341Z",
+  "fetched_at": "2026-10-24T09:25:03.560Z",
   "items": [
+    {
+      "title": "New Direct Integration: UniFi",
+      "link": "https://www.checkcentral.cc/Discussions/View/new-direct-integration-unifi/?ID=01a15696-960e-7609-aa5c-13492843b87d",
+      "date": "2026-10-19T23:54:32.000Z",
+      "description": "We're very excited to announce a great new feature to CheckCentral: direct integration with UniFi! This feature allows you to pull your UniFi device statuses directly from UniFi so that you can see t…"
+    },
     {
       "title": "New Notification Channel: ntfy",
       "link": "https://www.checkcentral.cc/Discussions/View/new-notification-channel-ntfy/?ID=01a1568b-7430-76fe-bd01-96971d14338a",

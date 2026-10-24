@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-10-23T09:51:57.341Z",
+  "fetched_at": "2026-10-24T09:25:03.560Z",
   "items": [
+    {
+      "title": "Anthias v2026.07.2 to v2026.10.0: eight releases in three months",
+      "link": "https://www.screenly.io/blog/2026/10/21/anthias-v2026-10-0/",
+      "date": "2026-10-21T00:00:00.000Z",
+      "description": "<p>We got behind on these. The last Anthias post covered <a href=&#34;/blog/2026/07/10/anthias-v2026-07-1/&#34;>v2026.07.1</a>, back in July. Rather than write eight separate posts, this one rolls th…"
+    },
     {
       "title": "Screenly Changelog Episode 20 - Digital signage security, cheap hardware, and what the screen is really for",
       "link": "https://www.screenly.io/blog/2026/10/15/screenly-changelog-episode-20/",
