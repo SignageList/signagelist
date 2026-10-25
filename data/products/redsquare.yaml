@@ -1,0 +1,45 @@
+name: RedSquare
+slug: redsquare
+description: Free digital signage player paired with a marketplace where venues list the screens they already own and local advertisers book plays.
+website: https://redsquare.app/
+year_founded: 2024
+headquarters:
+  - USA
+open_source: false
+has_docs: true
+docs_url: https://redsquare.app/support
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+  - Windows
+  - macOS
+  - Linux
+  - Android
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Screen owner
+        payment_model: free
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+stats: {}
+notes:
+  - The app and the Screen Player are free with no subscription. RedSquare instead takes a share of paid bookings, with the screen owner keeping 60 percent of the screen-time price.
+  - Every booking is free while the network is being grown. Paid ad time opens later with at least 30 days' notice.
+  - Screens run today through the browser player at tv.redsquare.app or a desktop Screen Player. Apps for Fire TV, Android TV, Samsung, LG, Roku, and Apple TV are not yet published to their stores.
+  - Screen owners approve what plays on their screen and set a price per 10-second play.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

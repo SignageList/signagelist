@@ -1,0 +1,42 @@
+name: DopeCast
+slug: dopecast
+description: Cloud digital signage and TV menu boards for cannabis dispensaries, with live menus synced from the dispensary POS.
+website: https://dopecast.net/
+year_founded: 2023
+headquarters:
+  - USA
+open_source: false
+has_docs: true
+docs_url: https://dopecast.net/guides
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 30
+        yearly: null
+stats: {}
+notes:
+  - Flat $30 per screen per month, capped at $120 per store, with no setup fee and no contract.
+  - Direct POS integrations with Dutchie, Treez, Flowhub, Cova, and Jane keep prices and stock in sync.
+  - Players install on Fire TV, Google TV, and Android TV devices; screens are managed from a browser.
+  - The vendor, VirtualBudz, also runs a separate New Jersey ATM advertising network for cannabis brands, priced per campaign.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
