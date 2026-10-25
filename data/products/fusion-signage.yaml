@@ -59,7 +59,9 @@ compliance:
   hipaa: false
   cra: false
   fedramp: false
-notes: []
+notes:
+  - Pricing is listed in AUD. The recorded figures are the annual scheme (Basic A$11.90, Advanced A$16.30, Pro A$25.00 per screen per month, billed yearly upfront).
+  - "Longer commitments cost less per screen: three years brings Basic to A$10.80 and five years to A$9.70."
 features: []
 integrations: []
 target_audience: []

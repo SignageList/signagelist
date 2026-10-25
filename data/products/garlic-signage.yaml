@@ -12,6 +12,7 @@ has_docs: true
 rss_feed_url: https://garlic-signage.com/index.xml
 docs_url: https://garlic-signage.com/resources/
 has_api: true
+developer_portal_url: https://garlic-signage.com/garlic-player/docs/rest-api/
 self_signup: true
 discontinued: false
 categories:
@@ -35,7 +36,7 @@ notes:
   - Professional support and hosting available via SmilControl
   - garlic-player speaks SMIL and works with any SMIL-compatible CMS
   - Player and CMS can be deployed independently
-  - garlic-player exposes a REST API (see https://garlic-signage.com/...)
+  - garlic-player exposes a REST API, documented at https://garlic-signage.com/garlic-player/docs/rest-api/
 features: []
 integrations: []
 target_audience: []
