@@ -7,7 +7,7 @@ headquarters:
   - Iceland
 open_source: false
 has_docs: true
-docs_url: https://www.signital.com/product/getting-started
+docs_url: https://docs.signital.com/
 self_signup: true
 discontinued: false
 categories:
@@ -60,3 +60,4 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
+# 2026-07-27 - RSS feed not found
