@@ -1,0 +1,56 @@
+name: GlücksCast
+slug: glueckscast
+description: Digital signage CMS for images, videos, and PDFs, with playlists, scheduling, and location management, offered hosted or self-hosted.
+website: https://glueckscast.gluecksgriff.solutions/
+year_founded: null
+headquarters:
+  - Germany
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms: []
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Hosted Starter
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 13
+        yearly: null
+      - name: Hosted Business
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 7.93
+        yearly: null
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Self-Hosted
+        payment_model: one-time
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+        price: 99.6
+stats: {}
+notes:
+  - Pricing is listed in EUR excluding VAT. Hosted Starter is €13 per screen per month; Hosted Business is €7.93 per screen per month with a minimum of three screens and a €299 one-time setup fee per deployment.
+  - The self-hosted licence is €99.60 once per screen, with a €990 mandatory setup fee per deployment and €690 per year for maintenance after the first year.
+  - The 14-day free trial covers Hosted Starter and Hosted Business only.
+  - Playback operating systems are not published, so no platforms are listed. Screens and players are sold separately by the vendor.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

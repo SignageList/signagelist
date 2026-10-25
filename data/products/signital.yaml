@@ -1,29 +1,32 @@
 name: Signital
 slug: signital
-description: Cloud-based digital signage software with native player apps for Samsung Tizen, LG webOS, Amazon Fire TV, and Android devices.
-website: https://signital.com/
-year_founded: null
+description: Cloud digital signage CMS that runs natively on Samsung Tizen, LG webOS, and Android displays, with no separate media player required.
+website: https://www.signital.com/
+year_founded: 2023
 headquarters:
   - Iceland
 open_source: false
 has_docs: true
-docs_url: https://docs.signital.is/
+docs_url: https://www.signital.com/product/getting-started
 self_signup: true
 discontinued: false
 categories:
   - CMS
 platforms:
-  - Android
-  - Fire OS
   - Tizen
   - webOS
+  - Android
+  - Fire OS
+  - Raspberry Pi
+  - BrightSign
+  - Web Browser
 models:
   - delivery: cloud
     free_trial: true
     pricing_available: true
     has_freemium: false
     pricing:
-      - name: Basic
+      - name: Standard
         payment_model: subscription
         billing_basis: per_device
         monthly: 7
@@ -33,8 +36,22 @@ models:
         billing_basis: per_device
         monthly: 12
         yearly: null
-stats: {}
-notes: []
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats:
+  screens:
+    total: 350
+    source: https://www.signital.com/solutions/case-studies/samkaup
+    date: September 2026
+notes:
+  - Pricing is listed in EUR excluding VAT (Standard €7, Business €12 per screen per month) and in USD on the same page ($8 and $14).
+  - Volume pricing applies automatically from five screens, falling to €5.25 per screen on Standard and €9 on Business at 100 or more.
+  - Billing counts only the displays that were online that month, with no contract, setup fee, or minimum.
+  - The free trial runs 14 days with no credit card.
+  - The screen count combines the published Samkaup and Olís case studies, 350 or more screens across 80 or more locations.
 features: []
 integrations: []
 target_audience: []
@@ -43,4 +60,3 @@ support_channels: []
 languages: []
 screenshots: []
 last_verified: null
-# 2026-07-27 - RSS feed not found

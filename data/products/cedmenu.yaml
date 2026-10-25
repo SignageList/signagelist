@@ -1,0 +1,35 @@
+name: CedMenu
+slug: cedmenu
+description: Cloud-managed digital menu board software for restaurants, with custom menu design, promotion scheduling, and POS price sync.
+website: https://go.cedmenu.com/
+year_founded: 2026
+headquarters:
+  - Canada
+open_source: false
+has_docs: true
+docs_url: https://go.cedmenu.com/guides
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+notes:
+  - Sold by quote covering software, player boxes, custom menu design, box setup, and support. No public plan prices.
+  - Playback runs on compatible Android player boxes, with TV and player compatibility confirmed before setup.
+  - Menu prices can be kept in sync through supported POS connections, and menu changes can be dictated by voice for review before publishing.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

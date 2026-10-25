@@ -1,0 +1,70 @@
+name: Better Signage
+slug: better-signage
+description: Digital signage for Apple TV with a web dashboard, storage-based pricing, and unlimited screens on every plan.
+website: https://bettersignage.io/
+year_founded: null
+headquarters: []
+open_source: false
+has_docs: true
+docs_url: https://bettersignage.io/support/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - tvOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+      - name: Storage 250
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 4.99
+        yearly: null
+      - name: Storage 500
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 7.99
+        yearly: null
+      - name: Storage 1 GB
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 11.99
+        yearly: null
+      - name: Storage 2 GB
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 17.99
+        yearly: null
+      - name: Storage 5 GB
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 29.99
+        yearly: null
+      - name: Storage 10 GB
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 49.99
+        yearly: null
+stats: {}
+notes:
+  - Plans are storage tiers rather than screen counts. Every standard plan includes unlimited screens with no per-screen fee, from 50 MB free to 10 GB at $49.99 per month. Above 10 GB is quoted.
+  - There is no trial clock. The free plan is permanent, and paid plans carry a 30-day money-back guarantee.
+  - The player runs on Apple TV (tvOS 26.5 or later) connected to a landscape HDMI display. Content is downloaded and verified locally, so a prepared playlist keeps playing through a short internet outage.
+  - Built and supported by one developer, Wes Walz. No company headquarters or founding year is published.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

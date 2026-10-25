@@ -1,0 +1,48 @@
+name: SignageStack
+slug: signagestack
+description: Digital signage CMS that runs every screen from a browser, with playlists, working hours, split-screen zones, and proof-of-play reports.
+website: https://www.signagestack.com/
+year_founded: 2026
+headquarters:
+  - Serbia
+  - USA
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Windows
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Professional
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 11
+        yearly: 100
+      - name: Enterprise
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: null
+stats: {}
+notes:
+  - Pricing is listed in EUR excluding VAT (Professional is €11 per screen per month or €100 per screen per year). Enterprise is volume priced.
+  - The free trial runs 21 days on one screen with no credit card, and carries the full Professional feature set.
+  - Players are published for Android, Windows, and the browser. The vendor sells no hardware.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
