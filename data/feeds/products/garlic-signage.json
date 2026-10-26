@@ -1,0 +1,24 @@
+{
+  "source": "GarlicSignage",
+  "fetched_at": "2026-10-26T10:55:11.043Z",
+  "items": [
+    {
+      "title": "Raspberry Pi Digital Signage: Self-Hosted Setup Guide",
+      "link": "https://garlic-signage.com/resources/tutorials/raspberry-pi-digital-signage-setup/",
+      "date": "2026-09-12T10:00:00.000Z",
+      "description": "Step-by-step guide to build a lightweight, modular digital signage system on Raspberry Pi with labwc and garlic-player, including autostart and crash recovery."
+    },
+    {
+      "title": "The Benefits of Linux for Digital Signage | GarlicSignage",
+      "link": "https://garlic-signage.com/resources/technology/linux-digital-signage/",
+      "date": "2026-07-18T10:00:00.000Z",
+      "description": "Discover the key benefits of Linux for digital signage — stability, security, and flexibility — plus what to watch out for when choosing hardware."
+    },
+    {
+      "title": "Open Source Digital Signage Projects Compared (2026)",
+      "link": "https://garlic-signage.com/resources/technology/digital-signage-open-source/",
+      "date": "2026-03-19T10:00:00.000Z",
+      "description": "Xibo, Anthias, Concerto, Screenlite and Garlic-Hub compared: licence, activity, player support and what each one is actually good for."
+    }
+  ]
+}
