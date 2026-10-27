@@ -1,7 +1,25 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-10-26T10:55:11.043Z",
+  "fetched_at": "2026-10-27T10:19:47.348Z",
   "items": [
+    {
+      "title": "Android",
+      "link": "https://embedsignage.com/devices/android/",
+      "date": "2026-10-26T17:15:30.000Z",
+      "description": ""
+    },
+    {
+      "title": "embed signage Android v4.3.0 app",
+      "link": "https://embedsignage.com/releases/embed-signage-android-v4-3-0-app/",
+      "date": "2026-10-26T17:08:42.000Z",
+      "description": ""
+    },
+    {
+      "title": "Analytics, Settings and Account Pages Refresh",
+      "link": "https://embedsignage.com/releases/analytics-settings-and-account-pages-refresh/",
+      "date": "2026-10-26T16:55:01.000Z",
+      "description": ""
+    },
     {
       "title": "Various Bug Fixes and License email improvement",
       "link": "https://embedsignage.com/releases/various-bug-fixes-and-license-email-improvement/",

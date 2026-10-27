@@ -1,7 +1,13 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-10-26T10:55:11.043Z",
+  "fetched_at": "2026-10-27T10:19:47.348Z",
   "items": [
+    {
+      "title": "DisplayFusion 12.2 (Beta 5) Now Available!",
+      "link": "https://www.displayfusion.com/Discussions/View/displayfusion-122-beta-5-now-available/?ID=01a179f0-1d2d-728c-b960-0820d63fc6a0",
+      "date": "2026-10-26T20:39:02.000Z",
+      "description": "We're very excited to announce that DisplayFusion 12.2 (Beta 5) is now available for download! This beta is the next for the upcoming 12.2 version. It fixes many issues, improves performance in many …"
+    },
     {
       "title": "New Direct Integration: UniFi",
       "link": "https://www.checkcentral.cc/Discussions/View/new-direct-integration-unifi/?ID=01a15696-960e-7609-aa5c-13492843b87d",
