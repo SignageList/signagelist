@@ -1,7 +1,13 @@
 {
   "source": "friendlyway",
-  "fetched_at": "2026-10-27T10:19:47.348Z",
+  "fetched_at": "2026-10-28T11:11:38.627Z",
   "items": [
+    {
+      "title": "friendlyway Products Not Affected by the PHP2Shell Vulnerability",
+      "link": "https://www.friendlyway.com/friendlyway-products-not-affected-by-the-php2shell-vulnerability/",
+      "date": "2026-10-27T12:46:56.000Z",
+      "description": "In October 2026, critical PHP vulnerabilities known as PHP2Shell were disclosed. These vulnerabilities can allow attackers to execute code remotely on vulnerable servers without authentication. frien…"
+    },
     {
       "title": "How to Set Up a Visitor Flow in friendlyway",
       "link": "https://www.friendlyway.com/how-to-set-up-visitor-flow-friendlyway/",
