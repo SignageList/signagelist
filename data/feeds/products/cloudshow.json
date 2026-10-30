@@ -1,7 +1,13 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-10-29T11:25:37.087Z",
+  "fetched_at": "2026-10-30T11:17:47.001Z",
   "items": [
+    {
+      "title": "New Direct Integration: HTTP Status Checks",
+      "link": "https://www.checkcentral.cc/Discussions/View/new-direct-integration-http-status-checks/?ID=01a1844d-1300-76d5-88b3-28b7b0f44111",
+      "date": "2026-10-28T20:56:46.000Z",
+      "description": "We're very excited to announce a great new feature to CheckCentral: HTTP Status Checks! This feature allows you to automatically check to make sure your websites are returning the HTTP status code th…"
+    },
     {
       "title": "DisplayFusion 12.2 (Beta 5) Now Available!",
       "link": "https://www.displayfusion.com/Discussions/View/displayfusion-122-beta-5-now-available/?ID=01a179f0-1d2d-728c-b960-0820d63fc6a0",
