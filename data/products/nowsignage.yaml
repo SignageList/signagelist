@@ -44,6 +44,12 @@ stats:
     date: 2025-04
 notes:
   - The screen count is based on the number of customers. The actual screen count may vary.
+reviews:
+  g2:
+    url: https://www.g2.com/products/nowsignage/reviews
+    rating: 5.0
+    review_count: 3
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

@@ -35,6 +35,12 @@ stats:
     source: https://www.dotsignage.com
     date: 2026-01
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/dotsignage/reviews
+    rating: 4.9
+    review_count: 21
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

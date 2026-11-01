@@ -28,6 +28,12 @@ models:
 stats: {}
 notes:
   - Acquired by EverPass Media
+reviews:
+  g2:
+    url: https://www.g2.com/products/upshow/reviews
+    rating: 4.4
+    review_count: 118
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

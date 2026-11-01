@@ -44,6 +44,12 @@ stats:
     date: 2025-04
 notes:
   - Perpetual license of hardware and/or software starting at $350 - no ongoing fees or monthly subsciption
+reviews:
+  g2:
+    url: https://www.g2.com/products/mvix-digital-signage/reviews
+    rating: 3.9
+    review_count: 15
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

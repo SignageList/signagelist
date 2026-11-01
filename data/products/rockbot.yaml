@@ -31,6 +31,12 @@ models:
         yearly: 300
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/rockbot/reviews
+    rating: 4.5
+    review_count: 279
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

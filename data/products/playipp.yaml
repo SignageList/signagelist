@@ -32,6 +32,12 @@ stats:
     source: https://playipp.com/
     date: 2025-04
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/playipp/reviews
+    rating: 4.4
+    review_count: 25
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

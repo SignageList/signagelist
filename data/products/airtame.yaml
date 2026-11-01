@@ -28,6 +28,12 @@ stats:
     date: 2025-04
 notes:
   - The number of screens is based on 10,000 organizations using Airtame
+reviews:
+  g2:
+    url: https://www.g2.com/products/airtame/reviews
+    rating: 4.6
+    review_count: 37
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

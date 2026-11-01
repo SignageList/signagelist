@@ -41,6 +41,12 @@ stats:
     source: https://www.risevision.com/
     date: 2025-04
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/rise-vision/reviews
+    rating: 4.7
+    review_count: 1004
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

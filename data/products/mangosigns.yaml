@@ -42,6 +42,12 @@ models:
 stats: {}
 notes:
   - 20% discounts for non-profit organizations, educational institutions or places of worship.
+reviews:
+  g2:
+    url: https://www.g2.com/products/mango-signs/reviews
+    rating: 3.2
+    review_count: 3
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

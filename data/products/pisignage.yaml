@@ -41,6 +41,12 @@ stats:
     date: 2025-04
 notes:
   - A player license is required for open-source server usage, though subscription charges are waived if opting for an open-source server.
+reviews:
+  g2:
+    url: https://www.g2.com/products/pisignage/reviews
+    rating: 4.8
+    review_count: 4
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

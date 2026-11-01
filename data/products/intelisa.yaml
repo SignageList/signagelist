@@ -22,6 +22,12 @@ models:
     pricing: []
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/intelisa-digital-signage-technology/reviews
+    rating: 5.0
+    review_count: 3
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

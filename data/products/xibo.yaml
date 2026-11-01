@@ -48,6 +48,12 @@ stats:
 notes:
   - Android, Tizen and webOS players are closed-source, commercial products and require a (perpetual) license if used with a free self-hosted server.
   - The Tizen player is currently limited to HD resolution on 4K screens.
+reviews:
+  g2:
+    url: https://www.g2.com/products/xibo/reviews
+    rating: 3.5
+    review_count: 5
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

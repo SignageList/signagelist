@@ -46,6 +46,12 @@ models:
         yearly: 199
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/quickesign/reviews
+    rating: 4.8
+    review_count: 46
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

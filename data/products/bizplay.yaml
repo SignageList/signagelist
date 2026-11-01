@@ -28,6 +28,12 @@ models:
         yearly: 151.68
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/bizplay/reviews
+    rating: 5.0
+    review_count: 1
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

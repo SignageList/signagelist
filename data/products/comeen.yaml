@@ -37,6 +37,12 @@ models:
         yearly: 324
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/comeen-comeen/reviews
+    rating: 4.8
+    review_count: 21
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

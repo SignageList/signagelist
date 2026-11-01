@@ -39,6 +39,12 @@ models:
         yearly: 185
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/embed-signage/reviews
+    rating: 4.5
+    review_count: 102
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

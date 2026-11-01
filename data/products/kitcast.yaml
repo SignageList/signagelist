@@ -30,6 +30,12 @@ models:
 stats: {}
 notes:
   - "Digital Signage Software for Apple TV. Platforms planned for 2025: Android, Fire OS, BrightSign, Tizen, webOS, macOS"
+reviews:
+  g2:
+    url: https://www.g2.com/products/kitcast/reviews
+    rating: 4.9
+    review_count: 11
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

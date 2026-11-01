@@ -1,0 +1,36 @@
+{{/*
+	Third-party review sites for a product. Ratings are a dated snapshot read from the
+	source, shown with attribution and a link so the reader can check the current figure.
+	Call with the product map: partial "product/reviews.html" $p
+*/}}
+{{ $p := . }}
+{{ $sources := slice
+	(dict "key" "g2" "label" "G2" "data" $p.reviews.g2)
+	(dict "key" "capterra" "label" "Capterra" "data" $p.reviews.capterra)
+	(dict "key" "gartner" "label" "Gartner Peer Insights" "data" $p.reviews.gartner)
+}}
+{{ $present := slice }}
+{{ range $sources }}{{ if .data }}{{ $present = $present | append . }}{{ end }}{{ end }}
+
+{{ if $present }}
+<div class="bg-white rounded-xl ring-1 ring-neutral-200 overflow-hidden mt-4">
+	<h2 class="px-4 pt-3 pb-2 text-xs font-semibold text-neutral-400 uppercase tracking-wide">Reviews elsewhere</h2>
+	<ul class="divide-y divide-neutral-100">
+		{{ range $present }}
+		{{ $d := .data }}
+		{{ $url := partial "outbound-url.html" (dict "url" $d.url "campaign" (printf "product_reviews_%s" .key)) | safeURL }}
+		<li class="px-4 py-3 flex items-center justify-between gap-3">
+			<a href="{{ $url }}" target="_blank" rel="noopener nofollow ugc"
+				class="text-sm text-neutral-900 hover:text-neutral-600 transition-colors">{{ .label }}</a>
+			<span class="text-sm text-neutral-500 tabular-nums shrink-0">
+				{{ with $d.rating }}{{ . }}<span class="text-neutral-300">/5</span>{{ end }}
+				{{ with $d.review_count }}<span class="text-neutral-400">({{ lang.FormatNumber 0 . }})</span>{{ end }}
+			</span>
+		</li>
+		{{ end }}
+	</ul>
+	{{ with (index $present 0).data.retrieved }}
+	<p class="px-4 pb-3 text-xs text-neutral-400">Ratings read {{ . }}. Follow a link for the current figure.</p>
+	{{ end }}
+</div>
+{{ end }}

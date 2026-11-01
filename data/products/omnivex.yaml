@@ -21,6 +21,12 @@ models:
     pricing: []
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/omnivex-moxie/reviews
+    rating: 5.0
+    review_count: 1
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

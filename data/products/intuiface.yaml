@@ -38,6 +38,12 @@ models:
         yearly: 173.66
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/intuiface/reviews
+    rating: 5.0
+    review_count: 13
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []
