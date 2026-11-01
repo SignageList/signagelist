@@ -40,6 +40,12 @@ stats:
     date: 2025-04
 notes:
   - Total screens is based on the number of active users
+reviews:
+  g2:
+    url: https://www.g2.com/products/trudigital-signage/reviews
+    rating: 4.6
+    review_count: 53
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

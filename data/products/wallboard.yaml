@@ -37,6 +37,12 @@ models:
         yearly: null
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/wallboard-digital-signage-cms/reviews
+    rating: 4.5
+    review_count: 1
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

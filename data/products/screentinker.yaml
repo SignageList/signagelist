@@ -64,6 +64,12 @@ stats: {}
 notes:
   - SSO uses OpenID Connect (Google, Microsoft Entra, Okta and other OIDC providers), with optional per-organization SSO and domain verification. SAML is not supported.
   - The Vega OS player targets the Fire TV Stick 4K Select and Fire TV Stick HD (2026) and is not yet certified on hardware. BrightSign runs the standard browser player.
+reviews:
+  g2:
+    url: https://www.g2.com/products/screentinker/reviews
+    rating: 4.0
+    review_count: 1
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

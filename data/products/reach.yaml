@@ -33,6 +33,12 @@ stats:
     source: https://www.linkedin.com/company/reachmedianetwork/
     date: 2025-04
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/reach-digital-signage/reviews
+    rating: 4.8
+    review_count: 297
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

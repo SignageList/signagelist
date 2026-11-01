@@ -30,6 +30,12 @@ models:
         yearly: 200
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/samsung-vxt/reviews
+    rating: 4.6
+    review_count: 55
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

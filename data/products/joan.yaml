@@ -28,6 +28,12 @@ models:
         yearly: 205.2
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/joan/reviews
+    rating: 4.5
+    review_count: 283
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

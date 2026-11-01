@@ -36,6 +36,12 @@ stats:
     source: https://www.reddit.com/r/digitalsignage/comments/1k760p7/comment/moxjqw2/
     date: 2025-04
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/zeetaminds-digital-signage-software/reviews
+    rating: 4.8
+    review_count: 23
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

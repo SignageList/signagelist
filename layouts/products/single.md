@@ -85,6 +85,13 @@ Not published. Contact the vendor for a quote.
 
 {{ range . }}- {{ . }}
 {{ end }}{{ end }}{{ end }}
+{{- $rev := slice (dict "label" "G2" "d" $p.reviews.g2) (dict "label" "Capterra" "d" $p.reviews.capterra) (dict "label" "Gartner Peer Insights" "d" $p.reviews.gartner) }}
+{{- $revp := slice }}{{ range $rev }}{{ if .d }}{{ $revp = $revp | append . }}{{ end }}{{ end }}
+{{- with $revp }}
+## Reviews elsewhere
+
+{{ range . }}- {{ .label }}: {{ with .d.rating }}{{ . }}/5{{ end }}{{ with .d.review_count }} from {{ . }} reviews{{ end }}{{ with .d.retrieved }} (read {{ . }}){{ end }}. {{ .d.url }}
+{{ end }}{{ end }}
 ## Frequently asked questions
 
 {{ range $faq }}### {{ .q }}

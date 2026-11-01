@@ -40,6 +40,12 @@ models:
 stats: {}
 notes:
   - Formerly known as SocialScreen
+reviews:
+  g2:
+    url: https://www.g2.com/products/fyresign-as/reviews
+    rating: 5.0
+    review_count: 11
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

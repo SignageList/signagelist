@@ -38,6 +38,12 @@ stats:
     date: 2025-04
 notes:
   - We mention a minimum of 35000 connected screens based on customer count, but the actual number could be significantly higher.
+reviews:
+  g2:
+    url: https://www.g2.com/products/posterbooking/reviews
+    rating: 5.0
+    review_count: 1
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

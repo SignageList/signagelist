@@ -26,6 +26,12 @@ models:
 stats: {}
 notes:
   - Displai Systems Inc. has acquired the assets of Raydiant
+reviews:
+  g2:
+    url: https://www.g2.com/products/displai/reviews
+    rating: 4.7
+    review_count: 397
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

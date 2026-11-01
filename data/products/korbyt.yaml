@@ -32,6 +32,12 @@ models:
     pricing: []
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/korbyt/reviews
+    rating: 4.4
+    review_count: 27
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

@@ -29,6 +29,12 @@ stats:
     source: https://www.linkedin.com/posts/broadsign_thepowerof2million-activity-7321156055743291393-FgjW
     date: 2025-04
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/broadsign/reviews
+    rating: 4.4
+    review_count: 15
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

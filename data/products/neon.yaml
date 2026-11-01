@@ -31,6 +31,12 @@ models:
         yearly: 360
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/neon-screens-neon/reviews
+    rating: 3.8
+    review_count: 2
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

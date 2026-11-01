@@ -28,6 +28,12 @@ stats:
     date: 2025-04
 notes:
   - The screen count is based on the number of provided customer count. The actual screen count may vary.
+reviews:
+  g2:
+    url: https://www.g2.com/products/dise-digital-signage-software/reviews
+    rating: 5.0
+    review_count: 1
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

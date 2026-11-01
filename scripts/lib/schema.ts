@@ -40,6 +40,26 @@ const StatsSchema = z
 	})
 	.default({})
 
+/*
+	Third-party review sites. `url` is the product's page on that site; the rating and
+	review count are a snapshot, so `retrieved` records when they were read. Ratings go
+	stale, and a figure with no date on it is worse than no figure.
+*/
+const ReviewSourceSchema = z.object({
+	url: z.string().url(),
+	rating: z.number().min(0).max(5).nullable().default(null),
+	review_count: z.number().int().nonnegative().nullable().default(null),
+	retrieved: z.string().nullable().default(null),
+})
+
+const ReviewsSchema = z
+	.object({
+		g2: ReviewSourceSchema.optional(),
+		capterra: ReviewSourceSchema.optional(),
+		gartner: ReviewSourceSchema.optional(),
+	})
+	.default({})
+
 const ComplianceSchema = z
 	.object({
 		soc2: z.boolean(),
@@ -86,6 +106,9 @@ const ProductSchema = z
 		// Compliance
 		compliance: ComplianceSchema,
 
+		// Third-party reviews
+		reviews: ReviewsSchema,
+
 		// Notes
 		notes: z.array(z.string()).default([]),
 
@@ -104,9 +127,11 @@ const ProductSchema = z
 		path: ['docs_url'],
 	})
 
-export { ProductSchema, ProductCategorySchema, ModelSchema, PricingSchema }
+export { ProductSchema, ProductCategorySchema, ModelSchema, PricingSchema, ReviewsSchema, ReviewSourceSchema }
 
 export type Product = z.infer<typeof ProductSchema>
 export type ProductCategory = z.infer<typeof ProductCategorySchema>
 export type Model = z.infer<typeof ModelSchema>
 export type Pricing = z.infer<typeof PricingSchema>
+export type Reviews = z.infer<typeof ReviewsSchema>
+export type ReviewSource = z.infer<typeof ReviewSourceSchema>

@@ -27,6 +27,12 @@ models:
         yearly: 324
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/screenfluence-screenfluence/reviews
+    rating: 4.7
+    review_count: 39
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []

@@ -28,6 +28,12 @@ models:
         yearly: 365
 stats: {}
 notes: []
+reviews:
+  g2:
+    url: https://www.g2.com/products/l-squared-hub/reviews
+    rating: 4.9
+    review_count: 65
+    retrieved: "2026-11-02"
 features: []
 integrations: []
 target_audience: []
