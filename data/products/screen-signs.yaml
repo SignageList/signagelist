@@ -1,0 +1,42 @@
+name: Screen-Signs
+slug: screen-signs
+description: Browser-based digital signage on a single flat plan, with unlimited displays and no hardware to install.
+website: https://www.screen-signs.com/
+year_founded: 2024
+headquarters: []
+open_source: false
+has_api: true
+developer_portal_url: https://www.screen-signs.com/api
+has_docs: true
+docs_url: https://www.screen-signs.com/documentation
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Standard
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 12
+        yearly: null
+stats: {}
+notes:
+  - One plan at $12 per month covering unlimited displays, 50 GB of storage and 100-plus templates. Annual billing is advertised as not yet available.
+  - The free trial runs 14 days with no credit card. After it ends, screens keep playing their existing content but cannot be changed until a payment method is added.
+  - Playback runs in a browser on any display, which is the vendor's stated reason for requiring no dedicated hardware.
+  - No company headquarters is published on the site, so the field is left empty.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

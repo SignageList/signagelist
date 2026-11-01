@@ -1,0 +1,77 @@
+name: Ztalio
+slug: ztalio
+description: Cloud digital signage that runs on the TV platform you already own, with a free single-screen tier.
+website: https://ztalio.com/
+year_founded: 2025
+headquarters:
+  - USA
+open_source: false
+has_api: true
+developer_portal_url: https://ztalio.com/developers
+has_cli: true
+has_mcp: true
+has_docs: true
+docs_url: https://ztalio.com/guides
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Roku OS
+  - Fire OS
+  - webOS
+  - Android
+  - tvOS
+  - iOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+        included_screens: 1
+        max_screens: 1
+      - name: Starter
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 9.99
+        yearly: 99.99
+        included_screens: 3
+        max_screens: 3
+      - name: Pro
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 29.99
+        yearly: 299.99
+        included_screens: 10
+        max_screens: 10
+      - name: Network
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 49.99
+        yearly: 499.99
+        included_screens: 25
+        max_screens: 25
+stats:
+  screens:
+    total: 1000
+    source: https://ztalio.com/
+    date: October 2026
+notes:
+  - Plans are priced by screen count, with storage and users scaling alongside. Annual billing includes two months free.
+  - Screen analytics and the Studio editor start on Starter. Screen lock and the API, CLI and MCP interfaces start on Pro.
+  - Samsung Tizen is listed on the site as coming rather than available, so it is not recorded as a supported platform.
+  - The vendor, Cre8ive Innovations LLC, is in Irving, Texas, and rebranded the product to Ztalio in 2026.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

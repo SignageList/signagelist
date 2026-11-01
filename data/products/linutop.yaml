@@ -1,0 +1,47 @@
+name: Linutop
+slug: linutop
+description: Digital signage software and mini PC players for Linux and Raspberry Pi, with a free on-device player and a hosted CMS for managing a screen network.
+website: https://www.linutop.com/
+year_founded: 2006
+headquarters:
+  - France
+open_source: false
+has_docs: true
+docs_url: https://www.linutop.com/support/index.en.html
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Raspberry Pi
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Linutop TV (12 months)
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: 96
+      - name: Linutop TV (1 month free)
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: null
+stats: {}
+notes:
+  - Pricing is listed in EUR. The hosted Linutop TV service is sold as a 12-month subscription at EUR 96, alongside a free one-month tier. The shop does not state whether a subscription covers one screen or several.
+  - Linutop Kiosk, the on-device player, is free to download and is included in Linutop OS. Linutop TV adds central management of a screen network, in the cloud or on a private server.
+  - Linutop OS is built on Ubuntu LTS for PCs and Raspbian for the Raspberry Pi. The OS itself is sold rather than open source, with web upgrades at EUR 39.
+  - The vendor also sells its own fanless mini PC players, the Linutop XS and Linutop 6, from EUR 189 to EUR 339.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
