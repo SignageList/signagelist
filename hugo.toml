@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "SignageList"
 enableRobotsTXT = true
 capitalizeListTitles = false
+# Dates in content front matter carry no offset. Without this they are read as UTC, so a
+# release note dated today and written after 20:00 local counts as future-dated and Hugo
+# silently drops it from the build until UTC catches up.
+timeZone = "Asia/Dubai"
 
 [taxonomies]
   category = "categories"
