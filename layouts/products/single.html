@@ -203,7 +203,10 @@
 
 		{{/* ── Sidebar ── */}}
 		<aside class="lg:col-span-1">
-			<div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden sticky top-20">
+			{{/* The whole column sticks as one block. Anything added here must live inside this
+			     wrapper, or it scrolls up underneath the pinned card. */}}
+			<div class="space-y-4 lg:sticky lg:top-20 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
+			<div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden">
 
 				{{/* CTA */}}
 				<div class="p-4 space-y-2 border-b border-neutral-100">
@@ -347,6 +350,7 @@
 			</div>
 
 			{{ partial "product/reviews.html" $p }}
+			</div>
 		</aside>
 
 	</div>

@@ -13,7 +13,7 @@
 {{ range $sources }}{{ if .data }}{{ $present = $present | append . }}{{ end }}{{ end }}
 
 {{ if $present }}
-<div class="bg-white rounded-xl ring-1 ring-neutral-200 overflow-hidden mt-4">
+<div class="bg-white rounded-xl ring-1 ring-neutral-200 overflow-hidden">
 	<h2 class="px-4 pt-3 pb-2 text-xs font-semibold text-neutral-400 uppercase tracking-wide">Reviews elsewhere</h2>
 	<ul class="divide-y divide-neutral-100">
 		{{ range $present }}
