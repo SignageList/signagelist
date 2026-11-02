@@ -1,7 +1,19 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-11-01T11:48:02.830Z",
+  "fetched_at": "2026-11-02T13:19:30.812Z",
   "items": [
+    {
+      "title": "Door Tablet NOW - User guide",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/2F852361D180BBE380258EA3004264A9",
+      "date": "2026-11-02T12:12:31.000Z",
+      "description": "Door Tablet NOW ? Technical configuration guide Audience: Door Tablet administrators, implementation partners and support teams. Draft prepared 1 November 2026 against the current implementation. 1..…"
+    },
+    {
+      "title": "Door Tablet NOW - config",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/BAD6747FF080E56F80258EA300422ED5",
+      "date": "2026-11-02T12:04:56.000Z",
+      "description": "Door Tablet NOW ? Technical configuration guide Audience: Door Tablet administrators, implementation partners and support teams. Draft prepared 1 November 2026 against the current implementation. 1..…"
+    },
     {
       "title": "Secure access",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/683314A690490391802585FC0053B4AF",
