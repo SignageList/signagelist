@@ -1,7 +1,19 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-11-02T13:19:30.812Z",
+  "fetched_at": "2026-11-03T12:44:23.697Z",
   "items": [
+    {
+      "title": "Top WallpaperFusion Members for October 2026",
+      "link": "https://www.wallpaperfusion.com/Discussions/View/top-wallpaperfusion-members-for-october-2026/?ID=01a19d5a-ea81-71d9-af66-4da22305919f",
+      "date": "2026-11-02T17:42:24.000Z",
+      "description": "Congratulations to our top contributing members for October 2026! They have been hard at work submitting, rating, and discussing images on WallpaperFusion, and have racked up some impressive reputati…"
+    },
+    {
+      "title": "New Direct Integration: ICMP/Ping Checks",
+      "link": "https://www.checkcentral.cc/Discussions/View/new-direct-integration-icmpping-checks/?ID=01a18e42-e23f-74e9-98dd-f9246b45d10e",
+      "date": "2026-10-30T19:21:50.000Z",
+      "description": "We're very excited to announce a great new feature to CheckCentral: ICMP/Ping Checks! This feature allows you to have CheckCentral report on ping response times. When the polling runs, if the server …"
+    },
     {
       "title": "New Direct Integration: HTTP Status Checks",
       "link": "https://www.checkcentral.cc/Discussions/View/new-direct-integration-http-status-checks/?ID=01a1844d-1300-76d5-88b3-28b7b0f44111",
