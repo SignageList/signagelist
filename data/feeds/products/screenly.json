@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-11-03T12:44:23.697Z",
+  "fetched_at": "2026-11-04T12:53:52.521Z",
   "items": [
+    {
+      "title": "From Slack handles to real faces: first-timers at the Screenly annual summit",
+      "link": "https://www.screenly.io/blog/2026/10/29/from-slack-handles-to-real-faces/",
+      "date": "2026-10-29T00:00:00.000Z",
+      "description": "<p>Four of us walked into this year’s summit in Kerala, India, about to meet most of our Screenly teammates for the first time. Until then, we had only known each other through Slack threads and vide…"
+    },
     {
       "title": "Anthias v2026.07.2 to v2026.10.0: eight releases in three months",
       "link": "https://www.screenly.io/blog/2026/10/21/anthias-v2026-10-0/",

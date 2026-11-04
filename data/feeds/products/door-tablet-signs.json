@@ -1,7 +1,19 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-11-03T12:44:23.697Z",
+  "fetched_at": "2026-11-04T12:53:52.521Z",
   "items": [
+    {
+      "title": "Personal Displays",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/0482C3280C5F2D1D8025892C005E310A",
+      "date": "2026-11-04T11:55:35.000Z",
+      "description": "From V10.7 you can connect a display to a Door Tablet Booker resource and show a simple display. The display will mainly show the resource name and the person, or entity, who has it allocated to..."
+    },
+    {
+      "title": "Microsoft Graph",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/0A56CBD264A0B27F80258943003F8467",
+      "date": "2026-11-04T11:43:06.000Z",
+      "description": "From Door Tablet V8.5 the primary method for accessing the Microsoft 365 Tenant is by using Door Tablet for Microsoft Graph. To read about the platform please follow this link:..."
+    },
     {
       "title": "Printing Labels",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/01B0B4A17A47916680258EA300737541",
