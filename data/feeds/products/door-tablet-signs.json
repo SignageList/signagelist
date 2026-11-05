@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-11-04T12:53:52.521Z",
+  "fetched_at": "2026-11-05T13:02:30.417Z",
   "items": [
+    {
+      "title": "Extracting Logs",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/61B07BDF157E49C180257FF00037E1D2",
+      "date": "2026-11-04T16:21:42.000Z",
+      "description": "The Door Tablet AIO/SL/NXT allows you to extract logs from a device for the purpose of troubleshooting. Please note that the OS version in use may offer a different path to get to the Log setup..."
+    },
     {
       "title": "Personal Displays",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/0482C3280C5F2D1D8025892C005E310A",
