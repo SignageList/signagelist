@@ -1,12 +1,18 @@
 {
   "source": "friendlyway",
-  "fetched_at": "2026-11-04T12:53:52.521Z",
+  "fetched_at": "2026-11-05T13:02:30.417Z",
   "items": [
     {
       "title": "friendlyway Products Not Affected by the PHP2Shell Vulnerability",
       "link": "https://www.friendlyway.com/friendlyway-products-not-affected-by-the-php2shell-vulnerability/",
       "date": "2026-10-27T12:46:56.000Z",
       "description": "In October 2026, critical PHP vulnerabilities known as PHP2Shell were disclosed. These vulnerabilities can allow attackers to execute code remotely on vulnerable servers without authentication. frien…"
+    },
+    {
+      "title": "Dock Scheduling Software: How to Coordinate Trucks, Docks, and Warehouse Capacity",
+      "link": "https://www.friendlyway.com/dock-scheduling-software/",
+      "date": "2026-10-22T13:49:00.000Z",
+      "description": "Dock Scheduling Software: How to Coordinate Trucks &#124; RSS.com Dock scheduling software coordinates truck arrivals, loading docks, and warehouse resources through structured appointments. It assig…"
     },
     {
       "title": "How to Set Up a Visitor Flow in friendlyway",
