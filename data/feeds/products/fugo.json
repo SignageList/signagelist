@@ -1,7 +1,19 @@
 {
   "source": "Fugo",
-  "fetched_at": "2026-11-05T13:02:30.417Z",
+  "fetched_at": "2026-11-06T12:50:01.725Z",
   "items": [
+    {
+      "title": "Your digital signage player’s firmware can be the attack after Google’s XCPE takedown",
+      "link": "https://www.fugo.ai/blog/digital-signage-firmware-xcpe-botnet/",
+      "date": "2026-11-06T11:21:05.000Z",
+      "description": "Google says digital signage devices were among the Android endpoints caught in XCPE. Here’s how the firmware backdoor worked, and what operators should check now."
+    },
+    {
+      "title": "Stop using USB sticks for your digital signage",
+      "link": "https://www.fugo.ai/blog/stop-using-usb-sticks-for-digital-signage/",
+      "date": "2026-11-06T09:30:00.000Z",
+      "description": "Walking a USB stick to every screen leaves content stale, keeps no record of what played and adds a security risk. Eight steps to move screens over one at a time."
+    },
     {
       "title": "How to build an emergency preparedness plan for your business, screens included",
       "link": "https://www.fugo.ai/blog/emergency-preparedness-plan-for-business/",
