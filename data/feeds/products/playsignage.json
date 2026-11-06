@@ -1,10 +1,22 @@
 {
   "source": "Play Digital Signage (PlaySignage)",
-  "fetched_at": "2026-11-05T13:02:30.417Z",
+  "fetched_at": "2026-11-06T12:50:01.725Z",
   "items": [
+    {
+      "title": "Warehouse Digital Signage: The Dock-to-Break-Room Playbook (With AI)",
+      "link": "https://playsignage.com/blog/warehouse-digital-signage-dock-to-break-room-playbook/",
+      "date": "2026-11-05T00:00:00.000Z",
+      "description": "Warehouse digital signage puts the information that changes every hour, like dock doors, the driver line, pick rates and shift notes, on screens where people already look. Here is where each screen g…"
+    },
     {
       "title": "Does Play Digital Signage Scale? Proof, Features and Cost",
       "link": "https://playsignage.com/blog/does-play-digital-signage-get-expensive-at-scale/",
+      "date": "2026-11-02T00:00:00.000Z",
+      "description": "Play Digital Signage scales from one screen to large multi-location networks. More than 2,500 organizations run over 25,000 screens on it. Here is the customer proof, the features that manage large n…"
+    },
+    {
+      "title": "Does Play Digital Signage Scale? Proof, Features and Cost",
+      "link": "https://playsignage.com/blog/can-play-digital-signage-scale/",
       "date": "2026-11-02T00:00:00.000Z",
       "description": "Play Digital Signage scales from one screen to large multi-location networks. More than 2,500 organizations run over 25,000 screens on it. Here is the customer proof, the features that manage large n…"
     },
