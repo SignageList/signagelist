@@ -1,7 +1,13 @@
 {
   "source": "Screenly",
-  "fetched_at": "2026-11-06T12:50:01.725Z",
+  "fetched_at": "2026-11-07T11:38:14.173Z",
   "items": [
+    {
+      "title": "Screenly Sync 0x10: November updates from Screenly",
+      "link": "https://www.screenly.io/blog/2026/11/06/screenly-sync-0x10/",
+      "date": "2026-11-06T00:00:00.000Z",
+      "description": "<p>Welcome to the 11th edition of Screenly Sync, where we share the latest product, app, and community updates from Screenly.</p> <p>October brought a free Screenly Player with every new yearly scree…"
+    },
     {
       "title": "From Slack handles to real faces: first-timers at the Screenly annual summit",
       "link": "https://www.screenly.io/blog/2026/10/29/from-slack-handles-to-real-faces/",
