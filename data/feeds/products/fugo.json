@@ -1,7 +1,25 @@
 {
   "source": "Fugo",
-  "fetched_at": "2026-11-07T11:38:14.173Z",
+  "fetched_at": "2026-11-09T13:44:55.842Z",
   "items": [
+    {
+      "title": "Who can change your menu board? A security check for restaurant screen networks",
+      "link": "https://www.fugo.ai/blog/menu-board-security/",
+      "date": "2026-11-09T11:06:58.000Z",
+      "description": "Attackers guessed a default password and raised the prices on a German franchisee’s digital menu boards, and customers spotted it before staff did. Six account checks show who can change yours."
+    },
+    {
+      "title": "How to use digital signage with 7 workflows your team can set up today",
+      "link": "https://www.fugo.ai/blog/how-to-use-digital-signage-team-workflows/",
+      "date": "2026-11-09T09:30:00.000Z",
+      "description": "Seven Fugo workflows that take digital signage beyond a slide loop, covering announcements, email updates, live dashboards, CRM wins, timers, targeting, and fallbacks."
+    },
+    {
+      "title": "Lean visual management, a practical guide to boards on shop-floor and office screens",
+      "link": "https://www.fugo.ai/blog/lean-visual-management/",
+      "date": "2026-11-09T09:30:00.000Z",
+      "description": "Lean visual management makes status clear at a glance. Compare SQDC, kaizen, andon, and gemba boards, then learn how to put an existing dashboard on a shop-floor or office TV."
+    },
     {
       "title": "Your digital signage player’s firmware can be the attack after Google’s XCPE takedown",
       "link": "https://www.fugo.ai/blog/digital-signage-firmware-xcpe-botnet/",
