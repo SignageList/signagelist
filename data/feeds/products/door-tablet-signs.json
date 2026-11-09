@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-11-07T11:38:14.173Z",
+  "fetched_at": "2026-11-09T13:44:55.842Z",
   "items": [
+    {
+      "title": "QR Codes",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/4725BB9B0879A81E80258EA8006034AA",
+      "date": "2026-11-07T17:53:22.000Z",
+      "description": "Door Tablet displays QR Codes in a few places. This list show where we set these codes and display them for the user: Meeting room displays Nearby screens in room displays Hot desk displays ePaper..."
+    },
     {
       "title": "Extracting Logs",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/61B07BDF157E49C180257FF00037E1D2",
