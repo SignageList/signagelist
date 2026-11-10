@@ -1,7 +1,13 @@
 {
   "source": "Touchify",
-  "fetched_at": "2026-11-09T13:44:55.842Z",
+  "fetched_at": "2026-11-10T13:23:06.328Z",
   "items": [
+    {
+      "title": "Digital signage security: the four practices, and who is responsible for each",
+      "link": "https://touchify.io/en/blog/digital-signage-security",
+      "date": "2026-11-10T08:00:00.000Z",
+      "description": "Digital signage security in four practices — hardening, segmentation, patching, remote access — and who actually answers for each one: vendor, integrator or customer."
+    },
     {
       "title": "E-paper display power consumption: what \"zero watts\" actually means",
       "link": "https://touchify.io/en/blog/e-paper-display-power-consumption",
