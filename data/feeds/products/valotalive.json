@@ -1,7 +1,13 @@
 {
   "source": "Valotalive",
-  "fetched_at": "2026-11-09T13:44:55.842Z",
+  "fetched_at": "2026-11-10T13:23:06.328Z",
   "items": [
+    {
+      "title": "Power BI on Factory Screens: Build It Yourself or Buy a Signage Platform?",
+      "link": "https://valota.live/power-bi-factory-screens-build-vs-buy/",
+      "date": "2026-11-10T08:23:18.000Z",
+      "description": "Building your own setup to show Power BI on factory screens, with a PC or media player that opens the report in a browser on each screen, works when you have one or a few screens that show the same r…"
+    },
     {
       "title": "What Live Data Looks Like on Workplace Screens: 7 Examples from Factories and Distribution Centres",
       "link": "https://valota.live/live-data-examples/",
