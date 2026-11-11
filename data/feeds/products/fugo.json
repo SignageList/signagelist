@@ -1,7 +1,13 @@
 {
   "source": "Fugo",
-  "fetched_at": "2026-11-10T13:23:06.328Z",
+  "fetched_at": "2026-11-11T12:34:23.982Z",
   "items": [
+    {
+      "title": "A plain guide to IPTV on digital signage screens",
+      "link": "https://www.fugo.ai/blog/iptv-digital-signage/",
+      "date": "2026-11-11T09:30:00.000Z",
+      "description": "What IPTV means, how it differs from streaming apps, what a screen needs to play a live channel, and the licensing to check before you set it up in Fugo."
+    },
     {
       "title": "Who can change your menu board? A security check for restaurant screen networks",
       "link": "https://www.fugo.ai/blog/menu-board-security/",

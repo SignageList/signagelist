@@ -1,7 +1,19 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-11-10T13:23:06.328Z",
+  "fetched_at": "2026-11-11T12:34:23.982Z",
   "items": [
+    {
+      "title": "LogFusion 7.3 (Beta 1) Now Available!",
+      "link": "https://www.logfusion.ca/Discussions/View/logfusion-73-beta-1-now-available/?ID=01a1c6b2-f603-739e-81eb-81819b8889de",
+      "date": "2026-11-10T18:23:00.000Z",
+      "description": "We're very excited to announce that LogFusion 7.3 (Beta 1) is now available for download! This new beta fixes some issues for the upcoming 7.3 release. Update for free today! LogFusion 7.3 (Beta 1) C…"
+    },
+    {
+      "title": "ClipboardFusion 6.4 (Beta 11) Now Available!",
+      "link": "https://www.clipboardfusion.com/Discussions/View/clipboardfusion-64-beta-11-now-available/?ID=01a1c6ae-a008-7179-9de4-a83b05b08896",
+      "date": "2026-11-10T18:18:15.000Z",
+      "description": "We're very excited to announce that ClipboardFusion 6.4 (Beta 11) is now available for download! This new version updates ClipboardFusion to .NET 10 and improves the performance and stability. Clipbo…"
+    },
     {
       "title": "VoiceBot 4.1 (Beta 1) Now Available!",
       "link": "https://www.voicebot.net/Discussions/View/voicebot-41-beta-1-now-available/?ID=01a1acf5-8d3f-7481-be8b-31098bb99319",
