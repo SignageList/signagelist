@@ -17,6 +17,7 @@ platforms:
   - Amazon Signage
   - Android
   - BrightSign
+  - Fire OS
   - Tizen
   - webOS
 models:

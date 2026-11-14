@@ -59,6 +59,11 @@ compliance:
     status: compliant
     source: https://www.optisigns.com/
     checked: 2026-11
+  tx_ramp:
+    status: certified
+    detail: Level 1, certificate TX1342625
+    source: https://www.optisigns.com/trust-center
+    checked: 2026-11
   vpat:
     status: compliant
     source: https://www.optisigns.com/trust-center

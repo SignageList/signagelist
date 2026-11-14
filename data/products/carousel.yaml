@@ -66,6 +66,11 @@ compliance:
     status: compliant
     source: https://www.carouselsignage.com/legal/gdpr-compliance-statement
     checked: 2026-11
+  tx_ramp:
+    status: certified
+    detail: Level 1
+    source: https://www.carouselsignage.com/cloud/security
+    checked: 2026-11
   vpat:
     status: compliant
     source: https://www.carouselsignage.com/cloud/security

@@ -1,0 +1,60 @@
+name: MangoApps
+slug: mangoapps
+description: Employee platform for frontline and office teams, with a digital signage app that turns any browser-capable screen into a workplace display.
+website: https://www.mangoapps.com/
+year_founded: 2008
+headquarters:
+  - USA
+open_source: false
+has_api: true
+has_cli: true
+has_mcp: true
+has_sso: true
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.mangoapps.com/security-compliance
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.mangoapps.com/security-compliance
+    checked: 2026-11
+  hipaa:
+    status: compliant
+    detail: BAA offered
+    source: https://www.mangoapps.com/security-compliance
+    checked: 2026-11
+  hitrust:
+    status: certified
+    source: https://www.mangoapps.com/security-compliance
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    detail: DPA offered
+    source: https://www.mangoapps.com/terms-of-service
+    checked: 2026-11
+notes:
+  - "Digital signage is one app on the MangoApps platform and is not priced on its own. Suites are priced per employee (from $4 per employee a month, minimum 200 employees) or per specialist seat, with a 14-day free trial for team suites."
+  - Based in Seattle, Washington.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
