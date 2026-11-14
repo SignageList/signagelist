@@ -1,7 +1,19 @@
 {
   "source": "Taplist",
-  "fetched_at": "2026-07-29T12:30:03.626Z",
+  "fetched_at": "2026-11-14T12:01:56.801Z",
   "items": [
+    {
+      "title": "Easily restore your previous TV edits",
+      "link": "https://taplistio-homepage.splatboard.workers.dev/blog/easily-restore-your-previous-tv-edits",
+      "date": "2026-10-14T00:00:00.000Z",
+      "description": "Ever make a goof while editing your TV settings? We know we do!"
+    },
+    {
+      "title": "Our menu editor just got better",
+      "link": "https://taplistio-homepage.splatboard.workers.dev/blog/our-menu-editor-just-got-better",
+      "date": "2026-05-07T00:00:00.000Z",
+      "description": "Our menu editor just got a bunch of improvements! You can use it now, by navigating to Your Menus and editing your menus as usual."
+    },
     {
       "title": "We came. We saw. We drank. Taplist does CBC 2026.",
       "link": "https://taplistio-homepage.splatboard.workers.dev/blog/cbc-2026-wrap-up",
@@ -13,6 +25,12 @@
       "link": "https://taplistio-homepage.splatboard.workers.dev/blog/were-back-at-cbc----and-powering-the-official-beer-locator-again",
       "date": "2026-04-15T00:00:00.000Z",
       "description": "Next week, the craft beer industry takes over Philadelphia for the Craft Brewers Conference. We'll be there too, and it's shaping up to be Taplist's biggest show yet."
+    },
+    {
+      "title": "Better print menus are here!",
+      "link": "https://taplistio-homepage.splatboard.workers.dev/blog/better-print-menus-are-here",
+      "date": "2026-04-01T00:00:00.000Z",
+      "description": "We've just launched our new Print Menu Builder in beta. It has a ton of improvements."
     },
     {
       "title": "Taplist Now Pairing with Amazon Signage Stick",
@@ -31,6 +49,12 @@
       "link": "https://taplistio-homepage.splatboard.workers.dev/blog/fire-tv-4k-select-and-vega-os",
       "date": "2025-12-21T00:00:00.000Z",
       "description": "Taplist.io continues to lead as the digital menu platform with the best and most reliable hardware support. We've launched our app on Amazon's brand new low cost device, the Fire TV 4K Select."
+    },
+    {
+      "title": "Our Dashboard Has a New Look",
+      "link": "https://taplistio-homepage.splatboard.workers.dev/blog/our-dashboard-has-a-new-look",
+      "date": "2025-12-10T00:00:00.000Z",
+      "description": "The Taplist.io dashboard has a brand new look and navigation structure! It's our first major UI refresh in many years."
     },
     {
       "title": "Post live and recurring events with Taplist.io",

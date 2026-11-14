@@ -10,6 +10,7 @@ has_api: true
 has_cli: true
 has_mcp: true
 has_sso: true
+rss_feed_url: https://www.mangoapps.com/rss.xml
 self_signup: true
 discontinued: false
 categories:
