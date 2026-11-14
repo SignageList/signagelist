@@ -29,6 +29,8 @@ standards:
   - key: hipaa
     label: HIPAA
     filter: true
+  - key: hitrust
+    label: HITRUST
   - key: gdpr
     label: GDPR
     filter: true
@@ -40,7 +42,9 @@ standards:
     label: FedRAMP
     filter: true
   - key: stateramp
-    label: StateRAMP
+    label: StateRAMP / GovRAMP
+  - key: tx_ramp
+    label: TX-RAMP
   - key: cmmc
     label: CMMC
   - key: cyber_essentials

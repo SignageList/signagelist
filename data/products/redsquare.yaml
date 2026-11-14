@@ -13,11 +13,12 @@ discontinued: false
 categories:
   - CMS
 platforms:
+  - Android
+  - Fire OS
+  - Linux
+  - macOS
   - Web Browser
   - Windows
-  - macOS
-  - Linux
-  - Android
 models:
   - delivery: cloud
     free_trial: false
