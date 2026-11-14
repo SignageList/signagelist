@@ -11,6 +11,15 @@ timeZone = "Asia/Dubai"
 [taxonomies]
   category = "categories"
   platform = "platforms"
+  standard = "standards"
+
+# Compliance standard pages live under /compliance/. The taxonomy can't be called
+# "compliance" because products already use that key for their claim records.
+[permalinks]
+  [permalinks.taxonomy]
+    standards = "/compliance/"
+  [permalinks.term]
+    standards = "/compliance/:slug/"
 
 [params]
   description = "A curated directory of digital signage software products."
