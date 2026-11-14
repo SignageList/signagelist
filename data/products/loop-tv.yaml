@@ -8,6 +8,7 @@ headquarters:
 open_source: false
 has_docs: true
 docs_url: https://www.loop.tv/support/
+rss_feed_url: https://ww3.loop.tv/feed/
 self_signup: false
 discontinued: false
 categories:
