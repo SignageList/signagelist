@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="max-w-5xl mx-auto px-6 py-8">
+
+  <div class="mb-6">
+    <h1 class="text-xl font-semibold text-neutral-900">{{ .Params.seo_title | default "Compliance" }}</h1>
+    {{ with .Params.description }}<p class="text-sm text-neutral-500 mt-1">{{ . }}</p>{{ end }}
+  </div>
+
+  {{/* Standards in data/compliance.yaml order, skipping any no product holds yet */}}
+  <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden">
+    {{ range site.Data.compliance.standards }}
+    {{ with site.GetPage (printf "/standards/%s" (replace .key "_" "-")) }}
+    {{ if .Pages }}
+    <a href="{{ .RelPermalink }}"
+       class="flex items-center justify-between px-5 py-3.5 border-b border-neutral-100 last:border-0 hover:bg-neutral-50 transition-[background-color] duration-100 group">
+      <span class="text-sm font-medium text-neutral-900">{{ .Title }}</span>
+      <div class="flex items-center gap-3">
+        <span class="text-xs text-neutral-400 tabular-nums">{{ len .Pages }} product{{ if ne (len .Pages) 1 }}s{{ end }}</span>
+        <svg class="w-4 h-4 text-neutral-300 group-hover:text-neutral-400 transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </div>
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

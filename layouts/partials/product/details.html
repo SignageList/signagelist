@@ -126,7 +126,7 @@
 	{{ $compliance := partial "product/compliance.html" $p }}
 	{{ if or $compliance.held $compliance.inProgress }}
 	<div class="mt-4 pt-4 border-t border-neutral-100">
-		<h3 class="text-xs text-neutral-400 mb-2">Compliance</h3>
+		<h3 class="text-xs text-neutral-400 mb-2"><a href="/compliance/" class="hover:text-neutral-600 transition-colors">Compliance</a></h3>
 		<div class="flex flex-wrap gap-1.5">
 			{{ range $compliance.held }}
 			<a href="{{ .source }}" target="_blank" rel="noopener nofollow" title="{{ if eq .status "certified" }}Certified{{ else }}Declared compliant{{ end }}{{ with .detail }}: {{ . }}{{ end }}{{ with .checked }} (checked {{ . }}){{ end }}" class="text-xs bg-neutral-100 text-neutral-600 hover:bg-neutral-200 px-2.5 py-1 rounded-md font-medium transition-colors">{{ .label }}{{ with .detail }}{{ if hasPrefix . "Type" }} {{ . }}{{ end }}{{ end }}</a>
@@ -135,6 +135,11 @@
 			<a href="{{ .source }}" target="_blank" rel="noopener nofollow" title="In progress{{ with .detail }}: {{ . }}{{ end }}" class="text-xs text-neutral-400 bg-neutral-50 px-2.5 py-1 rounded-md">{{ .label }} (in progress)</a>
 			{{ end }}
 		</div>
+		{{ with $compliance.held }}
+		<p class="text-xs text-neutral-400 mt-2">Other products with
+			{{ range $i, $c := . }}{{ if $i }}{{ if eq (add $i 1) (len $compliance.held) }} or {{ else }}, {{ end }}{{ end }}<a href="/compliance/{{ replace $c.key "_" "-" }}/" class="underline hover:text-neutral-600">{{ $c.label }}</a>{{ end }}
+		</p>
+		{{ end }}
 	</div>
 	{{ end }}
 </div>

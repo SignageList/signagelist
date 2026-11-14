@@ -25,6 +25,7 @@ Every page has a Markdown twin at the same URL plus `index.md`: for example {{ .
 - [Product directory]({{ .Site.BaseURL }}): filterable table of all {{ len $products }} products
 - [Categories]({{ .Site.BaseURL }}categories/): products grouped by type
 - [Platforms]({{ .Site.BaseURL }}platforms/): products grouped by supported playback platform
+- [Compliance]({{ .Site.BaseURL }}compliance/): products grouped by the security, privacy and accessibility standards their vendors claim, such as SOC 2, ISO 27001, HIPAA and GDPR
 - [Free and freemium]({{ .Site.BaseURL }}free/): products with a permanent free tier or an open-source license
 - [Industry news]({{ .Site.BaseURL }}news/): headlines aggregated from vendor and trade feeds
 - [Directory changelog]({{ .Site.BaseURL }}updates/): what changed in the dataset and when
@@ -38,6 +39,10 @@ Every page has a Markdown twin at the same URL plus `index.md`: for example {{ .
 
 {{ range $name, $terms := .Site.Taxonomies.platforms }}{{ with $.Site.GetPage (printf "/platforms/%s" $name) }}- [{{ .Title }}]({{ .Permalink }}): {{ len $terms }} products
 {{ end }}{{ end }}
+## Compliance standards
+
+{{ range .Site.Data.compliance.standards }}{{ with $.Site.GetPage (printf "/standards/%s" (replace .key "_" "-")) }}{{ if .Pages }}- [{{ .Title }}]({{ .Permalink }}): {{ len .Pages }} product{{ if ne (len .Pages) 1 }}s{{ end }}{{ with .Params.description }}. {{ . }}{{ end }}
+{{ end }}{{ end }}{{ end }}
 ## Record schema
 
 Each product record uses these fields:

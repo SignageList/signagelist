@@ -1,0 +1,1 @@
+{{ partial "term-md.html" . }}

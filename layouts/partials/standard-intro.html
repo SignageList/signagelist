@@ -1,0 +1,23 @@
+{{/*
+  Lead sentences for a compliance standard page (taxonomy "standards"),
+  computed from the products that hold the standard. Returns a string.
+*/}}
+{{ $key := replace .Page.File.ContentBaseName "-" "_" }}
+{{ with .Params.slug }}{{ $key = replace . "-" "_" }}{{ end }}
+{{ $pages := .Pages }}
+{{ $total := len $pages }}
+{{ $certified := 0 }}
+{{ range $pages }}
+	{{ with index (.Params.compliance | default dict) $key }}
+		{{ if eq .status "certified" }}{{ $certified = add $certified 1 }}{{ end }}
+	{{ end }}
+{{ end }}
+{{ $declared := sub $total $certified }}
+{{ $all := len (site.GetPage "/products").Pages }}
+{{ $out := printf "%d of the %d products in the SignageList directory %s %s, each linked to a source the vendor published." $total $all (cond (eq $total 1) "claims" "claim") .Title }}
+{{ $parts := slice }}
+{{ if gt $certified 0 }}{{ $parts = $parts | append (printf "%d %s an audit or certificate" $certified (cond (eq $certified 1) "cites" "cite")) }}{{ end }}
+{{ if gt $declared 0 }}{{ $parts = $parts | append (printf "%d %s compliance without one" $declared (cond (eq $declared 1) "declares" "declare")) }}{{ end }}
+{{ if and (gt $total 1) (eq $certified $total) }}{{ $out = printf "%s All of them cite an audit report or certificate." $out }}{{ end }}
+{{ if and (gt $certified 0) (gt $declared 0) }}{{ $out = printf "%s Of those, %s." $out (delimit $parts " and ") }}{{ end }}
+{{ return $out }}

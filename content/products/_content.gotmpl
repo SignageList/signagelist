@@ -19,7 +19,12 @@
       {{ if eq .monthly 0.0 }}{{ $hasFreemium = true }}{{ end }}
     {{ end }}
   {{ end }}
-  {{ $params := merge $product (dict "categories" $cats "platforms" $plats "has_freemium" $hasFreemium) }}
+  {{/* Standards the product holds (certified or compliant), as /compliance/ term slugs */}}
+  {{ $standards := slice }}
+  {{ range (partial "product/compliance.html" $product).keys }}
+    {{ $standards = $standards | append (replace . "_" "-") }}
+  {{ end }}
+  {{ $params := merge $product (dict "categories" $cats "platforms" $plats "standards" $standards "has_freemium" $hasFreemium) }}
   {{ $page := dict
     "content" $content
     "kind" "page"

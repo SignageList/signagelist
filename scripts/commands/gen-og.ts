@@ -1,5 +1,6 @@
-import { existsSync, mkdirSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
+import yaml from 'js-yaml'
 import sharp from 'sharp'
 import type { Command } from '../lib/command'
 import { log } from '../lib/log'
@@ -15,6 +16,7 @@ const DIRS = {
 	products: join(PATHS.og, 'products'),
 	categories: join(PATHS.og, 'categories'),
 	platforms: join(PATHS.og, 'platforms'),
+	standards: join(PATHS.og, 'standards'),
 	pages: join(PATHS.og, 'pages'),
 }
 
@@ -175,6 +177,34 @@ export const command: Command = {
 			'page-platforms',
 			'Platforms',
 			'Browse digital signage software by supported platform — Android, Windows, ChromeOS, BrightSign, and more.',
+		)
+
+		// Compliance standard pages (/compliance/{slug}/), one per standard a product holds
+		const { standards } = yaml.load(readFileSync(join(PATHS.products, '..', 'compliance.yaml'), 'utf8')) as {
+			standards: { key: string; label: string }[]
+		}
+		const standardCount: Record<string, number> = {}
+		for (const p of products) {
+			for (const [key, claim] of Object.entries(p.compliance)) {
+				if (claim && (claim.status === 'certified' || claim.status === 'compliant'))
+					standardCount[key] = (standardCount[key] ?? 0) + 1
+			}
+		}
+		for (const s of standards) {
+			const count = standardCount[s.key]
+			if (!count) continue
+			await gen(
+				DIRS.standards,
+				`standard-${slugify(s.key)}`,
+				`${s.label} Digital Signage`,
+				`Compare ${count} digital signage ${count === 1 ? 'product' : 'products'} with a published ${s.label} claim, each linked to the vendor's source.`,
+			)
+		}
+		await gen(
+			DIRS.pages,
+			'page-standards',
+			'Compliance',
+			'Find digital signage software by SOC 2, ISO 27001, HIPAA, GDPR and other security and privacy standards.',
 		)
 
 		await gen(

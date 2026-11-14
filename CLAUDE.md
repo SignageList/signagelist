@@ -66,6 +66,7 @@ Unlike the previous Astro+React setup, there is no preprocessing step. `hugo --m
 - `/products/{slug}/` — G2-style product profile (`layouts/products/single.html`)
 - `/categories/{name}/` — Products by category (`layouts/categories/term.html`)
 - `/platforms/{name}/` — Products by platform (`layouts/platforms/term.html`)
+- `/compliance/{standard}/` — Products by held compliance claim (`layouts/standards/term.html`). Taxonomy `standards`, filled by the content adapter from certified/compliant claims; each standard needs `content/standards/{slug}/_index.md` with its title, SEO title and explanation
 
 ### Product Data Schema
 

@@ -3,7 +3,7 @@
 
 {{ with .Params.description }}> {{ . }}
 
-{{ end }}{{ partial "term-intro.html" . }}
+{{ end }}{{ partial (cond (eq .Data.Singular "standard") "standard-intro.html" "term-intro.html") . }}
 
 Source: {{ .Permalink }}
 
