@@ -1,0 +1,14 @@
+date: "2024-08-24"
+title: "Seattle-Tacoma airport flight and baggage boards knocked out by Rhysida ransomware"
+location: "Seattle, Washington, USA"
+country: "United States"
+sector: airport
+type: ransomware
+summary: "Flight and baggage display boards around Seattle-Tacoma International Airport were disrupted when a ransomware attack starting August 24, 2024 took down internet and web systems at the Port of Seattle. Staff used dry-erase boards into the Labor Day weekend. The Port later confirmed Rhysida as the attacker, rejected the ransom demand, and believed sensitive data had been exfiltrated."
+sources:
+  - url: "https://www.geekwire.com/2024/port-of-seattle-outage-continues-three-days-after-suspected-cyberattack-by-nefarious-characters/"
+    publisher: "GeekWire"
+    title: "Port of Seattle outage continues three days after suspected cyberattack"
+  - url: "https://therecord.media/labor-day-travel-seattle-airport-hack"
+    publisher: "The Record"
+    title: "Labor Day travelers urged to take precautions as Seattle airport struggles with cyberattack effects"

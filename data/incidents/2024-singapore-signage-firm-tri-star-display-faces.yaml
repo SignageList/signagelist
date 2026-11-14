@@ -1,0 +1,13 @@
+date: "2024"
+title: "Singapore signage firm Tri-Star Display faces unverified ransomware breach claim"
+location: "Singapore"
+country: "Singapore"
+sector: vendor
+type: breach
+summary: "Tri-Star Display, a Singapore display and signage company, was named in a breach claim from a ransomware group. The claim was not independently verified, and the company had not responded to inquiries when the report was published."
+products:
+  - "Tri-Star Display"
+sources:
+  - url: "https://www.teiss.co.uk/news/ransomware-group-cicada3301-claims-responsibility-for-tri-star-display-data-breach-14397"
+    publisher: "TEISS"
+    title: "Ransomware group Cicada3301 claims responsibility for Tri-Star Display data breach"

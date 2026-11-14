@@ -1,0 +1,13 @@
+date: "2026-08-19"
+title: "Italian display firm Euroscreen listed on TheGentlemen ransomware leak site"
+location: "Italy"
+country: "Italy"
+sector: vendor
+type: breach
+summary: "The TheGentlemen ransomware group listed Euroscreen, an Italian display and visualization technology company, on its leak site on August 19, 2026. SOCRadar noted that leak-site listings cannot always be independently verified, and the source found no company confirmation."
+products:
+  - "Euroscreen"
+sources:
+  - url: "https://socradar.io/blog/data-breach/euroscreen-thegentlemen-2026/"
+    publisher: "SOCRadar"
+    title: "Euroscreen data breach (TheGentlemen, 2026)"

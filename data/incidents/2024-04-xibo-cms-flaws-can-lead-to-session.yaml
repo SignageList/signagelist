@@ -1,0 +1,26 @@
+date: "2024-04"
+title: "Xibo CMS flaws can lead to session hijacking (CVE-2024-29022, CVE-2024-29023)"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "Xibo's April 2024 advisory covered two CMS flaws, CVE-2024-29022 and CVE-2024-29023. The first is a cross-site scripting bug rated 8.8 that can lead to session hijacking, and the second is a token exposure issue rated 7.2. Xibo told users to upgrade to 3.3.10 or 4.0.9, or to the latest release."
+products:
+  - "Xibo CMS"
+cve:
+  - CVE-2024-29022
+  - CVE-2024-29023
+related_products:
+  - xibo
+sources:
+  - url: "https://xibosignage.com/blog/security-advisory-2024-04"
+    publisher: "Xibo Signage"
+    title: "Security Advisory - 2 issues affecting the CMS"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-29022"
+    publisher: "NIST NVD"
+    title: "CVE-2024-29022"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-29023"
+    publisher: "NIST NVD"
+    title: "CVE-2024-29023"
+  - url: "https://github.com/dasgarner/xibo-cms/commit/a81044e6ccdd92cc967e34c125bd8162432e51bc.diff"
+  - url: "https://github.com/xibosignage/xibo-cms/commit/ebeccd000b51f00b9a25f56a2f252d6812ebf850.diff"

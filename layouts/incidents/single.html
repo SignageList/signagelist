@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+{{ $p := .Params }}
+{{ $l := partial "incident/labels.html" $p }}
+
+<div class="max-w-3xl mx-auto px-6 py-8">
+
+  <a href="/incidents/" class="inline-flex items-center gap-1.5 text-sm text-neutral-500 hover:text-neutral-900 transition-colors mb-6">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+    All incidents
+  </a>
+
+  <article class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden">
+    <div class="p-5 sm:p-6">
+      <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-neutral-500">
+        <time datetime="{{ $p.incident_date }}" class="tabular-nums">{{ $l.date }}</time>
+        <span aria-hidden="true">·</span>
+        <span>{{ $p.location }}</span>
+      </div>
+      <h1 class="text-xl font-semibold text-neutral-900 mt-2 text-balance">{{ .Title }}</h1>
+      <p class="text-sm text-neutral-600 mt-3 leading-relaxed">{{ $p.summary }}</p>
+
+      <dl class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-5 pt-5 border-t border-neutral-100 text-sm">
+        <div><dt class="text-xs text-neutral-400">Type</dt><dd class="text-neutral-900 mt-0.5">{{ $l.type }}</dd></div>
+        <div><dt class="text-xs text-neutral-400">Sector</dt><dd class="text-neutral-900 mt-0.5">{{ $l.sector }}</dd></div>
+        <div><dt class="text-xs text-neutral-400">Country</dt><dd class="text-neutral-900 mt-0.5">{{ $p.country }}</dd></div>
+        {{ with $p.cve }}<div><dt class="text-xs text-neutral-400">CVE</dt><dd class="mt-0.5 space-y-0.5">{{ range . }}<a href="https://nvd.nist.gov/vuln/detail/{{ . }}" target="_blank" rel="noopener nofollow" class="block text-neutral-900 underline underline-offset-2 hover:text-neutral-600 tabular-nums">{{ . }}</a>{{ end }}</dd></div>{{ end }}
+      </dl>
+
+      {{ with $p.related_products }}
+      <div class="mt-5 pt-5 border-t border-neutral-100">
+        <h2 class="text-xs text-neutral-400 mb-2">Products in the directory</h2>
+        <div class="flex flex-wrap gap-2">
+          {{ range . }}{{ with site.GetPage (printf "/products/%s" .) }}
+          <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-2 text-sm text-neutral-900 bg-neutral-50 hover:bg-neutral-100 px-2.5 py-1.5 rounded-lg transition-colors">{{ partial "product-logo.html" (dict "Params" .Params "size" "sm") }}{{ .Params.name }}</a>
+          {{ end }}{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="border-t border-neutral-100 px-5 sm:px-6 py-4 bg-neutral-50/60">
+      <h2 class="text-xs text-neutral-400 mb-2">Sources</h2>
+      <ul class="space-y-1.5">
+        {{ range $p.sources }}
+        <li class="text-sm"><a href="{{ .url }}" target="_blank" rel="noopener nofollow" class="text-neutral-900 underline underline-offset-2 hover:text-neutral-600">{{ .title | default .url }}</a>{{ with .publisher }} <span class="text-neutral-500">· {{ . }}</span>{{ end }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  </article>
+</div>
+
+{{ end }}

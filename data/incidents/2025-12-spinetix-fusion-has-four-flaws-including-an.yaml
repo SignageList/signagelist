@@ -1,0 +1,31 @@
+date: "2025-12-10"
+title: "SpinetiX Fusion has four flaws, including an authenticated path traversal"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 4 vulnerabilities in SpinetiX Fusion, covering path traversal, CSRF, information disclosure and username enumeration. In SpinetiX Fusion Digital Signage 3.4.8 and lower, an authenticated path traversal flaw lets attackers manipulate file backup and deletion operations through unverified input parameters."
+products:
+  - "SpinetiX Fusion"
+cve:
+  - CVE-2020-36883
+  - CVE-2020-36886
+  - CVE-2020-36887
+  - CVE-2020-36888
+related_products:
+  - spinetix-elementi
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36883"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36883"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36886"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36886"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36887"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36887"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36888"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36888"
+  - url: "https://github.com/Mbed-TLS/mbedtls"
+  - url: "https://www.exploit-db.com/exploits/48844"

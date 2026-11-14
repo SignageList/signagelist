@@ -1,0 +1,17 @@
+date: "2024-01-07"
+title: "Beirut airport flight displays defaced with anti-Hezbollah messages"
+location: "Beirut, Lebanon"
+country: "Lebanon"
+sector: airport
+type: hijack
+summary: "Hackers defaced several flight information displays at Rafic Hariri International Airport in Beirut on 7 January 2024 with messages critical of Hezbollah and Iran. The intrusion also disrupted the baggage handling system. A Lebanese group named in the messages denied involvement."
+sources:
+  - url: "https://www.hackread.com/beirut-airport-screens-hacked-hezbollah-message/"
+    publisher: "Hackread"
+    title: "Beirut Airport Information Screens Hacked to Display Anti-Hezbollah Message"
+  - url: "https://grahamcluley.com/hackers-hijack-beirut-airport-departure-and-arrival-boards/"
+    publisher: "Graham Cluley"
+    title: "Hackers hijack Beirut airport departure and arrival boards"
+  - url: "https://urgentcomm.com/2024/01/11/beirut-airport-cyberattack-targets-hezbollah"
+    publisher: "Urgent Communications"
+    title: "Beirut airport cyberattack targets Hezbollah"

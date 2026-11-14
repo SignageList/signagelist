@@ -1,0 +1,19 @@
+date: "2025"
+title: "NovaStar CX40 LED controller overflow and injection flaws (CVE-2025-3007, CVE-2025-3008)"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "NovaStar CX40 4K LED controllers at version 2.44.0 and earlier have a stack-based overflow in the NetFilter Utility's netconfig handling (CVE-2025-3007, rated critical). The same utility has a command injection flaw (CVE-2025-3008). Neither had public proof-of-concept code when the database entries were captured."
+products:
+  - "NovaStar CX40"
+cve:
+  - CVE-2025-3007
+  - CVE-2025-3008
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2025-3007"
+    publisher: "NIST NVD"
+    title: "CVE-2025-3007"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2025-3008"
+    publisher: "NIST NVD"
+    title: "CVE-2025-3008"

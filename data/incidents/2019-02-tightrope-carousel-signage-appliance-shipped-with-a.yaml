@@ -1,0 +1,33 @@
+date: "2019-02-11"
+title: "Tightrope Carousel signage appliance shipped with a default admin login"
+location: "Global"
+country: "Global"
+sector: vendor
+type: research
+summary: "Researcher Drew Green found that the Tightrope Media Carousel Seneca HDn signage appliance, version 7.0.4.104, shipped with a default local admin username and password that was still in use on a client system. He used that access and a bulletin upload feature to reach remote code execution, and also reported a privilege escalation path to SYSTEM. He reported the issues to Tightrope in November 2018, published about 90 days later, and used Shodan to estimate exposed installations, though the search count is not in the excerpt available; Tightrope published a knowledgebase article with workarounds."
+products:
+  - "Tightrope Media Carousel"
+  - "Seneca HDn"
+cve:
+  - CVE-2018-18929
+  - CVE-2018-18930
+  - CVE-2018-18931
+related_products:
+  - carousel
+sources:
+  - url: "https://invidis.com/sixteen-nine/2019/02/11/cybersecurity-researcher-finds-severe-vulnerabilities-in-digital-signage-platform/"
+    publisher: "Sixteen Nine / Invidis"
+    title: "Cybersecurity Researcher Finds Severe Vulnerabilities In Digital Signage Platform"
+  - url: "https://news.sophos.com/?p=439023"
+    publisher: "Sophos Naked Security"
+    title: "Tightrope Carousel digital signage write-up by Drew Green"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2018-18929"
+    publisher: "NIST NVD"
+    title: "CVE-2018-18929"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2018-18930"
+    publisher: "NIST NVD"
+    title: "CVE-2018-18930"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2018-18931"
+    publisher: "NIST NVD"
+    title: "CVE-2018-18931"
+  - url: "https://www.drewgreen.net/vulnerabilities-in-tightrope-media-systems-carousel/"

@@ -1,0 +1,23 @@
+{{/* Security incidents from data/incidents that name this product in related_products. Input: product params. */}}
+{{ $slug := .slug }}
+{{ $matches := slice }}
+{{ range where site.RegularPages "Section" "incidents" }}
+	{{ if in (.Params.related_products | default slice) $slug }}{{ $matches = $matches | append . }}{{ end }}
+{{ end }}
+{{ with $matches }}
+<div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm overflow-hidden">
+	<div class="px-6 py-4 border-b border-neutral-100">
+		<h2 class="text-sm font-semibold text-neutral-900">Security incidents</h2>
+		<p class="text-xs text-neutral-500 mt-0.5">Published vulnerabilities and incidents that name this product.</p>
+	</div>
+	<div class="divide-y divide-neutral-100">
+		{{ range sort . "Date" "desc" }}
+		{{ $l := partial "incident/labels.html" .Params }}
+		<a href="{{ .RelPermalink }}" class="block px-6 py-3 hover:bg-neutral-50 transition-colors">
+			<span class="text-xs text-neutral-500 tabular-nums">{{ $l.date }} · {{ $l.type }}</span>
+			<span class="block text-sm text-neutral-900 mt-0.5">{{ .Title }}</span>
+		</a>
+		{{ end }}
+	</div>
+</div>
+{{ end }}

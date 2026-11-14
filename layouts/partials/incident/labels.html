@@ -1,0 +1,15 @@
+{{/* Display labels for incident types and a formatted date. Input: incident params. */}}
+{{ $types := dict
+  "hijack" "Screen hijack"
+  "ransomware" "Ransomware"
+  "malware" "Malware"
+  "vulnerability" "Vulnerability"
+  "research" "Research"
+  "breach" "Breach"
+  "insider" "Insider"
+  "outage" "Outage"
+}}
+{{ $d := .incident_date | default .date }}
+{{ $shown := $d }}
+{{ if eq (len $d) 10 }}{{ $shown = (time.AsTime $d) | time.Format "Jan 2, 2006" }}{{ else if eq (len $d) 7 }}{{ $shown = (time.AsTime (printf "%s-01" $d)) | time.Format "Jan 2006" }}{{ end }}
+{{ return (dict "type" (index $types .type | default .type) "sector" (.sector | humanize) "date" $shown) }}

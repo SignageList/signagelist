@@ -1,0 +1,29 @@
+date: "2025-12-10"
+title: "QiHang Media Web Digital Signage has four flaws, including cleartext admin credentials"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 4 vulnerabilities in QiHang Media Web Digital Signage, covering authentication bypass, remote code execution, path traversal and a security flaw. In version 3.0.9, a cleartext credentials flaw lets unauthenticated attackers read administrative login information from an unprotected XML file."
+products:
+  - "QiHang Media Web Digital Signage"
+cve:
+  - CVE-2020-36896
+  - CVE-2020-36897
+  - CVE-2020-36898
+  - CVE-2020-36899
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36896"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36896"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36897"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36897"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36898"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36898"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36899"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36899"
+  - url: "http://www.howfor.com"
+  - url: "https://www.exploit-db.com/exploits/48748"

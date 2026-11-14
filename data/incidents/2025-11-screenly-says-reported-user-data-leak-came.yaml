@@ -1,0 +1,15 @@
+date: "2025-11-10"
+title: "Screenly says reported user data leak came from infected devices and reused passwords"
+location: "Online"
+country: "Global"
+sector: vendor
+type: breach
+summary: "Cloud digital signage vendor Screenly investigated a reported data leak and said in a November 2025 post that its own systems were not the source. The company attributed the exposed data to malware-infected end devices and password reuse from other breached services, and said none of the affected accounts had multi-factor authentication. Screenly responded by moving customers to magic-link sign-in. The account rests on Screenly's own statements."
+products:
+  - "Screenly"
+related_products:
+  - screenly
+sources:
+  - url: "https://www.screenly.io/blog/2025/11/10/security-incident-response-magic-links/"
+    publisher: "Screenly"
+    title: "Security Incident Response: How We Investigated a Data Leak and What We're Doing Next"

@@ -1,0 +1,19 @@
+date: "2013-10-02"
+title: "Xibo CMS path traversal flaw lets remote attackers read arbitrary files"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a path traversal vulnerability in Xibo CMS. Directory traversal vulnerability in Spring Signage Xibo 1.2.x before 1.2.3 and 1.4.x before 1.4.2 allows remote attackers to read arbitrary files using directory traversal sequences in a request."
+products:
+  - "Xibo CMS"
+cve:
+  - CVE-2013-5979
+related_products:
+  - xibo
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2013-5979"
+    publisher: "NIST NVD"
+    title: "CVE-2013-5979"
+  - url: "http://www.baesystemsdetica.com.au/Research/Advisories/Xibo-Directory-Traversal-Vulnerability-%28DS-2013-00"
+  - url: "https://bugs.launchpad.net/xibo/+bug/1093967"

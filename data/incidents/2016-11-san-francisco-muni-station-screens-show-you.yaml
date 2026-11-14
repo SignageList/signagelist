@@ -1,0 +1,23 @@
+date: "2016-11-26"
+title: "San Francisco Muni station screens show 'You Hacked' message in ransomware attack"
+location: "San Francisco, California, USA"
+country: "USA"
+sector: transit
+type: ransomware
+summary: "Ransomware hit San Francisco's Muni transit computer systems on 26 November 2016, and station screens displayed \"You Hacked, ALL Data Encrypted\". Fare gates were affected, and riders got free rides for the day. A person who may have spread the malware reportedly asked for $73,000."
+sources:
+  - url: "https://www.cbsnews.com/amp/sanfrancisco/news/you-hacked-cyber-attackers-crash-muni-computer-system-across-sf"
+    publisher: "CBS News San Francisco"
+    title: "'You Hacked,' Cyber Attackers Crash Muni Computer System Across SF"
+  - url: "https://www.metro-magazine.com/news/san-franciscos-muni-hacked-in-ransomware-attack"
+    publisher: "METRO Magazine"
+    title: "San Francisco's Muni hacked in ransomware attack"
+  - url: "https://route-fifty.com/cybersecurity/2016/11/san-francisco-latest-victim-of-ransomware/298143"
+    publisher: "Route Fifty"
+    title: "San Francisco latest victim of ransomware"
+  - url: "https://www.csoonline.com/article/3144991/ransomware-forces-sfmta-to-give-free-rides-73-000-demanded-by-attackers.html"
+    publisher: "CSO Online"
+    title: "Ransomware forces SFMTA to give free rides, $73,000 demanded by attackers"
+  - url: "https://www.itsecurityguru.org/2016/11/28/san-franciscos-muni-transit-system-reportedly-hit-by-ransomware/"
+    publisher: "IT Security Guru"
+    title: "San Francisco's Muni transit system reportedly hit by ransomware"

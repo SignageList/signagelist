@@ -1,0 +1,22 @@
+date: "2022-11-22"
+title: "Brisbane digital billboard hacked to show pornography for several minutes"
+location: "Brisbane, Queensland, Australia"
+country: "Australia"
+sector: billboard
+type: hijack
+summary: "A digital billboard on a busy Brisbane road was configured to show pornography for several minutes. Queensland Police said they were searching for the people who had infiltrated the billboard and that the investigation was continuing."
+products:
+  - "goa"
+sources:
+  - url: "https://www.pressreader.com/australia/the-guardian-australia/20221122/281526525055305"
+    publisher: "The Guardian Australia (via PressReader)"
+    title: "Hacked digital billboard in Brisbane displays pornography for several minutes"
+  - url: "https://inkl.com/news/hacked-digital-billboard-in-brisbane-displays-pornography-for-several-minutes"
+    publisher: "inkl"
+    title: "Hacked digital billboard in Brisbane displays pornography for several minutes"
+  - url: "https://www.thedailybeast.com/cops-hunt-hackers-who-hijacked-digital-billboard-to-show-porn-in-brisbane/"
+    publisher: "The Daily Beast"
+    title: "Cops Hunt Hackers Who Hijacked Digital Billboard to Show Porn in Brisbane"
+  - url: "https://www.bandt.com.au/brisbane-billboard-hacked-in-bonking-bonanza/"
+    publisher: "B&T"
+    title: "Brisbane billboard hacked in bonking bonanza"

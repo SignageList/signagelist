@@ -1,0 +1,19 @@
+date: "2024-02-24"
+title: "Minsk public screens reportedly showed Tsikhanouskaya election-eve speech"
+location: "Minsk, Belarus"
+country: "Belarus"
+sector: retail
+type: hijack
+summary: "Screens in Minsk shopping centers, supermarkets and metro stations reportedly showed a speech by opposition leader Svyatlana Tsikhanouskaya on the eve of parliamentary and local elections. The number of screens was given as more than 2,000, a figure that could not be verified. The company that maintains the screens denied placing the address."
+products:
+  - "Legion-104 (screen operator)"
+sources:
+  - url: "https://pozirk.online/en/news/69358/"
+    publisher: "Pozirk"
+    title: "Opposition group hacks 2,000 public displays to air Cichanoŭskaja's address"
+  - url: "https://tvpworld.com/76122807/hackers-broadcast-address-of-opposition-leader-tsikhanouskaya-to-belarusian-people"
+    publisher: "TVP World"
+    title: "hackers broadcast address of opposition leader tsikhanouskaya to belarusian people"
+  - url: "https://belsat.eu/81245434/dyrektar-legion-104-admaulyae-datychnasts-kampanii-da-razmyashchennya-zvarotu-tsihanouskaj-na-ekranah-u-mensku"
+    publisher: "Belsat"
+    title: "Дырэктар «Legion 104» адмаўляе датычнасць кампаніі да размяшчэння звароту Ціханоўскай на экранах у Менску"

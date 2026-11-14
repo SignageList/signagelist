@@ -168,6 +168,8 @@
 
 			{{ partial "product/reviews.html" $p }}
 
+			{{ partial "product/incidents.html" $p }}
+
 			{{/* FAQ: mirrors the FAQPage JSON-LD so the two never diverge */}}
 			{{ with $faq }}
 			<div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm p-6">

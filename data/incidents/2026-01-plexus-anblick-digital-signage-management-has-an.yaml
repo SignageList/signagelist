@@ -1,0 +1,17 @@
+date: "2026-01-06"
+title: "Plexus anblick digital signage management has an open redirect flaw in its login script"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published an open redirect flaw in Plexus anblick Digital Signage Management. In version 3.1.13, attackers can manipulate the 'pagina' GET parameter in the 'PantallaLogin' script."
+products:
+  - "Plexus anblick Digital Signage Management"
+cve:
+  - CVE-2020-36912
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36912"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36912"
+  - url: "https://exchange.xforce.ibmcloud.com/vulnerabilities/185521"
+  - url: "https://packetstormsecurity.com/files/158473"

@@ -1,0 +1,11 @@
+date: "2026-05"
+title: "LA Metro arrival screens go dark during a breach of the transit agency's systems"
+location: "Los Angeles, California, USA"
+country: "USA"
+sector: transit
+type: breach
+summary: "Some arrival screens at Los Angeles County Metro stops were disabled during a breach of the transit agency's systems, and riders could not load transit cards; trains and buses kept running. The attackers reportedly took at least 700 GB of emails, backups and files."
+sources:
+  - url: "https://www.internazionale.it/ultime-notizie-reuters/2026/05/26/iranian-hackers-responsible-for-los-angeles-transit-system-breach-israeli-researchers-say"
+    publisher: "Reuters (via Internazionale)"
+    title: "Iranian hackers responsible for Los Angeles transit system breach, Israeli researchers say"

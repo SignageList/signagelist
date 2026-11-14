@@ -1,0 +1,22 @@
+date: "2025-05-06"
+title: "BrightSign OS flaw lets code on a player escalate privileges (CVE-2025-3925)"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "CISA's ICS advisory ICSA-25-126-03 covers an execution with unnecessary privileges weakness in BrightSign OS series 4 before 8.5.53.1 and series 5 before 9.0.166. CISA scored it 8.5 under CVSS v4 and described it as remotely exploitable with low attack complexity. Once code runs on a player, the flaw can be used for privilege escalation, and the fixed OS releases close it."
+products:
+  - "BrightSign OS 4 player"
+  - "BrightSign OS 5 player"
+cve:
+  - CVE-2025-3925
+related_products:
+  - brightsign
+sources:
+  - url: "https://www.cisa.gov/news-events/ics-advisories/icsa-25-126-03"
+    publisher: "CISA"
+    title: "ICSA-25-126-03 BrightSign Players"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2025-3925"
+    publisher: "NIST NVD"
+    title: "CVE-2025-3925"
+  - url: "https://www.brightsign.biz/resources/software-downloads/"

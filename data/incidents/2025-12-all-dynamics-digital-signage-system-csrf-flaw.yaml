@@ -1,0 +1,17 @@
+date: "2025-12-10"
+title: "All-Dynamics Digital Signage System CSRF flaw lets attackers create administrative users"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a cross-site request forgery flaw in All-Dynamics Digital Signage System 2.0.2. It lets attackers create administrative users without proper request validation."
+products:
+  - "All-Dynamics Digital Signage System"
+cve:
+  - CVE-2020-36900
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36900"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36900"
+  - url: "https://www.all-dynamics.de"
+  - url: "https://www.exploit-db.com/exploits/48736"

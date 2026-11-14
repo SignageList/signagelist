@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+{{ $all := sort .Pages "Date" "desc" }}
+{{ $types := slice }}
+{{ range $all }}{{ $types = $types | append .Params.type }}{{ end }}
+{{ $types = $types | uniq }}
+
+<div class="max-w-5xl mx-auto px-6 py-8">
+
+  <div class="mb-6">
+    <h1 class="text-xl font-semibold text-neutral-900">Security incidents</h1>
+    <p class="text-sm text-neutral-600 mt-2 leading-relaxed max-w-3xl">Digital signage screens hang in airports, stations, malls, hospitals and on highways, and most of them are networked computers that nobody watches. This is a dated record of the times that went wrong: hijacked screens, ransomware, exploited vulnerabilities and published research. Every entry links to its sources.</p>
+  </div>
+
+  <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm p-4 sm:p-5 mb-5">
+    <div class="flex flex-wrap items-center gap-2" id="incident-filters" role="group" aria-label="Filter by type">
+      <button type="button" data-incident-filter="" aria-pressed="true" class="text-xs px-2.5 py-1 rounded-md border border-neutral-200 text-neutral-700 hover:bg-neutral-50 aria-pressed:bg-neutral-900 aria-pressed:text-white aria-pressed:border-neutral-900 transition-colors">All <span class="tabular-nums opacity-70">{{ len $all }}</span></button>
+      {{ range $t := $types }}
+      {{ $n := len (where $all "Params.type" $t) }}
+      {{ $l := partial "incident/labels.html" (dict "type" $t "date" "2000" "sector" "") }}
+      <button type="button" data-incident-filter="{{ $t }}" aria-pressed="false" class="text-xs px-2.5 py-1 rounded-md border border-neutral-200 text-neutral-700 hover:bg-neutral-50 aria-pressed:bg-neutral-900 aria-pressed:text-white aria-pressed:border-neutral-900 transition-colors">{{ $l.type }} <span class="tabular-nums opacity-70">{{ $n }}</span></button>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="space-y-6">
+    {{ range $all.GroupByDate "2006" }}
+    <section data-incident-year>
+      <h2 class="text-sm font-semibold text-neutral-400 mb-2 tabular-nums">{{ .Key }}</h2>
+      <div class="bg-white rounded-2xl border border-neutral-200/80 shadow-sm divide-y divide-neutral-100 overflow-hidden">
+        {{ range .Pages }}
+        {{ $l := partial "incident/labels.html" .Params }}
+        <a href="{{ .RelPermalink }}" data-incident-type="{{ .Params.type }}" class="block px-5 sm:px-6 py-3.5 hover:bg-neutral-50 transition-colors">
+          <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-neutral-500">
+            <span class="tabular-nums">{{ $l.date }}</span>
+            <span aria-hidden="true">·</span>
+            <span>{{ .Params.location }}</span>
+            <span class="bg-neutral-100 text-neutral-600 px-2 py-0.5 rounded-md font-medium">{{ $l.type }}</span>
+          </div>
+          <p class="text-sm font-medium text-neutral-900 mt-1">{{ .Title }}</p>
+          <p class="text-sm text-neutral-600 mt-1 leading-relaxed line-clamp-2">{{ .Params.summary }}</p>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  </div>
+
+  <p class="text-xs text-neutral-400 mt-8 leading-relaxed max-w-3xl">Entries record what the cited sources report, including where operators disputed whether a screen was hacked or misconfigured. Missing an incident, or found an error? <a href="{{ site.Params.githubRepo }}/issues/new" target="_blank" rel="noopener" class="underline underline-offset-2 hover:text-neutral-600">Open an issue on GitHub</a>.</p>
+</div>
+
+<script>
+(() => {
+  const buttons = document.querySelectorAll('[data-incident-filter]')
+  buttons.forEach((b) => b.addEventListener('click', () => {
+    const t = b.dataset.incidentFilter
+    buttons.forEach((x) => x.setAttribute('aria-pressed', String(x === b)))
+    document.querySelectorAll('[data-incident-type]').forEach((row) => {
+      row.hidden = t !== '' && row.dataset.incidentType !== t
+    })
+    document.querySelectorAll('[data-incident-year]').forEach((sec) => {
+      sec.hidden = !sec.querySelector('[data-incident-type]:not([hidden])')
+    })
+  }))
+})()
+</script>
+
+{{ end }}

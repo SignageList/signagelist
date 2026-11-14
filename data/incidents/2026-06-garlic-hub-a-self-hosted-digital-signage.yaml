@@ -1,0 +1,19 @@
+date: "2026-06-11"
+title: "Garlic-Hub, a self-hosted digital signage manager, has a security flaw"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a security flaw in Garlic-Hub, a self-hosted tool that manages digital signage networks, devices, content and playlists from a single interface."
+products:
+  - "Garlic-Hub"
+cve:
+  - CVE-2026-47170
+related_products:
+  - garlic-signage
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-47170"
+    publisher: "NIST NVD"
+    title: "CVE-2026-47170"
+  - url: "https://github.com/garlic-signage/garlic-hub/commit/076b6d70a43d9641c35cbd8042353b473e3241f5"
+  - url: "https://github.com/garlic-signage/garlic-hub/security/advisories/GHSA-x24v-76hr-989r"

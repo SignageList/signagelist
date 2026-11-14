@@ -1,0 +1,19 @@
+date: "2026-01-06"
+title: "TDM Digital Signage PC Player flaw lets authenticated users modify executable files"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a privilege escalation flaw in TDM Digital Signage PC Player 4.1.0.4. It lets authenticated users modify executable files."
+products:
+  - "TDM Digital Signage PC Player"
+cve:
+  - CVE-2020-36916
+related_products:
+  - tdm-signage
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36916"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36916"
+  - url: "https://exchange.xforce.ibmcloud.com/vulnerabilities/190627"
+  - url: "https://packetstorm.news/files/id/159723"

@@ -1,0 +1,24 @@
+date: "2025-05-22"
+title: "Samsung MagicINFO 9 Server patch bypass CVE-2025-4632 exploited, sometimes for Mirai"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "CVE-2025-4632 is a path traversal flaw in MagicINFO 9 Server that bypassed the August 2024 fix for CVE-2024-7399 and lets attackers write arbitrary files with SYSTEM authority. Attackers began exploiting it shortly after a public proof of concept appeared on April 30, 2025, in some cases to deploy the Mirai botnet. CISA added it to the KEV catalog on May 22, 2025, and Samsung fixed it in version 21.1052."
+products:
+  - "Samsung MagicINFO 9 Server"
+cve:
+  - CVE-2025-4632
+  - CVE-2024-7399
+related_products:
+  - magicinfo
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2025-4632"
+    publisher: "NIST NVD"
+    title: "CVE-2025-4632"
+  - url: "https://thehackernews.com/2025/05/samsung-patches-cve-2025-4632-used-to.html"
+    publisher: "The Hacker News"
+    title: "Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit"
+  - url: "https://cyberinsider.com/samsung-magicinfo-flaw-now-actively-exploited-by-mirai-botnet/"
+    publisher: "CyberInsider"
+    title: "Samsung MagicINFO flaw now actively exploited by Mirai botnet"

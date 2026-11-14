@@ -1,0 +1,16 @@
+date: "2025-11"
+title: "LA Metro bus stop displays showed a bomb warning after a Papercast compromise"
+location: "Los Angeles, California, USA"
+country: "USA"
+sector: transit
+type: hijack
+summary: "Several LA Metro bus stop displays briefly showed a bomb warning in place of bus waiting times in late 2025. The messages were later attributed to a compromise of Papercast, the third-party content management system that feeds the displays. The false messages were removed the same day, and an earlier October 2025 incident saw reader boards at LA Metro stops show threatening messages."
+products:
+  - "Papercast"
+sources:
+  - url: "https://www.sixteen-nine.net/2025/11/05/hackers-target-la-metros-e-paper-bus-stop-displays/"
+    publisher: "Sixteen:Nine"
+    title: "Hackers Target LA Metro's E-Paper Bus Stop Displays"
+  - url: "https://www.yahoo.com/news/articles/la-metro-digital-signs-taken-213346738.html"
+    publisher: "Yahoo News"
+    title: "LA Metro digital signs taken over by hackers"

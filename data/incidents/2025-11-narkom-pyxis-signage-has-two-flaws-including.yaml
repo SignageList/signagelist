@@ -1,0 +1,21 @@
+date: "2025-11-20"
+title: "Narkom Pyxis Signage has two flaws, including cross-site scripting"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published two vulnerabilities in Narkom Pyxis Signage, covering cross-site scripting and a security flaw. The cross-site scripting entry is an improper neutralization of input during web page generation, filed against Narkom Communication and Software Technologies Trade Ltd."
+products:
+  - "Narkom Pyxis Signage"
+cve:
+  - CVE-2025-0643
+  - CVE-2025-0645
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2025-0643"
+    publisher: "NIST NVD"
+    title: "CVE-2025-0643"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2025-0645"
+    publisher: "NIST NVD"
+    title: "CVE-2025-0645"
+  - url: "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-25-0404"
+  - url: "https://www.usom.gov.tr/bildirim/tr-25-0404"

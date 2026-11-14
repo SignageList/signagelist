@@ -1,0 +1,15 @@
+{{/* Generate one page per YAML file in data/incidents/ */}}
+{{ range $slug, $i := site.Data.incidents }}
+  {{/* Dates may be YYYY, YYYY-MM or YYYY-MM-DD; pad for sorting */}}
+  {{ $d := $i.date }}
+  {{ if eq (len $d) 4 }}{{ $d = printf "%s-01-01" $d }}{{ else if eq (len $d) 7 }}{{ $d = printf "%s-01" $d }}{{ end }}
+  {{ $page := dict
+    "kind" "page"
+    "path" $slug
+    "title" $i.title
+    "dates" (dict "date" (time.AsTime $d))
+    "params" (merge $i (dict "incident_date" $i.date))
+    "content" (dict "mediaType" "text/html" "value" "")
+  }}
+  {{ $.AddPage $page }}
+{{ end }}

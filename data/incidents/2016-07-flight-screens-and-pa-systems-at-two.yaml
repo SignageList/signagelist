@@ -1,0 +1,23 @@
+date: "2016-07-29"
+title: "Flight screens and PA systems at two Vietnam airports hijacked with political messages"
+location: "Ho Chi Minh City and Hanoi, Vietnam"
+country: "Vietnam"
+sector: airport
+type: hijack
+summary: "Hackers took over flight information screens and public address systems at Tan Son Nhat (Ho Chi Minh City) and Noi Bai (Hanoi) airports on 29 July 2016. The screens showed political messages tied to the South China Sea dispute instead of schedules, and the Vietnam Airlines website was defaced. Vietnamese authorities said flight operations and security systems were unaffected and ordered tighter aviation security."
+sources:
+  - url: "https://thehimalayantimes.com/ampArticle/167406"
+    publisher: "The Himalayan Times"
+    title: "Flight info screens at Vietnam's 2 major airports hacked"
+  - url: "https://www.voanews.com/a/flight-info-screens-at-vietnam-major-airports-hacked/3441118.html"
+    publisher: "VOA News"
+    title: "Flight info screens at Vietnam major airports hacked"
+  - url: "https://www.theregister.com/2016/08/01/vietnam_flight_info_hack/"
+    publisher: "The Register"
+    title: "Vietnam flight info hack"
+  - url: "https://www.sixteen-nine.net/?p=12703"
+    publisher: "Sixteen:Nine"
+    title: "Hackers Take Over Digital Signage, Audio At Vietnam Airports"
+  - url: "https://invidis.com/sixteen-nine/2016/08/01/hackers-take-over-digital-signage-audio-at-vietnam-airports/"
+    publisher: "Sixteen:Nine / invidis"
+    title: "Hackers take over digital signage audio at Vietnam airports"

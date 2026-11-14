@@ -1,0 +1,18 @@
+date: "2026"
+title: "Watchfire sign controllers ship hard-coded plaintext TLS keys (CVE-2026-5846)"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "Watchfire controller software for BC550, BC750, BC760 and BC760DC sign controllers ships self-signed RSA private keys for the HTTPS web management interface. The keys sit in plaintext inside the firmware patch binaries, so anyone who downloads a patch can recover them. Scores conflict (7.6 under CVSS 4.0 and 5.7 under CVSS 3), and the sources checked report no confirmed exploitation."
+products:
+  - "Watchfire BC550"
+  - "Watchfire BC750"
+  - "Watchfire BC760"
+  - "Watchfire BC760DC"
+cve:
+  - CVE-2026-5846
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-5846"
+    publisher: "NIST NVD"
+    title: "CVE-2026-5846"

@@ -1,0 +1,27 @@
+date: "2017-12-18"
+title: "BrightSign players have 3 disclosed flaws, including cross-site scripting"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published three vulnerabilities in BrightSign players, covering cross-site scripting, a security flaw and path traversal. The BrightSign Digital Signage (4k242) player, firmware 6.2.63 and below, has XSS via the REF parameter to /network_diagnostics.html or /storage_info.html."
+products:
+  - "BrightSign players"
+cve:
+  - CVE-2017-17737
+  - CVE-2017-17738
+  - CVE-2017-17739
+related_products:
+  - brightsign
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2017-17737"
+    publisher: "NIST NVD"
+    title: "CVE-2017-17737"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2017-17738"
+    publisher: "NIST NVD"
+    title: "CVE-2017-17738"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2017-17739"
+    publisher: "NIST NVD"
+    title: "CVE-2017-17739"
+  - url: "http://www.information-paradox.net/2017/12/brightsign-multiple-vulnerablities-cve.html"
+  - url: "https://www.exploit-db.com/exploits/43364/"

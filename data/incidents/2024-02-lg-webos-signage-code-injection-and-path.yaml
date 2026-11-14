@@ -1,0 +1,25 @@
+date: "2024-02-26"
+title: "LG webOS Signage code injection and path traversal flaws (CVE-2024-1885, CVE-2024-1886)"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "LG published two CVEs for webOS Signage 6.0.0-56 on February 26, 2024: CVE-2024-1885, a code injection flaw that can let a remote attacker run code on the device, and CVE-2024-1886, a path traversal flaw rated 8.8 by NVD. Scores vary across databases for the first one. Databases I checked report no public exploit code for either."
+products:
+  - "LG webOS Signage"
+cve:
+  - CVE-2024-1885
+  - CVE-2024-1886
+related_products:
+  - lg-supersign
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-1885"
+    publisher: "NIST NVD"
+    title: "CVE-2024-1885"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-1886"
+    publisher: "NIST NVD"
+    title: "CVE-2024-1886"
+  - url: "https://lgsecurity.lge.com/bulletins"
+    publisher: "LG Electronics"
+    title: "LG product security bulletins"
+  - url: "https://lgsecurity.lge.com/bulletins/idproducts#updateDetails"

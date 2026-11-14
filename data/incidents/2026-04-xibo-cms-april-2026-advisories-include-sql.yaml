@@ -1,0 +1,31 @@
+date: "2026-04"
+title: "Xibo CMS April 2026 advisories include SQL injection, stored XSS, SSRF and IDOR flaws"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "A batch of Xibo CMS advisories published in April 2026 includes CVE-2026-31952, a SQL injection through the API DataSet filter parameter rated 7.6, and CVE-2026-31953, a stored XSS in the notification body. The batch also lists an authenticated server-side request forgery in remote DataSet functionality (CVE-2026-31955) and an IDOR in Preview and SavedReport (CVE-2026-31956). The fixed versions for these entries were not confirmed."
+products:
+  - "Xibo CMS"
+cve:
+  - CVE-2026-31952
+  - CVE-2026-31953
+  - CVE-2026-31955
+  - CVE-2026-31956
+related_products:
+  - xibo
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-31952"
+    publisher: "NIST NVD"
+    title: "CVE-2026-31952"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-31953"
+    publisher: "NIST NVD"
+    title: "CVE-2026-31953"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-31955"
+    publisher: "NIST NVD"
+    title: "CVE-2026-31955"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-31956"
+    publisher: "NIST NVD"
+    title: "CVE-2026-31956"
+  - url: "https://github.com/dasgarner/xibo-cms/commit/b8d25fe6cb0232b645c3850afdc2499b0e46c1e6"
+  - url: "https://github.com/xibosignage/xibo-cms/commit/87e0a26b0c06e349561a6becdc00f3bb01259736"

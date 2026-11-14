@@ -1,0 +1,14 @@
+date: "2008-08-10"
+title: "Outdoor digital billboard networks were the subject of a DEF CON 16 hijacking talk"
+location: "Las Vegas, USA"
+country: "United States"
+sector: billboard
+type: research
+summary: "Outdoor digital billboards, which had begun showing several advertisers on one board, were the subject of a DEF CON 16 talk titled \"Hijacking the Outdoor Digital Billboard Network,\" which argued they were attractive targets to take apart and tinker with. Billboard Insider's write-up of the talk lists weaknesses including unencrypted network links open to packet sniffing and war dialing, and global or default usernames and passwords. A conference listing dates the talk to 2008, while one secondary source dates it to 2013, so the 2008 listing is the one used here."
+sources:
+  - url: "https://infocondb.org/con/def-con/def-con-16/hijacking-the-outdoor-digital-billboard-network"
+    publisher: "InfoConDB"
+    title: "Hijacking the Outdoor Digital Billboard Network"
+  - url: "https://billboardinsider.com/hacking-digital-billboards/"
+    publisher: "Billboard Insider"
+    title: "Hacking Digital Billboards"
