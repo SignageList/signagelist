@@ -1,0 +1,19 @@
+date: "2017-05-29"
+title: "Liverpool One shopping centre screen taken over to show a security warning"
+location: "Liverpool, England, UK"
+country: "United Kingdom"
+sector: retail
+type: hijack
+summary: "A screen among the 18 digital displays run by Elonex at Liverpool One was taken over that weekend, around 29 May 2017, and showed a message about weak security, signed by \"friendly neighbourhood hackers\". The mall shut the screen down, and the operator called it good-natured. Security researcher Kevin Beaumont later posted images showing several screens still offline the next day, which the mall disputed, and the culprit was never identified."
+products:
+  - "Elonex"
+sources:
+  - url: "https://silicon.co.uk/security/hackers-billboard-liverpool-213417/amp"
+    publisher: "Silicon"
+    title: "Hackers hijack Liverpool billboard"
+  - url: "https://www.digitalsignagetoday.com/news/hackers-target-digital-signage-in-liverpool-england/"
+    publisher: "Digital Signage Today"
+    title: "Hackers target digital signage in Liverpool, England"
+  - url: "https://thenextweb.com/news/friendly-neighborhood-hackers-spoof-digital-billboard-local-mall"
+    publisher: "The Next Web"
+    title: "Friendly neighborhood hackers spoof digital billboard local mall"

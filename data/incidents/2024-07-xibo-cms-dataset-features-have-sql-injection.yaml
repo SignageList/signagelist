@@ -1,0 +1,37 @@
+date: "2024-07"
+title: "Xibo CMS DataSet features have SQL injection flaws, CVE-2024-41802 to CVE-2024-41804"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "Xibo's July 2024 advisory covered SQL injection flaws in the DataSet features of its CMS, tracked as CVE-2024-41802, CVE-2024-41803 and CVE-2024-41804. The advisory text did not confirm the exact fixed versions."
+products:
+  - "Xibo CMS"
+cve:
+  - CVE-2024-41802
+  - CVE-2024-41803
+  - CVE-2024-41804
+  - CVE-2024-41944
+related_products:
+  - xibo
+sources:
+  - url: "https://xibosignage.com/blog/security-advisory-2024-07"
+    publisher: "Xibo Signage"
+    title: "Xibo security advisory 2024-07"
+  - url: "https://cvefeed.io/vuln/detail/CVE-2024-41803"
+    publisher: "cvefeed.io"
+    title: "CVE-2024-41803"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-41802"
+    publisher: "NIST NVD"
+    title: "CVE-2024-41802"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-41803"
+    publisher: "NIST NVD"
+    title: "CVE-2024-41803"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-41804"
+    publisher: "NIST NVD"
+    title: "CVE-2024-41804"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-41944"
+    publisher: "NIST NVD"
+    title: "CVE-2024-41944"
+  - url: "https://github.com/xibosignage/xibo-cms/commit/b7a5899338cd841a39702e3fcaff76aa0ffe4075"
+  - url: "https://github.com/xibosignage/xibo-cms/security/advisories/GHSA-x4qm-vvhp-g7c2"

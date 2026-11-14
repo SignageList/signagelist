@@ -1,0 +1,11 @@
+date: "2016-04-24"
+title: "Yeosu bus stop information terminal plays adult video for about 70 minutes"
+location: "Yeosu, South Korea"
+country: "South Korea"
+sector: transit
+type: hijack
+summary: "On the night of 24 April 2016 an adult video played for roughly 70 minutes on a bus information terminal in Seogyo-dong, Yeosu, until a city employee cut its power. City officials and police treated it as a hack, and reports said malware and hacking traces were found on the terminal's memory card. Reports also said the terminal had no firewall and ran on a leased line."
+sources:
+  - url: "https://www.sidae.com/article/2016042616038020170"
+    publisher: "Sidae"
+    title: "여수 버스정류장 음란물 사고, 임대망 단말기 사용… 보안 유리한 자가망은 비용이 '10배'"

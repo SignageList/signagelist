@@ -1,0 +1,18 @@
+date: "2018-07-23"
+title: "Tightrope Carousel digital signage has a path traversal vulnerability"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a path traversal vulnerability in Tightrope Carousel. A Local File Inclusion (LFI) vulnerability exists in the Web Interface API of TightRope Media Carousel Digital Signage before 7.3.5."
+products:
+  - "Tightrope Carousel"
+cve:
+  - CVE-2018-14573
+related_products:
+  - carousel
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2018-14573"
+    publisher: "NIST NVD"
+    title: "CVE-2018-14573"
+  - url: "http://release-notes.trms.com/txt/448"

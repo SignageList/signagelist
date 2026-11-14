@@ -1,0 +1,16 @@
+date: "2017-05-13"
+title: "Tiong Bahru Plaza mall directory screen shows WannaCry ransomware message"
+location: "Singapore"
+country: "Singapore"
+sector: retail
+type: ransomware
+summary: "A ransomware message appeared on the digital directory at Tiong Bahru Plaza on Saturday 13 May 2017, photographed by a shopper and posted to Reddit and Facebook. The directory operator, MediaOnline, disconnected the boards while it installed a patch, and said the directory ran on its own network, not the malls' or tenants' networks. Reports also said screens at White Sands and a Desigual store at Orchard Central were hit."
+products:
+  - "MediaOnline digital directory"
+sources:
+  - url: "https://www.sixteen-nine.net/?p=14687"
+    publisher: "Sixteen:Nine"
+    title: "If You Run A Digital Signage Network, Did A Cyber Attack Friday Make You WannaCry?"
+  - url: "https://www.ibtimes.sg/wannacry-virus-hits-singapore-malls-number-breaches-reported-10073"
+    publisher: "IBTimes Singapore"
+    title: "WannaCry virus hits Singapore malls, a number of breaches reported"

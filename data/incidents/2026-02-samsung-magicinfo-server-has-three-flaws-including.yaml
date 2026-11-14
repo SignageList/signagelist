@@ -1,0 +1,26 @@
+date: "2026-02-02"
+title: "Samsung MagicINFO Server has three flaws, including stored XSS through HTML uploads"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 3 vulnerabilities in Samsung MagicINFO Server, covering cross-site scripting, privilege escalation and hard-coded credentials. A flaw in MagicINFO 9 Server lets authorized users upload HTML files without authentication, leading to stored XSS that can result in account takeover. This issue affects MagicINFO 9 Server: less than 21.1090.1."
+products:
+  - "Samsung MagicINFO Server"
+cve:
+  - CVE-2026-25200
+  - CVE-2026-25201
+  - CVE-2026-25202
+related_products:
+  - magicinfo
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-25200"
+    publisher: "NIST NVD"
+    title: "CVE-2026-25200"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-25201"
+    publisher: "NIST NVD"
+    title: "CVE-2026-25201"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-25202"
+    publisher: "NIST NVD"
+    title: "CVE-2026-25202"
+  - url: "https://security.samsungtv.com/securityUpdates"

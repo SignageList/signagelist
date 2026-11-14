@@ -1,0 +1,13 @@
+date: "2023-05"
+title: "Screens in more than 12,000 schools went dark for 41 days after a cyberattack"
+location: "Germany"
+country: "Germany"
+sector: education
+type: outage
+summary: "Attackers encrypted the servers, virtual machines and backups at the data center provider used by Heinekingmedia, a German digital signage integrator for schools. Screens in more than 12,000 schools stayed dark for 41 days, and the integrator later moved to two new data center providers. Schools used Samsung screens, but the reporting does not say the attack exploited Samsung software."
+products:
+  - "Heinekingmedia"
+sources:
+  - url: "https://invidis.com/news/2023/12/cyber-attack-offline-for-41-days/"
+    publisher: "invidis"
+    title: "Cyber attack: offline for 41 days"

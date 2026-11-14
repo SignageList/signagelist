@@ -1,0 +1,21 @@
+date: "2025-12-10"
+title: "UBICOD Medivision Digital Signage CSRF flaw lets attackers create administrative accounts"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 2 vulnerabilities in UBICOD Medivision Digital Signage, covering CSRF and privilege escalation. In version 1.5.1, a cross-site request forgery flaw lets attackers create administrative user accounts without proper request validation."
+products:
+  - "UBICOD Medivision Digital Signage"
+cve:
+  - CVE-2020-36901
+  - CVE-2020-36902
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36901"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36901"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36902"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36902"
+  - url: "http://www.medivision.co.kr"
+  - url: "https://www.exploit-db.com/exploits/48694"

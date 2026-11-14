@@ -29,6 +29,7 @@ Every page has a Markdown twin at the same URL plus `index.md`: for example {{ .
 - [Free and freemium]({{ .Site.BaseURL }}free/): products with a permanent free tier or an open-source license
 - [Industry news]({{ .Site.BaseURL }}news/): headlines aggregated from vendor and trade feeds
 - [Directory changelog]({{ .Site.BaseURL }}updates/): what changed in the dataset and when
+- [Security incidents]({{ .Site.BaseURL }}incidents/): dated, sourced record of hijacked screens, ransomware and exploited vulnerabilities in digital signage ([Markdown]({{ .Site.BaseURL }}incidents/index.md))
 - [About]({{ .Site.BaseURL }}about/): who maintains this and how records are verified
 
 ## Categories

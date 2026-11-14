@@ -1,0 +1,29 @@
+date: "2020-08-26"
+title: "Cisco Vision Dynamic Signage Director has 4 flaws, including privilege escalation"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 4 vulnerabilities in Cisco Vision Dynamic Signage Director, covering security flaw, privilege escalation, path traversal and cross-site scripting. A vulnerability in the web-based management interface of Cisco Vision Dynamic Signage Director could allow an unauthenticated, remote attacker to view potentially sensitive information on an affected device."
+products:
+  - "Cisco Vision Dynamic Signage Director"
+cve:
+  - CVE-2020-3484
+  - CVE-2020-3485
+  - CVE-2020-3490
+  - CVE-2020-3491
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-3484"
+    publisher: "NIST NVD"
+    title: "CVE-2020-3484"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-3485"
+    publisher: "NIST NVD"
+    title: "CVE-2020-3485"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-3490"
+    publisher: "NIST NVD"
+    title: "CVE-2020-3490"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-3491"
+    publisher: "NIST NVD"
+    title: "CVE-2020-3491"
+  - url: "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vdsd-W7mnkwj7"
+  - url: "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cvdsd-rbac-y9LM5jw4"

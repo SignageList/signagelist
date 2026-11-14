@@ -1,0 +1,11 @@
+date: "2024-04-25"
+title: "Cyberattack shuts down KC Scout highway message boards in Kansas City"
+location: "Kansas City, Missouri, USA"
+country: "USA"
+sector: road sign
+type: outage
+summary: "Highway digital message boards in Kansas City went offline after a cyberattack on April 25, 2024 took down KC Scout, the bi-state traffic service, along with its travel information. Test messages returned to the boards on June 12, and real-time information came back on June 20, after more than a week of testing. The root cause of the attack was not publicized."
+sources:
+  - url: "https://www.kctv5.com/2024/06/11/still-crippled-by-cyberattack-kc-scout-test-initial-phases-restoration/"
+    publisher: "KCTV5"
+    title: "Still crippled by cyberattack, KC Scout to test initial phases of restoration"

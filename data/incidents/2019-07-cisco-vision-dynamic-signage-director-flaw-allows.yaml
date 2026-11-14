@@ -1,0 +1,17 @@
+date: "2019-07-17"
+title: "Cisco Vision Dynamic Signage Director flaw allows authentication bypass"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published an authentication bypass vulnerability in Cisco Vision Dynamic Signage Director. A vulnerability in the REST API interface of Cisco Vision Dynamic Signage Director could allow an unauthenticated, remote attacker to bypass authentication on an affected system."
+products:
+  - "Cisco Vision Dynamic Signage Director"
+cve:
+  - CVE-2019-1917
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2019-1917"
+    publisher: "NIST NVD"
+    title: "CVE-2019-1917"
+  - url: "http://www.securityfocus.com/bid/109301"
+  - url: "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190717-cvdsd-wmauth"

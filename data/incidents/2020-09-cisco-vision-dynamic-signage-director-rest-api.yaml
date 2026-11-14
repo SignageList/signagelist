@@ -1,0 +1,16 @@
+date: "2020-09-23"
+title: "Cisco Vision Dynamic Signage Director REST API endpoint allows authentication bypass"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published an authentication bypass vulnerability in Cisco Vision Dynamic Signage Director. A vulnerability in the REST API endpoint of Cisco Vision Dynamic Signage Director could allow an unauthenticated, remote attacker to bypass authentication on an affected device."
+products:
+  - "Cisco Vision Dynamic Signage Director"
+cve:
+  - CVE-2019-16004
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2019-16004"
+    publisher: "NIST NVD"
+    title: "CVE-2019-16004"
+  - url: "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200108-vdsd-auth-bypass"

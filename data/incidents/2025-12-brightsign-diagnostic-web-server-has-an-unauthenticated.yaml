@@ -1,0 +1,19 @@
+date: "2025-12-10"
+title: "BrightSign diagnostic web server has an unauthenticated server-side request forgery flaw"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a server-side request forgery flaw in BrightSign players. In the BrightSign Digital Signage Diagnostic Web Server 8.2.26 and earlier, the Download Speed Test service can be abused without logging in through the 'url' GET parameter."
+products:
+  - "BrightSign players"
+cve:
+  - CVE-2020-36884
+related_products:
+  - brightsign
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36884"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36884"
+  - url: "https://github.com/zeroscience"
+  - url: "https://www.brightsign.biz"

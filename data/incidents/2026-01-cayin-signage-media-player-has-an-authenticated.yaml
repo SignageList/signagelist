@@ -1,0 +1,19 @@
+date: "2026-01-06"
+title: "Cayin Signage Media Player has an authenticated command injection flaw in two CGI pages"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a command injection flaw in Cayin Signage Media Player 3.0. The flaw is authenticated and remote, and it sits in the system.cgi and wizard_system.cgi pages."
+products:
+  - "Cayin Signage Media Player"
+cve:
+  - CVE-2020-36910
+related_products:
+  - cayin
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36910"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36910"
+  - url: "https://cxsecurity.com/issue/WLB-2020060049"
+  - url: "https://exchange.xforce.ibmcloud.com/vulnerabilities/182924"

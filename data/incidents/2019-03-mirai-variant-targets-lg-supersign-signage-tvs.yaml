@@ -1,0 +1,21 @@
+date: "2019-03"
+title: "Mirai variant targets LG Supersign signage TVs and WePresent presentation systems"
+location: "Global"
+country: "Global"
+sector: other
+type: malware
+summary: "Palo Alto Networks Unit 42 reported a Mirai variant that carried 27 exploits, 11 of them new to Mirai, aimed at enterprise devices. Two were business display products: LG Supersign signage TVs (exploit for CVE-2018-17173) and WePresent WiPG-1000 wireless presentation systems. The payload was reportedly hosted on a compromised website in Colombia, and the variant also targeted routers, NVRs and IP cameras."
+products:
+  - "LG Supersign"
+  - "WePresent WiPG-1000"
+cve:
+  - CVE-2018-17173
+related_products:
+  - lg-supersign
+sources:
+  - url: "https://unit42.paloaltonetworks.com/new-mirai-variant-targets-enterprise-wireless-presentation-display-systems/"
+    publisher: "Palo Alto Networks Unit 42"
+    title: "New Mirai Variant Targets Enterprise Wireless Presentation Display Systems"
+  - url: "https://www.helpnetsecurity.com/2019/03/19/mirai-new-tricks/"
+    publisher: "Help Net Security"
+    title: "Mirai variant picks up new tricks, expands list of targeted devices"

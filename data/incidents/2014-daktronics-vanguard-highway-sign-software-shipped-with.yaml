@@ -1,0 +1,16 @@
+date: "2014"
+title: "Daktronics Vanguard highway sign software shipped with a default password"
+location: "Global"
+country: "Global"
+sector: road sign
+type: vulnerability
+summary: "ICS-CERT alert ICS-ALERT-14-155-01 warned that Daktronics Vanguard dynamic message sign software used a default password that let attackers reach highway signs over a network. Daktronics said the password was a default that operators can change at installation, and the update told operators to change it and to keep the displays on private networks. Coverage in June 2014 described the issue as an easy way to hack federal highway signs."
+products:
+  - "Daktronics Vanguard"
+sources:
+  - url: "https://www.cisa.gov/news-events/ics-alerts/ics-alert-14-155-01"
+    publisher: "CISA"
+    title: "ICS Alert 14-155-01: Daktronics Vanguard Default Credentials"
+  - url: "https://nextgov.com/cybersecurity/2014/06/flaw-lets-hackers-control-electronic-highway-billboards/85849"
+    publisher: "Nextgov"
+    title: "Flaw Lets Hackers Control Electronic Highway Billboards"

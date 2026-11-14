@@ -1,0 +1,16 @@
+date: "2020-07-16"
+title: "Cisco Vision Dynamic Signage Director flaw allows SQL injection"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a SQL injection vulnerability in Cisco Vision Dynamic Signage Director. A vulnerability in the web-based management interface of Cisco Vision Dynamic Signage Director could allow an authenticated, remote attacker with administrative credentials to conduct SQL injection attacks on an affected system."
+products:
+  - "Cisco Vision Dynamic Signage Director"
+cve:
+  - CVE-2020-3450
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-3450"
+    publisher: "NIST NVD"
+    title: "CVE-2020-3450"
+  - url: "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-visio-dir-sql-inj-fPm3MPfT"

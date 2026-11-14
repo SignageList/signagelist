@@ -1,0 +1,17 @@
+date: "2026-05-16"
+title: "iDS6 DSSPro digital signage system has a CAPTCHA bypass that defeats authentication"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published an authentication bypass flaw in iDS6 DSSPro Digital Signage System. In version 6.2, a CAPTCHA security bypass lets attackers get past authentication by requesting the autoLoginVerifyCode object."
+products:
+  - "iDS6 DSSPro Digital Signage System"
+cve:
+  - CVE-2020-37228
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-37228"
+    publisher: "NIST NVD"
+    title: "CVE-2020-37228"
+  - url: "http://www.yerootech.com"
+  - url: "https://www.exploit-db.com/exploits/48991"

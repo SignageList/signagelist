@@ -1,0 +1,17 @@
+date: "2026-01-06"
+title: "RED-V Super Digital Signage System lets unauthenticated users read webserver logs"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published an information disclosure flaw in RED-V Super Digital Signage System. In version 5.1.1, unauthenticated attackers can access sensitive webserver log files."
+products:
+  - "RED-V Super Digital Signage System"
+cve:
+  - CVE-2020-36921
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36921"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36921"
+  - url: "https://cxsecurity.com/issue/WLB-2020110130"
+  - url: "https://exchange.xforce.ibmcloud.com/vulnerabilities/191803"

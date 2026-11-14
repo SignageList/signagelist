@@ -1,0 +1,17 @@
+date: "2006-05-02"
+title: "Toronto GO Transit LED train signs reprogrammed with insulting message about PM"
+location: "Toronto, Canada"
+country: "Canada"
+sector: transit
+type: hijack
+summary: "Scrolling LED signs on GO Transit trains around Toronto showed an insulting message about Stephen Harper for several days in May 2006. A GO spokesman said the signs were programmed with an infrared remote and had no password protection when installed about six years earlier, and transport officials planned to password-protect 790 signs. The sign operator, Exclusive Advertising, said GO Trains had not authorized the message, and the perpetrator was not identified in the sources read."
+sources:
+  - url: "https://www.computerworld.com/article/1689763/hacker-hits-toronto-transit-message-system-jabs-prime-minister.html"
+    publisher: "Computerworld"
+    title: "With a $25 remote, hacker was able to reprogram scrolling LED signs on local trains"
+  - url: "https://www.theregister.co.uk/2006/05/03/canadian_train_sign_hack/"
+    publisher: "The Register"
+    title: "Canadian train sign hack"
+  - url: "https://www.nbcnews.com/news/amp/wbna12598242"
+    publisher: "NBC News"
+    title: "Hacker hijacks Toronto trains' LED signs"

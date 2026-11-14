@@ -1,0 +1,11 @@
+date: "2014-05"
+title: "Five North Carolina DOT electronic road signs hacked to show 'Hack by Sun Hacker'"
+location: "North Carolina, USA"
+country: "USA"
+sector: road sign
+type: hijack
+summary: "Five NCDOT electronic signs displayed Hack by Sun Hacker on a Friday morning, in locations including Asheville, Winston-Salem and Carolina Beach Road. The messages were up for less than five minutes, NCDOT replaced them and reviewed its sign security, and the FBI looked into the case."
+sources:
+  - url: "https://m.washingtontimes.com/news/2014/may/31/computer-hacker-hits-electronic-road-signs-in-nc/"
+    publisher: "Associated Press (via The Washington Times)"
+    title: "Computer hacker hits electronic road signs in NC"

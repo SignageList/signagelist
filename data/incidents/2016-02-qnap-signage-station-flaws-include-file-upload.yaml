@@ -1,0 +1,28 @@
+date: "2016-02-27"
+title: "QNAP Signage Station flaws include file upload and authentication bypass"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 4 vulnerabilities in QNAP Signage Station, covering file upload, authentication bypass, hard-coded credentials and privilege escalation. Unrestricted file upload vulnerability in QNAP Signage Station before 2.0.1 allows remote authenticated users to execute arbitrary code by uploading an executable file, and then accessing this file via an unspecified URL."
+products:
+  - "QNAP Signage Station"
+cve:
+  - CVE-2015-6022
+  - CVE-2015-6036
+  - CVE-2015-7261
+  - CVE-2015-7262
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2015-6022"
+    publisher: "NIST NVD"
+    title: "CVE-2015-6022"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2015-6036"
+    publisher: "NIST NVD"
+    title: "CVE-2015-6036"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2015-7261"
+    publisher: "NIST NVD"
+    title: "CVE-2015-7261"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2015-7262"
+    publisher: "NIST NVD"
+    title: "CVE-2015-7262"
+  - url: "http://www.kb.cert.org/vuls/id/444472"

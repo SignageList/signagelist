@@ -1,0 +1,14 @@
+date: "2024-01-23"
+title: "Lev Cinemas screens in Tel Aviv show Gaza war messages, linked to MeshSec hacktivists"
+location: "Tel Aviv, Israel"
+country: "Israel"
+sector: other
+type: hijack
+summary: "Screens at Lev Cinemas, one of the most frequented cinema chains in Israel, showed messages about the Gaza war projected by hacktivists linked to the Turkish group MeshSec. The attackers reached the screens through a third-party system that updates pre-show clips and trailers. Lev switched off the affected screens, and police opened an investigation."
+sources:
+  - url: "https://darkreading.com/cyberattacks-data-breaches/hackers-blast-violent-gaza-message-popular-israeli-movie-theater"
+    publisher: "Dark Reading"
+    title: "hackers blast violent gaza message popular israeli movie theater"
+  - url: "https://www.securitylab.ru/news/545599.php"
+    publisher: "SecurityLab.ru"
+    title: "Турецкая группа MeshSec устроила кибертеррор в кинотеатре Израиля"

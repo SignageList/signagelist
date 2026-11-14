@@ -1,0 +1,18 @@
+date: "2026-04-10"
+title: "Samsung MagicINFO 9 Server default permissions flaw allows local privilege escalation"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a local privilege escalation flaw in Samsung MagicINFO Server. It comes from incorrect default permissions in MagicINFO 9 Server, which is affected below version 21.1091.1."
+products:
+  - "Samsung MagicINFO Server"
+cve:
+  - CVE-2026-25203
+related_products:
+  - magicinfo
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-25203"
+    publisher: "NIST NVD"
+    title: "CVE-2026-25203"
+  - url: "https://security.samsungtv.com/securityUpdates"

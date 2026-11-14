@@ -1,0 +1,32 @@
+date: "2026-10-28"
+title: "Xibo CMS digital signage platform has five flaws, including privilege escalation"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 5 vulnerabilities in Xibo CMS, covering privilege escalation and authorization bypass. Xibo is an open source digital signage platform with a web content management system and Windows display player software."
+products:
+  - "Xibo CMS"
+cve:
+  - CVE-2026-50541
+  - CVE-2026-52729
+  - CVE-2026-50539
+  - CVE-2026-50542
+  - CVE-2026-50543
+related_products:
+  - xibo
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-50541"
+    publisher: "NIST NVD"
+    title: "CVE-2026-50541"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-52729"
+    publisher: "NIST NVD"
+    title: "CVE-2026-52729"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-50539"
+    publisher: "NIST NVD"
+    title: "CVE-2026-50539"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-50542"
+    publisher: "NIST NVD"
+    title: "CVE-2026-50542"
+  - url: "https://github.com/xibosignage/xibo-cms/commit/98b347d3bf81d369ebe67bde030b913085a11556"
+  - url: "https://github.com/xibosignage/xibo-cms/commit/bba1bd82da8fb96919ba07462fe06ddacb22116b"

@@ -1,0 +1,19 @@
+date: "2008-11-05"
+title: "firmCHANNEL Digital Signage cross-site scripting flaw lets remote attackers inject script"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a cross-site scripting vulnerability in firmCHANNEL Digital Signage. Cross-site scripting (XSS) vulnerability in the account module in firmCHANNEL Digital Signage 3.24, and possibly earlier versions, allows remote attackers to inject arbitrary web script or HTML via the action parameter to index.php."
+products:
+  - "firmCHANNEL Digital Signage"
+cve:
+  - CVE-2008-4931
+related_products:
+  - firmchannel
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2008-4931"
+    publisher: "NIST NVD"
+    title: "CVE-2008-4931"
+  - url: "http://osvdb.org/49564"
+  - url: "http://secunia.com/advisories/32549"

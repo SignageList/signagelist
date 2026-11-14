@@ -1,0 +1,16 @@
+date: "2026-09-02"
+title: "Drupal Digital Signage Framework lacks authorization checks, allowing forceful browsing"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a missing authorization flaw in the Drupal Digital Signage Framework. It allows forceful browsing."
+products:
+  - "Drupal Digital Signage Framework"
+cve:
+  - CVE-2026-81166
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-81166"
+    publisher: "NIST NVD"
+    title: "CVE-2026-81166"
+  - url: "https://www.drupal.org/sa-contrib-2026-109"

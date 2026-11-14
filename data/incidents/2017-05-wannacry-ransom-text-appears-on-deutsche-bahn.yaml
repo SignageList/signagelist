@@ -1,0 +1,11 @@
+date: "2017-05-12"
+title: "WannaCry ransom text appears on Deutsche Bahn station information screens"
+location: "Germany"
+country: "Germany"
+sector: rail
+type: ransomware
+summary: "During the global WannaCry outbreak, Deutsche Bahn reported that some electronic arrival and departure signs at its stations were infected. Passenger information screens showed a text demanding ransom money. Train operations were not affected, and the company said its security team found the infection early."
+sources:
+  - url: "https://railway-news.com/global-cyber-attack-hits-deutsche-bahn"
+    publisher: "Railway News"
+    title: "Global cyber attack hits Deutsche Bahn"

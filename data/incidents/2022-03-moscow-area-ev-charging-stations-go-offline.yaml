@@ -1,0 +1,14 @@
+date: "2022-03-01"
+title: "Moscow-area EV charging stations go offline and screens show anti-Putin text"
+location: "Moscow region, Russia"
+country: "Russia"
+sector: other
+type: hijack
+summary: "Public EV charging stations outside Moscow went offline in what looked like a hack. Their screens showed anti-Putin text and the slogan Glory to Ukraine. The attack came in early 2022, around the start of Russia's full-scale invasion."
+sources:
+  - url: "https://invidis.com/sixteen-nine/2022/03/01/hackers-appear-to-have-disabled-russian-ev-chargers-leaving-anti-putin-messages/"
+    publisher: "Sixteen:Nine"
+    title: "Hackers Appear To Have Disabled Russian EV Chargers; Leaving Anti-Putin Messages"
+  - url: "https://insideevs.com/news/570958/russia-electric-car-chargers-hacked/"
+    publisher: "InsideEVs"
+    title: "Russian EV Chargers Hacked, Screen Reads \"Glory To Ukraine!\""

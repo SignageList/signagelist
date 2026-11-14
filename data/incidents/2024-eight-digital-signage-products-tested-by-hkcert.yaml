@@ -1,0 +1,14 @@
+date: "2024"
+title: "Eight digital signage products tested by HKCERT have 20 vulnerabilities"
+location: "Hong Kong"
+country: "Hong Kong"
+sector: government
+type: research
+summary: "Eight digital signage products tested in October 2024 had 20 vulnerabilities, 11 in web management portals and 9 in the devices, with 10 rated high risk, according to Hong Kong's computer emergency response team. Findings included insecure HTTP, weak encryption, unnecessary open network services, and touch gestures that could exit media players or reach settings. In a live demonstration, control of a display was gained in as little as three seconds. The products are not named in the sources found."
+sources:
+  - url: "https://hkcert.org/blog/enhancing-digital-signage-security-security-findings-and-recommendations-from-the-latest-study"
+    publisher: "HKCERT"
+    title: "Enhancing digital signage security: findings and recommendations from the latest study"
+  - url: "https://news.rthk.hk/rthk/en/component/k2/1788324-20250120.htm"
+    publisher: "RTHK"
+    title: "Digital signage users need to up cyber security"

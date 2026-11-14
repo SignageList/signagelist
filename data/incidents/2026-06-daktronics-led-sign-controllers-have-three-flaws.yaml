@@ -1,0 +1,31 @@
+date: "2026-06-25"
+title: "Daktronics LED sign controllers have three flaws, including default admin credentials"
+location: "Global"
+country: "Global"
+sector: billboard
+type: vulnerability
+summary: "CISA's advisory ICSA-26-176-04 covers three flaws in Daktronics VFC-DMP-5000, DMP-5000 and DMP-8000 controllers that drive large LED displays, including highway signs and billboards. They are an unauthenticated path traversal (CVE-2026-28701), an authenticated arbitrary file upload (CVE-2026-33560) and default administrator credentials (CVE-2026-31928). Researcher Thomas Jou reported them through CISA's VINCE in January 2026, and Daktronics shipped patched firmware in March 2026, but the researcher said field testing found most internet-exposed units still used the default admin credentials."
+products:
+  - "Daktronics DMP-5000"
+  - "Daktronics DMP-8000"
+  - "Daktronics VFC-DMP-5000"
+cve:
+  - CVE-2026-28701
+  - CVE-2026-31928
+  - CVE-2026-33560
+sources:
+  - url: "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-04"
+    publisher: "CISA"
+    title: "ICSA-26-176-04 Daktronics controllers"
+  - url: "https://www.securityweek.com/new-controller-flaws-expose-highway-signs-and-billboards-to-remote-hacking/"
+    publisher: "SecurityWeek"
+    title: "New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2026-28701"
+    publisher: "NIST NVD"
+    title: "CVE-2026-28701"
+  - url: "https://www.securityweek.com/new-controller-flaws-expose-highway-signs-and-billboards-to-remote-hacking/amp/"
+    publisher: "SecurityWeek"
+    title: "New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking"
+  - url: "https://cvefeed.io/vuln/detail/CVE-2026-33560"
+    publisher: "cvefeed.io"
+    title: "CVE-2026-33560"

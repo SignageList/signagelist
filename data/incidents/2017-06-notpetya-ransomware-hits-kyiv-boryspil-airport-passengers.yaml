@@ -1,0 +1,11 @@
+date: "2017-06-27"
+title: "NotPetya ransomware hits Kyiv Boryspil airport, passengers told to check scoreboard"
+location: "Kyiv, Ukraine"
+country: "Ukraine"
+sector: airport
+type: ransomware
+summary: "The NotPetya ransomware outbreak hit Boryspil International Airport in Kyiv on 27 June 2017. Passengers were told to check departure times on the terminal D scoreboard and the airport website, and operations were back to normal by 28 June. The sources read do not say exactly which airport systems the malware took down beyond this."
+sources:
+  - url: "https://www.dailysabah.com/europe/2017/06/27/ukraines-state-institutions-banks-main-airport-media-hit-by-major-cyber-attack"
+    publisher: "Daily Sabah"
+    title: "Ukraine's state institutions, banks, main airport, media hit by major cyber attack"

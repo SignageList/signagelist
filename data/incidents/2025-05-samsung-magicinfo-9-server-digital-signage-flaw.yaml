@@ -1,0 +1,43 @@
+date: "2025-05-06"
+title: "Samsung MagicINFO 9 Server digital signage flaw exploited by Mirai botnet"
+location: "Global"
+country: "Global"
+sector: other
+type: vulnerability
+summary: "Mirai variants exploited CVE-2024-7399, a path traversal and file upload flaw in on-premise Samsung MagicINFO 9 Server, shortly after a public proof of concept appeared. Arctic Wolf and SANS reported the activity, and Huntress found version 21.1050 still vulnerable to the PoC. Help Net Security reported that a follow-on flaw, CVE-2025-4632, was the one seen in later attacks, and MagicInfo Cloud and VXT customers were not affected."
+products:
+  - "Samsung MagicINFO 9 Server"
+cve:
+  - CVE-2024-7399
+  - CVE-2025-4632
+related_products:
+  - magicinfo
+sources:
+  - url: "https://www.helpnetsecurity.com/2025/05/06/exploited-vulnerability-software-managing-samsung-digital-displays-cve-2024-7399/"
+    publisher: "Help Net Security"
+    title: "Exploited: Vulnerability in software for managing Samsung digital displays (CVE-2024-7399)"
+  - url: "https://thehackernews.com/2025/05/hackers-exploit-samsung-magicinfo.html"
+    publisher: "The Hacker News"
+    title: "Hackers exploit Samsung MagicINFO"
+  - url: "https://cyberinsider.com/samsung-magicinfo-flaw-now-actively-exploited-by-mirai-botnet/"
+    publisher: "CyberInsider"
+    title: "Samsung MagicINFO flaw now actively exploited by Mirai botnet"
+  - url: "https://www.securityweek.com/improperly-patched-samsung-magicinfo-vulnerability-exploited-by-botnet/"
+    publisher: "SecurityWeek"
+    title: "Improperly Patched Samsung MagicINFO Vulnerability Exploited by Botnet"
+  - url: "https://www.huntress.com/blog/rapid-response-samsung-magicinfo9-server-flaw"
+    publisher: "Huntress"
+    title: "Rapid Response: Samsung MagicINFO 9 Server Flaw"
+  - url: "https://securityaffairs.com/177529/hacking/samsung-magicinfo-vulnerability-exploited-after-poc-publication.html"
+    publisher: "Security Affairs"
+    title: "Samsung MagicINFO vulnerability exploited after PoC publication"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2024-7399"
+    publisher: "NIST NVD"
+    title: "CVE-2024-7399"
+  - url: "https://security.samsungtv.com/securityUpdates"
+  - url: "https://arcticwolf.com/resources/blog-uk/arctic-wolf-observes-exploitation-of-path-traversal-vulnerability-in-samsung-magicinfo-9-server-cve-2024-7399/"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2025-4632"
+    publisher: "NIST NVD"
+    title: "CVE-2025-4632"
+  - url: "https://security.samsungtv.com/securityUpdates#SVP-MAY-2025"
+  - url: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-4632"

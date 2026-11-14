@@ -1,0 +1,29 @@
+date: "2025-12-10"
+title: "EIBIZ i-Media Server has four flaws, including unauthenticated privilege escalation"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 4 vulnerabilities in EIBIZ i-Media Server, covering privilege escalation, path traversal, authentication bypass and insecure object references. In Eibiz i-Media Server Digital Signage 3.8.0, an unauthenticated privilege escalation flaw in the updateUser object lets attackers modify user roles."
+products:
+  - "EIBIZ i-Media Server"
+cve:
+  - CVE-2020-36892
+  - CVE-2020-36893
+  - CVE-2020-36894
+  - CVE-2020-36895
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36892"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36892"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36893"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36893"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36894"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36894"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2020-36895"
+    publisher: "NIST NVD"
+    title: "CVE-2020-36895"
+  - url: "http://www.eibiz.co.th"
+  - url: "https://www.exploit-db.com/exploits/48774"

@@ -1,0 +1,16 @@
+date: "2021-10-06"
+title: "Cisco Vision Dynamic Signage Director has a cross-site scripting flaw"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published a cross-site scripting vulnerability in Cisco Vision Dynamic Signage Director. A vulnerability in the web-based management interface of Cisco Vision Dynamic Signage Director could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface on an affected device."
+products:
+  - "Cisco Vision Dynamic Signage Director"
+cve:
+  - CVE-2021-34742
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2021-34742"
+    publisher: "NIST NVD"
+    title: "CVE-2021-34742"
+  - url: "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cvdsd-xss-fvdj6HK"

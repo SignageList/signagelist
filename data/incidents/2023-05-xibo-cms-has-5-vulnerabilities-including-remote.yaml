@@ -1,0 +1,32 @@
+date: "2023-05-30"
+title: "Xibo CMS has 5 vulnerabilities, including remote code execution and SQL injection"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "NVD published 5 vulnerabilities in Xibo CMS, covering remote code execution, SQL injection and security flaw. Xibo is a content management system (CMS)."
+products:
+  - "Xibo CMS"
+cve:
+  - CVE-2023-33177
+  - CVE-2023-33178
+  - CVE-2023-33179
+  - CVE-2023-33180
+  - CVE-2023-33181
+related_products:
+  - xibo
+sources:
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2023-33177"
+    publisher: "NIST NVD"
+    title: "CVE-2023-33177"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2023-33178"
+    publisher: "NIST NVD"
+    title: "CVE-2023-33178"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2023-33179"
+    publisher: "NIST NVD"
+    title: "CVE-2023-33179"
+  - url: "https://nvd.nist.gov/vuln/detail/CVE-2023-33180"
+    publisher: "NIST NVD"
+    title: "CVE-2023-33180"
+  - url: "https://claroty.com/team82/disclosure-dashboard"
+  - url: "https://github.com/xibosignage/xibo-cms/commit/1cbba380fa751a00756e70d7b08b5c6646092658"
