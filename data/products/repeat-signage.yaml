@@ -26,6 +26,11 @@ models:
         monthly: null
         yearly: 172.5
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.repeatsoftware.com/gdpr.html
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

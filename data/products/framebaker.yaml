@@ -36,6 +36,11 @@ models:
         monthly: 39
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://framebaker.com/legal/dpa
+    checked: 2026-11
 notes:
   - Pricing is listed in EUR (Starter €9, Business €19, Pro €39 per screen/month). The Pro plan is marked "coming soon".
   - Offers a 30-day free trial with no credit card required.

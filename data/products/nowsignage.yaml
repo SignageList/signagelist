@@ -42,6 +42,20 @@ stats:
     total: 5000
     source: https://secure.nowsignage.com/customers/register
     date: 2025-04
+compliance:
+  soc2:
+    status: in_progress
+    detail: SOC 2 (marketed as ready, not yet certified)
+    source: https://www.nowsignage.com/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://trust.nowsignage.com/
+    checked: 2026-11
+  iso9001:
+    status: certified
+    source: https://trust.nowsignage.com/
+    checked: 2026-11
 notes:
   - The screen count is based on the number of customers. The actual screen count may vary.
 reviews:

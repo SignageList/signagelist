@@ -45,6 +45,11 @@ models:
         monthly: 33
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://signao.webflow.io/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

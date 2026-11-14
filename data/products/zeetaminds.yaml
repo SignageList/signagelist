@@ -35,6 +35,16 @@ stats:
     total: 30000
     source: https://www.reddit.com/r/digitalsignage/comments/1k760p7/comment/moxjqw2/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://zeetaminds.com/explore/dpa
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://zeetaminds.com/explore/dpa
+    checked: 2026-11
 notes: []
 reviews:
   g2:

@@ -34,6 +34,15 @@ stats:
     total: 11000
     source: https://www.amplitudenet.pt/en/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    source: https://www.amplitudenet.pt/en/digital-signage-software/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.amplitudenet.pt/en/digital-signage-software/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

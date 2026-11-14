@@ -31,6 +31,24 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  soc3:
+    status: certified
+    detail: Type II
+    source: https://www.appspace.com/trust/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.appspace.com/trust/
+    checked: 2026-11
+  iso27017:
+    status: certified
+    source: https://www.appspace.com/trust/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.appspace.com/legal/privacy-policy/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

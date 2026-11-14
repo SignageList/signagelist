@@ -33,6 +33,11 @@ stats:
     total: 322
     source: https://www.myeasycms.com/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.myeasycms.com/security-and-gdpr/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

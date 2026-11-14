@@ -45,6 +45,11 @@ stats:
     total: 306000
     source: https://xibosignage.com/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://xibosignage.com/dpa
+    checked: 2026-11
 notes:
   - Android, Tizen and webOS players are closed-source, commercial products and require a (perpetual) license if used with a free self-hosted server.
   - The Tizen player is currently limited to HD resolution on 4K screens.

@@ -47,6 +47,24 @@ models:
         monthly: null
         yearly: 72
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://scalefusion.com/compliance/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://scalefusion.com/compliance/
+    checked: 2026-11
+  hipaa:
+    status: compliant
+    source: https://scalefusion.com/compliance/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://scalefusion.com/compliance/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

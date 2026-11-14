@@ -21,6 +21,11 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.digitalsignage-templates.com/privacy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

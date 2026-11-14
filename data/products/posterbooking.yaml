@@ -36,6 +36,11 @@ stats:
     total: 35000
     source: https://posterbooking.com/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://posterbooking.com/gdpr
+    checked: 2026-11
 notes:
   - We mention a minimum of 35000 connected screens based on customer count, but the actual number could be significantly higher.
 reviews:

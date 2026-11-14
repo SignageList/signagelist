@@ -14,6 +14,16 @@ categories:
 platforms: []
 models: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.meldcx.com/products/coatro
+    checked: 2026-11
+  pci_dss:
+    status: certified
+    detail: Held by parent company meldCX
+    source: https://www.meldcx.com/security
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

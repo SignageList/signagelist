@@ -28,6 +28,20 @@ stats:
     total: 2000000
     source: https://www.linkedin.com/posts/broadsign_thepowerof2million-activity-7321156055743291393-FgjW
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://trust.broadsign.com
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://trust.broadsign.com
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://trust.broadsign.com
+    checked: 2026-11
 notes: []
 reviews:
   g2:

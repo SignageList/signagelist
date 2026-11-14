@@ -28,6 +28,11 @@ stats:
     total: 120000
     source: https://www.linkedin.com/company/zetadisplay/?utm_campaign=Global-%20Newsletter&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_p7VztyRT_Em6v_YcQLol_-IgMZ_dy29VxPAbqplr6ySGfv3x7M5eyr1tCN5viNmfBD9qW
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://zetadisplay.com/product-and-services/engage-suite/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

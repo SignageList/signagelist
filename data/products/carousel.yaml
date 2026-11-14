@@ -56,6 +56,25 @@ models:
         monthly: null
         yearly: null
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.carouselsignage.com/cloud/security
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.carouselsignage.com/legal/gdpr-compliance-statement
+    checked: 2026-11
+  vpat:
+    status: compliant
+    source: https://www.carouselsignage.com/cloud/security
+    checked: 2026-11
+  wcag:
+    status: compliant
+    detail: 2.1 AA
+    source: https://www.carouselsignage.com/cloud/security
+    checked: 2026-11
 notes: []
 reviews:
   g2:

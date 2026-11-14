@@ -99,26 +99,12 @@
 				<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
 			</button>
 			<div id="compliance-dropdown" class="hidden absolute z-20 mt-1 w-56 bg-white border border-neutral-200 rounded-lg shadow-lg animate-scale-in">
+				{{ range where site.Data.compliance.standards "filter" true }}
 				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
-					<input type="checkbox" data-compliance-checkbox="soc2" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-					<span>SOC 2</span>
+					<input type="checkbox" data-compliance-checkbox="{{ .key }}" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+					<span>{{ .label }}</span>
 				</label>
-				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
-					<input type="checkbox" data-compliance-checkbox="iso27001" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-					<span>ISO 27001</span>
-				</label>
-				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
-					<input type="checkbox" data-compliance-checkbox="hipaa" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-					<span>HIPAA</span>
-				</label>
-				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
-					<input type="checkbox" data-compliance-checkbox="cra" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-					<span>CRA</span>
-				</label>
-				<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer transition-colors">
-					<input type="checkbox" data-compliance-checkbox="fedramp" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-					<span>FedRAMP</span>
-				</label>
+				{{ end }}
 			</div>
 		</div>
 
@@ -211,26 +197,12 @@
 					<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
 				</button>
 				<div id="compliance-dropdown-mobile" class="hidden absolute z-20 mt-1 w-full bg-white border border-neutral-200 rounded-lg shadow-lg">
+					{{ range where site.Data.compliance.standards "filter" true }}
 					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
-						<input type="checkbox" data-compliance-checkbox="soc2" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-						<span>SOC 2</span>
+						<input type="checkbox" data-compliance-checkbox="{{ .key }}" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
+						<span>{{ .label }}</span>
 					</label>
-					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
-						<input type="checkbox" data-compliance-checkbox="iso27001" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-						<span>ISO 27001</span>
-					</label>
-					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
-						<input type="checkbox" data-compliance-checkbox="hipaa" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-						<span>HIPAA</span>
-					</label>
-					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
-						<input type="checkbox" data-compliance-checkbox="cra" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-						<span>CRA</span>
-					</label>
-					<label class="flex items-center gap-2 px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-50 cursor-pointer">
-						<input type="checkbox" data-compliance-checkbox="fedramp" class="rounded border-neutral-300 text-primary-600 focus:ring-primary-500">
-						<span>FedRAMP</span>
-					</label>
+					{{ end }}
 				</div>
 			</div>
 

@@ -26,6 +26,11 @@ stats:
     total: 10000
     source: https://www.clevertouch.com/uk/products/clever-software-solutions/cleverlive
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.clevertouch.com/uk/about/security/data-processing-addendum
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

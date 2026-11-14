@@ -15,6 +15,11 @@ categories:
 platforms: []
 models: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://admobilize.com/privacy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

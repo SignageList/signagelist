@@ -32,6 +32,12 @@ models:
         monthly: null
         yearly: 239
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: "Type II; Held by parent company Corum Digital"
+    source: https://mediatile.com/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

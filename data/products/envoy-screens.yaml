@@ -33,6 +33,25 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://envoy.com/legal/security-and-privacy
+    checked: 2026-11
+  hipaa:
+    status: compliant
+    detail: BAA offered
+    source: https://envoy.com/legal/terms-of-service
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://envoy.com/legal/security-and-privacy
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://envoy.com/legal/security-and-privacy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

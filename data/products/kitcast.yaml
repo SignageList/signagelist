@@ -28,6 +28,11 @@ models:
         monthly: 25
         yearly: 240
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://kitcast.tv/
+    checked: 2026-11
 notes:
   - "Digital Signage Software for Apple TV. Platforms planned for 2025: Android, Fire OS, BrightSign, Tizen, webOS, macOS"
 reviews:

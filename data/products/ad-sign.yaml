@@ -22,6 +22,11 @@ models:
     has_freemium: true
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://ad-sign.tv/app/privacy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

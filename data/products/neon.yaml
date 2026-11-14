@@ -30,6 +30,11 @@ models:
         monthly: 35
         yearly: 360
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.neonscreens.com/privacy-policy
+    checked: 2026-11
 notes: []
 reviews:
   g2:

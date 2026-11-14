@@ -45,6 +45,19 @@ stats:
     total: 180000
     source: https://www.yodeck.com/
     date: 2025-04
+compliance:
+  iso27001:
+    status: certified
+    source: https://www.yodeck.com/digital-signage-security/
+    checked: 2026-11
+  iso9001:
+    status: certified
+    source: https://www.yodeck.com/digital-signage-security/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.yodeck.com/privacy-policy/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

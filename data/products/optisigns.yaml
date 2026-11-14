@@ -49,6 +49,20 @@ stats:
     total: 175605
     source: https://www.optisigns.com/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.optisigns.com/trust-center
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.optisigns.com/
+    checked: 2026-11
+  vpat:
+    status: compliant
+    source: https://www.optisigns.com/trust-center
+    checked: 2026-11
 notes: []
 reviews:
   g2:

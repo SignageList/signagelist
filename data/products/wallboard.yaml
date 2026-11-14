@@ -36,6 +36,20 @@ models:
         monthly: 30
         yearly: null
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://wallboard.us/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://wallboard.us/platform/govern/security
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://wallboard.us/platform/govern/security
+    checked: 2026-11
 notes: []
 reviews:
   g2:

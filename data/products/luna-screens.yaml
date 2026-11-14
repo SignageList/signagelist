@@ -36,6 +36,11 @@ stats:
     total: 1000
     source: https://www.sixteen-nine.net/2025/03/17/alastair-taft-of-tasmanias-luna-screens-explains-his-approach-to-really-simple-digital-signage-software/
     date: 2025-03
+compliance:
+  gdpr:
+    status: compliant
+    source: https://lunascreens.com/privacy-policy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

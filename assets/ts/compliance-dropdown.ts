@@ -92,13 +92,8 @@ function updateComplianceLabel(compliance: string[]): void {
 	}
 }
 
+// Labels come from data/compliance.yaml via the rendered checkbox markup.
 function formatComplianceName(key: string): string {
-	const names: Record<string, string> = {
-		soc2: 'SOC 2',
-		iso27001: 'ISO 27001',
-		hipaa: 'HIPAA',
-		cra: 'CRA',
-		fedramp: 'FedRAMP',
-	}
-	return names[key] || key
+	const cb = document.querySelector<HTMLInputElement>(`[data-compliance-checkbox="${CSS.escape(key)}"]`)
+	return cb?.parentElement?.querySelector('span')?.textContent?.trim() || key
 }

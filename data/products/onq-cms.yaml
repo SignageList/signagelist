@@ -23,6 +23,19 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://www.onqdigitalgroup.com.au/services/analytics
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.onqdigitalgroup.com.au/services/analytics
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://www.onqdigitalgroup.com.au/services/analytics
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

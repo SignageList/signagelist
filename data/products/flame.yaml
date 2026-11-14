@@ -15,6 +15,15 @@ categories:
 platforms: []
 models: []
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://www.flameanalytics.com/en/information-security/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.flameanalytics.com/en/information-security/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

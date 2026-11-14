@@ -39,6 +39,15 @@ stats:
     total: 5000
     source: https://displ.com/about
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://displ.com/legal/privacy-policy
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://displ.com/
+    checked: 2026-11
 notes:
   - The screen count is based on the number of provided connected locations. The actual screen count may vary.
 features: []

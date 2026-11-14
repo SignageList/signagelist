@@ -27,6 +27,15 @@ models:
         monthly: 14.82
         yearly: 151.68
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://bizplay.com/legal
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://bizplay.com/legal
+    checked: 2026-11
 notes: []
 reviews:
   g2:

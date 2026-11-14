@@ -39,6 +39,15 @@ stats:
     total: 5000
     source: https://nordicscreen.com/digital-signage/
     date: 2025-04
+compliance:
+  iso27001:
+    status: certified
+    source: https://nordicscreen.com/legal/iso-27001
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://nordicscreen.com/legal
+    checked: 2026-11
 notes:
   - The screen count is based on the number of customers. The actual screen count may vary.
   - Single sign-on works with Microsoft Entra ID and Google, and supports SAML 2.0 including ADFS.

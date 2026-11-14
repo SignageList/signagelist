@@ -33,6 +33,11 @@ models:
     has_freemium: true
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.signagenow.tv/features/dsgvo-konform
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

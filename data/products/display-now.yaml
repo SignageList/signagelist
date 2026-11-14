@@ -34,6 +34,16 @@ models:
         monthly: 11
         yearly: 108
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://displaynow.io
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://displaynow.io/privacy-policy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

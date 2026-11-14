@@ -50,6 +50,11 @@ models:
         monthly: null
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://smart-signage.app/
+    checked: 2026-11
 notes:
   - Pricing is listed in EUR before tax (Premium €9 per screen per month or €99 per year, Lite €5 per device per month or €55 per year). Enterprise is custom quoted.
   - The Free plan covers up to 3 screens and 500 MB of media with no time limit and no credit card. A "Powered by Smart-Signage" badge appears after 30 days.

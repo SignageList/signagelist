@@ -21,6 +21,16 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://socialwalls.com/gdpr-compliance/
+    checked: 2026-11
+  wcag:
+    status: in_progress
+    detail: WCAG 2.1 AA (says it strives to adhere)
+    source: https://socialwalls.com/gdpr-compliance/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

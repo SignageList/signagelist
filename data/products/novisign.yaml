@@ -39,6 +39,16 @@ stats:
     total: 50000
     source: https://www.novisign.com/about/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.novisign.com/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.novisign.com/about/privacy-policy/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

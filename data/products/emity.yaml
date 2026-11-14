@@ -34,6 +34,11 @@ stats:
     total: 5000
     source: https://www.emity.io/en/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.emity.io/en/privacy-policy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

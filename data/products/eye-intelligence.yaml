@@ -26,6 +26,11 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  hipaa:
+    status: compliant
+    source: https://eye-in.com/solutions/healthcare
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

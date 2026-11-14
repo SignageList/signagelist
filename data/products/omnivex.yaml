@@ -20,6 +20,11 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    source: https://www.omnivex.com/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

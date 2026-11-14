@@ -39,6 +39,11 @@ models:
         monthly: 19.99
         yearly: 215.88
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://www.onsign.com/security
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

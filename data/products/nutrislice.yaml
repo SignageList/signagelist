@@ -25,6 +25,11 @@ stats:
     total: 30000
     source: https://nutrislice.com/about-us/
     date: 2025-04
+compliance:
+  vpat:
+    status: compliant
+    source: https://nutrislice.com/ada-compliance/
+    checked: 2026-11
 notes:
   - Empowering over 30,000 locations around the world
 features: []

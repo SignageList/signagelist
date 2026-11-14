@@ -24,6 +24,23 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://gobright.com/privacy-terms-conditions/
+    checked: 2026-11
+  iso9001:
+    status: certified
+    source: https://gobright.com/privacy-terms-conditions/
+    checked: 2026-11
+  iso14001:
+    status: certified
+    source: https://gobright.com/privacy-terms-conditions/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://gobright.com/products/digital-signage/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

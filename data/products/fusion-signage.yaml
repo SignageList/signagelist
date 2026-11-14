@@ -54,11 +54,15 @@ stats:
     source: https://fusionsignage.com.au/our-story
     date: 2026-03
 compliance:
-  soc2: true
-  iso27001: true
-  hipaa: false
-  cra: false
-  fedramp: false
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://fusionsignage.com.au/security
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://trust.fusionsignage.com.au/
+    checked: 2026-11
 notes:
   - Pricing is listed in AUD. The recorded figures are the annual scheme (Basic A$11.90, Advanced A$16.30, Pro A$25.00 per screen per month, billed yearly upfront).
   - "Longer commitments cost less per screen: three years brings Basic to A$10.80 and five years to A$9.70."

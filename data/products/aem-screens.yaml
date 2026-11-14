@@ -25,6 +25,11 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.adobe.com/legal/terms.html
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

@@ -1,0 +1,65 @@
+# Compliance standards a product record can claim, in display order.
+# Keys must match the `compliance` keys allowed by scripts/lib/schema.ts.
+# `filter: true` adds the standard to the product list's Compliance filter.
+standards:
+  - key: soc2
+    label: SOC 2
+    filter: true
+  - key: soc1
+    label: SOC 1
+  - key: soc3
+    label: SOC 3
+  - key: iso27001
+    label: ISO 27001
+    filter: true
+  - key: iso27017
+    label: ISO 27017
+  - key: iso27018
+    label: ISO 27018
+  - key: iso27701
+    label: ISO 27701
+  - key: iso42001
+    label: ISO 42001
+  - key: iso9001
+    label: ISO 9001
+  - key: iso14001
+    label: ISO 14001
+  - key: iso22301
+    label: ISO 22301
+  - key: hipaa
+    label: HIPAA
+    filter: true
+  - key: gdpr
+    label: GDPR
+    filter: true
+  - key: ccpa
+    label: CCPA
+  - key: pci_dss
+    label: PCI DSS
+  - key: fedramp
+    label: FedRAMP
+    filter: true
+  - key: stateramp
+    label: StateRAMP
+  - key: cmmc
+    label: CMMC
+  - key: cyber_essentials
+    label: Cyber Essentials
+    filter: true
+  - key: cyber_essentials_plus
+    label: Cyber Essentials Plus
+  - key: csa_star
+    label: CSA STAR
+  - key: tisax
+    label: TISAX
+  - key: ens
+    label: ENS
+  - key: cra
+    label: CRA
+    filter: true
+  - key: vpat
+    label: VPAT
+  - key: section_508
+    label: Section 508
+  - key: wcag
+    label: WCAG

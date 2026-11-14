@@ -34,6 +34,32 @@ models:
         monthly: null
         yearly: 29.99
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.42gears.com/trust-center/compliance/business-certifications/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.42gears.com/products/digital-signage/
+    checked: 2026-11
+  hipaa:
+    status: compliant
+    source: https://www.42gears.com/trust-center/compliance/business-certifications/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.42gears.com/trust-center/
+    checked: 2026-11
+  cyber_essentials:
+    status: certified
+    source: https://www.42gears.com/trust-center/compliance/business-certifications/
+    checked: 2026-11
+  cyber_essentials_plus:
+    status: certified
+    source: https://www.42gears.com/trust-center/compliance/business-certifications/
+    checked: 2026-11
 notes:
   - a digital signage kiosk solution
 features: []

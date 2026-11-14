@@ -46,6 +46,11 @@ stats:
     total: 350
     source: https://www.signital.com/solutions/case-studies/samkaup
     date: September 2026
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.signital.com/
+    checked: 2026-11
 notes:
   - Pricing is listed in EUR excluding VAT (Standard €7, Business €12 per screen per month) and in USD on the same page ($8 and $14).
   - Volume pricing applies automatically from five screens, falling to €5.25 per screen on Standard and €9 on Business at 100 or more.

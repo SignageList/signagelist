@@ -39,6 +39,11 @@ models:
         monthly: 21.66
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://castitsignage.com/privacy-policy
+    checked: 2026-11
 notes: []
 reviews:
   g2:

@@ -28,6 +28,12 @@ stats:
     total: 400000
     source: https://cri.com/what-we-do/digital-signage-software
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type I
+    source: https://cri.com/news-and-insights/cri-is-now-soc-ii-compliant
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

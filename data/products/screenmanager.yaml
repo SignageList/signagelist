@@ -39,6 +39,11 @@ stats:
     total: 9345
     source: https://screenmanager.tech/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://screenmanager.tech/documents/privacy-policy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

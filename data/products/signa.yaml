@@ -47,6 +47,25 @@ models:
         monthly: 8
         yearly: 84
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://signa.tv/security
+    checked: 2026-11
+  iso27001:
+    status: in_progress
+    detail: ISO 27001
+    source: https://signa.tv/security
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://signa.tv/security
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://signa.tv/security
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

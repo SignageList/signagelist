@@ -44,6 +44,24 @@ models:
         monthly: 5.2
         yearly: 56.4
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.hexnode.com/security-and-compliance/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.hexnode.com/security-and-compliance/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.hexnode.com/security-and-compliance/
+    checked: 2026-11
+  pci_dss:
+    status: certified
+    source: https://www.hexnode.com/legal/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

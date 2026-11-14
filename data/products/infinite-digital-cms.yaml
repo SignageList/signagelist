@@ -30,6 +30,11 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.famatechnologies.com/infinite-digital-cms/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

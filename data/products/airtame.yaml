@@ -26,6 +26,12 @@ stats:
     total: 10000
     source: https://airtame.com/digital-signage/
     date: 2025-04
+compliance:
+  csa_star:
+    status: certified
+    detail: Level One self-assessment (CAIQ)
+    source: https://airtame.com/security/
+    checked: 2026-11
 notes:
   - The number of screens is based on 10,000 organizations using Airtame
 reviews:

@@ -25,6 +25,11 @@ models:
         monthly: 56.26
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.smartprospective.com/en/securite-et-support
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

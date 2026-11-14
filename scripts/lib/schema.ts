@@ -60,15 +60,59 @@ const ReviewsSchema = z
 	})
 	.default({})
 
-const ComplianceSchema = z
+// Keep in sync with data/compliance.yaml, which holds labels and display order.
+export const COMPLIANCE_KEYS = [
+	'soc2',
+	'soc1',
+	'soc3',
+	'iso27001',
+	'iso27017',
+	'iso27018',
+	'iso27701',
+	'iso42001',
+	'iso9001',
+	'iso14001',
+	'iso22301',
+	'hipaa',
+	'gdpr',
+	'ccpa',
+	'pci_dss',
+	'fedramp',
+	'stateramp',
+	'cmmc',
+	'cyber_essentials',
+	'cyber_essentials_plus',
+	'csa_star',
+	'tisax',
+	'ens',
+	'cra',
+	'vpat',
+	'section_508',
+	'wcag',
+] as const
+
+// certified: an audited certificate or attestation is held (SOC reports, ISO certificates, Cyber Essentials, ...)
+// compliant: the vendor declares compliance with a law or framework that has no certificate (GDPR, HIPAA, CCPA, ...)
+// in_progress: the vendor says an audit or programme is under way
+// not_held: the vendor explicitly says it does not hold it
+export const CLAIM_STATUSES = ['certified', 'compliant', 'in_progress', 'not_held'] as const
+
+const ComplianceClaimSchema = z
 	.object({
-		soc2: z.boolean(),
-		iso27001: z.boolean(),
-		hipaa: z.boolean(),
-		cra: z.boolean(),
-		fedramp: z.boolean(),
+		status: z.enum(CLAIM_STATUSES),
+		// Free text qualifier: "Type II", "BAA offered", "Held by parent company Navori"
+		detail: z.string().optional(),
+		// Vendor page that states the claim
+		source: z.string().url(),
+		// When the source was last checked, YYYY-MM
+		checked: z
+			.string()
+			.regex(/^\d{4}-\d{2}$/)
+			.optional(),
 	})
-	.default({ soc2: false, iso27001: false, hipaa: false, cra: false, fedramp: false })
+	.strict()
+
+const ComplianceSchema = z.partialRecord(z.enum(COMPLIANCE_KEYS), ComplianceClaimSchema).default({})
 
 const ProductSchema = z
 	.object({
