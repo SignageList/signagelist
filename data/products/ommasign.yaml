@@ -32,6 +32,16 @@ stats:
     total: 12000
     source: https://www.ommasign.com/contact-us/
     date: 2025-04
+compliance:
+  soc2:
+    status: in_progress
+    detail: "SOC 2 Type II (product page); trust center says Type I in progress"
+    source: https://ommaworks.com/ommasign
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://ommaworks.com/ommasign
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

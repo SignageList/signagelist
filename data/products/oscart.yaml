@@ -25,6 +25,11 @@ stats:
     total: 12253
     source: https://www.oscart.eu/en/referenties/
     date: 2025-08
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.oscart.eu/en/privacy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

@@ -38,6 +38,11 @@ models:
         monthly: null
         yearly: 185
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://embedsignage.com/security/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

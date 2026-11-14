@@ -30,6 +30,11 @@ stats:
     total: 50000
     source: https://www.zebrix.net/en/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.zebrix.net/en/privacy-policy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

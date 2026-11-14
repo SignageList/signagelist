@@ -34,6 +34,11 @@ stats:
     total: 25000
     source: https://mandoemedia.com/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://mandoemedia.com/enterprise-security/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

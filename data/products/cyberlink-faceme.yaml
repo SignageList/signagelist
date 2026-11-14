@@ -14,6 +14,19 @@ categories:
 platforms: []
 models: []
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://www.cyberlink.com/faceme
+    checked: 2026-11
+  iso27701:
+    status: certified
+    source: https://www.cyberlink.com/faceme
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.cyberlink.com/faceme/solution/security/overview
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

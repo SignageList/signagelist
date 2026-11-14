@@ -28,6 +28,19 @@ stats:
     total: 1000
     source: https://infinitys.it/en/content-panel/
     date: 2025-04
+compliance:
+  iso27001:
+    status: certified
+    source: https://www.infinitys.it/en/legal/
+    checked: 2026-11
+  iso9001:
+    status: certified
+    source: https://www.infinitys.it/en/legal/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.infinitys.it/en/legal/
+    checked: 2026-11
 notes:
   - The screen count is based on the number of provided customer count. The actual screen count may vary.
 features: []

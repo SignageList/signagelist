@@ -27,6 +27,15 @@ models:
         monthly: 12
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.screen-signs.com/privacy
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://www.screen-signs.com/privacy
+    checked: 2026-11
 notes:
   - One plan at $12 per month covering unlimited displays, 50 GB of storage and 100-plus templates. Annual billing is advertised as not yet available.
   - The free trial runs 14 days with no credit card. After it ends, screens keep playing their existing content but cannot be changed until a payment method is added.

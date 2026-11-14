@@ -55,6 +55,16 @@ stats:
     total: 10000
     source: https://www.screenly.io/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.screenly.io/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.screenly.io/security/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

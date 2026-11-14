@@ -38,6 +38,11 @@ models:
         monthly: null
         yearly: 2406
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.trilbytv.co.uk/privacy-notice/
+    checked: 2026-11
 notes:
   - Digital signage for schools mainly, but also offers options per screen for Charity, Voluntary organisation, or Business.
 features: []

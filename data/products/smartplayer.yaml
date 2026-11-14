@@ -33,6 +33,11 @@ stats:
     total: 50000
     source: https://smartplayer.org/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://smartplayer.org/legal/privacy-policy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

@@ -33,6 +33,15 @@ models:
         monthly: 0
         yearly: 0
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://www.vibe.fyi/platform/security/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.vibe.fyi/platform/security/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

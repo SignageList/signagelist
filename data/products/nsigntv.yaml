@@ -30,6 +30,15 @@ stats:
     total: 50000
     source: https://blog.nsign.tv/en/nsign.tv-named-a-2023-digital-signage-experience-awards-dizzie-finalist
     date: 2023-10
+compliance:
+  gdpr:
+    status: compliant
+    source: https://nsign.tv/en/privacy-policy
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://nsign.tv/en/legal
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

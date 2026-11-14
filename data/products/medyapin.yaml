@@ -37,6 +37,11 @@ stats:
     total: 7000
     source: https://medyapin.com/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.medyapin.com/en/legal/data-processing-agreement/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

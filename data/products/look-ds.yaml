@@ -40,6 +40,11 @@ stats:
     total: 25000
     source: https://www.lookdigitalsignage.com/about-us
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.lookdigitalsignage.com/privacy-policy
+    checked: 2026-11
 notes: []
 reviews:
   g2:

@@ -32,6 +32,20 @@ stats:
     total: 500000
     source: https://www.poppulo.com/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.poppulo.com/employee-experience-platform/security
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.poppulo.com/employee-experience-platform/security
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.poppulo.com/data-privacy-faq
+    checked: 2026-11
 notes: []
 reviews:
   g2:

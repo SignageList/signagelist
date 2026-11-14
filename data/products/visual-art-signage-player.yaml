@@ -33,6 +33,31 @@ stats:
     total: 73000
     source: https://visualart.com/knowledge-hub/visual-art-wins-award-for-best-digital-signage-software
     date: 2024-05
+compliance:
+  soc2:
+    status: certified
+    detail: "Type II; Held by parent company Vertiseit"
+    source: https://trust.visualart.com/
+    checked: 2026-11
+  iso27001:
+    status: certified
+    detail: Held by parent company Vertiseit
+    source: https://visualart.com/security/
+    checked: 2026-11
+  iso9001:
+    status: certified
+    detail: Held by parent company Vertiseit
+    source: https://trust.visualart.com/
+    checked: 2026-11
+  iso14001:
+    status: certified
+    detail: Held by parent company Vertiseit
+    source: https://visualart.com/digital-in-store-solutions/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://visualart.com/security/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

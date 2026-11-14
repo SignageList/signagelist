@@ -25,6 +25,37 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: "Type II; Held by parent company Black Box"
+    source: https://www.blackbox.com/discover-bb/trust-center
+    checked: 2026-11
+  iso27001:
+    status: certified
+    detail: Held by parent company Black Box
+    source: https://www.blackbox.com/discover-bb/trust-center
+    checked: 2026-11
+  iso9001:
+    status: certified
+    detail: Held by parent company Black Box
+    source: https://www.blackbox.com/discover-bb/trust-center
+    checked: 2026-11
+  iso14001:
+    status: certified
+    detail: Held by parent company Black Box
+    source: https://www.blackbox.com/discover-bb/trust-center
+    checked: 2026-11
+  cmmc:
+    status: in_progress
+    detail: CMMC Level 2 readiness documentation
+    source: https://www.blackbox.com/discover-bb/trust-center
+    checked: 2026-11
+  cyber_essentials:
+    status: certified
+    detail: Held by parent company Black Box
+    source: https://www.blackbox.com/discover-bb/trust-center
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

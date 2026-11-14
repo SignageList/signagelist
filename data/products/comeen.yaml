@@ -36,6 +36,11 @@ models:
         monthly: null
         yearly: 324
 stats: {}
+compliance:
+  csa_star:
+    status: certified
+    source: https://comeen.com/products/digital-signage
+    checked: 2026-11
 notes: []
 reviews:
   g2:

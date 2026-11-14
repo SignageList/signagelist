@@ -48,7 +48,7 @@ Each product record uses these fields:
 - open_source (boolean), license (SPDX identifier or null), source_code_url
 - models: a list of delivery models, each with delivery (cloud, on-premise, hybrid, self-hosted), free_trial, has_freemium, pricing_available, and pricing plans carrying name, payment_model, billing_basis (per_device, per_user, per_location, flat_rate), monthly, yearly, included_screens, overage_per_screen, max_screens
 - has_api, developer_portal_url, has_docs, docs_url, has_cli, has_mcp, has_sso, has_saml, self_signup
-- compliance: soc2, iso27001, hipaa, cra, fedramp (booleans)
+- compliance: a map keyed by standard (soc2, iso27001, hipaa, gdpr, ccpa, pci_dss, cyber_essentials, cra, fedramp and others). Each claim has status (certified, compliant, in_progress, not_held), source (the vendor page stating it), and optional detail and checked (YYYY-MM)
 - stats.screens: total, source, date
 - discontinued (boolean), notes, features, integrations, last_verified
 

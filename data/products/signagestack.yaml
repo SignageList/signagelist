@@ -15,8 +15,9 @@ categories:
   - CMS
 platforms:
   - Android
-  - Windows
+  - Fire OS
   - Web Browser
+  - Windows
 models:
   - delivery: cloud
     free_trial: true
@@ -34,6 +35,11 @@ models:
         monthly: null
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.signagestack.com/dpa
+    checked: 2026-11
 notes:
   - Pricing is listed in EUR excluding VAT (Professional is €11 per screen per month or €100 per screen per year). Enterprise is volume priced.
   - The free trial runs 21 days on one screen with no credit card, and carries the full Professional feature set.

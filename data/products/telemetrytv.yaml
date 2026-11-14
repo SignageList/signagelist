@@ -34,6 +34,19 @@ models:
         monthly: 9
         yearly: 96
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    source: https://www.telemetrytv.com/security/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.telemetrytv.com/security/
+    checked: 2026-11
+  pci_dss:
+    status: certified
+    source: https://www.telemetrytv.com/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

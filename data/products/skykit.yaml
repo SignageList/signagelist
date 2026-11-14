@@ -28,6 +28,25 @@ models:
         monthly: 16.5
         yearly: null
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://www.skykit.com/product/security
+    checked: 2026-11
+  hipaa:
+    status: compliant
+    detail: BAA offered
+    source: https://www.skykit.com/product/security
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.skykit.com/product/security
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://www.skykit.com/trust-center
+    checked: 2026-11
 notes: []
 reviews:
   g2:

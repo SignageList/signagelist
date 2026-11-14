@@ -34,6 +34,11 @@ stats:
     total: 21000
     source: https://wauly.com/digital-signage-software
     date: "2017"
+compliance:
+  iso27001:
+    status: certified
+    source: https://wauly.com/digital-signage-security
+    checked: 2026-11
 notes:
   - The total number of screens is based on the number of licenses
 features: []

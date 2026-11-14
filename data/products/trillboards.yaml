@@ -27,6 +27,15 @@ models:
         monthly: 0
         yearly: 0
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://trillboards.com/legal/data-processing/
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://trillboards.com/legal/data-processing/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

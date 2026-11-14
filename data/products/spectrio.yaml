@@ -32,6 +32,12 @@ stats:
     total: 150000
     source: https://www.spectrio.com/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://app.vanta.com/spectrio.com/trust/ye4s5cb567479gpufhxhtq
+    checked: 2026-11
 notes:
   - Total screens number based on global locations powered provided
 reviews:

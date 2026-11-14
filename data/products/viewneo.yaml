@@ -29,6 +29,16 @@ models:
         monthly: 21
         yearly: null
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    detail: Held by parent company Adversign Media
+    source: https://www.viewneo.com/security
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://www.viewneo.com/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

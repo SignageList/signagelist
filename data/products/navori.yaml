@@ -38,6 +38,12 @@ stats:
     total: 40000
     source: https://navori.com/company/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    detail: Type I & II
+    source: https://navori.com/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

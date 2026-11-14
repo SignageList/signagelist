@@ -26,14 +26,7 @@
   {{ end }}
 {{ end }}
 
-{{ $complianceList := slice }}
-{{ with $p.compliance }}
-  {{ if .soc2 }}{{ $complianceList = $complianceList | append "soc2" }}{{ end }}
-  {{ if .iso27001 }}{{ $complianceList = $complianceList | append "iso27001" }}{{ end }}
-  {{ if .hipaa }}{{ $complianceList = $complianceList | append "hipaa" }}{{ end }}
-  {{ if .cra }}{{ $complianceList = $complianceList | append "cra" }}{{ end }}
-  {{ if .fedramp }}{{ $complianceList = $complianceList | append "fedramp" }}{{ end }}
-{{ end }}
+{{ $complianceList := (partial "product/compliance.html" $p).keys }}
 
 {{ $authList := slice }}
 {{ if $p.has_sso }}{{ $authList = $authList | append "sso" }}{{ end }}

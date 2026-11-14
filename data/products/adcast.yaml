@@ -27,6 +27,11 @@ models:
         monthly: 12.99
         yearly: 129.99
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.adcast.app/gdpr/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

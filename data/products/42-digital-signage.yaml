@@ -32,6 +32,11 @@ stats:
     total: 12000
     source: https://github.com/514sid/digital-signage-list/issues/17
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.42digitalsignage.com/privacy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

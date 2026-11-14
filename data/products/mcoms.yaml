@@ -21,6 +21,11 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  iso9001:
+    status: certified
+    source: https://mcoms.com/signage/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

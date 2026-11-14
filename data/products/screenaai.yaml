@@ -47,6 +47,11 @@ models:
         monthly: null
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://screenaai.com/security
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

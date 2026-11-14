@@ -38,6 +38,24 @@ stats:
     total: 100000
     source: https://dreamdata.io/blog/success-story-screencloud
     date: 2023-12
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://screencloud.com/security
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://screencloud.com/security
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://screencloud.com/security
+    checked: 2026-11
+  cyber_essentials:
+    status: certified
+    source: https://screencloud.com/security
+    checked: 2026-11
 notes: []
 reviews:
   g2:

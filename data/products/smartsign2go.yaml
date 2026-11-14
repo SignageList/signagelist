@@ -47,6 +47,11 @@ stats:
     total: 10000
     source: https://smartsign2go.com/life-with-us/about-us/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://smartsign2go.com/help-center/orders-warranties/privacy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

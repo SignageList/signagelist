@@ -34,6 +34,11 @@ models:
         monthly: 19.38
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://lumicast.com/legal
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

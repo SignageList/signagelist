@@ -33,6 +33,11 @@ stats:
     total: 100000
     source: https://getlatka.com/companies/valota
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://valota.live/digital-signage-features/security/
+    checked: 2026-11
 notes:
   - Screen count is based on revenue.
 features: []

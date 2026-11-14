@@ -1,0 +1,37 @@
+{{/*
+	Normalises a product's compliance claims.
+	Input: the product data map.
+	Returns a dict:
+	  held       - claims with status certified or compliant, in data/compliance.yaml order
+	  inProgress - claims with status in_progress
+	  keys       - keys of held claims (for data-compliance filter attributes)
+	  labels     - labels of held claims, with detail in parentheses where set
+	Each claim is a dict of key, label, status, detail, source, checked.
+*/}}
+{{ $p := . }}
+{{ $held := slice }}
+{{ $inProgress := slice }}
+{{ $keys := slice }}
+{{ $labels := slice }}
+{{ $claims := $p.compliance | default dict }}
+{{ range $std := site.Data.compliance.standards }}
+	{{ $c := index $claims $std.key }}
+	{{ if reflect.IsMap $c }}
+		{{ $claim := dict
+			"key" $std.key
+			"label" $std.label
+			"status" $c.status
+			"detail" ($c.detail | default "")
+			"source" ($c.source | default "")
+			"checked" ($c.checked | default "")
+		}}
+		{{ if in (slice "certified" "compliant") $c.status }}
+			{{ $held = $held | append $claim }}
+			{{ $keys = $keys | append $std.key }}
+			{{ $labels = $labels | append (cond (ne $claim.detail "") (printf "%s (%s)" $std.label $claim.detail) $std.label) }}
+		{{ else if eq $c.status "in_progress" }}
+			{{ $inProgress = $inProgress | append $claim }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+{{ return (dict "held" $held "inProgress" $inProgress "keys" $keys "labels" $labels) }}

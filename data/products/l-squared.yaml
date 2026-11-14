@@ -27,6 +27,16 @@ models:
         monthly: null
         yearly: 365
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type II
+    source: https://lsquared.com/digital-signage-healthcare
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://lsquared.com/digital-signage-healthcare
+    checked: 2026-11
 notes: []
 reviews:
   g2:

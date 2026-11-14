@@ -32,6 +32,11 @@ stats:
     total: 19000
     source: Developer
     date: 2026-03
+compliance:
+  gdpr:
+    status: compliant
+    source: https://slideshow.digital/documentation/privacy-policy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

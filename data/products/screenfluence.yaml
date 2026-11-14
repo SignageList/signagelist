@@ -26,6 +26,11 @@ models:
         monthly: 30
         yearly: 324
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    source: https://www.screenfluence.com/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

@@ -24,6 +24,15 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  iso9001:
+    status: certified
+    source: https://m-fusion.com.sg/
+    checked: 2026-11
+  iso14001:
+    status: certified
+    source: https://m-fusion.com.sg/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

@@ -33,6 +33,11 @@ models:
         monthly: 7
         yearly: 84
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://infoboxi.com/privacy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

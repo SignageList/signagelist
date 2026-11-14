@@ -15,6 +15,11 @@ categories:
 platforms: []
 models: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://aquaji.com/legal/aquaji-terms-of-services/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

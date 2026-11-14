@@ -36,6 +36,11 @@ models:
         monthly: 79
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://scrix.fr/
+    checked: 2026-11
 notes:
   - Pricing is listed in EUR. The free plan covers up to three devices per store with no time limit and no card. The paid plan is €79 per month per store for an unlimited number of devices, billed monthly with no commitment.
   - The terms allow one account per store. Payment is handled through Stripe.

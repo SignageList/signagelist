@@ -22,6 +22,15 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  iso27001:
+    status: certified
+    source: https://voome.com/
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://voome.com/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

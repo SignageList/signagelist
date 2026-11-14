@@ -24,6 +24,11 @@ models:
     has_freemium: true
     pricing: []
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    source: https://www.aiscreen.io/
+    checked: 2026-11
 notes: []
 reviews:
   g2:

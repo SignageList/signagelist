@@ -42,6 +42,15 @@ stats:
     total: 75000
     source: https://mvix.com/about-us/
     date: 2025-04
+compliance:
+  soc2:
+    status: certified
+    source: https://www.mvix.com/digital-signage-security
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://www.mvix.com/digital-signage-security
+    checked: 2026-11
 notes:
   - Perpetual license of hardware and/or software starting at $350 - no ongoing fees or monthly subsciption
 reviews:

@@ -24,6 +24,15 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://www.displai.ai/data-processing-agreement/
+    checked: 2026-11
+  ccpa:
+    status: compliant
+    source: https://www.displai.ai/data-processing-agreement/
+    checked: 2026-11
 notes:
   - Displai Systems Inc. has acquired the assets of Raydiant
 reviews:

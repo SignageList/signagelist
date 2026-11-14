@@ -36,6 +36,11 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://digitalsigns.ai/gdpr/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

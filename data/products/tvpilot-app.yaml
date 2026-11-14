@@ -51,6 +51,11 @@ models:
         monthly: null
         yearly: null
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://tvpilot.app/
+    checked: 2026-11
 notes:
   - Pricing is listed in EUR (Free €0, Starter €5, Pro €19 per month). Business is custom priced for 25 or more screens.
   - Plans are also capped by storage (250 MB on Free, 1 GB on Starter, 10 GB on Pro).

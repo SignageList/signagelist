@@ -31,6 +31,11 @@ models:
         included_screens: 2
         overage_per_screen: 5
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://nimbus808.com/data-processing-agreement/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

@@ -23,6 +23,15 @@ models:
     has_freemium: false
     pricing: []
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://tigermeeting.app/compliance
+    checked: 2026-11
+  cra:
+    status: compliant
+    source: https://tigermeeting.app/compliance
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

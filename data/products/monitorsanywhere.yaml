@@ -28,6 +28,11 @@ stats:
     total: 300000
     source: https://www.linkedin.com/in/roy--tal/?originalSubdomain=il
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://monitorsanywhere.com/privacy-policy/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

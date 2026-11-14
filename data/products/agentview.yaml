@@ -45,6 +45,11 @@ models:
         monthly: 4
         yearly: 40
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://agentview.de/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

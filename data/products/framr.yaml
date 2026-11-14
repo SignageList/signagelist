@@ -29,6 +29,11 @@ models:
         monthly: null
         yearly: 94.56
 stats: {}
+compliance:
+  gdpr:
+    status: compliant
+    source: https://framr.tv/en/digital-signage-for-the-healthcare-industry/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

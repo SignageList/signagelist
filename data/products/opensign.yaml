@@ -21,6 +21,17 @@ models:
     has_freemium: true
     pricing: []
 stats: {}
+compliance:
+  soc2:
+    status: in_progress
+    detail: SOC 2 Type II
+    source: https://www.opensign.us/legal/privacy
+    checked: 2026-11
+  iso27001:
+    status: in_progress
+    detail: ISO 27001
+    source: https://www.opensign.us/legal/privacy
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

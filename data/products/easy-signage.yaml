@@ -41,6 +41,25 @@ models:
         monthly: 9.98
         yearly: 99
 stats: {}
+compliance:
+  soc2:
+    status: certified
+    detail: Type I
+    source: https://trust.easysignage.com
+    checked: 2026-11
+  iso27001:
+    status: certified
+    source: https://trust.easysignage.com
+    checked: 2026-11
+  hipaa:
+    status: compliant
+    detail: BAA offered
+    source: https://easysignage.com/hipaa-compliance
+    checked: 2026-11
+  gdpr:
+    status: compliant
+    source: https://trust.easysignage.com
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

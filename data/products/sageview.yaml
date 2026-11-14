@@ -24,6 +24,11 @@ stats:
     total: 430000
     source: https://www.sagenet.com/about-us/
     date: 2025-05
+compliance:
+  pci_dss:
+    status: certified
+    source: https://trust.sagenet.com/
+    checked: 2026-11
 notes: []
 features: []
 integrations: []

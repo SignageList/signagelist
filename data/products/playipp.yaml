@@ -31,6 +31,11 @@ stats:
     total: 22000
     source: https://playipp.com/
     date: 2025-04
+compliance:
+  gdpr:
+    status: compliant
+    source: https://playipp.com/digital-signage/security/
+    checked: 2026-11
 notes: []
 reviews:
   g2:
