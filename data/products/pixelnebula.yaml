@@ -6,8 +6,8 @@ year_founded: 2014
 headquarters:
   - United Kingdom
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://help.pixelnebula.com/en/
 self_signup: false
 discontinued: false
 categories:

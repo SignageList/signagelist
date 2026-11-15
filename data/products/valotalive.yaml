@@ -7,8 +7,8 @@ headquarters:
   - Finland
 open_source: false
 rss_feed_url: https://valota.live/feed/
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://help.valota.live/en/
 self_signup: true
 discontinued: false
 categories:

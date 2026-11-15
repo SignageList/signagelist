@@ -7,8 +7,8 @@ headquarters:
   - Netherlands
 open_source: false
 rss_feed_url: https://castitsignage.com/blog/rss.xml
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://docs.castitsignage.com/
 self_signup: true
 discontinued: false
 categories:

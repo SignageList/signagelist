@@ -6,8 +6,8 @@ year_founded: 2023
 headquarters:
   - Canada
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://support.sippo.io/en/
 self_signup: true
 discontinued: false
 categories:

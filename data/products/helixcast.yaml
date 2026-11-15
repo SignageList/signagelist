@@ -8,8 +8,8 @@ headquarters:
 open_source: false
 has_sso: true
 has_saml: true
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://docs.helixcast.com/
 self_signup: true
 discontinued: false
 categories:

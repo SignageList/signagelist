@@ -6,8 +6,8 @@ year_founded: 2011
 headquarters:
   - Germany
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://kms.koke.gmbh/docs/
 self_signup: false
 discontinued: false
 categories:
