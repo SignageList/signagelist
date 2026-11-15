@@ -10,6 +10,8 @@ has_api: true
 has_cli: true
 has_mcp: true
 has_sso: true
+has_docs: true
+docs_url: https://guides.mangoapps.com/
 self_signup: true
 discontinued: false
 categories:

@@ -6,8 +6,8 @@ year_founded: 2007
 headquarters:
   - Ukraine
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://dsgo.pro/docs/help
 rss_feed_url: https://dsgo.pro/dspro/feed/
 self_signup: true
 discontinued: false

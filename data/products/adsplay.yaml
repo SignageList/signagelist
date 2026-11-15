@@ -6,8 +6,8 @@ year_founded: null
 headquarters:
   - France
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://adsplay.app/support/centre-aide
 self_signup: true
 discontinued: false
 categories:

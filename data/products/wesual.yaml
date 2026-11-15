@@ -6,8 +6,8 @@ year_founded: 2011
 headquarters:
   - Austria
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://support.wesual.at/hc/en-us
 self_signup: false
 discontinued: false
 categories:

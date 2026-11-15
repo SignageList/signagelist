@@ -7,8 +7,8 @@ headquarters:
   - Russia
   - Singapore
 open_source: false
-has_docs: false
-docs_url: null
+has_docs: true
+docs_url: https://docs.cityscreen.cloud/
 self_signup: false
 discontinued: false
 categories:
