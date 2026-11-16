@@ -1,7 +1,19 @@
 {
   "source": "Fugo",
-  "fetched_at": "2026-11-15T12:37:12.775Z",
+  "fetched_at": "2026-11-16T13:29:38.719Z",
   "items": [
+    {
+      "title": "How to manage IT infrastructure and costs when you add screens across sites",
+      "link": "https://www.fugo.ai/blog/it-infrastructure-management-screens/",
+      "date": "2026-11-16T09:30:00.000Z",
+      "description": "A guide for IT leads adding screens across sites, covering where the costs sit, hardware standards, network and access controls, and remote management."
+    },
+    {
+      "title": "Personalized drive-thru menus: what Starbucks is planning, and what smaller restaurants can use now",
+      "link": "https://www.fugo.ai/blog/personalized-drive-thru-menus/",
+      "date": "2026-11-16T09:24:10.000Z",
+      "description": "What Starbucks is planning, what Taco Bell and McDonald's are testing, and what a smaller restaurant can change on its menu board today."
+    },
     {
       "title": "Why diners push back on AI food photos on menu boards, and what to show instead",
       "link": "https://www.fugo.ai/blog/ai-food-photos-menu-boards/",
