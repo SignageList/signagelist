@@ -1,7 +1,13 @@
 {
   "source": "CloudShow",
-  "fetched_at": "2026-11-19T14:17:00.019Z",
+  "fetched_at": "2026-11-20T13:57:18.521Z",
   "items": [
+    {
+      "title": "ClipboardFusion 6.4 (Beta 12) Now Available!",
+      "link": "https://www.clipboardfusion.com/Discussions/View/clipboardfusion-64-beta-12-now-available/?ID=01a1f527-1fed-721f-89c9-3d63582b9a2a",
+      "date": "2026-11-19T18:52:24.000Z",
+      "description": "We're very excited to announce that ClipboardFusion 6.4 (Beta 12) is now available for download! This new version updates ClipboardFusion to .NET 10 and improves the performance and stability. Clipbo…"
+    },
     {
       "title": "LogFusion 7.3 (Beta 1) Now Available!",
       "link": "https://www.logfusion.ca/Discussions/View/logfusion-73-beta-1-now-available/?ID=01a1c6b2-f603-739e-81eb-81819b8889de",

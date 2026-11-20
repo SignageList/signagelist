@@ -1,7 +1,13 @@
 {
   "source": "Touchify",
-  "fetched_at": "2026-11-19T14:17:00.019Z",
+  "fetched_at": "2026-11-20T13:57:18.521Z",
   "items": [
+    {
+      "title": "Digital signage content design: what decides whether a screen gets read",
+      "link": "https://touchify.io/en/blog/digital-signage-content-design",
+      "date": "2026-11-18T08:00:00.000Z",
+      "description": "Digital signage content design: character height, contrast, display time, motion limits and time of day, the decisions that decide whether a screen gets read."
+    },
     {
       "title": "Digital signage security: the four practices, and who is responsible for each",
       "link": "https://touchify.io/en/blog/digital-signage-security",
