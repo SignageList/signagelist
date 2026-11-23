@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-11-22T13:12:20.753Z",
+  "fetched_at": "2026-11-23T15:49:24.437Z",
   "items": [
+    {
+      "title": "V10.90.0",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/328DF62AC505298380258EB700723D3E",
+      "date": "2026-11-23T09:24:13.000Z",
+      "description": "These notes reflect the local source, regression tests, and product documentation available on 22 November. Server CalDAV integration. Added calendar discovery, connection testing, resource..."
+    },
     {
       "title": "User Identity",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/F4EB80F776B85EEA80258EB60041AAB2",
