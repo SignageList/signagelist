@@ -1,7 +1,13 @@
 {
   "source": "Play Digital Signage (PlaySignage)",
-  "fetched_at": "2026-11-23T15:49:24.437Z",
+  "fetched_at": "2026-11-24T15:41:30.034Z",
   "items": [
+    {
+      "title": "Dynamic Text: Update Your Digital Signage From a Google Sheet",
+      "link": "https://playsignage.com/blog/dynamic-text-google-sheets-digital-signage/",
+      "date": "2026-11-23T00:00:00.000Z",
+      "description": "Dynamic Text is a Play Digital Signage plugin that shows live text from a Google Sheet on your screens. Edit a price, a number or a schedule in the sheet, and your screens update by themselves, witho…"
+    },
     {
       "title": "Fewer Integrations? The Ones That Actually Ship to Screens",
       "link": "https://playsignage.com/blog/fewer-integrations-the-ones-that-ship-to-screens/",
