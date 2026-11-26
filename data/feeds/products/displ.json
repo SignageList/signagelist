@@ -1,7 +1,31 @@
 {
   "source": "Displ",
-  "fetched_at": "2026-11-25T15:25:18.627Z",
+  "fetched_at": "2026-11-26T14:53:08.660Z",
   "items": [
+    {
+      "title": "DISPL Equipment Policy and How to Choose Hardware for Your Project",
+      "link": "https://displ.com/blog/displ-equipment-policy-hardware-selection",
+      "date": "2026-11-25T17:52:53.000Z",
+      "description": "Review DISPL equipment requirements, test your media players and cameras before rollout, and understand the support available for your hardware configuration."
+    },
+    {
+      "title": "Introducing the New DISPL Partner Academy",
+      "link": "https://displ.com/blog/new-displ-partner-academy",
+      "date": "2026-11-25T17:52:53.000Z",
+      "description": "Give your team a clear starting point for learning DISPL, preparing for certification and putting that knowledge to work on customer projects."
+    },
+    {
+      "title": "Introducing agent.displ.com, the Home of DISPL AI Agent",
+      "link": "https://displ.com/blog/introducing-displ-ai-agent",
+      "date": "2026-11-25T17:52:53.000Z",
+      "description": "Explore DISPL AI Agent at agent.displ.com, see how compatible cameras help teams monitor physical locations, and request a pilot for your own locations."
+    },
+    {
+      "title": "DISPL Announces End of Life for DISPL Kit 3.0",
+      "link": "https://displ.com/blog/displ-kit-3-end-of-life",
+      "date": "2026-11-25T17:52:53.000Z",
+      "description": "DISPL is ending production of the DISPL Kit 3.0 media player and focusing on proprietary software, including DISPL Real World Agent. Learn what this means for deployments."
+    },
     {
       "title": "Beyond Basic Counting: How AI Video Analytics Unlocks Hyper-Personalized Retail Experiences and Boosts Conversions",
       "link": "https://displ.com/blog/beyond-basic-counting-how-ai-video-analytics-unlocks-hyper-personalized-retail-e",

@@ -1,7 +1,13 @@
 {
   "source": "Door Tablet SIGNS",
-  "fetched_at": "2026-11-25T15:25:18.627Z",
+  "fetched_at": "2026-11-26T14:53:08.660Z",
   "items": [
+    {
+      "title": "Special Customisation",
+      "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/91335D9A0FC4040A80257D07006BBD75",
+      "date": "2026-11-24T19:05:39.000Z",
+      "description": "With Door Tablet, you can perform special customisation of the displays. You can change: The graphics used as the Traffic Lights (using CSS) Facility icons (using CSS) Day names (using translation..."
+    },
     {
       "title": "V10.90.0",
       "link": "http://www.door-tablet.com/doortablet/dthelp.nsf/6C8E6B0F2A8147F8802579800078EC27/328DF62AC505298380258EB700723D3E",
