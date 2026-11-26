@@ -1,7 +1,31 @@
 {
   "source": "embed signage",
-  "fetched_at": "2026-11-25T15:25:18.627Z",
+  "fetched_at": "2026-11-26T14:53:08.660Z",
   "items": [
+    {
+      "title": "Data Processing Addendum",
+      "link": "https://embedsignage.com/dpa/",
+      "date": "2026-11-26T12:57:00.000Z",
+      "description": ""
+    },
+    {
+      "title": "Sub-processors",
+      "link": "https://embedsignage.com/sub-processors/",
+      "date": "2026-11-26T11:27:38.000Z",
+      "description": ""
+    },
+    {
+      "title": "Terms of Use",
+      "link": "https://embedsignage.com/terms-of-use/",
+      "date": "2026-11-26T11:14:43.000Z",
+      "description": ""
+    },
+    {
+      "title": "Privacy Policy",
+      "link": "https://embedsignage.com/privacy-policy/",
+      "date": "2026-11-26T10:55:33.000Z",
+      "description": ""
+    },
     {
       "title": "Android",
       "link": "https://embedsignage.com/devices/android/",
