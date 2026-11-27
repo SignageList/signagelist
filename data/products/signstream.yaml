@@ -7,7 +7,7 @@ headquarters: []
 open_source: false
 has_docs: false
 docs_url: null
-self_signup: false
+self_signup: true
 discontinued: false
 categories:
   - CMS
@@ -18,12 +18,36 @@ platforms:
   - Web Browser
 models:
   - delivery: cloud
-    free_trial: false
-    pricing_available: false
+    free_trial: true
+    pricing_available: true
     has_freemium: false
-    pricing: []
+    pricing:
+      - name: Starter
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 29
+        yearly: 290
+        included_screens: 1
+        overage_per_screen: 15
+      - name: Growth
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 59
+        yearly: 590
+        included_screens: 5
+        overage_per_screen: 10
+      - name: Scale
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: 119
+        yearly: 1190
+        included_screens: 10
+        overage_per_screen: 8
 stats: {}
-notes: []
+notes:
+  - Every new account starts on a 30-day free trial with no credit card.
+  - Plans include a set number of screens, with each extra screen billed monthly. Starter covers one location, Growth two, and Scale unlimited. Toast POS sync is on Scale.
+  - Annual billing charges 10 months for 12. Enterprise pricing for 25+ screens is quoted.
 features: []
 integrations: []
 target_audience: []

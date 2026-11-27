@@ -9,6 +9,9 @@ open_source: false
 rss_feed_url: https://www.novisign.com/feed/
 has_api: true
 developer_portal_url: https://www.novisign.com/help-center/api/
+has_mcp: true
+has_sso: true
+has_saml: true
 has_docs: true
 docs_url: https://www.novisign.com/help-center/
 self_signup: true
@@ -32,13 +35,23 @@ models:
       - name: Business
         payment_model: subscription
         billing_basis: per_device
-        monthly: 20
-        yearly: 216
+        monthly: null
+        yearly: 168
+      - name: Business Plus
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 204
+      - name: Premium
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 300
 stats:
   screens:
-    total: 50000
+    total: 70000
     source: https://www.novisign.com/about/
-    date: 2025-04
+    date: 2026-11
 compliance:
   soc2:
     status: certified
@@ -49,7 +62,9 @@ compliance:
     status: compliant
     source: https://www.novisign.com/about/privacy-policy/
     checked: 2026-11
-notes: []
+notes:
+  - Published prices are per screen per month on annual billing (Business $14, Business Plus $17, Premium $25). Monthly billing costs about 10% more.
+  - SSO, SAML, the open API and the MCP connector are listed on the Premium plan.
 reviews:
   g2:
     url: https://www.g2.com/products/novisign-digital-signage/reviews

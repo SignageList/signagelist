@@ -23,6 +23,7 @@ platforms:
   - Android
   - tvOS
   - iOS
+  - Vega OS
 models:
   - delivery: cloud
     free_trial: false

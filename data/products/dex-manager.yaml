@@ -6,21 +6,42 @@ year_founded: null
 headquarters:
   - Argentina
 open_source: false
+has_api: true
+has_sso: true
 has_docs: false
 docs_url: null
 self_signup: false
 discontinued: false
 categories:
   - CMS
-platforms: []
+platforms:
+  - Android
+  - ChromeOS
+  - Fire OS
+  - Linux
+  - Tizen
+  - webOS
+  - Windows
 models:
   - delivery: cloud
     free_trial: false
     pricing_available: false
     has_freemium: false
     pricing: []
+  - delivery: hybrid
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
+  - delivery: on-premise
+    free_trial: false
+    pricing_available: false
+    has_freemium: false
+    pricing: []
 stats: {}
-notes: []
+notes:
+  - The cloud offering, DEX Cloud, runs on Microsoft Azure.
+  - The vendor describes an open API for integrations and external audits, but its reference is not published.
 features: []
 integrations: []
 target_audience: []
