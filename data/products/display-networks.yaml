@@ -1,0 +1,43 @@
+name: Display Networks
+slug: display-networks
+description: Free, open-source self-hosted signage CMS that schedules web pages and MP4 playlists to Debian or Raspberry Pi kiosk displays.
+website: https://displaynet.works/
+year_founded: 2026
+headquarters:
+  - USA
+open_source: true
+license: MIT
+source_code_url: https://github.com/webitupdotbiz/displaynetworks
+has_docs: true
+docs_url: https://github.com/webitupdotbiz/displaynetworks#readme
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Linux
+  - Raspberry Pi
+models:
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Self-hosted
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+stats: {}
+notes:
+  - Built by Web It Up! of Boston, Massachusetts. Version 1.0.0 shipped in September 2026.
+  - The server runs on a Debian VPS with a domain (Nginx, MongoDB, Express). Displays run a Chromium kiosk set up by a script on Debian or Raspberry Pi OS.
+  - A channel is a single web page or a list of MP4 URLs, and tag rules decide which displays show which channel. There is no hosted version.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

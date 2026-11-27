@@ -1,0 +1,57 @@
+name: SignDooh
+slug: signdooh
+description: Cloud digital signage CMS from Mexico for restaurants, retail and advertising screens, with Android TV, Fire TV and webOS players.
+website: https://signdooh.com/
+year_founded: 2025
+headquarters:
+  - Mexico
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: false
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - webOS
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Básico
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 160
+        yearly: null
+      - name: Plus
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 250
+        yearly: null
+      - name: Pro
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 350
+        yearly: null
+      - name: Élite
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 450
+        yearly: null
+stats: {}
+notes:
+  - Prices are in MXN per screen per month and can be changed or cancelled at any time. A custom Empresarial plan is quoted on request.
+  - Accounts are set up through sales, by WhatsApp, phone or the contact form.
+  - Players are listed for Android TV and Google TV, Fire TV, onn TV, LG webOS and Chrome. The vendor also sells display hardware, including totems and LED posters.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
