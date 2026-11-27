@@ -1,0 +1,21 @@
+date: "2026-11-05"
+title: "SpinetiX DSOS players exposed to Linux TCP handshake flaw"
+location: "Global"
+country: "Global"
+sector: vendor
+type: vulnerability
+summary: "SpinetiX disclosed that DSOS players below 5.0.1 build 2 are affected by CVE-2026-98432, a Linux kernel flaw in the IPv4 TCP handshake path. A remote, unauthenticated attacker sending crafted TCP packets with IP options can crash the kernel, read kernel memory or corrupt memory. SpinetiX released DSOS 5.0.1 build 2 with the fix the same day and reported no evidence of exploitation. HMP350, HMP300 and DiVA players, Elementi and SpinetiX cloud services are not affected."
+products:
+  - "SpinetiX DSOS"
+cve:
+  - CVE-2026-98432
+related_products:
+  - spinetix-arya
+  - spinetix-elementi
+sources:
+  - url: "https://support.spinetix.com/wiki/Linux_TCP_handshake_vulnerability_(CVE-2026-98432)"
+    publisher: "SpinetiX"
+    title: "Linux TCP handshake vulnerability (CVE-2026-98432)"
+  - url: "https://support.spinetix.com/wiki/DSOS_release_notes#Release_5.0.1_build_2"
+    publisher: "SpinetiX"
+    title: "DSOS release notes: 5.0.1 build 2"
