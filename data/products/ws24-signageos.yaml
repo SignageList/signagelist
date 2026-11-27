@@ -1,0 +1,47 @@
+name: WS24 SignageOS
+slug: ws24-signageos
+description: Windows-based signage software from Werbestandort24 that runs locally on a PC and plays to Android TVs and boxes on the same network.
+website: https://werbestandort24.de/tool/digital-signage-software
+year_founded: 2026
+headquarters:
+  - Germany
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Windows
+  - Android
+models:
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free with branding
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+      - name: License without branding
+        payment_model: one-time
+        billing_basis: flat_rate
+        monthly: null
+        yearly: null
+        price: 470
+stats: {}
+notes:
+  - Prices are in EUR. The free version keeps a permanent Werbestandort24 branding area on every screen. Removing it is a one-time 470 EUR license, arranged by contacting the vendor.
+  - The management app runs on a Windows 10 or 11 PC, which can also play to its own HDMI output. Further screens run a sideloaded Android player app and connect over the local network. There is no cloud service.
+  - Werbestandort24 is an out-of-home ad space brokerage in Korschenbroich, Rhein-Kreis Neuss. The software is downloaded from a MEGA folder linked on the product page.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

@@ -1,0 +1,74 @@
+name: screenRIG
+slug: screenrig
+description: Cloud digital signage CMS with unlimited screens on every plan, a free tier, and an API, CLI and MCP server for automation.
+website: https://screenrig.ai/
+year_founded: 2026
+headquarters:
+  - Canada
+open_source: false
+has_api: true
+developer_portal_url: https://screenrig.ai/docs/api
+has_cli: true
+has_mcp: true
+has_sso: true
+has_saml: true
+has_docs: true
+docs_url: https://screenrig.ai/docs
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - BrightSign
+  - ChromeOS
+  - Fire OS
+  - iOS
+  - Linux
+  - macOS
+  - Raspberry Pi
+  - Tizen
+  - tvOS
+  - Web Browser
+  - webOS
+  - Windows
+models:
+  - delivery: cloud
+    free_trial: false
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Standard
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+      - name: Plus
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: 499
+      - name: Premium
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: 4995
+      - name: Education
+        payment_model: subscription
+        billing_basis: flat_rate
+        monthly: null
+        yearly: 999
+stats: {}
+notes:
+  - Every plan covers unlimited screens with no per-screen fee. Paid plans are billed yearly only. Enterprise is quoted per fleet.
+  - Education covers a K-12 district of up to 50 schools and is invoiced.
+  - The API, CLI and MCP server are on every plan, including the free one. SSO and SAML (Entra, Okta, Google Workspace, OIDC) start on Premium, and SCIM is Enterprise only.
+  - Built by TelemetryApp Services Inc. of Vancouver, British Columbia.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null

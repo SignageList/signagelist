@@ -1,0 +1,41 @@
+name: DisplayX Signage
+slug: displayx-signage
+description: Self-serve cloud signage CMS from Adivitech with one per-screen plan, a browser player and Android and Fire TV apps.
+website: https://signage.adivitech.com/
+year_founded: 2026
+headquarters:
+  - USA
+open_source: false
+has_docs: false
+docs_url: null
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+  - Fire OS
+  - Web Browser
+models:
+  - delivery: cloud
+    free_trial: true
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Per active screen
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: 4
+        yearly: null
+stats: {}
+notes:
+  - One plan with every feature included, billed monthly per active screen. The free trial lasts 3 days on one screen with no credit card.
+  - The Android player is a direct APK download while the Google Play listing is in testing. iPhone and iPad use the browser player.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
