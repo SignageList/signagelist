@@ -1,7 +1,19 @@
 {
   "source": "Play Digital Signage (PlaySignage)",
-  "fetched_at": "2026-11-26T14:53:08.660Z",
+  "fetched_at": "2026-11-27T14:52:35.281Z",
   "items": [
+    {
+      "title": "Seven Questions That Decide Your Digital Signage Platform in 2027",
+      "link": "https://playsignage.com/blog/seven-questions-digital-signage-platform-2027/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "description": "The seven questions that still decide a digital signage platform are scale, security, remote care of devices, integrations, who can publish, what you can prove played, and who picks up the phone. In …"
+    },
+    {
+      "title": "Weather Is One App Now, With a Photo That Follows the Weather",
+      "link": "https://playsignage.com/blog/weather-one-app-with-a-changing-background/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "description": "One Weather app with every look in one place, and a new layout where the whole slide is a photo of today's weather that changes with it."
+    },
     {
       "title": "Dynamic Text: Update Your Digital Signage From a Google Sheet",
       "link": "https://playsignage.com/blog/dynamic-text-google-sheets-digital-signage/",
