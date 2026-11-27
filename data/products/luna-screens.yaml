@@ -2,10 +2,12 @@ name: Luna Screens
 slug: luna-screens
 description: Digital signage software for screen content management.
 website: https://lunascreens.com/
-year_founded: 2024
+year_founded: 2020
 headquarters:
   - Australia
 open_source: false
+has_api: true
+developer_portal_url: https://lunascreens.com/api/
 has_docs: true
 docs_url: https://lunascreens.com/docs/
 self_signup: true
@@ -15,6 +17,8 @@ categories:
 platforms:
   - Android
   - Fire OS
+  - Raspberry Pi
+  - Web Browser
 models:
   - delivery: cloud
     free_trial: true
@@ -30,7 +34,7 @@ models:
         payment_model: subscription
         billing_basis: per_device
         monthly: 3.75
-        yearly: 35
+        yearly: 39
 stats:
   screens:
     total: 1000
@@ -41,7 +45,9 @@ compliance:
     status: compliant
     source: https://lunascreens.com/privacy-policy/
     checked: 2026-11
-notes: []
+notes:
+  - Based in Tasmania. Development started in October 2020.
+  - Fire TV devices running Vega OS are not supported.
 features: []
 integrations: []
 target_audience: []

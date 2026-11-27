@@ -23,16 +23,30 @@ platforms:
 models:
   - delivery: cloud
     free_trial: true
-    pricing_available: false
-    has_freemium: false
-    pricing: []
+    pricing_available: true
+    has_freemium: true
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: per_device
+        monthly: 0
+        yearly: 0
+        included_screens: 1
+        max_screens: 1
+      - name: Paid
+        payment_model: subscription
+        billing_basis: per_device
+        monthly: null
+        yearly: 168
 stats: {}
 compliance:
   gdpr:
     status: compliant
     source: https://screenbird.app/en/dpa
     checked: 2026-11
-notes: []
+notes:
+  - The free version runs one TV with no account, no credit card and no time limit, shows one item at a time and carries a small Screenbird mark.
+  - Paid plans start at $14 per screen per month, billed yearly. The 7-day trial asks for payment details.
 features: []
 integrations: []
 target_audience: []
