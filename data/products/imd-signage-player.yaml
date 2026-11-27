@@ -1,0 +1,41 @@
+name: IMD Signage Player
+slug: imd-signage-player
+description: Free Android signage player that runs offline from USB or microSD, with a free Windows Studio app for pushing shows to up to 25 screens.
+website: https://imdsignage.com/player/
+year_founded: null
+headquarters:
+  - USA
+open_source: false
+has_docs: true
+docs_url: https://imdsignage.com/guides/
+self_signup: true
+discontinued: false
+categories:
+  - CMS
+platforms:
+  - Android
+models:
+  - delivery: self-hosted
+    free_trial: false
+    pricing_available: true
+    has_freemium: false
+    pricing:
+      - name: Free
+        payment_model: free
+        billing_basis: flat_rate
+        monthly: 0
+        yearly: 0
+stats: {}
+notes:
+  - The vendor states the player has been tested only on the Android 12 emulator, with testing on real hardware pending. It was written for IMD's own Android panel-mount displays.
+  - The player plays images and video from USB or microSD, with scheduling, rotation and an optional playlist sync from your own HTTPS server. It is a direct APK download, with no account needed.
+  - IMD Signage Studio, a free Windows app, links screens with a one-time code and sends shows through a free IMD-hosted service. It is capped at 25 screens and 200 MB in total.
+  - IMD Signage is the signage line of Industrial Monitor Direct in Sanford, Maine, which sells commercial displays.
+features: []
+integrations: []
+target_audience: []
+deployment_options: []
+support_channels: []
+languages: []
+screenshots: []
+last_verified: null
