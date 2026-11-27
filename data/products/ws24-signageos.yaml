@@ -32,10 +32,10 @@ models:
         billing_basis: flat_rate
         monthly: null
         yearly: null
-        price: 470
+        price: 270
 stats: {}
 notes:
-  - Prices are in EUR. The free version keeps a permanent Werbestandort24 branding area on every screen. Removing it is a one-time 470 EUR license, arranged by contacting the vendor.
+  - Prices are in EUR. The free version keeps a permanent Werbestandort24 branding area on every screen. Removing it is a one-time 270 EUR license, arranged by contacting the vendor.
   - The management app runs on a Windows 10 or 11 PC, which can also play to its own HDMI output. Further screens run a sideloaded Android player app and connect over the local network. There is no cloud service.
   - Werbestandort24 is an out-of-home ad space brokerage in Korschenbroich, Rhein-Kreis Neuss. The software is downloaded from a MEGA folder linked on the product page.
 features: []
