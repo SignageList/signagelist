@@ -1,12 +1,18 @@
 {
   "source": "Play Digital Signage (PlaySignage)",
-  "fetched_at": "2026-11-27T14:52:35.281Z",
+  "fetched_at": "2026-11-28T14:01:41.153Z",
   "items": [
     {
       "title": "Seven Questions That Decide Your Digital Signage Platform in 2027",
       "link": "https://playsignage.com/blog/seven-questions-digital-signage-platform-2027/",
       "date": "2026-11-26T00:00:00.000Z",
       "description": "The seven questions that still decide a digital signage platform are scale, security, remote care of devices, integrations, who can publish, what you can prove played, and who picks up the phone. In …"
+    },
+    {
+      "title": "Room Booking: Book a Meeting Room From the Screen at Its Door",
+      "link": "https://playsignage.com/blog/room-booking-book-a-meeting-room-from-its-screen/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "description": "A new app for meeting room screens: the room's status at a glance, the meetings coming up, and a QR code people scan to book the room from their phone, with no app or account."
     },
     {
       "title": "Weather Is One App Now, With a Photo That Follows the Weather",
