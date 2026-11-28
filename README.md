@@ -1,6 +1,6 @@
 # SignageList
 
-A curated directory of 550+ digital signage software, CMS, platforms and tools.
+A curated directory of 650+ digital signage software, CMS, platforms and tools.
 
 Perfect for managing, scheduling, and displaying content across screens, smart displays, kiosks, menuboards, dashboards and more!
 

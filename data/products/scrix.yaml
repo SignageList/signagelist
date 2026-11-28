@@ -16,7 +16,6 @@ platforms:
   - Windows
   - Linux
   - Android
-  - Fire OS
 models:
   - delivery: cloud
     free_trial: false
@@ -33,7 +32,7 @@ models:
       - name: Unlimited
         payment_model: subscription
         billing_basis: per_location
-        monthly: 79
+        monthly: 39
         yearly: null
 stats: {}
 compliance:
@@ -42,10 +41,10 @@ compliance:
     source: https://scrix.fr/
     checked: 2026-11
 notes:
-  - Pricing is listed in EUR. The free plan covers up to three devices per store with no time limit and no card. The paid plan is €79 per month per store for an unlimited number of devices, billed monthly with no commitment.
+  - Pricing is listed in EUR. The free plan covers up to three devices per store with no time limit and no card. The paid plan is €39 per month per store for an unlimited number of devices, billed monthly with no commitment.
   - The terms allow one account per store. Payment is handled through Stripe.
   - The product displays a label on the retail demo devices themselves (laptops, PCs, phones, tablets) rather than on dedicated signage screens. It supports regulatory fields such as the French repairability index, energy class, and SAR.
-  - The client runs on Windows 10 and 11, Linux (Debian 11+, Ubuntu 20.04+, Linux Mint 22, RHEL, Rocky and AlmaLinux 9), and Android 7+ including Android TV and Google TV. The Android app is sideloaded from the SCRIX site, not the Play Store. Fire OS is not mentioned by the vendor. macOS, Tizen, and webOS are not supported as players.
+  - The client runs on Windows 10 and 11, Linux (Debian 11+, Ubuntu 20.04+, Linux Mint 22, RHEL, Rocky and AlmaLinux 9), and Android 7+ including Android TV and Google TV. The Android app is sideloaded from the SCRIX site, not the Play Store. macOS, Tizen, and webOS are not supported as players.
   - The console and store screens are available in French, English, Spanish, German, Portuguese, and Italian.
   - Developed by Altonet, a sole-trader business in Saulxures-lès-Vannes, France. The vendor also sells ScreenSpec Pro, an offline single-device version.
 features: []

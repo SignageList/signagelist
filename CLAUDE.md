@@ -21,10 +21,10 @@ bun run check            # Validate all YAML files against Zod schema
 bun run add              # Scaffold a new product YAML file
 
 # Data CLI (scripts/cli.ts) — run `bun run cli help` for the full list
-bun run cli <command>    # check | add | gen-og | gen-terms | sync-platforms |
+bun run cli <command>    # check | add | gen-og | gen-terms |
                          # sync-amazon | discover-rss | fetch-feeds | check-urls
 bun run gen:og           # Generate missing OG images
-# Mutating commands (sync-platforms, sync-amazon, discover-rss) are dry-run by
+# Mutating commands (sync-amazon, discover-rss) are dry-run by
 # default; pass --write to persist changes.
 
 # Linting
@@ -155,5 +155,5 @@ No auto-commit of generated files. No preprocessing steps.
 | `scripts/cli.ts` | Data CLI entry — dispatches to `scripts/commands/*` |
 | `scripts/lib/schema.ts` | Zod schema for normalized YAML (source of truth) |
 | `scripts/lib/products.ts` | Shared data layer — validated `loadProducts()` used by every command |
-| `scripts/commands/*.ts` | One module per command (`check`, `gen-og`, `sync-platforms`, …) |
+| `scripts/commands/*.ts` | One module per command (`check`, `gen-og`, `sync-amazon`, …) |
 | `biome.json` | Biome linter configuration |
